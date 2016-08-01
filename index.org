@@ -1,0 +1,137 @@
+# -*- org-export-html-auto-postamble:nil -*-
+#+TITLE: Tedward Erker
+#+OPTIONS: toc:t num:nil ^:nil
+#+STARTUP: hideblocks
+#+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
+#+HTML_HEAD: <script type="text/javascript" src="data/webpage.js">
+
+# font
+#+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+
+# me
+#+HTML: <a href="imgs/bristlecone_finger.JPG" title="the oldest trees on earth"><canvas id="me" width="300" height="300"></div></a>
+
+# contact
+#+HTML: <div id="contact"><tt>erker wisc.edu</tt></div>
+
+# Add the following to the <body> tag after export.
+#
+#   onload="setup();"
+
+* Research
+   :PROPERTIES:
+   :CUSTOM_ID: research
+   :END:
+
+I NEED TO WORK ON THIS
+
+I seek to understand the interaction between humans and the
+environment in our most common habitat: cities.  More
+specifically, I'm interested in how urban forests affect urban
+climate, building energy use, and carbon emissions.  I use Madison, WI
+as a case study.
+
+
+
+Reproducible Research
+
+data visualization
+
+* Background
+   :PROPERTIES:
+   :CUSTOM_ID: background
+   :END:
+- Student at Washington University in St. Louis, 2006-10.
+  - founded student vegetable garden, The Burning Kumquat
+  - took junior year off to work on farms in Kentucky and Vermont and
+    to bike California coast
+  - Summer research assistant, Tyson Research Center.  Identify over
+    100 species of plants.
+  - Graduated summa cum laude with degree in Environmental Studies-
+    biology/ecology track.  Advisor: Tiffany Knight
+- Teacher of Biology and Chemistry at Confluence Prep Academy, 2010-2012
+  - RESUME
+- Tree Care Worker at American Tree Experts and Urban Tree Alliance, 2013-2014
+  - Mostly dragged brush into chippers.  Also climber and certified pesticide
+    applicator, treated for a number of pests including the emerald
+    ash borer.
+- Teaching Assistant
+  - Forest Ecology, Fall 2013, with Prof. Tom Gower
+  - Living With Wildlife, Spring 2014 with Prof. Stan Temple
+  - Forest Ecology, Fall 2014 with Prof. Phil Townsend
+  - Statistical Methods for Bioscience, Spring 2015 with Prof. Murray Clayton
+- Student at University of Wisconsin-Madison, 2013-2018 (expected)
+  - MS degree in Biometry [link to website], department of statistics,
+    advisor: Jun Zhu
+  - PhD degree in Forestry, department of Forest and Wildlife Ecology,
+    advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
+    Schneider, Chris Kucharik
+
+* Grants and Awards
+NASA [link to nasa image of the day] Earth and Space Science
+Fellowship [link to page about fellowship], $XXX over 3 years.
+* Notes
+   :PROPERTIES:
+   :CUSTOM_ID: course-notes
+   :END:
+
+* Curriculum Vitae
+   :PROPERTIES:
+   :CUSTOM_ID: curriculum-vitae
+   :END:
+
+My CV (as of DATE) is available at.
+
+* Teaching
+* Contact
+I limit my presence on social media because I find it too distracting.
+The extra focus is great, but it's harder to stay in touch.  If you
+are an old friend or former student who found this website, please
+email me.  I'd love to catch up on life and drink some coffee together
+if you're in town.
+
+* COMMENT publishing
+#+begin_src emacs-lisp
+  (require 'ox-publish)
+  (setq org-publish-project-alist
+        '(
+
+          ("webpage-org"
+           :base-directory "/Volumes/elephant/webpage/"
+           :base-extension "org"
+           :publishing-directory "/Volumes/elephant/webpage_out/"
+           :recursive t
+           :publishing-function org-html-publish-to-html
+           :headline-levels 4             ; Just the default for this project.
+           :auto-preamble t
+           )
+
+          ("webpage-static"
+           :base-directory "/Volumes/elephant/webpage/"
+           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+           :publishing-directory "/Volumes/elephant/webpage_out/"
+           :recursive t
+           :publishing-function org-publish-attachment
+           )
+
+          ("webpage" :components ("webpage-org" "webpage-static"))
+
+          ))
+#+end_src
+
+#+results:
+| webpage-org    | :base-directory | /Volumes/elephant/webpage/   | :base-extension | org  | :publishing-directory | /Volumes/elephant/webpage_out/ | :recursive | t    | :publishing-function | org-html-publish-to-html | :headline-levels |   4 | :auto-preamble        | t                              |            |   |                      |                        |
+| webpage-static | :base-directory | /Volumes/elephant/webpage/   | :base-extension | css\ | js\                   | png\                           | jpg\       | gif\ | pdf\                 | mp3\                     | ogg\             | swf | :publishing-directory | /Volumes/elephant/webpage_out/ | :recursive | t | :publishing-function | org-publish-attachment |
+| webpage        | :components     | (webpage-org webpage-static) |                 |      |                       |                                |            |      |                      |                          |                  |     |                       |                                |            |   |                      |                        |
+
+
+
+#+CAPTION: bristlecone pine rings: yearly growth less than distance between lines in finger print
+#+ATTR_HTML: :alt cat/spider image :title the oldest trees on earth :align center :height 300 :margin 2
+[[
+
+file:imgs/bristlecone_finger.JPG]]
+
+* Blog
+make the blog navigable like Site web perso d'Olivier Berger
+http://olivierberger.org/  Very nice navigation with keys
