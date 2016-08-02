@@ -67,6 +67,13 @@ data visualization
     advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
     Schneider, Chris Kucharik
 
+* Blog
+
+[[file:blog.html][blog]]
+
+make the blog navigable like Site web perso d'Olivier Berger
+http://olivierberger.org/  Very nice navigation with keys
+
 * Grants and Awards
 NASA [link to nasa image of the day] Earth and Space Science
 Fellowship [link to page about fellowship], $XXX over 3 years.
@@ -131,7 +138,3 @@ if you're in town.
 [[
 
 file:imgs/bristlecone_finger.JPG]]
-
-* Blog
-make the blog navigable like Site web perso d'Olivier Berger
-http://olivierberger.org/  Very nice navigation with keys
