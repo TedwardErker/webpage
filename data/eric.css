@@ -1,10 +1,12 @@
-@media all and (min-width: 1000px){
+@media all and (min-width: 800px){
     body {
-        max-width: 80%;
-        margin: auto; } }
+        max-width: 800px;
+        margin: auto;
+        position:relative;} }
 
-@media all and (max-width: 1000px){
-    body { margin: 1em; } }
+@media all and (max-width: 800px){
+    body { margin: 1em;
+           position: relative;} }
 
 body {
   font-family: "Ubuntu", serif; }
@@ -13,37 +15,37 @@ body {
   position: absolute;
   top: 0.5em;
   width: 300px;
-  height: 300px;
-  background-image: url(eric-schulte.jpg); }
+  height: 300px;}
 
-@media all and (min-width: 1000px){
-    #me { left: 10%; } }
 
-@media all and (max-width: 1000px){
-    #me { left: 1em; } }
+@media all and (min-width: 800px){
+    #me { left: 0%; } }
 
-#me:hover {
-    background-image: url(eric-schulte.png); }
+@media all and (max-width: 800px){
+    #me { left: 0em; } }
+
+#me:hover {}
+
 
 #contact {
   position: absolute;
-  top: 2.25em; }
+  top: 1em; }
 
-@media all and (min-width: 1000px){
-    #contact { right: 10%; } }
+@media all and (min-width: 800px){
+    #contact { right: 0em; } }
 
-@media all and (max-width: 1000px){
-    #contact { right: 1em; } }
+@media all and (max-width: 800px){
+    #contact { right: 0em; } }
 
 #pgp {
   position: absolute;
   font-size: 0.625em;
   top: 6.125em; }
 
-@media all and (min-width: 1000px){
+@media all and (min-width: 800px){
     #pgp { right: 10%; } }
 
-@media all and (max-width: 1000px){
+@media all and (max-width: 800px){
     #pgp { right: 1em; } }
 
 .title {
@@ -71,8 +73,10 @@ h1, h2, h3, h4 {
 #content {
   color: #2e2e2e; }
 
-#outline-container-research {
-  padding-top: 100px; }
+
+#outline-container-orgheadline1 {
+ padding-top: 100px;
+}
 
 .outline-text-3 {
   margin-left: 2em; }

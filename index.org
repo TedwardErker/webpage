@@ -9,7 +9,7 @@
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
 
 # me
-#+HTML: <a href="imgs/bristlecone_finger.JPG" title="the oldest trees on earth"><canvas id="me" width="300" height="300"></div></a>
+#+HTML:<img id="me" width="300" height="300" src="imgs/bristlecone_finger.JPG" title="the oldest trees on earth"></img>
 
 # contact
 #+HTML: <div id="contact"><tt>erker wisc.edu</tt></div>
@@ -67,16 +67,14 @@ data visualization
     advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
     Schneider, Chris Kucharik
 
-* Blog
+* [[file:blog.html][Blog]]
 
-[[file:blog.html][blog]]
+[[file:blog.html][notes of things]]
 
-make the blog navigable like Site web perso d'Olivier Berger
-http://olivierberger.org/  Very nice navigation with keys
 
 * Grants and Awards
-NASA [link to nasa image of the day] Earth and Space Science
-Fellowship [link to page about fellowship], $XXX over 3 years.
+[[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]]- $90,000
+
 * Notes
    :PROPERTIES:
    :CUSTOM_ID: course-notes
@@ -98,7 +96,7 @@ email me.  I'd love to catch up on life and drink some coffee together
 if you're in town.
 
 * COMMENT publishing
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp :results none
   (require 'ox-publish)
   (setq org-publish-project-alist
         '(
@@ -107,16 +105,28 @@ if you're in town.
            :base-directory "/Volumes/elephant/webpage/"
            :base-extension "org"
            :publishing-directory "/Volumes/elephant/webpage_out/"
+           ;;           :publishing-directory "stat server"
+           :html-postamble ; replaces the auto-generated postamble
+           "<div class=\"clear-fix\"></div>
+    <div id=\"doc-info\">
+      This document is created
+      using <a href=\"http://orgmode.org/\">Org-mode</a>
+      and <a href=\"http://orgmode.org/worg/org-contrib/babel/\">Org-babel</a>.
+      Eric Schulte is <a href=\"http://cs.unm.edu/~eschulte/\">inspiration</a>.
+      The original plain-text document is available
+      at <a href=\"index.org\">index.org</a>
+    </div>"
            :recursive t
            :publishing-function org-html-publish-to-html
-           :headline-levels 4             ; Just the default for this project.
+           :headline-levels 2             ; Just the default for this project.
            :auto-preamble t
            )
 
           ("webpage-static"
            :base-directory "/Volumes/elephant/webpage/"
-           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
            :publishing-directory "/Volumes/elephant/webpage_out/"
+           ;;             :publishing-directory "stat server"
            :recursive t
            :publishing-function org-publish-attachment
            )
@@ -126,15 +136,8 @@ if you're in town.
           ))
 #+end_src
 
+#+begin_src sh
+  rsync -avz ../webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+#+end_src
+
 #+results:
-| webpage-org    | :base-directory | /Volumes/elephant/webpage/   | :base-extension | org  | :publishing-directory | /Volumes/elephant/webpage_out/ | :recursive | t    | :publishing-function | org-html-publish-to-html | :headline-levels |   4 | :auto-preamble        | t                              |            |   |                      |                        |
-| webpage-static | :base-directory | /Volumes/elephant/webpage/   | :base-extension | css\ | js\                   | png\                           | jpg\       | gif\ | pdf\                 | mp3\                     | ogg\             | swf | :publishing-directory | /Volumes/elephant/webpage_out/ | :recursive | t | :publishing-function | org-publish-attachment |
-| webpage        | :components     | (webpage-org webpage-static) |                 |      |                       |                                |            |      |                      |                          |                  |     |                       |                                |            |   |                      |                        |
-
-
-
-#+CAPTION: bristlecone pine rings: yearly growth less than distance between lines in finger print
-#+ATTR_HTML: :alt cat/spider image :title the oldest trees on earth :align center :height 300 :margin 2
-[[
-
-file:imgs/bristlecone_finger.JPG]]

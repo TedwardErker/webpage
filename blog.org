@@ -2,8 +2,10 @@
 #+TITLE: notes
 #+OPTIONS: toc:t num:nil ^:nil
 #+STARTUP: hideblocks
+
 #+HTML_HEAD: <link rel="stylesheet" href="data/berger.css" type="text/css">
-#+HTML_HEAD: <script type="text/javascript" src="data/org-info.js">
+
+#+INFOJS_OPT: view:showall toc:nil path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:2
 
 # font
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
@@ -12,9 +14,12 @@
 #
 #   onload="setup();"
 
-* <2016-08-02 Tue>
 
-** Making this website
+Type ? to learn how to navigate notes.  [[file:index.html][HOME]]
+
+* [2016-08-02 Tue]
+
+* [2016-08-02 Tue] Making this website                              :orgmode:
 I use emacs org-mode as the core application for my research.  It
 makes sense to use the great org publishing features to create a
 website without having to learn many new skills.  I had considered
@@ -23,16 +28,14 @@ is just as beautiful and functional with emacs org-mode.
 
 I've looked at tons of websites made with org-mode.  I like [[http://cs.unm.edu/~eschulte/][Eric
 Schulte's]] best for an academic personal page, and I wanted to use the
-[[http://orgmode.org/manual/JavaScript-support.html][org-info.js]] 
+[[http://orgmode.org/manual/JavaScript-support.html][org-info.js]]
 
-* <2016-08-02 Tue> 
-** Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting
+* [2016-08-02 Tue] Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
 #+CAPTION: Albert Einstein Memorial
 #+ATTR_HTML: :alt none :title :align center :height 300
 [[file:blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
 
-* <2016-08-01 Mon> 
-** Removing Stuck Aluminum Seatpost from a Steel Frame
+* [2016-08-01 Mon] Removing Stuck Aluminum Seatpost from a Steel Frame :bike:
 
 *** In short:
 Use a sodium hydroxide solution with proper protection and
@@ -54,7 +57,7 @@ that you don't have to go through the same thing.
 3) Pipe wrench with 5 foot bar
 4) combinations of the above
 5) Tying it between two trees and trying to pull it apart with 3 men and a
-   6-1 mechanical advantage system. 
+   6-1 mechanical advantage system.
 #+CAPTION: We pulled hard, but failed
 #+ATTR_HTML: :alt none :title trying to pull seatpost out :align center :height 300
 [[file:blog_imgs/free_seatpost/pull_apart.jpg]]
