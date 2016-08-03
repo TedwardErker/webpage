@@ -1,10 +1,16 @@
+@media all and (min-width: 800px){
+    body {
+        max-width:800px;
+    }
+}
+
 @media all
 {
   body {
 	font-size: 11pt;
 	text-align: left;
 	line-height:1.2em;
-  }
+   }
 
   h1 {font-size: 14pt;}
 
@@ -44,7 +50,7 @@
   .todo {color: #990000;}
   .done {color: #006666;}
   .timestamp-kwd {color: #444;}
-  .tag {color: #DDD; font-size: 70%; font-weight: 500;}
+  .tag {font-size: 70%; font-weight: 500;}
 
   table {border: none;}
   td {border: none; padding: .1em .7em .1em .3em;}

@@ -5,7 +5,7 @@
 
 #+HTML_HEAD: <link rel="stylesheet" href="data/berger.css" type="text/css">
 
-#+INFOJS_OPT: view:showall toc:nil path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:2
+#+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 
 # font
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
@@ -106,3 +106,4 @@ that you don't have to go through the same thing.
 They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
+* [2016-08-02 Tue]
