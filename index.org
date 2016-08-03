@@ -102,9 +102,9 @@ and get a cup of joe if you're in town.
         '(
 
           ("webpage-org"
-           :base-directory "/Volumes/elephant/webpage/"
+           :base-directory "~/webpage/"
            :base-extension "org"
-           :publishing-directory "/Volumes/elephant/webpage_out/"
+           :publishing-directory "~/webpage_out/"
            ;;           :publishing-directory "stat server"
            :html-postamble ; replaces the auto-generated postamble
            "<div class=\"clear-fix\"></div>
@@ -123,9 +123,9 @@ and get a cup of joe if you're in town.
            )
 
           ("webpage-static"
-           :base-directory "/Volumes/elephant/webpage/"
+           :base-directory "~/webpage/"
            :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
-           :publishing-directory "/Volumes/elephant/webpage_out/"
+           :publishing-directory "~/webpage_out/"
            ;;             :publishing-directory "stat server"
            :recursive t
            :publishing-function org-publish-attachment
