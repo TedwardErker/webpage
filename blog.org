@@ -15,9 +15,8 @@
 #   onload="setup();"
 
 
-Type ? to learn how to navigate notes.  [[file:index.html][HOME]]
+type "?" to learn navigation, [[file:index.html][HOME]]
 
-* [2016-08-02 Tue]
 
 * [2016-08-02 Tue] Making this website                              :orgmode:
 I use emacs org-mode as the core application for my research.  It
@@ -28,7 +27,26 @@ is just as beautiful and functional with emacs org-mode.
 
 I've looked at tons of websites made with org-mode.  I like [[http://cs.unm.edu/~eschulte/][Eric
 Schulte's]] best for an academic personal page, and I wanted to use the
-[[http://orgmode.org/manual/JavaScript-support.html][org-info.js]]
+[[http://orgmode.org/manual/JavaScript-support.html][org-info.js]] for a blog with keyboard shortcuts for navigation and
+search.
+
+If you're not familiar with [[http://orgmode.org/worg/][org mode]], check it out.
+
+If you are already familiar with org mode, spend twenty minutes
+reading about [[http://orgmode.org/manual/Exporting.html#Exporting][exporting to html]] and [[http://orgmode.org/manual/Publishing.html][publishing]].  The manual is pretty
+clear.  Once you have a published webpage, check out some css
+stylesheets from other org sites that you like.  [[file:data/eric.css][Mine]] is a modified
+version of the stylesheet of eric schulte, who I asked permission from
+to use.
+
+I spent no more 3 hours setting up the site.  Deciding that this was the
+approach I wanted to take and generating the content took a couple
+days.
+
+You can clone the github [[https://github.com/TedwardErker/webpage][repo]] to see how I have it set up.
+
+It is great to be able to work on the content of the website in a very
+familiar way and export it to the internet with one command.  Amazing.
 
 * [2016-08-02 Tue] Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
 #+CAPTION: Albert Einstein Memorial
@@ -106,4 +124,4 @@ that you don't have to go through the same thing.
 They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
-* [2016-08-02 Tue]
+

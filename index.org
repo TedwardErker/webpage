@@ -75,8 +75,10 @@ to use them to communicate science.
 :CUSTOM_ID: grants
 :END:
 
-[[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]]- $90,000
+[[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]], 2015  - $90,000 \\
 
+Outstanding Overall Achievement in Environmental Studies (highest
+award in major), Washington University in St. Louis 2010.
 
 * COMMENT Curriculum Vitae
 :PROPERTIES:

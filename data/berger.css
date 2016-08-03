@@ -809,3 +809,11 @@
   }
 
 }  /* END OF @media print */
+
+#doc-info {
+  margin-top: 3em;
+  margin: auto;
+  float: center;
+  text-align: center;
+  font-size: 8pt;
+  max-width: 75%; }
