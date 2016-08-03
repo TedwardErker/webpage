@@ -9,7 +9,7 @@
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
 
 # me
-#+HTML:<img id="me" width="300" height="300" src="imgs/bristlecone_finger_small.JPG" title="the oldest trees on earth"></img>
+#+HTML:<a href="https://en.wikipedia.org/wiki/Ancient_Bristlecone_Pine_Forest"><img id="me" width="300" height="300" src="imgs/bristlecone_finger_small.JPG" title="Look at your index finger, the space between growth rings of the bristlecone pine is less than the space between those little finger lines."></img></a>
 
 # contact
 #+HTML: <div id="contact"><tt>erker wisc.edu</tt></div>
@@ -23,8 +23,8 @@
 :CUSTOM_ID: research
 :END:
 
-I seek to understand the interaction between humans and the
-environment in our most common habitat: cities.  More
+I'd like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
+environment where most of us live: cities.  More
 specifically, I'm interested in how urban forests affect urban
 climate, building energy use, and carbon emissions.  I use Madison, WI
 as a case study.
@@ -46,7 +46,10 @@ to use them to communicate science.
   - Graduated summa cum laude with degree in Environmental Studies-
     biology/ecology track.  Advisor: Tiffany Knight
 - Teacher of Biology and Chemistry at Confluence Prep Academy, 2010-2012
-  - RESUME
+  - Taught over 120 students in six classes daily.  As first year
+    teacher, developed chemistry curriculum for new charter school
+    integrating College Readiness Standards with Missouri Science
+    Standards.  Cross-country coach.
 - Tree Care Worker at American Tree Experts and Urban Tree Alliance, 2013-2014
   - Mostly dragged brush into chippers.  Also climber and certified pesticide
     applicator, treated for a number of pests including the emerald
@@ -55,11 +58,11 @@ to use them to communicate science.
   - Forest Ecology, Fall 2013, with Prof. Tom Gower
   - Living With Wildlife, Spring 2014 with Prof. Stan Temple
   - Forest Ecology, Fall 2014 with Prof. Phil Townsend
-  - Statistical Methods for Bioscience, Spring 2015 with Prof. Murray Clayton
+  - Statistical Methods for Bioscience II, Spring 2015 with Prof. Murray Clayton
 - Student at University of Wisconsin-Madison, 2013-2018 (expected)
-  - MS degree in Biometry [link to website], department of statistics,
+  - MS degree in [[https://www.stat.wisc.edu/masters-biometry][Biometry]], department of statistics,
     advisor: Jun Zhu
-  - PhD degree in Forestry, department of Forest and Wildlife Ecology,
+  - PhD degree in [[http://forestandwildlifeecology.wisc.edu/sites/default/files/ForestryPhDHandbook1162.pdf][Forestry]], department of Forest and Wildlife Ecology,
     advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
     Schneider, Chris Kucharik
 
@@ -82,9 +85,14 @@ to use them to communicate science.
 
 My CV (as of DATE) is available at.
 
-* Teaching
+* Teaching and Learning
 
-
+While teaching high school, I experienced the joy (and struggle) of
+student learning.  Helping students grow and build confidence in their
+skills is truly satisfying, but my desire to teach about humanity's
+place in our environment was constrained by the standards of biology
+and chemistry.  I am pursuing a career in higher education so that I
+can teach and add new knowledge to the field of urban ecology.
 
 * Contact
 
