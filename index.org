@@ -23,7 +23,7 @@
 :CUSTOM_ID: research
 :END:
 
-I'd like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
+I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
 environment where most of us live: cities.  More
 specifically, I'm interested in how urban forests affect urban
 climate, building energy use, and carbon emissions.  I use Madison, WI
@@ -49,9 +49,9 @@ to use them to communicate science.
   - Taught over 120 students in six classes daily.  As first year
     teacher, developed chemistry curriculum for new charter school
     integrating College Readiness Standards with Missouri Science
-    Standards.  Cross-country coach.
+    Standards.  Coached cross-country.
 - Tree Care Worker at American Tree Experts and Urban Tree Alliance, 2013-2014
-  - Mostly dragged brush into chippers.  Also climber and certified pesticide
+  - Mostly a dragger of brush.  Also climber and certified pesticide
     applicator, treated for a number of pests including the emerald
     ash borer.
 - Teaching Assistant
@@ -89,12 +89,16 @@ My CV (as of DATE) is available at.
 
 * Teaching and Learning
 
-While teaching high school, I experienced the joy (and struggle) of
-student learning.  Helping students grow and build confidence in their
-skills is truly satisfying, but my desire to teach about humanity's
-place in our environment was constrained by the standards of biology
-and chemistry.  I am pursuing a career in higher education so that I
-can teach and add new knowledge to the field of urban ecology.
+While teaching high school, I experienced the joy and challenges of
+student learning.  I developed the skills that made me a successful
+teaching assistant, and that I hope to continue to develop in higher education.
+
+It's truly satisfying to help students grow and build confidence in their
+skills.  I am excited to be pursuing a career where I can teach about
+topics that inspire me, and that I hope will inspire my students.
+
+
+
 
 * Contact
 
@@ -107,43 +111,43 @@ and get a cup of joe if you're in town.
 
 * COMMENT publishing
 #+begin_src emacs-lisp :results none
-  (require 'ox-publish)
-  (setq org-publish-project-alist
-        '(
+    (require 'ox-publish)
+    (setq org-publish-project-alist
+          '(
 
-          ("webpage-org"
-           :base-directory "~/webpage/"
-           :base-extension "org"
-           :publishing-directory "~/webpage_out/"
-           ;;           :publishing-directory "stat server"
-           :html-postamble ; replaces the auto-generated postamble
-           "<div class=\"clear-fix\"></div>
-    <div id=\"doc-info\">
-      This document is created
-      using <a href=\"http://orgmode.org/\">Org-mode</a>
-      and <a href=\"http://orgmode.org/worg/org-contrib/babel/\">Org-babel</a>.
-      Eric Schulte is <a href=\"http://cs.unm.edu/~eschulte/\">inspiration</a>.
-      The original plain-text document is available
-      at <a href=\"index.org\">index.org</a>
-    </div>"
-           :recursive t
-           :publishing-function org-html-publish-to-html
-           :headline-levels 2             ; Just the default for this project.
-           :auto-preamble t
-           )
+            ("webpage-org"
+             :base-directory "~/webpage/"
+             :base-extension "org"
+             :publishing-directory "~/webpage_out/"
+             ;;           :publishing-directory "stat server"
+             :html-postamble ; replaces the auto-generated postamble
+             "<div class=\"clear-fix\"></div>
+      <div id=\"doc-info\">
+        This document is created
+        using <a href=\"http://orgmode.org/\">Org-mode</a>
+        and <a href=\"http://orgmode.org/worg/org-contrib/babel/\">Org-babel</a>.
+        Eric Schulte is <a href=\"http://cs.unm.edu/~eschulte/\">inspiration</a>.
+        The original plain-text document is available
+        at <a href=\"index.org\">index.org</a>
+      </div>"
+             :recursive t
+             :publishing-function org-html-publish-to-html
+             :headline-levels 2             ; Just the default for this project.
+             :auto-preamble t
+             )
 
-          ("webpage-static"
-           :base-directory "~/webpage/"
-           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
-           :publishing-directory "~/webpage_out/"
-           ;;             :publishing-directory "stat server"
-           :recursive t
-           :publishing-function org-publish-attachment
-           )
+            ("webpage-static"
+             :base-directory "~/webpage/"
+             :base-extension "mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
+             :publishing-directory "~/webpage_out/"
+  ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
+             :recursive t
+             :publishing-function org-publish-attachment
+             )
 
-          ("webpage" :components ("webpage-org" "webpage-static"))
+            ("webpage" :components ("webpage-org" "webpage-static"))
 
-          ))
+            ))
 #+end_src
 
 #+begin_src sh

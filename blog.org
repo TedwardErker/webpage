@@ -1,6 +1,7 @@
 # -*- org-export-html-auto-postamble:nil -*-
 #+TITLE: notes
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
+#+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
 
 #+HTML_HEAD: <link rel="stylesheet" href="data/berger.css" type="text/css">
@@ -16,6 +17,63 @@
 
 
 type "?" to learn navigation, [[file:index.html][HOME]]
+
+
+* [2016-09-20 Tue] Field work in northern Wisconsin
+
+Field work provides the opportunity to be outside, help out on
+lab-wide projects, and to learn about new research that isn't exactly
+in my wheelhouse.  September 8-10 I went to the north woods to help
+collect foliar samples as part of a NEON and Townsend lab project to
+ultimately predict foliar traits such as morphology, pigments, and
+other chemical constituents from hyperspectral imagery to create maps
+of these traits.  This was the first year of a five year project.
+There's much more to the science behind the goal.  But the aim of this
+post is not to explain all that, but rather, to share some images and
+the joy of being in the north woods.
+
+#+CAPTION: Trout Lake Research Station, our lodging
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg]]
+
+#+CAPTION: Jablonski grilling Aditya's Famous Chicken
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg]]
+
+#+CAPTION: Always excited for field work
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg]]
+
+#+CAPTION: Always excited for field work
+#+ATTR_HTML: :alt none :title :align center :height 600
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg]]
+
+
+#+CAPTION: Leaf Retrieval (staged)
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg]]
+
+#+CAPTION: John fake writing
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg]]
+
+#+CAPTION: Larch Stand
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg]]
+
+#+CAPTION: NEON's Flux Tower.  Measuring the exhange of carbon between atmosphere and biosphere.  Sweet.
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg]]
+
+#+CAPTION: Flux tower of Ankur Desai's research group.  Maples creating lovely dappled light.
+#+ATTR_HTML: :alt none :title :align center :height 300
+
+
+#+ATTR_HTML: :width 600 :align center :controls controls
+#+BEGIN_video
+#+HTML:   <source src="blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov">
+#+END_video
+Flux tower of Ankur Desai's research group, much smaller than NEON's.  Maples creating lovely dappled light.
 
 
 * [2016-08-02 Tue] Making this website                              :orgmode:
