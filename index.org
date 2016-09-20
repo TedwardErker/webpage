@@ -24,7 +24,7 @@
 :END:
 
 I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
-environment where most of us live: cities.  More
+environment in the places where most of us live: cities.  More
 specifically, I'm interested in how urban forests affect urban
 climate, building energy use, and carbon emissions.  I use Madison, WI
 as a case study.
