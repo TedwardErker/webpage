@@ -72,7 +72,7 @@ the joy of being in the north woods.
 [[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg]]
 
 
-#+CAPTION: Leaf Retrieval (staged)
+#+CAPTION: Aditya fake shooting leaves (for retrieval)
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg]]
 
