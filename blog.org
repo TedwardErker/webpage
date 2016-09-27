@@ -119,7 +119,7 @@ stylesheets from other org sites that you like.  [[file:data/eric.css][Mine]] is
 version of the stylesheet of eric schulte, who I asked permission from
 to use.
 
-I spent no more 3 hours setting up the site.  Deciding that this was the
+I spent no more than 3 hours setting up the site.  Deciding that this was the
 approach I wanted to take and generating the content took a couple
 days.
 
