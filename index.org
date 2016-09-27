@@ -37,7 +37,7 @@ to use them to communicate science.
 :PROPERTIES:
 :CUSTOM_ID: background
 :END:
-- Student at Washington University in St. Louis, 2006-10.
+- Student - Washington University in St. Louis, 2006-10.
   - founded student vegetable garden, The Burning Kumquat
   - took junior year off to work on farms in Kentucky and Vermont and
     to bike California coast
@@ -45,13 +45,13 @@ to use them to communicate science.
     100 species of plants.
   - Graduated summa cum laude with degree in Environmental Studies-
     biology/ecology track.  Advisor: Tiffany Knight
-- Teacher of Biology and Chemistry at Confluence Prep Academy, 2010-2012
+- Teacher - Biology and Chemistry at Confluence Prep Academy, 2010-2012
   - Taught over 120 students in six classes daily.  As first year
     teacher, developed chemistry curriculum for new charter school
     integrating College Readiness Standards with Missouri Science
-    Standards.  Coached cross-country.
-- Tree Care Worker at American Tree Experts and Urban Tree Alliance, 2013-2014
-  - Mostly a dragger of brush.  Also climber and certified pesticide
+    Standards.  Cross-country coach.
+- Tree Care Worker - American Tree Experts and Urban Tree Alliance, 2013-2014
+  - Mostly dragged brush into chippers.  Also climber and certified pesticide
     applicator, treated for a number of pests including the emerald
     ash borer.
 - Teaching Assistant
@@ -59,7 +59,7 @@ to use them to communicate science.
   - Living With Wildlife, Spring 2014 with Prof. Stan Temple
   - Forest Ecology, Fall 2014 with Prof. Phil Townsend
   - Statistical Methods for Bioscience II, Spring 2015 with Prof. Murray Clayton
-- Student at University of Wisconsin-Madison, 2013-2018 (expected)
+- Student - University of Wisconsin-Madison, 2013-2018 (expected)
   - MS degree in [[https://www.stat.wisc.edu/masters-biometry][Biometry]], department of statistics,
     advisor: Jun Zhu
   - PhD degree in [[http://forestandwildlifeecology.wisc.edu/sites/default/files/ForestryPhDHandbook1162.pdf][Forestry]], department of Forest and Wildlife Ecology,
@@ -138,9 +138,10 @@ and get a cup of joe if you're in town.
 
           ("webpage-static"
            :base-directory "~/webpage/"
-           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
+          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
            :publishing-directory "~/webpage_out/"
-           ;;             :publishing-directory "stat server"
+           :publishing-directory "~/webpage_out/"
+           ;;             :publishing-directory "stat server" stats doesnt allow ssh keys
            :recursive t
            :publishing-function org-publish-attachment
            )

@@ -1,6 +1,7 @@
 # -*- org-export-html-auto-postamble:nil -*-
 #+TITLE: notes
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
+#+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
 
 #+HTML_HEAD: <link rel="stylesheet" href="data/berger.css" type="text/css">
@@ -17,6 +18,85 @@
 
 type "?" to learn navigation, [[file:index.html][HOME]]
 
+
+* [2016-09-23 Fri] Cool Science Image contest
+#+CAPTION: MNF transformation of AVIRIS hyperspectral imagery over lakes Mendota, Monona, and Wingra
+#+ATTR_HTML: :alt none :title :align center :height 600
+[[file:blog_imgs/CoolScienceImage/beautiful_madison_lakes.png]]
+
+I created this image of Madison's lakes using hyperspectral imagery
+from NASA's [[http://aviris.jpl.nasa.gov/][AVIRIS sensor]] for the [[http://news.wisc.edu/cool-science-images-2016/][Cool Science Image Contest]].  I threw
+it together the week before the contest and was very pleased to be
+selected, but I wish that it had been more related to the science that
+I do.  It is a minimum noise fraction transformation which is a way to
+transform/condense the data from the ~250 bands into the 3 visible
+channels (rgb) for maximum information viewing. Originally I intended
+to create an image over land, but had great difficulty getting the
+mosaicing of the 3 flightlines to be seamless.  You can see the band
+across the northern part of lake Mendota from fox bluff to warner bay
+that is due to image processing, not something real in the water.  The
+image is no doubt cool, but I wish I could say more what the colors
+meant (If you're a limnologist and see some meaning, please let me
+know).  I think that pink may be related to sand, and green to bright
+reflections on the water.  There's probably some algae detection going
+on too.  My goal for next year is to make an image that is heavier on
+the science and still very cool.
+
+* [2016-09-20 Tue] Field work in northern Wisconsin
+
+Field work provides the opportunity to be outside, help out on
+lab-wide projects, and to learn about new research that isn't exactly
+in my wheelhouse.  September 8-10 I went to the north woods to help
+collect foliar samples as part of a NEON and Townsend lab project to
+ultimately predict foliar traits such as morphology, pigments, and
+other chemical constituents from hyperspectral imagery to create maps
+of these traits.  This was the first year of a five year project.
+There's much more to the science behind the goal.  But the aim of this
+post is not to explain all that, but rather, to share some images and
+the joy of being in the north woods.
+
+#+CAPTION: Trout Lake Research Station, our lodging
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg]]
+
+#+CAPTION: Jablonski grilling Aditya's Famous Chicken
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg]]
+
+#+CAPTION: Always excited for field work
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg]]
+
+#+CAPTION: Always excited for field work
+#+ATTR_HTML: :alt none :title :align center :height 600
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg]]
+
+
+#+CAPTION: Aditya fake shooting leaves (for retrieval)
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg]]
+
+#+CAPTION: John fake writing
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg]]
+
+#+CAPTION: Larch Stand
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg]]
+
+#+CAPTION: NEON's Flux Tower.  Measuring the exhange of carbon between atmosphere and biosphere.  Sweet.
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg]]
+
+#+CAPTION: Flux tower of Ankur Desai's research group.  Maples creating lovely dappled light.
+#+ATTR_HTML: :alt none :title :align center :height 300
+
+
+#+ATTR_HTML: :width 600 :align center :controls controls
+#+BEGIN_video
+#+HTML:   <source src="blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov">
+#+END_video
+Flux tower of Ankur Desai's research group, much smaller than NEON's.  Maples creating lovely dappled light.
 
 * [2016-08-02 Tue] Making this website                              :orgmode:
 I use emacs org-mode as the core application for my research.  It
