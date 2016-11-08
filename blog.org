@@ -19,6 +19,7 @@
 type "?" to learn navigation, [[file:index.html][HOME]]
 
 
+
 * [2016-10-27 Thu] Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
 
 R is the language I use most often for my work.  The spatial packages
