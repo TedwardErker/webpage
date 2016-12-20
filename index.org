@@ -50,9 +50,9 @@ to use them to communicate science.
   - Taught over 120 students in six classes daily.  As first year
     teacher, developed chemistry curriculum for new charter school
     integrating College Readiness Standards with Missouri Science
-    Standards.  Coached cross-country.
-- Tree Care Worker at American Tree Experts and Urban Tree Alliance, 2013-2014
-  - Mostly a dragger of brush.  Also climber and certified pesticide
+    Standards.  Cross-country coach.
+- Tree Care Worker - American Tree Experts and Urban Tree Alliance, 2013-2014
+  - Mostly dragged brush into chippers.  Also climber and certified pesticide
     applicator, treated for a number of pests including the emerald
     ash borer.
 - Teaching Assistant
@@ -97,8 +97,8 @@ It's truly satisfying to help students grow and build confidence in their
 skills.  I am excited to be pursuing a career where I can teach about
 topics that inspire me, and that I hope will inspire my students.
 
-
-
+* Presentations
+ - [[file:presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin (Society of American Foresters National Convention)]]
 
 * Contact
 
@@ -111,6 +111,7 @@ and get a cup of joe if you're in town.
 
 * COMMENT publishing
 #+begin_src emacs-lisp :results none
+
     (require 'ox-publish)
     (setq org-publish-project-alist
           '(
@@ -145,9 +146,11 @@ and get a cup of joe if you're in town.
              :publishing-function org-publish-attachment
              )
 
+
             ("webpage" :components ("webpage-org" "webpage-static"))
 
-            ))
+          ))
+
 #+end_src
 
 #+begin_src sh
