@@ -14,7 +14,7 @@ body {
 #me {
   position: absolute;
   top: 0.5em;
-  width: 300px;
+  width: 208px;
   height: 300px;}
 
 
@@ -50,12 +50,12 @@ body {
 
 .title {
   text-align: left;
-  margin-left: 310px;
+  margin-left: 218px;
   border-bottom-style: solid;
   border-bottom-color: lightgray; }
 
 #table-of-contents {
-  margin-left: 310px; }
+  margin-left: 218px; }
   #table-of-contents h2 {
     display: none; }
   #table-of-contents ul {
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
   color: #2e2e2e; }
 
 
-#outline-container-orgheadline1 {
+#outline-container-org5c541ad {
  padding-top: 125px;
 }
 

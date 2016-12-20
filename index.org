@@ -9,7 +9,7 @@
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
 
 # me
-#+HTML:<a href="https://en.wikipedia.org/wiki/Ancient_Bristlecone_Pine_Forest"><img id="me" width="300" height="300" src="imgs/bristlecone_finger_small.JPG" title="Look at your index finger, the space between growth rings of the bristlecone pine is less than the space between those little finger lines."></img></a>
+#+HTML:<img id="me"  width= "208" height="300" src="imgs/Tedward_Headshot.JPG" title="Tedward Erker"></img>
 
 # contact
 #+HTML: <div id="contact"><tt>erker wisc.edu</tt></div>
@@ -21,6 +21,7 @@
 * Research
 :PROPERTIES:
 :CUSTOM_ID: research
+:CUSTOM_ID: firstHeader
 :END:
 
 I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
@@ -74,11 +75,10 @@ to use them to communicate science.
 :PROPERTIES:
 :CUSTOM_ID: grants
 :END:
-
-[[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]], 2015  - $90,000 \\
-
-Outstanding Overall Achievement in Environmental Studies (highest
-award in major), Washington University in St. Louis 2010.
+- George Kress Award for Outstanding Contribution of a Forestry Graduate
+  Student, 2016, $1000
+- [[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]], 2015-2018, $90,000
+- Outstanding Overall Achievement in Environmental Studies (highest award in major), Washington University in St. Louis 2010.
 
 * COMMENT Curriculum Vitae
 :PROPERTIES:
@@ -116,9 +116,9 @@ and get a cup of joe if you're in town.
           '(
 
             ("webpage-org"
-             :base-directory "~/webpage/"
+             :base-directory "~/projects/webpage/"
              :base-extension "org"
-             :publishing-directory "~/webpage_out/"
+             :publishing-directory "~/projects/webpage_out/"
              ;;           :publishing-directory "stat server"
              :html-postamble ; replaces the auto-generated postamble
              "<div class=\"clear-fix\"></div>
@@ -137,9 +137,9 @@ and get a cup of joe if you're in town.
              )
 
             ("webpage-static"
-             :base-directory "~/webpage/"
+             :base-directory "~/projects/webpage/"
              :base-extension "mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
-             :publishing-directory "~/webpage_out/"
+             :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
              :recursive t
              :publishing-function org-publish-attachment
