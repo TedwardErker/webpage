@@ -1,0 +1,145 @@
+nav
+{
+	z-index: 100;
+}
+
+.navbar
+{
+	position: fixed;
+	width: 100%;
+	background-color:rgba(0,0,0,.8);
+	border: none;
+	border-radius: 0;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 0px;
+}
+
+.navbar .navbar-brand
+{
+	font-size:  2.5em;
+	padding: 38px 15px 0px 15px;
+	color: white;
+	z-index: 999;
+}
+	
+.navbar .navbar-header #navbarButton 
+{
+	height: 50px;
+	width: 50px;
+	margin: 25px 25px 15px 0px;
+}
+.navbar .navbar-header #navbarButton .icon-bar
+{
+	width: 28px;
+}
+.navbar .navbar-header #smallLogo 
+{
+	display: none;
+}
+
+.navbar .navbar-header #bigLogo
+{
+	display: visible;
+}
+
+.navbar .navbar-brand span:not(.bigletter)t
+{
+	position: relative;
+	top: -10px;
+}
+
+.navbar .navbar-brand span:not(.bigletter):hover, #bigLogo:hover
+{
+	color: white;
+}
+
+.navbar .navbar-brand .bigletter
+{
+	font-size: 2em;
+	color: #74C365;	
+}
+
+.navbar ul.nav li
+{
+	color: white;
+}
+
+@media (min-width: 768px) and (max-width: 784px) {
+	.navbar ul.nav li a
+	{
+		font-size: 12.5px;
+	}
+}
+
+.navbar ul.nav li#selected
+{
+	border-bottom-style: solid;
+	border-bottom-color: #74C365;
+}
+
+.navbar ul.nav li:hover
+{
+	border-bottom: solid 3px white;	
+	text-decoration: none;
+}
+
+.navbar ul.nav li a
+{
+	color: inherit;
+	height: 100px;
+	padding-top: 38px ;
+}
+
+.navbar ul.nav li a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar #toggleList
+{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.navbar #toggleList li
+{
+	list-style-type: none;
+	color: white;
+	height: 40px;
+}
+
+.navbar #toggleList li p
+{
+	padding-left: 20px;
+}
+
+.navbar #toggleList li.selected
+{
+	border-left: solid 3px #74C365;
+}
+.navbar #toggleList li a {
+	color: inherit;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.navbar #toggleList li a {
+	padding-top: 5px;
+}
+.navbar #toggleList li a:hover
+{
+	text-decoration: none;
+} 
+
+.navbar #toggleList li:not(.selected):hover
+{
+	list-style-type: none;
+	border-left: solid 3px white;
+}
+
+.nav li, .nav li a
+{
+	color: white;
+}
+

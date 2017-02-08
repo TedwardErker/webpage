@@ -1,0 +1,61 @@
+.uw-global,
+.search-form,
+.search-and-menu .sticky,
+.story #social-share,
+.taglist,
+.related-header,
+.related,
+footer
+{
+  display: none;
+}
+
+.search-and-menu {
+  margin-bottom: 0;
+}
+.site-title a {
+  width: 36px;
+  color: #ccc !important;
+}
+.site-title h1 {
+  color: #ccc !important;
+}
+.site-title img {
+  width: 36px;
+}
+.site-title h1 a {
+  width: auto;
+  font-size: 28px;
+}
+.site-title h1 a:before {
+  content: "University of Wisconsin–Madison ";
+}
+
+.story h1 {
+  font-weight: bold;
+}
+
+blockquote {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+.credit a[href]:after, .writer a[href]:after, header a[href]:after, .wp-caption a[href]:after {
+    content: ""; }
+  abbr[title]:after {
+    content: ""; }
+
+
+.story-body {
+  padding-bottom: 12pt;
+  border-bottom: 1px solid #999;
+}
+
+img {
+    page-break-inside: auto; 
+}

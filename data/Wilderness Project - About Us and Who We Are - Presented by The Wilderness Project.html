@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://outing.wustl.edu/WildernessProject/philosophy.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="What makes us, us. Our philosophy, information, and details about Wash U&#39;s Wilderness Project .">
+<!-- Bootstrap -->
+<style>
+	@import url(http://fonts.googleapis.com/css?family=Lato:100);
+</style>
+<link rel="icon" type="image/ico" href="http://outing.wustl.edu/WildernessProject/Images/favicon.ico">
+<link href="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/navbar.css">
+<link rel="stylesheet" type="text/css" href="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/philosophy.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+<script async="" src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/analytics.js"></script><script src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/jquery-1.10.2.min.js"></script>
+<script>
+	/*********** Start Google Analytics **********/
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-44104001-2', 'auto');
+	  ga('send', 'pageview');
+	/*********** End Google Analytics **********/
+	
+	function toggleNavbar() {
+		$("#navbarButton").click(function() {
+			$("#toggleList li").toggle("fast");
+		});
+	}
+	function navHandler() {
+		$("#toggleList li").hide();
+		var currWidth = $(window).innerWidth();
+		var isShortened = false;
+		var isWP = false;
+		var changeWidth = 1020;
+		if (currWidth < changeWidth) {
+			$("#w, #p").hide();
+			isWP = true;
+		}
+		$(window).resize(function() {
+			var newWidth = $(window).innerWidth();
+			if (!isWP && newWidth < changeWidth) {
+				$("#w, #p").hide("medium");
+				isWP = true;
+			} else if (isWP && newWidth >= changeWidth) {
+				isWP = false
+				$("#w, #p").show("medium");
+			}
+		})
+	}
+	$(document).ready(function() {
+		toggleNavbar();
+		navHandler();
+		$('.carousel').carousel({interval: 2000});
+	});
+</script>
+
+</head>
+<body>
+	<div id="main">
+		<div id="background">
+			<nav class="navbar navbar-default" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button id="navbarButton" type="button" class="navbar-toggle">
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+					</button>
+					<a id="bigLogo" class="navbar-brand" href="http://outing.wustl.edu/WildernessProject/home.html"><span class="bigletter">W</span><span id="w">ilderness</span> <span class="bigletter">P</span><span id="p">roject</span></a> <a id="smallLogo" class="navbar-brand" href="http://outing.wustl.edu/WildernessProject/home.hml"><span class="bigletter">WP</span></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="http://outing.wustl.edu/WildernessProject/home.html">Home</a></li>
+						<li id="selected"><a href="http://outing.wustl.edu/WildernessProject/philosophy.html">About</a></li>
+						<li><a href="http://outing.wustl.edu/WildernessProject/tripInfo.html">Trip Info</a></li>
+						<li><a href="http://outing.wustl.edu/WildernessProject/leaders.html">Leaders</a></li>
+						<li><a href="http://outing.wustl.edu/WildernessProject/faq.html">FAQ</a></li>
+						<li><a href="http://outing.wustl.edu/WildernessProject/photos.html">Photos</a></li>
+						<li><a href="http://outing.wustl.edu/WildernessProject/contact.html">Contact</a></li>
+						<li><a href="http://www.outing.wustl.edu/"> <span class="glyphicon glyphicon-home"></span> Back to OC
+						</a></li>
+					</ul>
+				</div>
+				<ul id="toggleList" class="visible-xs">
+					<li style="display: none;"><p>
+							<a href="http://outing.wustl.edu/WildernessProject/home.html">Home 
+						</a></p><a href="http://outing.wustl.edu/WildernessProject/home.html"> </a></li>
+					<li class="selected" style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/philosophy.html"><p>About
+								Us</p></a></li>
+					<li style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/tripInfo.html"><p>Trip Info</p></a></li>
+					<li style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/leaders.html"><p>Leader Profiles</p></a></li>
+					<li style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/faq.html"><p>FAQ</p></a></li>
+					<li style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/photos.html"><p>Photos</p></a></li>
+					<li style="display: none;"><a href="http://outing.wustl.edu/WildernessProject/contact.html"><p>Contact</p></a></li>
+					<li style="display: none;"><a href="http://www.outing.wustl.edu/"><p>
+								<span class="glyphicon glyphicon-home"></span> Back to OC
+							</p></a></li>
+				</ul>
+				<!-- /.navbar-collapse -->
+			</nav>
+
+
+			<!-- Main jumbotron for a primary marketing message or call to action -->
+
+			<div class="jumbotron center-block row">
+				<div id="carousel-example-generic" class="carousel slide hidden-xs col-sm-6" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item next left">
+							<img src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/biggroupstatue.jpg" class="center-block" alt="...">
+						</div>
+						<div class="item">
+							<img src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/humanknot.jpg" class="center-block" alt="...">
+						</div>
+						<div class="item active left">
+							<img src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/steering-dynamic.jpg" class="center-block" alt="...">
+						</div>
+
+					</div>
+				</div>
+				<div class="jumbo_background col-xs-12 col-sm-6 col-md-6">
+					<h1>Our Philosophy</h1>
+					<p>The Wilderness Project was founded on the philosophy that
+						the natural environment provides a neutral space for facilitating
+						life's transitions, for promoting personal growth, and for
+						discussing pressing social issues. Outside the context of everyday
+						routines, students gain a powerful perspective on their lives,
+						their communities, and how they fit into a global perspective. The
+						project is designed to challenge the participants to be effective
+						socially and environmentally conscious leaders.</p>
+				</div>
+			</div>
+		</div>
+		<div id="information"></div>
+
+	</div>
+
+
+
+	<!-- <hr class="featurette-divider">-->
+		<h1 class="page-header text-center">What is the Wilderness Project?</h1>
+		<div class="row mobilemargins">
+			<p class="lead col-xs-12 col-sm-10 col-sm-offset-1">
+				The Wilderness Project (WP) is a Pre-Orientation program at Washington
+				University in St. Louis that offers new students experiences that will last a
+				lifetime! This program was founded in 2003 by a group of like-minded students
+				in the pursuit of providing an outlet through which incoming students could
+				engage in the outdoors prior to entering the academic and social climate of
+				collegiate life. Annually, the program culminates in a weeklong trip outside
+				for incoming freshmen, with student leaders facilitating both hiking and rock-climbing.
+				The Wilderness Project continues to be the only student-run Pre-Orientation program at
+				Wash. U. and the only student-run outdoor Pre-Orientation program in the country. 
+				After many intensive skill training sessions with medical professionals, students
+				are more than prepared to completely explore the great outdoors!
+				
+				</p>
+				
+				
+		</div>
+		<div class="row mobilemargins">
+			<p class="lead col-xs-12 col-sm-10 col-sm-offset-1">In addition
+				to being crazy-fun outdoors, WP has an emphasis on social and
+				environmental justice. We find the backcountry to be a socially
+				neutral space to discuss issues which inform our experiences and
+				identities in school and throughout our lives. In the wilderness we may openly
+				discuss issues such as class, gender, race, religion, and sexuality.
+				As one former WP leader commented, "the trees don't judge you." WP
+				challenges incoming students to become responsible and ethical
+				leaders through all their endeavors. Through these dialogues, the
+				trail groups develop strong connections, learning and growing with each other.
+				As believers in environmental sustainability, WP adheres to
+				internationally established Leave No Trace (tm) principles to
+				protect the wilderness for future generations.</p>
+		</div>
+	<!-- Example row of columns -->
+	<div id="promoteContainer">
+		<h2 class="text-center">What we promote...</h2>
+		<div class="row myrow">
+			<div class="apply col-xs-12 col-sm-3 col-md-3"><!--<img src="http://www.placehold.it/125x125" class="img-circle center-block">-->
+				<h4 class="text-center">A smooth transition to college by
+					forming an open community.</h4>
+			</div>
+			<div class="apply col-xs-12 col-sm-3 col-md-3"><!--<img src="Images/glyphicons/png/glyphicons_012_heart.png" class="img-circle center-block">-->
+				<h4 class="text-center">Responsible leadership skills.</h4>
+			</div>
+			<div class="apply col-xs-12 col-sm-3 col-md-3"><!--<img src="Images/tree.png" class="img-circle center-block">-->
+				<h4 class="text-center">Commitment to environmental ethics.</h4>
+			</div>
+			<div class="apply col-xs-12 col-sm-3 col-md-3"><!--<img src="http://www.placehold.it/125x125" class="img-circle center-block">-->
+				<h4 class="text-center">Awareness and discussion of social and
+					environmental justice issues.</h4>
+			</div>
+		</div>
+	</div>
+
+	<div id="ending" class="row">
+		<p class="lead text-center col-xs-12 col-sm-10 col-sm-offset-1">So
+			come kick it with us in the woods! Explore the outdoors while making
+			new friends and gaining leadership skills as you begin your life at
+			Washington University in St. Louis.</p>
+	</div>
+
+
+
+
+	<footer>
+		<p>© Washington University in St. Louis Wilderness Project 2016</p>
+	</footer>
+
+	
+	<!-- /container -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!--<script src="https://code.jquery.com/jquery.js"></script-->
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/bootstrap.min.js"></script>
+	<script>
+			$(".scroll").click(
+					function(event) {
+						event.preventDefault();
+						//calculate destination place
+						var dest = 0;
+						if ($(this.hash).offset().top > $(document).height()
+								- $(window).height()) {
+							dest = $(document).height() - $(window).height();
+						} else {
+							dest = $(this.hash).offset().top;
+						}
+						//go to destination
+						$('html,body').animate({
+							scrollTop : dest - 100
+						}, 1000, 'swing');
+					});
+
+			$('.carousel').carousel({
+				interval : 2000,
+				wrap: true
+
+			})
+		</script>
+</body></html>

@@ -1,0 +1,223 @@
+html, body
+{
+	background-color: #ffffff;
+}
+
+@media (max-width: 768px) { 
+	#background, #reg_container 
+	{
+		background: url("../Images/missourispringbgxs.jpg") no-repeat center center ;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+	#background, #reg_container 
+	{
+		background: url("../Images/missourispringbgsm.jpg") no-repeat center center ;
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	#background, #reg_container 
+	{
+		background: url("../Images/missourispringbgmd.jpg") no-repeat center center fixed;
+	}
+}
+@media (min-width: 1200px) {
+	#background, #reg_container 
+	{
+		background: url("../Images/missourispringbg.jpg") no-repeat center center fixed;
+	}
+}
+#promoteContainer
+	{
+		background-color: rgb(232, 238, 241);/*#243D42;*/
+		padding-bottom: 40px;
+	}
+#background, #reg_container 
+	{
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-image-size: cover;	
+	}
+
+#background .jumbotron img
+{
+	margin-top: 25px;
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+	#background .jumbotron img
+	{
+		margin-top: 50px;		
+	}
+}
+
+.mainrow
+{
+	margin-bottom: 70px;
+}
+#background {
+	margin-bottom: 50px;
+}
+
+#background img
+{
+	border: solid 8px white;
+	border-radius: 10px;
+	width: 80%;
+}
+
+.title
+{
+	margin-bottom: 0;
+	background-color: rgba(200,200,200,.5);
+	color: white;
+}
+
+.titleHeader
+{
+	color:white;
+}
+
+.jumbotron
+{
+	background-color:transparent;
+	border-radius: 10px;
+	color: white;	
+	padding-bottom: 20px;
+	font-size: 20px;	
+	padding-top: 110px;
+}
+
+.jumbotron .jumbo_background
+{
+	padding: 20px;
+	position: relative;
+	top: 25px;
+	margin-bottom: 25px;
+}
+
+.jumbotron h1
+{
+	font-weight: 400;
+}
+
+.jumbotron p
+{
+	font-size: 50px;
+}
+
+#reg_container
+{
+	margin-top: 50px;
+	color: white;	
+}
+
+#reg_container .container h1#registration, #reg_container .container h1#registration small
+{
+	color: white;
+}
+#reg_container .container .row
+{
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.number
+{
+	font-size: 20px;
+	border-style: solid;
+	text-align: center;
+	border-radius: 70px;
+	border-color: white;
+	padding: 5px 10px;
+	
+}
+
+.numbers
+{
+	text-align: center;
+}
+
+.lead
+{
+	font-size: 1.25em;
+}
+
+#promoteContainer h2
+{
+	color: #4e585c;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#promoteContainer h4
+{
+	color: #626e73;
+
+}
+
+#promoteContainer .apply img
+{
+	margin-bottom: 30px;
+}
+
+#ending
+{
+	padding: 50px 0px 50px 0px;
+	color: darkgreen;
+}
+.jumbo_background
+	{
+		background-color:rgba(0,0,0,.6);
+		border-radius: 10px;
+	}
+@media (max-width: 768px) { 
+	#background
+	{
+		height:700px;
+	}
+
+	.mobilemargins
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.jumbotron p
+	{
+		font-size: 16px;
+	}
+	#climbingpic, #hikingpic
+	{
+		width: 90%;
+	}
+	#climbingpic, #hikingpic, #climbingpic img, #hikingpic img {
+		margin: 0 auto;
+	}
+	#climbingpic
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+	#background
+	{
+		height: 600px;
+	}
+}
+
+@media (min-width: 768px)  { 
+	.jumbotron p
+	{
+		font-size: 17px;
+	}
+}
+@media (min-width: 992px) {
+	.jumbotron p
+	{
+		font-size: 20px;
+		font-weight: 100;
+	}
+}

@@ -1,0 +1,589 @@
+BODY, DIV, SPAN, IMG, H1, H2, H3, H4, H5, H6, P, UL, OL, LI, A { margin: 0; border: 0; padding: 0; }
+
+UL {list-style-type: none;}
+LI {margin: 0 0 10px 0;}
+
+BODY {
+
+	background-color: #B9C9CA;
+	background-image: url('images/stripesquare-blue.jpg');
+	background-repeat: repeat;
+	font-family: arial, luxi sans, sans-serif;
+	color: #5C523D;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+H1, H2, H3, H4, H5, H6 {
+
+	text-align: left;
+	color: #5C523D;
+	font-weight: normal;
+	font-family: georgia, times, nimbus roman, serif;
+}
+
+
+
+
+
+H1 {margin: 0 0 17px 0; color: #A84547; font-weight: normal; font-size: 1.8em;}
+
+H2 {
+
+	color: #71654D;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 99%;
+	padding: 0 0 1px 5px;
+	background-color: #FAFAF6;
+	border-top: 2px solid #EAE8D5;
+	border-bottom: 2px solid #DEDCC7;
+	margin: 0 0 20px 0;
+}
+
+
+H3 {font-weight: bold; font-size: 1.3em;}
+H3.subheader {position: relative; top: -29px; left: 140px;}
+
+H4 {font-weight: bold; font-size: 1.2em; padding: 0 0 10px 0; color: #A82241;}
+
+H5 {font-weight: bold; font-size: 1.1em; padding: 5px 0 6px 0;}
+
+H6 {margin-bottom: 5px; color: #A84547; font-weight: bold; font-size: 0.9em;}
+
+
+
+b {font-weight: bold;}
+i {font-style: italic;}
+em { color: #A84547; font-weight: bold; font-size: 0.9em;}
+strong {font-weight: bold;}
+
+
+
+
+
+
+
+A:LINK {color: #20833E;} /* green */
+
+A:VISITED {color: #6D2F5B;} /* purple */
+
+A:HOVER {color: #CA6D00;} /* orange */
+
+
+
+
+
+P {margin: 10px 0 10px 0;}
+
+
+
+
+
+
+
+				   /* ------ LAYOUT DIVS AND SPANS ------ */
+				   /* ---------- FOR ALL PAGES ---------- */
+
+
+
+
+
+
+
+
+				   /* ------ HEADER ------ */
+
+
+DIV#headerbar1 {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 78px;
+	width: 100%;
+	background-color: #124132;
+}
+
+
+
+
+DIV#headerbar2 {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 65px;
+	width: 100%;
+	border-bottom: 3px solid #3D6752;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+				   /* ------ CONTENT ------ */
+
+
+DIV#wrapper {
+
+	position: absolute;
+	top: 49px;
+	left: 32px;
+	width: 788px;
+}
+
+
+
+
+DIV#background {
+
+	padding: 4px;
+	background-color: white;
+}
+
+
+
+
+DIV#frame {
+
+	position: relative;
+	border: 2px #DCD9BB solid;
+	padding: 0 0 25px 0;
+}
+
+
+
+
+DIV.floatclear {
+
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+	line-height: 0;
+	font-size: 0em;
+}
+
+
+
+
+DIV.imgcaption { text-align: center; margin-bottom: 15px; }
+
+
+
+
+
+
+
+
+
+		/* ------- MENU ------- */
+		/* ------ LAYOUT ------ */
+
+
+
+
+DIV#navmenuhome {
+
+	margin: 60px 0 15px 5px;
+	position: relative;
+	float: left;
+	display: inline;
+	width: 104px;
+	background-color: white;
+}
+
+
+
+DIV#navmenusub {
+
+	margin: 10px 0 15px 10px;
+	position: relative;
+	float: left;
+	display: inline;
+	width: 104px;
+}
+
+
+
+
+			UL#navmenu {
+
+				list-style-type: none;
+				font-size: 1.05em;
+				color: #524936;
+				font-family: georgia;
+				letter-spacing: 1px;
+				}
+
+			UL#navmenu LI 
+				{ width: 100%; margin: 10px 0 0 0;}
+
+			UL#navmenu A {
+
+				display: block;
+				width: 100%;
+				color: #20833E;
+				padding: 2px 2px 3px 4px;
+				text-decoration: none;
+				background-color: #FFFFFF;
+				}
+
+			UL#navmenu A.last 
+				{ border-bottm: 2px solid #D2CEC0; }
+
+			UL#navmenu A.first 
+				{ border-tp: 2px solid #D9D5C3; }
+
+			UL#navmenu A.loc {
+
+				width: 100%;
+				font-weight: bold;
+				color: #524936;
+				font-family: Georgia;
+				border-bottom: 1px solid;
+				border-top: 1px solid;
+				}
+
+			UL#navmenu A:HOVER 
+				{
+				color: #524936;
+				background-color: #D9CEAD;
+				}
+				
+			UL#navmenu SPAN.more 
+				{ float: right; font-size: 0.9em; margin-top: 0px; font-weight: 800; }
+
+
+
+
+				UL#navmenu UL {
+
+					list-style-type: none;
+					font-size: 0.9em;
+					font-family: arial;
+					letter-spacing: 0px;
+					margin-left: 7px;
+					line-height: 14px;
+					}
+
+				UL#navmenu UL LI { margin: 6px 0 0 0; }
+
+
+				UL#navmenu UL A {
+
+					display: block;
+					width: 100%;
+					color: #5E5B56;
+					padding: 1px 2px 1px 4px;
+					text-decoration: none;
+					}
+
+				UL#navmenu UL A:HOVER 
+					{ color: #271E02; background-color: #D4E1DA;}
+
+
+
+
+
+
+
+
+
+
+
+		/* ---- INDEX-ONLY ---- */
+		/* ------ LAYOUT ------ */
+
+
+
+DIV#firstrow {
+
+	margin: -90px 0 0 0;
+
+}
+
+
+
+
+DIV#intro {
+
+	position: relative;
+	float: left;
+	display: inline;
+	width: 595px;
+	margin: 28px 0 20px 35px;
+}
+
+
+			DIV#intro P {
+
+				margin: 0 0 15px 10px;
+			}
+
+
+
+			DIV#intro UL { margin: 0 0 0 30px; }
+			DIV#intro UL LI { margin: 0 0 4px 0; }
+
+
+
+DIV#secondrow {
+
+	margin: 12px 0 0 0;
+}
+
+
+DIV#current {
+
+	position: relative;
+	float: left;
+	width: 493px;
+	margin: 0 0 0 8px;
+}
+
+
+
+
+DIV#story {
+
+	padding: 0 0 0 5px;
+}
+
+
+DIV#news {
+
+	position: relative;
+	float: right;
+	width: 232px;
+	padding: 0 12px 0 0;
+}
+
+
+			DIV#news UL {
+
+				margin: 0 0 0 10px;
+				list-style-type: none;
+			}
+
+
+			DIV#news UL LI {
+
+				margin: 0 0 13px 0;
+				padding: 0 0 10px 0;
+				border-bottom: 2px #DCD9BB solid;
+			}
+
+
+
+			DIV#news UL LI A {
+
+				display: block;
+				width: 100%;
+				text-align: right;
+			}
+
+
+
+DIV#weather {
+
+	margin: 18px 15px 0 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* ---- SUBPAGE-ONLY ---- */
+		/* ------- LAYOUT ------- */
+
+
+DIV#subwrapper { margin: -20px 0 0 0; }
+
+
+
+
+DIV#subcontent {
+
+	position: relative;
+	float: left;
+	display: inline;
+	width: 430px;
+	margin: 25px 12px 25px 29px;
+}
+
+
+
+
+DIV#subrightbar {
+
+	position: relative;
+	float: right;
+	display: inline;
+	width: 180px;
+	margin: 13px 8px 0 0;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+			DIV#subrightbar IMG { padding-bottom: 8px; }
+
+
+
+
+UL.subpagebullets { list-style-type: disc; margin: 3px 0 0 20px; }
+
+UL.nobullet { list-style-type: none; margin: 3px 0 0 20px; }
+
+OL.subpagenumbers { list-style-type: 1; margin: 3px 0 0 25px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				   /* ------ FOOTER ------ */
+
+
+DIV#footer1 {
+
+	position: relative;
+	width: 100%;
+	padding: 4px 0 4px 0;
+	background-color: #0E3622;
+}
+
+
+
+
+DIV#footer2 {
+
+	width: 100%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #345F4A;
+	color: white;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+
+
+
+DIV#footleft {
+
+	float: left;
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+
+
+DIV#footright {
+
+	float: right;
+	text-align: right;
+	padding-right: 18px;
+}
+
+
+
+
+SPAN#footcenter {
+
+	position: relative;
+	left: -25px;
+}
+
+
+
+
+DIV#logo {
+
+	position: relative;
+	text-align: center;
+	margin: 8px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				   /* ---- OTHER ---- */
+				   /* --- FORMATS --- */
+
+
+
+
+IMG.headerindex {margin: 0; padding: 0; border: 0; width: 776px;}
+
+IMG.rimage {padding: 0; border: 0; margin: 3px 0 20px 0; width: 488px;}
+
+IMG.headersub {margin: 0; padding: 0; border: 0; width: 776px;}
+
+FONT.mailto {color: #A84547;}
+
+
+
+
+
+a.login { background-image: url(graphics/login.gif); background-position: top left; line-height: 28px; padding: -5px 0 10px 0;}
+a.login:hover { background-image: url(graphics/login-hover.gif); }
+
+
+
+

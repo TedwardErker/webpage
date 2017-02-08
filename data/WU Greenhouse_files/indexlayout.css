@@ -1,0 +1,120 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	padding: 0px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper #logo {
+	margin: 0px;
+	padding: 0px;
+	height: 138px;
+}
+#wrapper #navigation {
+	margin: 0px;
+	padding: 0px;
+	height: 44px;
+	background-color: #642601;
+}
+#wrapper #bodyArea #center {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FCFBE3;
+}
+table tr td h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	font-weight: bold;
+	color: #21421E;
+	font-size: 45px;
+}
+
+#footer table {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+#footer table tr td a {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#wrapper #footer {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 60px;
+	background-color: #571B03;
+}
+#wrapper #bodyArea #center {
+	margin: 0px;
+	padding: 0px;
+}
+#center table tr td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #21421E;
+}
+#navigation #MenuBar1 li a {
+	font-size: 20px;
+}
+
+#wrapper #bar {
+	background-image: url(../images/bar.jpg);
+	background-repeat: repeat-x;
+	height: 5px;
+	width: 900px;
+}
+#logo table {
+	font-size: 20px;
+	font-weight: bolder;
+}
+#shadow {
+	background-image: url(../images/shadow.jpg);
+	background-repeat: repeat-y;
+	padding: 0px;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#greybar {
+	background-image: url(../images/grey-bar.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+}
+#bodyArea #center table tr td table tr td {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 22px;
+	font-weight: bolder;
+}
+#bodyArea #center table tr td table tr td p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+#center table tr td table tr td ul li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+#center table tr td p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 200;
+	color: #030;
+	text-transform: capitalize;
+}
+#shadow #wrapper #submenu {
+	margin: 0px;
+	padding: 0px;
+	height: 54px;
+}

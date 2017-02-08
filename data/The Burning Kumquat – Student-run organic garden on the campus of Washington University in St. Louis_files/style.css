@@ -1,0 +1,35 @@
+/*
+Theme Name: Hueman
+Theme URI: http://presscustomizr.com/hueman/
+Version: 3.3.4
+Description: Hueman is a mobile friendly WordPress theme for blogs, magazines and business websites. It's been designed to beautifully display pictures and text content, and engineered to be easy to use and fast. The Hueman theme helps you attract and retain more visitors, that's why it's already used by 70K+ active websites in the world and has received hundreds of five stars ratings.
+Author: nikeo
+Author URI: http://presscustomizr.com
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: hueman
+Copyright: (c) 2015-2016 Nicolas GUILLAUME (nikeo), 2013-2015 Alexander "Alx" Agnarson
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/*
+The main css stylesheet of the Hueman theme is located in /assets/front/css/main.css.
+
+The main reason why the main stylesheet of the Hueman theme has been moved to another place is : minification.
+Minification is a technique to compress a css file and therefore improve speed (page load time) of your website.
+
+This style.css file provides details about the Theme (in the form of comments above) that is read by WordPress, and therefore cannot be minified.
+
+Note : You can load the not minified stylesheet if you uncheck the option in the customizer > Global Settings > performances
+*/
+
+
+/*
+Developers Recommendation
+To make it easy to update your theme, you should NOT add your custom css rules to this file. Instead use
+a child theme to add your styles. You can copy a style from this file and paste it in the child
+theme's style.css and it will override the style in this file. You have been warned! :)
+
+If you don't know what a child theme is, you really want to spend 5 minutes learning how to use child themes in WordPress, you won't regret it :) !
+https://codex.wordpress.org/Child_Themes
+*/
