@@ -18,6 +18,8 @@
 #
 #   onload="setup();"
 
+* COMMENT Navigating "included" files: C-' visits file at point
+
 * Research
 :PROPERTIES:
 :CUSTOM_ID: research
@@ -71,15 +73,9 @@ to use them to communicate science.
 
 [[file:blog.html][my notes on things]]
 
-* Grants and Awards
-:PROPERTIES:
-:CUSTOM_ID: grants
-:END:
-- George Kress Award for Outstanding Contribution of a Forestry Graduate
-  Student, 2016, $1000
-- [[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[file:data/NESSF15_selections.pdf][Fellowship]], 2015-2018, $90,000
-- Outstanding Overall Achievement in Environmental Studies (highest award in major), Washington University in St. Louis 2010.
 
+
+#+INCLUDE: "grants_awards.org" :minlevel 1
 * COMMENT Curriculum Vitae
 :PROPERTIES:
 :CUSTOM_ID: curriculum-vitae
@@ -139,7 +135,7 @@ and get a cup of joe if you're in town.
 
             ("webpage-static"
              :base-directory "~/projects/webpage/"
-             :base-extension "mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf"
+             :base-extension "mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|html"
              :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
              :recursive t
