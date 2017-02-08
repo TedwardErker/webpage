@@ -1,0 +1,14 @@
+* Awards and Fellowships
+:PROPERTIES:
+:CUSTOM_ID: awards
+:END:
+- [[https://kb.wisc.edu/russell/page.php?id=65402][George Kress Award]] for Outstanding Contribution of a Forestry Graduate
+  Student, Oct 2016, *$1000*
+- UW-Madison Department of Forest and Wildlife Ecology Travel Award,
+  May 2016, *$500*
+- [[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner]], "Madison Lakes". 2016. *$100*
+- [[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]], 2015-2018, *$90,000*
+- [[http://enst.wustl.edu/program/awards][Outstanding Overall Achievement in Environmental Studies]] (highest
+  award in major), Washington University in St. Louis, 2010.
+- [[http://tyson.wustl.edu/teaching-ugrad.php][Tyson Research Center Summer Undergraduate Research Fellowship]],
+  2008, *$3750*

@@ -1,0 +1,37 @@
+* Research Experience
+** Fall 2013--
+*Mapping Urban Tree Canopy of Wisconsin*
+
+Mapped canopy cover for every urban area in the state of Wisconsin.
+Tested multiple image types, machine learning algorithms, segmentation
+parameters, and assessment techniques to determine best method at
+multiple spatial scales.
+
+*Notable Graduate Field Work*
+\\
+Identified and collected leaf samples weekly from ~200 species across
+  entire growing season for spectral measurement and chemical
+  analysis.  Madison, WI. 2016.
+\\
+\\
+Climbed trees to collect top of canopy leaf samples used in validation
+  of imagery-derived traits. Madison, WI. August 2015.
+\\
+\\
+Collected leaf-level spectral measurements in common garden of
+  /Quercus spp./  Zamorano Pan-American Agricultural School,
+  Honduras. March 2014.
+
+** Spring 2010
+*Undergraduate Senior Honors Thesis*
+
+Sustainability of Local Food Systems: Practices and Motivations of
+Farmers at St. Louis Farmers Markets.
+
+** Summer 2008
+*[[http://tyson.wustl.edu/researchers-ugrad.php][Undergraduate Research Fellow]]*
+
+Sampled oak-hickory forest vegetation, identified over 100 plant
+species as part of study to explore phylogenetic relationships in
+invasiveness.  Tyson Research Center. Eureka, MO.  Mentored by Jean
+Burns and Tiffany Knight.
