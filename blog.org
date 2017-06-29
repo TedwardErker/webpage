@@ -15,10 +15,275 @@
 #
 #   onload="setup();"
 
+# Google Analytics
+#+HTML:<script>
+#+HTML:  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+#+HTML:  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+#+HTML:  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+#+HTML:  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+#+HTML:
+#+HTML:  ga('create', 'UA-99109143-1', 'auto');
+#+HTML:  ga('send', 'pageview');
+#+HTML:</script>
 
 type "?" to learn navigation, [[file:index.html][HOME]]
+* COMMENT mac blas; homebrew R versus default R
+* [2017-05-24 Wed] Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
+#+CAPTION: National Museum of African American History and Culture
+#+ATTR_HTML: :alt none :title :align center :height 600
+[[file:blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg]]
+
+* [2017-05-16 Tue] Shotgun Training
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg]]
+
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg]]
+
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg]]
+
+#+CAPTION: Zhihui
+#+ATTR_HTML: :alt none :title :align center :height 600
+[[file:blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif]]
+
+* [2017-04-25 Tue] Collecting Urban Heat Island Data with Carly Ziter
+#+ATTR_HTML: :alt none :title :align center :height 400
+[[file:blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
+
+* [2017-04-24 Mon] Using OpenBLAS to speed up matrix operations in R (linux)
+I use the =foreach= and =doParallel= packages in R to speed up my work
+that can be easily parallelized.  However, sometimes work can't be
+easily parallelized and things are slower than I'd like.  An example
+of this might be fitting a single very large and complex model. Andy
+Finley, who resently stopped by UW-Madison to give a workshop on
+hierarchical modeling, taught us about [[http://www.openblas.net][OpenBLAS]] as a way to speed up
+matrix operations in R.  Here are the [[http://blue.for.msu.edu/WISC17/slides/CompNotes.pdf][notes]] about computing from the
+workshop.
+
+BLAS is Basic Linear Algebra Subprograms. R and other higher level
+languages call BLAS to do matrix operations.  There are other versions
+of BLAS, such as OpenBLAS, which are faster than the default BLAS that
+comes with R because they are able to take advantage of multiple cores
+in a machine.  This is the extent of my knowledge on the topic.
+
+Below is how I installed OpenBLAS locally on our linux server and
+pointed R to use the OpenBLAS instead of its default BLAS.  A
+benchmark test follows.
+
+** Getting OpenBLAS
+#+BEGIN_SRC sh
+cd src                         # move to src directory to download source code
+wget http://github.com/xianyi/OpenBLAS/archive/v0.2.19.tar.gz    # your version may be different
+tar xzf v0.2.19.tar.gz
+cd OpenBLAS-0.2.19/
+make clean
+make USE_OPENMP=1               #OPENMP is a threading library recommended by Andy Finley
+mkdir /home/erker/local
+make PREFIX=/home/erker/local install       # You will have to change your install location
+#+END_SRC
+
+** Pointing R to use OpenBLAS
+I have R installed in my =~/local= directory.  libRblas.so is the default
+BLAS that comes with R.  For me it is located in =~/local/lib/R/lib=.
+Getting R to use OpenBLAS is as simple as changing the name of the
+default BLAS and creating a link in its place that points to OpenBLAS:
+
+#+BEGIN_SRC sh
+  mv libRblas.so libRblas_default.so
+  ln -s ~/local/lib/libopenblas.so libRblas.so
+#+END_SRC
+
+Deleting the link and reverting the name of the default BLAS, will
+make R use the default BLAS again. Something like:
+#+BEGIN_SRC sh
+  rm libRblas.so
+  mv libRblas_default.so libRblas.so
+#+END_SRC
+
+** Benchmark Test
+I copied how to do this benchmark test from [[http://edustatistics.org/nathanvan/2013/07/09/for-faster-r-use-openblas-instead-better-than-atlas-trivial-to-switch-to-on-ubuntu/][here]].  The benchmark test
+time was cut from about 146 to about 38 seconds on our server.  This is
+a very significant speed up.  Thank you OpenBLAS and Andy Finley.
+
+*** Default BLAS
+#+begin_src sh
+  curl http://r.research.att.com/benchmarks/R-benchmark-25.R -O
+  cat R-benchmark-25.R | time R --slave
+#+end_src
+
+#+BEGIN_EXAMPLE
+Loading required package: Matrix
+Loading required package: SuppDists
+Warning messages:
+1: In remove("a", "b") : object 'a' not found
+2: In remove("a", "b") : object 'b' not found
 
 
+R Benchmark 2.5
+===============
+Number of times each test is run__________________________:  3
+
+I. Matrix calculation
+---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.671333333333333
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.499666666666667
+Sorting of 7,000,000 random values__________________ (sec):  0.701666666666667
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  10.408
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  4.877
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  1.31949354763381
+
+II. Matrix functions
+--------------------
+FFT over 2,400,000 random values____________________ (sec):  0.220333333333334
+Eigenvalues of a 640x640 random matrix______________ (sec):  0.717666666666664
+Determinant of a 2500x2500 random matrix____________ (sec):  3.127
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  4.15
+Inverse of a 1600x1600 random matrix________________ (sec):  2.364
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  1.74407855808281
+
+III. Programmation
+------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.503999999999981
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.259999999999991
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.301000000000007
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.0393333333333317
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.305999999999983
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.288239673174189
+
+
+Total time for all 15 tests_________________________ (sec):  29.147
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.87211888350174
+--- End of test ---
+
+144.64user 0.94system 2:25.59elapsed 99%CPU (0avgtext+0avgdata 454464maxresident)k
+0inputs+0outputs (0major+290577minor)pagefaults 0swaps
+#+END_EXAMPLE
+
+*** OpenBLAS
+#+BEGIN_SRC sh
+cat R-benchmark-25.R | time R --slave
+#+END_SRC
+
+#+BEGIN_EXAMPLE
+Loading required package: Matrix
+Loading required package: SuppDists
+Warning messages:
+1: In remove("a", "b") : object 'a' not found
+2: In remove("a", "b") : object 'b' not found
+
+
+R Benchmark 2.5
+===============
+Number of times each test is run__________________________:  3
+
+I. Matrix calculation
+---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.689666666666667
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.499
+Sorting of 7,000,000 random values__________________ (sec):  0.701
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  0.163000000000001
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  0.228
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.428112796718245
+
+II. Matrix functions
+--------------------
+FFT over 2,400,000 random values____________________ (sec):  0.224333333333332
+Eigenvalues of a 640x640 random matrix______________ (sec):  1.35366666666667
+Determinant of a 2500x2500 random matrix____________ (sec):  0.140666666666667
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  0.280333333333332
+Inverse of a 1600x1600 random matrix________________ (sec):  0.247000000000001
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.249510313157146
+
+III. Programmation
+------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.505000000000001
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.259333333333333
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.299333333333332
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.039333333333334
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.256999999999998
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.271216130718114
+
+
+Total time for all 15 tests_________________________ (sec):  5.88666666666666
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.30712894095638
+--- End of test ---
+
+176.85user 12.20system 0:38.00elapsed 497%CPU (0avgtext+0avgdata 561188maxresident)k
+0inputs+0outputs (0major+320321minor)pagefaults 0swaps
+#+END_EXAMPLE
+
+** Next things
+From comments [[http://edustatistics.org/nathanvan/2013/07/09/for-faster-r-use-openblas-instead-better-than-atlas-trivial-to-switch-to-on-ubuntu/][here]], I have heard that OpenBLAS doesn't play well with
+=foreach= and =doParallel=.  I will have to test these next.  If it is
+an issue, I may have to include a shell code chunk in a literate program
+to change between BLAS libraries.
+
+* [2017-02-28 Tue] Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop
+I just applied to the [[https://www.aaas.org/page/about-0][CASE 2017 Workshop]] in Washington, DC.  The
+application process led to some interesting thoughts, so I thought I'd
+share the essay.
+
+** Application
+
+"How do we know the earth is 4.5 billion years old?"  I loved asking
+my students this question when I taught high school science.  The
+students (and I) were hard pressed to explain how we know this to be
+true. Most of us don't have the time to fully understand radiometric
+dating, let alone collect our own data from meteorites to verify the
+earth's age. So unless it's a topic we can investigate ourselves, we
+must simply trust that scientists are following the scientific method
+and evaluate their results within the context of our own experience.
+
+Trust between scientists and the public is therefore the necessary
+foundation upon which our society accepts scientific research,
+incorporates it into policy, and supports more science. The
+communication of science's benefits to society maintains this trust.
+Unfortunately, the public and scientists disagree in many critical
+areas of research, such as genetic modification, climate change,
+evolution, vaccinations, and the age of the earth [[http://www.pewinternet.org/2015/01/29/public-and-scientists-views-on-science-and-society/][(1)]] [[http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx?g_source=SCIENCE&g_medium=topic&g_campaign=tiles][(2)]]. I believe
+scientists must do more to directly address these discrepancies.
+
+As a scientist I have the incredible opportunity to conduct research
+that I think will improve society, and I'm honored that the public
+pays me to do it.  I'm making a withdrawal from the bank of public
+trust and feel strongly that I need to pay it back with interest.  I
+see scientific communication as the way to do so.  Effective
+scientific communication goes way beyond publishing quality work in
+reputable journals and requires that we place our findings into the
+public consciousness.  I have taught at the university and have led a
+few guest labs at an area high school, but I want to have a greater
+impact.  The CASE 2017 workshop excites me with the opportunity to
+learn how to make this impact.
+
+My hope is that CASE will orient me to the landscape of science
+advocacy, policy, and communication. Despite benefiting from federal
+funds for science, I am mostly ignorant of how our nation allocates
+resources to research, and I look forward to CASE demystifying this
+process. I hope to learn effective methods to communicate science with
+the public and to discuss with elected officials the value of research
+for crafting smart policy.
+
+Because scientists understand their work best, they are best suited to
+advocate for it.  CASE will provide a unique opportunity to learn
+how to be an advocate for science and a leader in strengthening the
+trust between the scientific community and the public whom we serve.
+If selected, I would like to work with the other selected graduate
+student and the graduate school's office of professional development
+to host a mini-workshop to bring the knowledge and skills from
+CASE to our campus.  I'd like to replicate the Capitol Hill visits at a
+state level and work to get more graduate students engaged with
+elected officials from across the state.
+
+*** references
+[1] http://www.pewinternet.org/2015/01/29/public-and-scientists-views-on-science-and-society/
+[2] http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx?g_source=SCIENCE&g_medium=topic&g_campaign=tiles
 
 * [2016-10-27 Thu] Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
 
@@ -275,7 +540,6 @@ exit
 
 Upon exiting, the tar.gz files created should be sent back to your
 submit node
-
 
 * [2016-09-23 Fri] Cool Science Image contest
 #+CAPTION: MNF transformation of AVIRIS hyperspectral imagery over lakes Mendota, Monona, and Wingra

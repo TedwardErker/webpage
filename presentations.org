@@ -1,5 +1,5 @@
 * Presentations
 ** November 2016
-*[[http://pages.stat.wisc.edu/~erker/presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]*
+*[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]*
 
 Society of American Foresters National Convention. Madison, WI.

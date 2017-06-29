@@ -9,7 +9,7 @@
 I seek to understand the interaction between humans and the
 environment in the places where most of us live: cities.
 #+END_QUOTE
-
+* COMMENT Navigating "included" files: C-' visits file at point
 * Contact Information
 #+ATTR_HTML: :frame void
 #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}

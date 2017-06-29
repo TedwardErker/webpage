@@ -1,9 +1,12 @@
 # -*- org-export-html-auto-postamble:nil -*-
 #+TITLE: Tedward Erker
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t num:nil ^:nil h:1
 #+STARTUP: hideblocks
 #+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
+#+HTML_HEAD: <link rel="SHORTCUT ICON" href="data/bristlecone.ico">
 #+HTML_HEAD: <script type="text/javascript" src="data/webpage.js">
+
+
 
 # font
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
@@ -17,6 +20,17 @@
 # Add the following to the <body> tag after export.
 #
 #   onload="setup();"
+
+# Google Analytics
+#+HTML:<script>
+#+HTML:  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+#+HTML:  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+#+HTML:  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+#+HTML:  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+#+HTML:
+#+HTML:  ga('create', 'UA-99109143-1', 'auto');
+#+HTML:  ga('send', 'pageview');
+#+HTML:</script>
 
 * COMMENT Navigating "included" files: C-' visits file at point
 
@@ -32,9 +46,9 @@ specifically, I'm interested in how urban forests affect urban
 climate, building energy use, and carbon emissions.  I use Madison, WI
 as a case study.
 
-I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]]
-[[http://orgmode.org/][org-mode]].  Also, I love brilliant data [[https://d3js.org/][visualizations]] and want
-to use them to communicate science.
+I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]] [[http://orgmode.org/][org-mode]].
+Also, I love brilliant data visualizations and enjoy using them to
+communicate science.
 
 * Background
 :PROPERTIES:
@@ -74,8 +88,8 @@ to use them to communicate science.
 [[file:blog.html][my notes on things]]
 
 
-
-#+INCLUDE: "grants_awards.org" :minlevel 1
+* COMMENT Awards and Fellowships
+#+INCLUDE: awards_fellowships.org :minlevel 1
 * COMMENT Curriculum Vitae
 :PROPERTIES:
 :CUSTOM_ID: curriculum-vitae
@@ -93,9 +107,10 @@ It's truly satisfying to help students grow and build confidence in their
 skills.  I am excited to be pursuing a career where I can teach about
 topics that inspire me, and that I hope will inspire my students.
 
-* Presentations
- - [[file:presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin (Society of American Foresters National Convention)]]
-
+* COMMENT Presentations
+#+INCLUDE: presentations.org :minlevel 1
+* COMMENT Posters
+#+INCLUDE: posters.org :minlevel 1
 * Contact
 
 erker wisc.edu
@@ -113,7 +128,7 @@ and get a cup of joe if you're in town.
           '(
 
             ("webpage-org"
-             :base-directory "~/projects/webpage/"
+             :base-directory "~/projects/webpage_cv/"
              :base-extension "org"
              :publishing-directory "~/projects/webpage_out/"
              ;;           :publishing-directory "stat server"
@@ -134,8 +149,8 @@ and get a cup of joe if you're in town.
              )
 
             ("webpage-static"
-             :base-directory "~/projects/webpage/"
-             :base-extension "mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|html"
+             :base-directory "~/projects/webpage_cv/"
+             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
              :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
              :recursive t
@@ -149,8 +164,35 @@ and get a cup of joe if you're in town.
 
 #+end_src
 
-#+begin_src sh
-  rsync -avz ../webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+Maybe just use C-c C-e?
+#+begin_src emacs-lisp
+(org-publish-all)
+#+end_src
+
+#+begin_src sh :session a :results verbatim
+  rsync -avz ~/projects/webpage_out/ erker@desk00.stat.wisc.edu:~/public/html/
 #+end_src
 
 #+results:
+#+begin_example
+erker@desk00.stat.wisc.edu's password:
+building file list ... done
+./
+blog.html
+blog.org
+index.html
+index.org
+tedward_erker_cv.html
+tedward_erker_cv.org
+
+sent 17921 bytes  received 1388 bytes  4290.89 bytes/sec
+total size is 399683591  speedup is 20699.34
+#+end_example
+
+* COMMENT Analytics
+
+login google as erker@wisc
+
+https://analytics.google.com/analytics/web/#report/defaultid/a99109143w145693699p150397542/
+* COMMENT junk
+ - [[file:Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin (Society of American Foresters National Convention)]]
