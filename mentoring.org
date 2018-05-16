@@ -1,7 +1,19 @@
 * Mentoring
+
+My undergraduate mentees research a topic, collect new data, perform statistical
+analyses, and write final papers to complete small research projects.  They
+create posters or presentations to share their work.
+
+** Fall 2017
+*Cheyenne Brandt*
+
+Undergraduate Research Project: Effect of Leaf Area and Tree Canopy on the Urban
+Heat Island of Madison, WI.
+
 ** Fall 2015
 *Bobby Shepherd*
 
 Undergraduate Research Project: Investigating the influence of the
 urban heat island on autumn phenology of Norway Maple (/Acer
 platanoides/) with smartphone hemispherical photos.
+

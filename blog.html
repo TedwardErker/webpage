@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2018-03-09 Fri 09:17 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>notes</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Tedward Erker">
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="data/berger.css" type="text/css">
+
+<script type="text/javascript" src="data/org-info.js">
+/**
+ *
+ * @source: data/org-info.js
+ *
+ * @licstart  The following is the entire license notice for the
+ *  JavaScript code in data/org-info.js.
+ *
+ * Copyright (C) 2012-2018 Free Software Foundation, Inc.
+ *
+ *
+ * The JavaScript code in this tag is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU
+ * General Public License (GNU GPL) as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option)
+ * any later version.  The code is distributed WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+ *
+ * As additional permission under GNU GPL version 3 section 7, you
+ * may distribute non-source (e.g., minimized or compacted) forms of
+ * that code without the copy of the GNU GPL normally required by
+ * section 4, provided you include this license notice and a URL
+ * through which recipients can access the Corresponding Source.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in data/org-info.js.
+ *
+ */
+</script>
+
+<script type="text/javascript">
+
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+
+<!--/*--><![CDATA[/*><!--*/
+org_html_manager.set("TOC_DEPTH", "1");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "0");
+org_html_manager.set("VIEW_BUTTONS", "0");
+org_html_manager.set("MOUSE_HINT", "0");
+org_html_manager.set("FIXED_TOC", "0");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "showall");
+org_html_manager.setup();  // activate after the parameters are set
+/*]]>*///-->
+</script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<header>
+<h1 class="title">notes</h1>
+</header><nav id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org7615606"><span class="timestamp-wrapper"><span class="timestamp">[2018-03-08 Thu] </span></span> Constrained regression for better tree growth equations</a></li>
+<li><a href="#org173b3a5"><span class="timestamp-wrapper"><span class="timestamp">[2018-02-02 Fri] </span></span> Commuting Across Mendota</a></li>
+<li><a href="#orgc591e93"><span class="timestamp-wrapper"><span class="timestamp">[2018-01-13 Sat] </span></span> STANCon 2018</a></li>
+<li><a href="#org08a9b40"><span class="timestamp-wrapper"><span class="timestamp">[2017-12-05 Tue] </span></span> Statistics and Elections&#xa0;&#xa0;&#xa0;<span class="tag"><span class="statistics">statistics</span></span></a></li>
+<li><a href="#orgc5c5b75"><span class="timestamp-wrapper"><span class="timestamp">[2017-11-30 Thu] </span></span> (Not) Remembering When Trees Disappear</a></li>
+<li><a href="#org8db99bf"><span class="timestamp-wrapper"><span class="timestamp">[2017-10-18 Wed] </span></span> Flyer to get citizen help with urban forest research.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UrbanHeatIsland">UrbanHeatIsland</span></span></a></li>
+<li><a href="#org3a09180"><span class="timestamp-wrapper"><span class="timestamp">[2017-10-12 Thu] </span></span> Madison East AP Environmental Studies Field Trip</a></li>
+<li><a href="#org6af4484"><span class="timestamp-wrapper"><span class="timestamp">[2017-05-24 Wed] </span></span> Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting&#xa0;&#xa0;&#xa0;<span class="tag"><span class="nasa">nasa</span>&#xa0;<span class="travel">travel</span></span></a></li>
+<li><a href="#orgc68d05f"><span class="timestamp-wrapper"><span class="timestamp">[2017-05-16 Tue] </span></span> Shotgun Training</a></li>
+<li><a href="#org5d3fd37"><span class="timestamp-wrapper"><span class="timestamp">[2017-04-25 Tue] </span></span> Collecting Urban Heat Island Data with Carly Ziter&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UrbanHeatIsland">UrbanHeatIsland</span></span></a></li>
+<li><a href="#org661477a"><span class="timestamp-wrapper"><span class="timestamp">[2017-04-24 Mon] </span></span> Using OpenBLAS to speed up matrix operations in R (linux)</a></li>
+<li><a href="#orgbfe7bb0"><span class="timestamp-wrapper"><span class="timestamp">[2017-02-28 Tue] </span></span> Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop</a></li>
+<li><a href="#org6a09278"><span class="timestamp-wrapper"><span class="timestamp">[2016-10-27 Thu] </span></span> OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing</a></li>
+<li><a href="#orgf305de6"><span class="timestamp-wrapper"><span class="timestamp">[2016-09-23 Fri] </span></span> Cool Science Image contest</a></li>
+<li><a href="#org7fe735e"><span class="timestamp-wrapper"><span class="timestamp">[2016-09-20 Tue] </span></span> Field work in northern Wisconsin</a></li>
+<li><a href="#org49ff7f1"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-02 Tue] </span></span> Making this website&#xa0;&#xa0;&#xa0;<span class="tag"><span class="orgmode">orgmode</span></span></a></li>
+<li><a href="#orga8ef3f3"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-02 Tue] </span></span> Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting&#xa0;&#xa0;&#xa0;<span class="tag"><span class="nasa">nasa</span>&#xa0;<span class="travel">travel</span></span></a></li>
+<li><a href="#orgc5b4a4b"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-01 Mon] </span></span> Removing Stuck Aluminum Seatpost from a Steel Frame&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bike">bike</span></span></a></li>
+</ul>
+</div>
+</nav>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-99109143-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<p>
+type "?" to learn navigation, <a href="index.html">HOME</a>
+</p>
+
+
+<div id="outline-container-org7615606" class="outline-2">
+<h2 id="org7615606"><span class="timestamp-wrapper"><span class="timestamp">[2018-03-08 Thu] </span></span> Constrained regression for better tree growth equations</h2>
+<div class="outline-text-2" id="text-org7615606">
+<p>
+Say you plant a tree in a city.  How big will it be in 20 years?  You
+might want to know because the ecosystem services provided by trees is
+largely a function of their size - the amount of carbon stored in
+their wood, the amount of shade and evapotranspiration providing
+cooling, the amount of leaf area reducing sound and air pollution.
+</p>
+
+<p>
+The Forest Service's <a href="https://www.fs.usda.gov/treesearch/pubs/52933">urban tree database and allometric equations</a>
+provides equations to predict how tree size changes with age for the
+purpose of quantifying ecosystem services.  These equations are
+empirical, that is to say, the researchers tested a bunch of equations
+of different forms (linear, quadratic, cubic, log-log, &#x2026;) and then
+selected the form that had the best fit (lowest AIC).  What is nice
+about this method is that provides a good fit for the data. But they
+don't take into account knowledge we have about how trees grow, and
+they could end up making poor predictions on new observations,
+especially if extrapolated.  Here's an illustration of that problem:
+</p>
+
+<p>
+Below is the quadratic function to predict diameter at breast height (DBH) from age.
+</p>
+
+<p>
+\[
+DBH = a(Age^2) + b(Age) + c + \epsilon
+\]
+</p>
+
+<p>
+where &epsilon; is the error term.
+</p>
+
+<p>
+See the best fitting quadratic relationship between age and DBH for
+Tilia americana below. This quadratic function does a good job
+describing how dbh changes with age (better than any other form they
+tested).
+</p>
+
+<figure>
+<img src="blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png" alt="none" align="center" height="200">
+
+<figcaption><span class="figure-number">Figure 1: </span>Data and best fitting curve for Tilia americana, the linden, in the temperate interior west region (Boise, ID) from  <a href="https://www.fs.usda.gov/treesearch/pubs/52933">urban tree database and allometric equations</a></figcaption>
+</figure>
+
+
+<p>
+They found the quadratic curve gave the best fit, but
+unfortunately the curve predicts that DBH begins declining at old age,
+something we know isn't true.  Diameter should increase monotonically
+with age.  The trouble is that for old trees, the number of samples is
+small and the variance/error is large.  A small random sample can
+cause the best fitting curve to be decreasing, when we know that if we
+had more data this wouldn't be the case. If we constrain the curve to
+be non decreasing over the range of the data, we can be almost certain
+to decrease the prediction error for new data.
+</p>
+
+<p>
+How to do this?
+</p>
+
+<p>
+We need the curve to be monotonically increasing over the range of our
+data.  Or, put another way, we need the x-intercept of the line of
+symmetry of the quadratic function to be greater than the maximum
+value of our x data.  The line of symmetry is \(x = \frac{-b}{2a}\).
+We need this to be greater than the maximum value of \(x\)
+</p>
+
+<p>
+\[
+\frac{-b}{2a} > \max(x)
+\]
+</p>
+
+<p>
+or equivalently
+</p>
+
+<p>
+\[
+2a\max(x) + b < 0
+\]
+</p>
+
+<p>
+The function <code>lsei</code> in the R package <code>limSolve</code> uses quadratic
+programming to find the solution that minimizes the sum of squared
+error subject to the constraint.  I don't know the math behind this,
+but it is very neat.  This <a href="https://stats.stackexchange.com/questions/220614/linear-regression-polynomial-slope-constraint-in-r?rq=1">stats.stackoverflow question</a> and the
+<a href="https://cran.r-project.org/web/packages/limSolve/vignettes/limSolve.pdf">limSolve vignette</a> helped me figure this out.
+</p>
+
+<p>
+Here is a toy example:
+</p>
+<div class="org-src-container">
+<pre class="src src-R">y <span style="color: #268bd2; font-weight: bold;">&lt;-</span> c(15, 34.5, 39.6, 51.6, 91.7, 73.7)
+x <span style="color: #268bd2; font-weight: bold;">&lt;-</span> c(10L, 20L, 25L, 40L, 75L, 100L)
+
+a <span style="color: #268bd2; font-weight: bold;">&lt;-</span> data.frame(y = y, x = x)
+
+m <span style="color: #268bd2; font-weight: bold;">&lt;-</span> lm(y ~ x + I(x^2) - 1)
+
+p <span style="color: #268bd2; font-weight: bold;">&lt;-</span> data.frame(x = seq(0,105, 5))
+
+p$y <span style="color: #268bd2; font-weight: bold;">&lt;-</span> predict(m, p)
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-R"><span style="color: #268bd2; font-weight: bold;">library</span>(ggplot2)
+theme_set(theme_classic(base_size = 12))
+ggplot(a, aes(x = x, y = y))  +
+geom_point() +
+geom_line(data = p) +
+ggtitle(<span style="color: #2aa198;">"unconstrained fit"</span>)
+</pre>
+</div>
+
+
+<figure>
+<img src="blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png" alt="acpl_tpintw_quadfit_nodash.png">
+
+</figure>
+
+
+
+<div class="org-src-container">
+<pre class="src src-R"><span style="color: #268bd2; font-weight: bold;">library</span>(limSolve)
+
+maxx <span style="color: #268bd2; font-weight: bold;">&lt;-</span> max(x)
+
+A <span style="color: #268bd2; font-weight: bold;">&lt;-</span> matrix(ncol = 2, c(x, x^2))
+B <span style="color: #268bd2; font-weight: bold;">&lt;-</span> y
+G <span style="color: #268bd2; font-weight: bold;">&lt;-</span> matrix(nrow = 1, ncol = 2, byrow = T, data = c(1,2*maxx))  <span style="color: #586e75;"># </span><span style="color: #586e75;">here's the inequality constriant</span>
+H <span style="color: #268bd2; font-weight: bold;">&lt;-</span> c(0)
+
+constrained_model <span style="color: #268bd2; font-weight: bold;">&lt;-</span> lsei(A = A,B = B, G = G, H = H, type = 2)
+
+<span style="color: #268bd2;">my_predict</span> <span style="color: #268bd2; font-weight: bold;">&lt;-</span> <span style="color: #859900; font-weight: bold;">function</span>(x,coefficients){
+    X <span style="color: #268bd2; font-weight: bold;">&lt;-</span> cbind(x,x^2)
+    predictions <span style="color: #268bd2; font-weight: bold;">&lt;-</span> X<span style="color: #268bd2; font-weight: bold;">%*%</span>coefficients
+}
+
+                                        <span style="color: #586e75;"># </span><span style="color: #586e75;">compute predictions</span>
+xpred <span style="color: #268bd2; font-weight: bold;">&lt;-</span> seq(0,105,5)
+predictions_constrained <span style="color: #268bd2; font-weight: bold;">&lt;-</span> my_predict(xpred,constrained_model$X)
+df2 <span style="color: #268bd2; font-weight: bold;">&lt;-</span> data.frame(xpred,predictions_constrained)
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-R">theme_set(theme_classic(base_size = 12))
+  ggplot(a, aes(x = x, y = y))  +
+  geom_point() +
+  geom_line(data = df2, aes(x = xpred, y = predictions_constrained)) +
+ggtitle(<span style="color: #2aa198;">"constrained"</span>)
+</pre>
+</div>
+
+
+<figure>
+<img src="figs/constrained_quad.png" alt="constrained_quad.png">
+
+</figure>
+
+<p>
+The constrained curve looks pretty good.
+</p>
+
+<p>
+Just a quick note about using <code>lsei</code>, the signs are not what I
+expected them to be in the G matrix.  Maybe my math is wrong somewhere
+or I don't fully understand the <code>limSolve</code> package.  According to my
+equation above the G matrix should have negative values, but the
+solution is correct, so I'm going to go with that.  If you read this
+and find my error, please tell me.
+</p>
+
+<p>
+Even after constraining the quadratic curve to be increasing over the
+range of data, it's still not ideal.  Extrapolation will certainly
+give bad predictions because the curve begins decreasing.  The
+quadratic curve is nice because it is simple and easy and fits the
+data well, but it is probably better to select a model form that is
+grounded in the extensive knowledge we have of how trees grow. The
+goal of the urban tree database to create equations specific to urban
+trees which may have different growth parameters than trees found in
+forests.  But the basic physiology governing tree growth is the same
+regardless of where the tree is growing, and it makes sense to use a
+model form that considers this physiology, like something from <a href="https://epubs.scu.edu.au/cgi/viewcontent.cgi?referer=https://www.google.com/&amp;httpsredir=1&amp;article=1538&amp;context=esm_pubs">here</a>.
+</p>
+
+<p>
+Even if I won't use this, I'm happy to have learned how to perform a
+regression with a somewhat complex constraint on the parameters.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org173b3a5" class="outline-2">
+<h2 id="org173b3a5"><span class="timestamp-wrapper"><span class="timestamp">[2018-02-02 Fri] </span></span> Commuting Across Mendota</h2>
+<div class="outline-text-2" id="text-org173b3a5">
+
+<figure>
+<img src="blog_imgs/commute/frozenmad_isthmus_commute.jpg.png" alt="none" align="center" height="600">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/commute/ben_ski.jpg" alt="none" align="center" height="600">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/commute/ice.jpg" alt="none" align="center" height="600">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/commute/snowsun.jpg" alt="none" align="center" height="600">
+
+</figure>
+
+<p>
+The best way to get to work is by ice.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc591e93" class="outline-2">
+<h2 id="orgc591e93"><span class="timestamp-wrapper"><span class="timestamp">[2018-01-13 Sat] </span></span> STANCon 2018</h2>
+<div class="outline-text-2" id="text-orgc591e93">
+<p>
+<a href="http://mc-stan.org/">Stan</a> is a probabilistic programming language used for bayesian
+statistical inference. I got a student scholarship to attend the Stan
+conference 2018 in Monterey this January.
+</p>
+
+<p>
+The view from an airplane is always amazing:
+</p>
+
+
+<figure>
+<img src="blog_imgs/stancon2018/frozenmad_isthmus.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 8: </span>Flying out of Madison, the isthmus and frozen lakes</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/stancon2018/frozenmad_picnicpoint.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 9: </span>Flying out of Madison, picnic point and frozen lake Mendota</figcaption>
+</figure>
+
+
+<p>
+My personal highlight of the conference was meeting and chatting with
+other attendees at family style meals.  It is truly amazing the
+variety of fields in which Stan is used.  I had many productive and
+enlightening conversations.
+</p>
+
+
+
+<figure>
+<img src="blog_imgs/stancon2018/stancon_hall.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 10: </span>The main hall</figcaption>
+</figure>
+
+<p>
+Here are few more quick take-aways:
+</p>
+
+<ol class="org-ol">
+<li>R packages <a href="http://mc-stan.org/users/interfaces/rstanarm">rstanarm</a> and <a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_overview.pdf">brms</a> can help you fit Stan models using R
+syntax many people may be more comfortable with, such as the lme4
+syntax for multilevel models.  They can also output the stan code
+for tweaking.</li>
+<li>Fitting customized hierarchical models can be challenging in Stan
+for a non expert like me.  But the flexibility of these models is
+attractive.</li>
+<li>The regularized horseshoe prior is an option for shrinking
+parameter estimates.  I'd like to test it out for some of the
+problems our lab faces.  I don't think it would provide predictive
+improvements, but it might enhance inference by identifying
+important variables.</li>
+<li>"Our work is unimportant." Andrew Gelman, the lead of the Stan
+team and final speaker, emphasized this point, that bayesian
+inference hasn't done much for humanity.  It was a humbling and
+thought-provoking comment to end three days of talking about
+all the things that we use Stan for.  It was a good point for
+reflection and a reminder that I need to balance my compulsions to
+do technically correct/advanced/obtuse science with my desire to do
+science that actually gets done and contributes to society.</li>
+<li>Gelman also mentioned that our work can be like a ladder:
+Scientists must become statisticians to do science, statisticians
+must become computational statisticians to do statistics,
+computational statisticians must become software developers &#x2026; and
+so on.  As a scientist who constantly feels like he's in over his
+head with statistics, I appreciated this point.  To achieve our
+objectives we must stretch ourselves.  It's never comfortable to
+feel like we don't know what we are doing, but how else can we grow?</li>
+</ol>
+
+<p>
+It was also very beautiful there:
+</p>
+
+<figure>
+<img src="blog_imgs/stancon2018/pacificocean_asilomar.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 11: </span>Asilomar State Beach</figcaption>
+</figure>
+
+
+
+<figure>
+<img src="blog_imgs/stancon2018/Utah_mtns.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 12: </span>Flying home: Mountains in Utah.  Incredible.  We flew over the most incredible canyon too.  I wish I knew where it was so I could visit on foot.</figcaption>
+</figure>
+</div>
+</div>
+
+
+<div id="outline-container-org08a9b40" class="outline-2">
+<h2 id="org08a9b40"><span class="timestamp-wrapper"><span class="timestamp">[2017-12-05 Tue] </span></span> Statistics and Elections&#xa0;&#xa0;&#xa0;<span class="tag"><span class="statistics">statistics</span></span></h2>
+<div class="outline-text-2" id="text-org08a9b40">
+<p>
+Statistics can be a powerful tool for identifying fraud in elections.
+One of my favorite examples comes from the 2011 Russian election.  See
+the <a href="https://en.wikipedia.org/wiki/Russian_legislative_election,_2011#Statistics">wikipedia article</a> and this <a href="https://en.wikipedia.org/wiki/Russian_legislative_election,_2011#/media/File:2011_Duma_votes.svg">figure</a>.  The distribution of the votes
+has very abnormal peaks at every 5%.
+</p>
+
+<p>
+The Honduran election that just happened is also suspect to fraud and
+the economist did a quick analysis to test for any sign of interference
+in the voting.  Check out <a href="https://www.economist.com/news/americas/21731972-questions-about-integrity-vote-count-will-not-go-away-analysing-juan-orlando">their article here</a> for the details.  But
+the gist of their work investigates changes in the distribution of
+voting from one day to the next, with the premise being that
+Hernández's party saw they were losing and stuffed the ballots near
+the end of voting.  I'm curious to see what comes of this.  To me it
+seems like a recount is in order.
+</p>
+
+<p>
+Thank you statistics.
+</p>
+</div>
+
+<div id="outline-container-org8c187c0" class="outline-3">
+<h3 id="org8c187c0">UPDATE</h3>
+<div class="outline-text-3" id="text-org8c187c0">
+<p>
+Maybe statistics is not that helpful.  The U.S. recognizes Hernández
+as president despite the irregularities.  See the <a href="https://en.wikipedia.org/wiki/Honduran_general_election,_2017">wikipedia article</a>.
+Perhaps statistics can identify a problem with a certain level of
+confidence, but it cannot solve that problem.  These two cases are
+disappointing, and I'm curious if there are elections where fraud was
+identified with statistics and this revelation led to a redo.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc5c5b75" class="outline-2">
+<h2 id="orgc5c5b75"><span class="timestamp-wrapper"><span class="timestamp">[2017-11-30 Thu] </span></span> (Not) Remembering When Trees Disappear</h2>
+<div class="outline-text-2" id="text-orgc5c5b75">
+<p>
+One of the fun parts of my work this semester was knocking on doors
+and asking people when nearby trees were removed.  We wanted to see if
+the removal of the trees affected the area's air temperature.  The
+residents were super helpful and many gave us very precise and
+accurate dates for when trees were removed, especially for trees from
+their own yards.  However, many were not sure about street tree
+removals and so we double checked dates with city Forester's records.
+(A big thanks goes to to Robi Phetteplace, Marla Eddy and Brittany
+Prosser for helping with this!)  When I did the double checking, I was
+surprised at how far off many of the resident's guesses were.  Below
+is a table which shows that a resident's best guess of when a street
+tree was removed is usually off by several months, even when the
+removal happened recently.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org"><span style="color: #859900;">| Residents Best Guess           | Forester Records Show | Difference  (apprx) |</span>
+<span style="color: #859900;">|--------------------------------+-----------------------+---------------------|</span>
+<span style="color: #859900;">| sep 2017                       |            2017-07-12 | 2 months            |</span>
+<span style="color: #859900;">| sep 2017                       |            2017-06-20 | 2-3 months          |</span>
+<span style="color: #859900;">| fall 2016                      |            2016-06-30 | 3-4 months          |</span>
+<span style="color: #859900;">| didn't think tree ever existed |           2016 spring |                     |</span>
+<span style="color: #859900;">| spring 2017                    |            2016-03-15 | 1 year              |</span>
+<span style="color: #859900;">| before june 2015               |            2015-10-02 | 4 months            |</span>
+<span style="color: #859900;">| 2016                           |            2015-04-02 | 6 months            |</span>
+<span style="color: #859900;">| fall 2015                      |            2015-01-09 | 9-11 months         |</span>
+</pre>
+</div>
+
+<p>
+Probably most surprising was a resident who, when asked about a
+tree, said that no tree ever existed there.
+</p>
+
+<p>
+On the other side of the memory spectrum, there was one resident, Sara
+S, who could exactly date when a tree was removed because she had
+photo evidence and a good story.  Minutes before a hail storm blew
+through, she told her daughter to move her car inside.  Shortly after,
+the tree the car was parked under split in half.  It was removed the
+next day.
+</p>
+
+<p>
+I think the insight to be gained from these informal observations is
+that people don't remember things unless they are important to them.
+Even though we see these trees everyday, they aren't important enough
+for us to remember when they go away.  But I'm not judging, I can't
+even remember my good friend's birthdays, so why should I expect people
+to be able to recall when a tree was removed?
+</p>
+
+<p>
+Our memories just aren't so good, and it's important to remember that
+when doing research.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8db99bf" class="outline-2">
+<h2 id="org8db99bf"><span class="timestamp-wrapper"><span class="timestamp">[2017-10-18 Wed] </span></span> Flyer to get citizen help with urban forest research.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UrbanHeatIsland">UrbanHeatIsland</span></span></h2>
+<div class="outline-text-2" id="text-org8db99bf">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png" alt="Screenshot 2017-12-05 19.18.51.png"></td>
+<td class="org-left"><img src="blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png" alt="Screenshot 2017-12-05 19.19.02.png"></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+This is a beautiful flyer created by Cheyenne to leave on the doors of
+houses who don't answer when we knock to find out when a nearby tree
+was removed.  As of today we've had a couple responses that have given
+us the exact date trees were removed.  Thank you Sara Sandberg and
+Mike Bussan!
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3a09180" class="outline-2">
+<h2 id="org3a09180"><span class="timestamp-wrapper"><span class="timestamp">[2017-10-12 Thu] </span></span> Madison East AP Environmental Studies Field Trip</h2>
+<div class="outline-text-2" id="text-org3a09180">
+<p>
+I got to help students in Madison East's AP Environmental studies on
+their field trip to the Madison School Forest.  With 85 students and
+just one teacher, it was a big undertaking, but their teacher, Angie
+Wilcox-Hull, did an awesome job organizing.
+</p>
+
+<p>
+They learned how identify common Wisconsin tree species and also did a
+lab on carbon in forests.  Students used a clinometer and diameter at
+breast height tape to measure forest trees, they estimated carbon
+content of the trees, and they compared this to the carbon emissions
+caused by their transportation to and from school.  As always it was
+great to work with high school students and there were a lot of great
+questions and points brought up.  Here are four that were especially
+salient to me:
+</p>
+<ol class="org-ol">
+<li>Students realized that we used the equation of a cylindar to
+approximate the volume of a tree, but a cone is usually more
+appropriate.</li>
+<li>When we talked about finding the volume of wood in leaning trees,
+one student used his knowledge of calculus to tell me it wasn't
+quite so hard. See <a href="https://math.stackexchange.com/a/431255/486030">here</a>.  I wonder if foresters use that idea for
+leaning trees.</li>
+<li>Carbon storage is not the same as carbon sequestration</li>
+<li>While we measured individual trees, carbon stored per area of land
+may be more interesting for managers.</li>
+</ol>
+
+
+<figure>
+<img src="blog_imgs/ap_es_east_fieldtrip/File_004.jpeg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 13: </span>Being outside is a great part of doing a forestry lab.  Photo: Angie Wilcox-Hull</figcaption>
+</figure>
+</div>
+</div>
+
+<div id="outline-container-org6af4484" class="outline-2">
+<h2 id="org6af4484"><span class="timestamp-wrapper"><span class="timestamp">[2017-05-24 Wed] </span></span> Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting&#xa0;&#xa0;&#xa0;<span class="tag"><span class="nasa">nasa</span>&#xa0;<span class="travel">travel</span></span></h2>
+<div class="outline-text-2" id="text-org6af4484">
+
+<figure>
+<img src="blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg" alt="none" align="center" height="600">
+
+<figcaption><span class="figure-number">Figure 14: </span>National Museum of African American History and Culture</figcaption>
+</figure>
+</div>
+</div>
+
+<div id="outline-container-orgc68d05f" class="outline-2">
+<h2 id="orgc68d05f"><span class="timestamp-wrapper"><span class="timestamp">[2017-05-16 Tue] </span></span> Shotgun Training</h2>
+<div class="outline-text-2" id="text-orgc68d05f">
+
+<figure>
+<img src="blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg" alt="none" align="center" height="400">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg" alt="none" align="center" height="400">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg" alt="none" align="center" height="400">
+
+</figure>
+
+
+<figure>
+<img src="blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif" alt="none" align="center" height="600">
+
+<figcaption><span class="figure-number">Figure 18: </span>Zhihui</figcaption>
+</figure>
+</div>
+</div>
+
+<div id="outline-container-org5d3fd37" class="outline-2">
+<h2 id="org5d3fd37"><span class="timestamp-wrapper"><span class="timestamp">[2017-04-25 Tue] </span></span> Collecting Urban Heat Island Data with Carly Ziter&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UrbanHeatIsland">UrbanHeatIsland</span></span></h2>
+<div class="outline-text-2" id="text-org5d3fd37">
+
+<figure>
+<img src="blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg" alt="none" align="center" height="400">
+
+</figure>
+</div>
+</div>
+
+<div id="outline-container-org661477a" class="outline-2">
+<h2 id="org661477a"><span class="timestamp-wrapper"><span class="timestamp">[2017-04-24 Mon] </span></span> Using OpenBLAS to speed up matrix operations in R (linux)</h2>
+<div class="outline-text-2" id="text-org661477a">
+<p>
+I use the <code>foreach</code> and <code>doParallel</code> packages in R to speed up my work
+that can be easily parallelized.  However, sometimes work can't be
+easily parallelized and things are slower than I'd like.  An example
+of this might be fitting a single very large and complex model. Andy
+Finley, who resently stopped by UW-Madison to give a workshop on
+hierarchical modeling, taught us about <a href="http://www.openblas.net">OpenBLAS</a> as a way to speed up
+matrix operations in R.  Here are the <a href="http://blue.for.msu.edu/WISC17/slides/CompNotes.pdf">notes</a> about computing from the
+workshop.
+</p>
+
+<p>
+BLAS is Basic Linear Algebra Subprograms. R and other higher level
+languages call BLAS to do matrix operations.  There are other versions
+of BLAS, such as OpenBLAS, which are faster than the default BLAS that
+comes with R because they are able to take advantage of multiple cores
+in a machine.  This is the extent of my knowledge on the topic.
+</p>
+
+<p>
+Below is how I installed OpenBLAS locally on our linux server and
+pointed R to use the OpenBLAS instead of its default BLAS.  A
+benchmark test follows.
+</p>
+</div>
+
+<div id="outline-container-org5b38a04" class="outline-3">
+<h3 id="org5b38a04">Getting OpenBLAS</h3>
+<div class="outline-text-3" id="text-org5b38a04">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #839496; font-weight: bold;">cd</span> src                         <span style="color: #586e75;"># </span><span style="color: #586e75;">move to src directory to download source code</span>
+wget http://github.com/xianyi/OpenBLAS/archive/v0.2.19.tar.gz    <span style="color: #586e75;"># </span><span style="color: #586e75;">your version may be different</span>
+tar xzf v0.2.19.tar.gz
+<span style="color: #839496; font-weight: bold;">cd</span> OpenBLAS-0.2.19/
+make clean
+make <span style="color: #268bd2;">USE_OPENMP</span>=1               <span style="color: #586e75;">#</span><span style="color: #586e75;">OPENMP is a threading library recommended by Andy Finley</span>
+mkdir /home/erker/local
+make <span style="color: #268bd2;">PREFIX</span>=/home/erker/local install       <span style="color: #586e75;"># </span><span style="color: #586e75;">You will have to change your install location</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb2e1bc5" class="outline-3">
+<h3 id="orgb2e1bc5">Pointing R to use OpenBLAS</h3>
+<div class="outline-text-3" id="text-orgb2e1bc5">
+<p>
+I have R installed in my <code>~/local</code> directory.  libRblas.so is the default
+BLAS that comes with R.  For me it is located in <code>~/local/lib/R/lib</code>.
+Getting R to use OpenBLAS is as simple as changing the name of the
+default BLAS and creating a link in its place that points to OpenBLAS:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">mv libRblas.so libRblas_default.so
+ln -s ~/local/lib/libopenblas.so libRblas.so
+</pre>
+</div>
+
+<p>
+Deleting the link and reverting the name of the default BLAS, will
+make R use the default BLAS again. Something like:
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">rm libRblas.so
+mv libRblas_default.so libRblas.so
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0930cf0" class="outline-3">
+<h3 id="org0930cf0">Benchmark Test</h3>
+<div class="outline-text-3" id="text-org0930cf0">
+<p>
+I copied how to do this benchmark test from <a href="http://edustatistics.org/nathanvan/2013/07/09/for-faster-r-use-openblas-instead-better-than-atlas-trivial-to-switch-to-on-ubuntu/">here</a>.  The benchmark test
+time was cut from about 146 to about 38 seconds on our server.  This is
+a very significant speed up.  Thank you OpenBLAS and Andy Finley.
+</p>
+</div>
+
+<div id="outline-container-orgc3cd57c" class="outline-4">
+<h4 id="orgc3cd57c">Default BLAS</h4>
+<div class="outline-text-4" id="text-orgc3cd57c">
+<div class="org-src-container">
+<pre class="src src-sh">curl http://r.research.att.com/benchmarks/R-benchmark-25.R -O
+cat R-benchmark-25.R | <span style="color: #859900; font-weight: bold;">time</span> R --slave
+</pre>
+</div>
+
+<pre class="example">
+Loading required package: Matrix
+Loading required package: SuppDists
+Warning messages:
+1: In remove("a", "b") : object 'a' not found
+2: In remove("a", "b") : object 'b' not found
+
+
+R Benchmark 2.5
+===============
+Number of times each test is run__________________________:  3
+
+I. Matrix calculation
+---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.671333333333333
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.499666666666667
+Sorting of 7,000,000 random values__________________ (sec):  0.701666666666667
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  10.408
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  4.877
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  1.31949354763381
+
+II. Matrix functions
+--------------------
+FFT over 2,400,000 random values____________________ (sec):  0.220333333333334
+Eigenvalues of a 640x640 random matrix______________ (sec):  0.717666666666664
+Determinant of a 2500x2500 random matrix____________ (sec):  3.127
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  4.15
+Inverse of a 1600x1600 random matrix________________ (sec):  2.364
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  1.74407855808281
+
+III. Programmation
+------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.503999999999981
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.259999999999991
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.301000000000007
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.0393333333333317
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.305999999999983
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.288239673174189
+
+
+Total time for all 15 tests_________________________ (sec):  29.147
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.87211888350174
+--- End of test ---
+
+144.64user 0.94system 2:25.59elapsed 99%CPU (0avgtext+0avgdata 454464maxresident)k
+0inputs+0outputs (0major+290577minor)pagefaults 0swaps
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org92ed0d5" class="outline-4">
+<h4 id="org92ed0d5">OpenBLAS</h4>
+<div class="outline-text-4" id="text-org92ed0d5">
+<div class="org-src-container">
+<pre class="src src-sh">cat R-benchmark-25.R | <span style="color: #859900; font-weight: bold;">time</span> R --slave
+</pre>
+</div>
+
+<pre class="example">
+Loading required package: Matrix
+Loading required package: SuppDists
+Warning messages:
+1: In remove("a", "b") : object 'a' not found
+2: In remove("a", "b") : object 'b' not found
+
+
+R Benchmark 2.5
+===============
+Number of times each test is run__________________________:  3
+
+I. Matrix calculation
+---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.689666666666667
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.499
+Sorting of 7,000,000 random values__________________ (sec):  0.701
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  0.163000000000001
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  0.228
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.428112796718245
+
+II. Matrix functions
+--------------------
+FFT over 2,400,000 random values____________________ (sec):  0.224333333333332
+Eigenvalues of a 640x640 random matrix______________ (sec):  1.35366666666667
+Determinant of a 2500x2500 random matrix____________ (sec):  0.140666666666667
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  0.280333333333332
+Inverse of a 1600x1600 random matrix________________ (sec):  0.247000000000001
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.249510313157146
+
+III. Programmation
+------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.505000000000001
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.259333333333333
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.299333333333332
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.039333333333334
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.256999999999998
+--------------------------------------------
+Trimmed geom. mean (2 extremes eliminated):  0.271216130718114
+
+
+Total time for all 15 tests_________________________ (sec):  5.88666666666666
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.30712894095638
+--- End of test ---
+
+176.85user 12.20system 0:38.00elapsed 497%CPU (0avgtext+0avgdata 561188maxresident)k
+0inputs+0outputs (0major+320321minor)pagefaults 0swaps
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1e9253c" class="outline-3">
+<h3 id="org1e9253c">Next things</h3>
+<div class="outline-text-3" id="text-org1e9253c">
+<p>
+From comments <a href="http://edustatistics.org/nathanvan/2013/07/09/for-faster-r-use-openblas-instead-better-than-atlas-trivial-to-switch-to-on-ubuntu/">here</a>, I have heard that OpenBLAS doesn't play well with
+<code>foreach</code> and <code>doParallel</code>.  I will have to test these next.  If it is
+an issue, I may have to include a shell code chunk in a literate program
+to change between BLAS libraries.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbfe7bb0" class="outline-2">
+<h2 id="orgbfe7bb0"><span class="timestamp-wrapper"><span class="timestamp">[2017-02-28 Tue] </span></span> Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop</h2>
+<div class="outline-text-2" id="text-orgbfe7bb0">
+<p>
+I just applied to the <a href="https://www.aaas.org/page/about-0">CASE 2017 Workshop</a> in Washington, DC.  The
+application process led to some interesting thoughts, so I thought I'd
+share the essay.
+</p>
+
+<p>
+Update <span class="timestamp-wrapper"><span class="timestamp">[2017-03-09 Thu]</span></span>: I was not accepted.
+</p>
+</div>
+
+<div id="outline-container-org7f2f16c" class="outline-3">
+<h3 id="org7f2f16c">Application</h3>
+<div class="outline-text-3" id="text-org7f2f16c">
+<p>
+"How do we know the earth is 4.5 billion years old?"  I loved asking
+my students this question when I taught high school science.  The
+students (and I) were hard pressed to explain how we know this to be
+true. Most of us don't have the time to fully understand radiometric
+dating, let alone collect our own data from meteorites to verify the
+earth's age. So unless it's a topic we can investigate ourselves, we
+must simply trust that scientists are following the scientific method
+and evaluate their results within the context of our own experience.
+</p>
+
+<p>
+Trust between scientists and the public is therefore the necessary
+foundation upon which our society accepts scientific research,
+incorporates it into policy, and supports more science. The
+communication of science's benefits to society maintains this trust.
+Unfortunately, the public and scientists disagree in many critical
+areas of research, such as genetic modification, climate change,
+evolution, vaccinations, and the age of the earth <a href="http://www.pewinternet.org/2015/01/29/public-and-scientists-views-on-science-and-society/">(1)</a> <a href="http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx?g_source=SCIENCE&amp;g_medium=topic&amp;g_campaign=tiles">(2)</a>. I believe
+scientists must do more to directly address these discrepancies.
+</p>
+
+<p>
+As a scientist I have the incredible opportunity to conduct research
+that I think will improve society, and I'm honored that the public
+pays me to do it.  I'm making a withdrawal from the bank of public
+trust and feel strongly that I need to pay it back with interest.  I
+see scientific communication as the way to do so.  Effective
+scientific communication goes way beyond publishing quality work in
+reputable journals and requires that we place our findings into the
+public consciousness.  I have taught at the university and have led a
+few guest labs at an area high school, but I want to have a greater
+impact.  The CASE 2017 workshop excites me with the opportunity to
+learn how to make this impact.
+</p>
+
+<p>
+My hope is that CASE will orient me to the landscape of science
+advocacy, policy, and communication. Despite benefiting from federal
+funds for science, I am mostly ignorant of how our nation allocates
+resources to research, and I look forward to CASE demystifying this
+process. I hope to learn effective methods to communicate science with
+the public and to discuss with elected officials the value of research
+for crafting smart policy.
+</p>
+
+<p>
+Because scientists understand their work best, they are best suited to
+advocate for it.  CASE will provide a unique opportunity to learn
+how to be an advocate for science and a leader in strengthening the
+trust between the scientific community and the public whom we serve.
+If selected, I would like to work with the other selected graduate
+student and the graduate school's office of professional development
+to host a mini-workshop to bring the knowledge and skills from
+CASE to our campus.  I'd like to replicate the Capitol Hill visits at a
+state level and work to get more graduate students engaged with
+elected officials from across the state.
+</p>
+</div>
+
+<div id="outline-container-org67a2002" class="outline-4">
+<h4 id="org67a2002">references</h4>
+<div class="outline-text-4" id="text-org67a2002">
+<p>
+[1] <a href="http://www.pewinternet.org/2015/01/29/public-and-scientists-views-on-science-and-society/">http://www.pewinternet.org/2015/01/29/public-and-scientists-views-on-science-and-society/</a>
+[2] <a href="http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx?g_source=SCIENCE&amp;g_medium=topic&amp;g_campaign=tiles">http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx?g_source=SCIENCE&amp;g_medium=topic&amp;g_campaign=tiles</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6a09278" class="outline-2">
+<h2 id="org6a09278"><span class="timestamp-wrapper"><span class="timestamp">[2016-10-27 Thu] </span></span> OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing</h2>
+<div class="outline-text-2" id="text-org6a09278">
+<p>
+<b>NOTE</b>
+</p>
+
+<p>
+<b>This post is obsolete.  Use Docker as the chtc website now recommends</b>
+</p>
+
+<p>
+R is the language I use most often for my work.  The spatial packages
+of R that I use very frequently like rgdal, rgeos, and gdalUtils
+depend on external software, namely gdal, proj4, and geos.
+</p>
+
+<p>
+Here I show how I installed gdal, proj4, and geos on chtc, and pointed
+the R packages to these so that they install correctly.
+</p>
+
+<p>
+The R part of this tutorial comes from <a href="http://chtc.cs.wisc.edu/r-jobs.shtml">chtc's website</a>.  Their site
+should be considered authoritative.  I quote them heavily below.  My
+effort here is to help people in the future (including myself) to
+install gdal etc. on chtc.
+</p>
+</div>
+
+
+
+<div id="outline-container-orgd2abf9b" class="outline-3">
+<h3 id="orgd2abf9b">Create the interactive submit file.  Mine is called <code>interactive_BuildR.sub</code></h3>
+<div class="outline-text-3" id="text-orgd2abf9b">
+<p>
+I save it in a directory called "Learn_CHTC"
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">universe = vanilla
+<span style="color: #586e75;"># </span><span style="color: #586e75;">Name the log file:</span>
+log = interactive.log
+
+<span style="color: #586e75;"># </span><span style="color: #586e75;">Name the files where standard output and error should be saved:</span>
+output = process.out
+error = process.err
+
+<span style="color: #586e75;"># </span><span style="color: #586e75;">If you wish to compile code, you'll need the below lines.</span>
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">Otherwise, LEAVE THEM OUT if you just want to interactively test!</span>
++IsBuildJob = true
+requirements = (OpSysAndVer =?= <span style="color: #2aa198;">"SL6"</span>) &amp;&amp; ( IsBuildSlot == true )
+
+<span style="color: #586e75;"># </span><span style="color: #586e75;">Indicate all files that need to go into the interactive job session,</span>
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">including any tar files that you prepared:</span>
+<span style="color: #586e75;"># </span><span style="color: #586e75;">transfer_input_files = R-3.2.5.tar.gz, gdal.tar.gz</span>
+<span style="color: #586e75;"># </span><span style="color: #586e75;">I comment out the transfer_input_files line because I download tar.gz's from compute node</span>
+
+<span style="color: #586e75;"># </span><span style="color: #586e75;">It's still important to request enough computing resources. The below</span>
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">values are a good starting point, but consider your file sizes for an</span>
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">estimate of "disk" and use any other information you might have</span>
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">for "memory" and/or "cpus".</span>
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+
+queue
+
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org96a0a14" class="outline-3">
+<h3 id="org96a0a14">transfer interactive submit file to condor submit node</h3>
+<div class="outline-text-3" id="text-org96a0a14">
+<p>
+change <code>erker</code> to your username and if you don't use <code>submit-3</code>, change
+that too.  You'll have to be inside the directory that contains
+"interactive_BuildR.sub" for this to work.
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">rsync -avz interactive_BuildR.sub erker@submit-3.chtc.wisc.edu:~/
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2dcd38d" class="outline-3">
+<h3 id="org2dcd38d">log into submit node and submit job</h3>
+<div class="outline-text-3" id="text-org2dcd38d">
+<div class="org-src-container">
+<pre class="src src-sh">ssh submit-3.chtc.wisc.edu
+condor_submit -i interactive_BuildR.sub
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org007d2f3" class="outline-3">
+<h3 id="org007d2f3">wait for job to start</h3>
+</div>
+
+<div id="outline-container-org8a510fd" class="outline-3">
+<h3 id="org8a510fd">Installing GDAL, Proj4, Geos</h3>
+<div class="outline-text-3" id="text-org8a510fd">
+<p>
+Each install is slightly different, but follows the same pattern.
+This worked for me on this date, but may not work in the future.
+</p>
+</div>
+<div id="outline-container-orgcc5338c" class="outline-4">
+<h4 id="orgcc5338c">GDAL: Download, configure, make, make install gdal, then tar it up</h4>
+<div class="outline-text-4" id="text-orgcc5338c">
+<div class="org-src-container">
+<pre class="src src-sh">wget http://download.osgeo.org/gdal/gdal-1.9.2.tar.gz <span style="color: #586e75;"># </span><span style="color: #586e75;">download gdal tarball</span>
+tar -xzf gdal-1.9.2.tar.gz <span style="color: #586e75;"># </span><span style="color: #586e75;">unzip it</span>
+mkdir gdal <span style="color: #586e75;"># </span><span style="color: #586e75;">create a directory to install gdal into</span>
+<span style="color: #268bd2;">dir_for_build</span>=$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>) <span style="color: #586e75;"># </span><span style="color: #586e75;">create a variable to indicate this directory (gdal doesn't like relative paths)</span>
+<span style="color: #839496; font-weight: bold;">cd</span> gdal-1.9.2 <span style="color: #586e75;"># </span><span style="color: #586e75;">go into the unzipped gdal directory</span>
+./autogen.sh <span style="color: #586e75;"># </span><span style="color: #586e75;">run autogen.sh</span>
+./configure --prefix=$<span style="color: #268bd2;">dir_for_build</span>/gdal <span style="color: #586e75;"># </span><span style="color: #586e75;">run configure, pointing gdal to be installed in the directory you just created (You'll have to change the path)</span>
+make
+make install
+<span style="color: #839496; font-weight: bold;">cd</span> ..
+tar -czf gdal.tar.gz gdal <span style="color: #586e75;">#</span><span style="color: #586e75;">zip up your gdal installation to send back and forth between compute and submit nodes</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org170e454" class="outline-4">
+<h4 id="org170e454">Proj4: Download, configure, make, make install proj4 then tar it up</h4>
+<div class="outline-text-4" id="text-org170e454">
+<div class="org-src-container">
+<pre class="src src-sh">wget https://github.com/OSGeo/proj.4/archive/master.zip
+unzip master.zip
+mkdir proj4
+<span style="color: #839496; font-weight: bold;">cd</span> proj.4-master
+./autogen.sh
+./configure --prefix=$<span style="color: #268bd2;">dir_for_build</span>/proj4
+make
+make install
+<span style="color: #839496; font-weight: bold;">cd</span> ..
+tar -czf proj4.tar.gz proj4
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc42f3e3" class="outline-4">
+<h4 id="orgc42f3e3">Geos:</h4>
+<div class="outline-text-4" id="text-orgc42f3e3">
+<div class="org-src-container">
+<pre class="src src-sh">wget http://download.osgeo.org/geos/geos-3.6.0.tar.bz2
+tar -xjf geos-3.6.0.tar.bz2 <span style="color: #586e75;"># </span><span style="color: #586e75;">need to use the "j" argumnet because .bz2 not gz</span>
+mkdir geos
+<span style="color: #839496; font-weight: bold;">cd</span> geos-3.6.0
+./configure --prefix=$<span style="color: #268bd2;">dir_for_build</span>/geos <span style="color: #586e75;"># </span><span style="color: #586e75;">no autogen.sh</span>
+make
+make install
+<span style="color: #839496; font-weight: bold;">cd</span> ..
+tar -czf geos.tar.gz geos
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7d33802" class="outline-3">
+<h3 id="org7d33802">Add libs to <code>LD_LIBRARY_PATH</code></h3>
+<div class="outline-text-3" id="text-org7d33802">
+<p>
+I don't actually know what this path is exactly, but adding <code>gdal/lib</code>,
+<code>proj4/lib</code>, and <code>geos/lib</code> to the <code>LD_LIBRARY_PATH</code> resolved errors I had
+related to files not being found when installing in R.  For rgdal the error was
+</p>
+<div class="org-src-container">
+<pre class="src src-R">Error <span style="color: #859900; font-weight: bold;">in</span> dyn.load(file, DLLpath = DLLpath, ...) :
+unable to load shared object <span style="color: #2aa198;">'/home/erker/R-3.2.5/library/rgdal/libs/rgdal.</span>
+</pre>
+</div>
+
+<p>
+and lines like this:
+</p>
+<div class="org-src-container">
+<pre class="src src-R">...
+./proj_conf_test: error <span style="color: #859900; font-weight: bold;">while</span> loading shared libraries: libproj.so.12: cannot open shared object file: No such file or directory
+...
+proj_conf_test.c:3: error: conflicting types <span style="color: #859900; font-weight: bold;">for</span> <span style="color: #2aa198;">'pj_open_lib'</span>
+/home/erker/proj4/include/proj_api.h:169: note: previous declaration of <span style="color: #2aa198;">'pj_open_lib'</span> was here
+./proj_conf_test: error <span style="color: #859900; font-weight: bold;">while</span> loading shared libraries: libproj.so.12: cannot open shared object file: No such file or directory
+...
+</pre>
+</div>
+
+<p>
+For rgeos the error was
+</p>
+<div class="org-src-container">
+<pre class="src src-R"><span style="color: #2aa198;">"configure: error: cannot run C compiled programs"</span>
+</pre>
+</div>
+
+<p>
+Run this to fix these errors
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #839496; font-weight: bold;">export</span> <span style="color: #268bd2;">LD_LIBRARY_PATH</span>=$<span style="color: #268bd2;">LD_LIBRARY_PATH</span>:$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>)/gdal/lib:$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>)/proj4/lib <span style="color: #586e75;"># </span><span style="color: #586e75;">this is to install rgdal properly</span>
+<span style="color: #839496; font-weight: bold;">export</span> <span style="color: #268bd2;">LD_LIBRARY_PATH</span>=$<span style="color: #268bd2;">LD_LIBRARY_PATH</span>:$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>)/geos/lib <span style="color: #586e75;"># </span><span style="color: #586e75;">and rgeos</span>
+</pre>
+</div>
+
+<p>
+If you run:
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #839496; font-weight: bold;">echo</span> $<span style="color: #268bd2;">LD_LIBRARY_PATH</span>
+</pre>
+</div>
+<p>
+The output should look something like
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">:/var/lib/condor/execute/slot1/dir_2924969/gdal/lib:/var/lib/condor/execute/slot1/dir_2924969/proj4/lib:/var/lib/condor/execute/slot1/dir_2924969/geos/lib
+</pre>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org0e6e4fb" class="outline-3">
+<h3 id="org0e6e4fb">R: download, untar and move into R source directory, configure, make, make install</h3>
+<div class="outline-text-3" id="text-org0e6e4fb">
+<p>
+As of <span class="timestamp-wrapper"><span class="timestamp">[2016-10-25 Tue] </span></span> R 3.3.0 or higher isn't supported on chtc
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">wget https://cran.r-project.org/src/base/R-3/R-3.2.5.tar.gz
+tar -xzf R-3.2.5.tar.gz
+<span style="color: #839496; font-weight: bold;">cd</span> R-3.2.5
+./configure --prefix=$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>)
+make
+make install
+<span style="color: #839496; font-weight: bold;">cd</span> ..
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6153415" class="outline-3">
+<h3 id="org6153415">Install R packages</h3>
+<div class="outline-text-3" id="text-org6153415">
+<p>
+The installation steps above should have generated an R installation
+in the lib64 subdirectory of the installation directory. We can start
+R by typing the path to that installation, like so:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">R-3.2.5/lib64/R/bin/R
+</pre>
+</div>
+
+<p>
+This should open up an R console, which is how we're going to install
+any extra R libraries. Install each of the library packages your code
+needs by using R's install.packages command.  Use HTTP, not HTTPS for
+your CRAN mirror.  I always download from wustl, my alma mater.  For rgdal and rgeos you need to
+point the package to gdal, proj4 and geos using configure.args
+</p>
+
+<p>
+Change your vector of packages according to your needs.
+</p>
+<div class="org-src-container">
+<pre class="src src-R">
+install.packages(<span style="color: #2aa198;">'rgdal'</span>, type = <span style="color: #2aa198;">"source"</span>, configure.args=c(
+     paste0(<span style="color: #2aa198;">'--with-gdal-config='</span>,getwd(),<span style="color: #2aa198;">'/gdal/bin/gdal-config'</span>),
+     paste0(<span style="color: #2aa198;">'--with-proj-include='</span>,getwd(),<span style="color: #2aa198;">'/proj4/include'</span>),
+     paste0(<span style="color: #2aa198;">'--with-proj-lib='</span>,getwd(),<span style="color: #2aa198;">'/proj4/lib'</span>)))
+
+install.packages(<span style="color: #2aa198;">"rgeos"</span>, type = <span style="color: #2aa198;">"source"</span>, configure.args=c(paste0(<span style="color: #2aa198;">"--with-geos-config="</span>,getwd(),<span style="color: #2aa198;">"/geos/bin/geos-config"</span>)))
+
+      install.packages(c(<span style="color: #2aa198;">"gdalUtils"</span>,
+                         <span style="color: #2aa198;">"mlr"</span>,
+                         <span style="color: #2aa198;">"broom"</span>,
+                         <span style="color: #2aa198;">"raster"</span>,
+                         <span style="color: #2aa198;">"plyr"</span>,
+                         <span style="color: #2aa198;">"ggplot2"</span>,
+                         <span style="color: #2aa198;">"dplyr"</span>,
+                         <span style="color: #2aa198;">"tidyr"</span>,
+                         <span style="color: #2aa198;">"stringr"</span>,
+                         <span style="color: #2aa198;">"foreach"</span>,
+                         <span style="color: #2aa198;">"doParallel"</span>,
+                         <span style="color: #2aa198;">"glcm"</span>,
+                         <span style="color: #2aa198;">"randomForest"</span>,
+                         <span style="color: #2aa198;">"kernlab"</span>,
+                         <span style="color: #2aa198;">"irace"</span>,
+                         <span style="color: #2aa198;">"parallelMap"</span>,
+                         <span style="color: #2aa198;">"e1071"</span>,
+                         <span style="color: #2aa198;">"FSelector"</span>,
+                         <span style="color: #2aa198;">"lubridate"</span>,
+                         <span style="color: #2aa198;">"adabag"</span>,
+                         <span style="color: #2aa198;">"gbm"</span>))
+
+</pre>
+</div>
+
+<p>
+Exit R when packages installed
+</p>
+<div class="org-src-container">
+<pre class="src src-R">q()
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org82a3283" class="outline-3">
+<h3 id="org82a3283">Edit the R executable</h3>
+<div class="outline-text-3" id="text-org82a3283">
+<div class="org-src-container">
+<pre class="src src-sh">nano R-3.2.5/lib64/R/bin/R
+</pre>
+</div>
+
+<p>
+The above will open up the main R executable. You will need to change
+the first line, from something like:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #268bd2;">R_HOME_DIR</span>=/var/lib/condor/execute/slot1/dir_554715/R-3.1.0/lib64/R
+</pre>
+</div>
+<p>
+to
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #268bd2;">R_HOME_DIR</span>=$(<span style="color: #6c71c4; font-weight: bold;">pwd</span>)/R
+</pre>
+</div>
+
+<p>
+Save and close the file. (In nano, this will be CTRL-O, followed by CTRL-X.)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org31f1713" class="outline-3">
+<h3 id="org31f1713">Move R installation to main directory and Tar so that it will be returned to submit node</h3>
+<div class="outline-text-3" id="text-org31f1713">
+<div class="org-src-container">
+<pre class="src src-R">mv R-3.2.5/lib64/R ./
+tar -czvf R.tar.gz R/
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org19be070" class="outline-3">
+<h3 id="org19be070">Exit the interactive job</h3>
+<div class="outline-text-3" id="text-org19be070">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #859900; font-weight: bold;">exit</span>
+</pre>
+</div>
+
+<p>
+Upon exiting, the tar.gz files created should be sent back to your
+submit node
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf305de6" class="outline-2">
+<h2 id="orgf305de6"><span class="timestamp-wrapper"><span class="timestamp">[2016-09-23 Fri] </span></span> Cool Science Image contest</h2>
+<div class="outline-text-2" id="text-orgf305de6">
+
+<figure>
+<img src="blog_imgs/CoolScienceImage/beautiful_madison_lakes.png" alt="none" align="center" height="600">
+
+<figcaption><span class="figure-number">Figure 20: </span>MNF transformation of AVIRIS hyperspectral imagery over lakes Mendota, Monona, and Wingra</figcaption>
+</figure>
+
+<p>
+I created this image of Madison's lakes using hyperspectral imagery
+from NASA's <a href="http://aviris.jpl.nasa.gov/">AVIRIS sensor</a> for the <a href="http://news.wisc.edu/cool-science-images-2016/">Cool Science Image Contest</a>.  I threw
+it together the week before the contest and was very pleased to be
+selected, but I wish that it had been more related to the science that
+I do.  It is a minimum noise fraction transformation which is a way to
+transform/condense the data from the ~250 bands into the 3 visible
+channels (rgb) for maximum information viewing. Originally I intended
+to create an image over land, but had great difficulty getting the
+mosaicing of the 3 flightlines to be seamless.  You can see the band
+across the northern part of lake Mendota from fox bluff to warner bay
+that is due to image processing, not something real in the water.  The
+image is no doubt cool, but I wish I could say more what the colors
+meant (If you're a limnologist and see some meaning, please let me
+know).  I think that pink may be related to sand, and green to bright
+reflections on the water.  There's probably some algae detection going
+on too.  My goal for next year is to make an image that is heavier on
+the science and still very cool.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7fe735e" class="outline-2">
+<h2 id="org7fe735e"><span class="timestamp-wrapper"><span class="timestamp">[2016-09-20 Tue] </span></span> Field work in northern Wisconsin</h2>
+<div class="outline-text-2" id="text-org7fe735e">
+<p>
+Field work provides the opportunity to be outside, help out on
+lab-wide projects, and to learn about new research that isn't exactly
+in my wheelhouse.  September 8-10 I went to the north woods to help
+collect foliar samples as part of a NEON and Townsend lab project to
+ultimately predict foliar traits such as morphology, pigments, and
+other chemical constituents from hyperspectral imagery to create maps
+of these traits.  This was the first year of a five year project.
+There's much more to the science behind the goal.  But the aim of this
+post is not to explain all that, but rather, to share some images and
+the joy of being in the north woods.
+</p>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 21: </span>Trout Lake Research Station, our lodging</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 22: </span>Jablonski grilling Aditya's Famous Chicken</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 23: </span>Always excited for field work</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg" alt="none" align="center" height="600">
+
+<figcaption><span class="figure-number">Figure 24: </span>Always excited for field work</figcaption>
+</figure>
+
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 25: </span>Aditya fake shooting leaves (for retrieval)</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 26: </span>John fake writing</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 27: </span>Larch Stand</figcaption>
+</figure>
+
+
+<figure>
+<img src="blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg" alt="none" align="center" height="400">
+
+<figcaption><span class="figure-number">Figure 28: </span>NEON's Flux Tower.  Measuring the exhange of carbon between atmosphere and biosphere.  Sweet.</figcaption>
+</figure>
+
+<video width="600" align="center" controls="controls">
+<source src="blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov">
+</video>
+<p>
+Flux tower of Ankur Desai's research group, much smaller than NEON's.  Maples creating lovely dappled light.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org49ff7f1" class="outline-2">
+<h2 id="org49ff7f1"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-02 Tue] </span></span> Making this website&#xa0;&#xa0;&#xa0;<span class="tag"><span class="orgmode">orgmode</span></span></h2>
+<div class="outline-text-2" id="text-org49ff7f1">
+<p>
+I use emacs org-mode as the core application for my research.  It
+makes sense to use the great org publishing features to create a
+website without having to learn many new skills.  I had considered
+using jekyll, but ultimately realized that I could make a website that
+is just as beautiful and functional with emacs org-mode.
+</p>
+
+<p>
+I've looked at tons of websites made with org-mode.  I like <a href="http://cs.unm.edu/~eschulte/">Eric
+Schulte's</a> best for an academic personal page, and I wanted to use the
+<a href="http://orgmode.org/manual/JavaScript-support.html">org-info.js</a> for a blog with keyboard shortcuts for navigation and
+search.
+</p>
+
+<p>
+If you're not familiar with <a href="http://orgmode.org/worg/">org mode</a>, check it out.
+</p>
+
+<p>
+If you are already familiar with org mode, spend twenty minutes
+reading about <a href="http://orgmode.org/manual/Exporting.html#Exporting">exporting to html</a> and <a href="http://orgmode.org/manual/Publishing.html">publishing</a>.  The manual is pretty
+clear.  Once you have a published webpage, check out some css
+stylesheets from other org sites that you like.  <a href="data/eric.css">Mine</a> is a modified
+version of the stylesheet of eric schulte, who I asked permission from
+to use.
+</p>
+
+<p>
+I spent no more than 3 hours setting up the site.  Deciding that this was the
+approach I wanted to take and generating the content took a couple
+days.
+</p>
+
+<p>
+You can clone the github <a href="https://github.com/TedwardErker/webpage">repo</a> to see how I have it set up.
+</p>
+
+<p>
+It is great to be able to work on the content of the website in a very
+familiar way and export it to the internet with one command.  Amazing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga8ef3f3" class="outline-2">
+<h2 id="orga8ef3f3"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-02 Tue] </span></span> Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting&#xa0;&#xa0;&#xa0;<span class="tag"><span class="nasa">nasa</span>&#xa0;<span class="travel">travel</span></span></h2>
+<div class="outline-text-2" id="text-orga8ef3f3">
+
+<figure>
+<img src="blog_imgs/DC_NASA_meeting/with_einstein.jpg" alt="none" align="center" height="300">
+
+<figcaption><span class="figure-number">Figure 29: </span>Albert Einstein Memorial</figcaption>
+</figure>
+</div>
+</div>
+
+<div id="outline-container-orgc5b4a4b" class="outline-2">
+<h2 id="orgc5b4a4b"><span class="timestamp-wrapper"><span class="timestamp">[2016-08-01 Mon] </span></span> Removing Stuck Aluminum Seatpost from a Steel Frame&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bike">bike</span></span></h2>
+<div class="outline-text-2" id="text-orgc5b4a4b">
+</div>
+<div id="outline-container-orgd4b8d6a" class="outline-4">
+<h4 id="orgd4b8d6a">In short:</h4>
+<div class="outline-text-4" id="text-orgd4b8d6a">
+<p>
+Use a sodium hydroxide solution with proper protection and
+ventilation. Be patient.  Use rubber stoppers to block holes in frame (bottom bracket
+and water bottle braze-ons.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc3d8758" class="outline-4">
+<h4 id="orgc3d8758">In long:</h4>
+<div class="outline-text-4" id="text-orgc3d8758">
+<p>
+My seatpost had been stuck in my steel frame for years.  Fortunately
+it was at the proper height, so it didn't bother me.  When my headset
+broke and needed to be replaced, I figured I'd take care of the
+seatpost at the same time.  I wasted an incredible amount of time
+trying to remove the seatpost and ruined my paint in the process which
+required a costly repowdering.  This post is to share my experience so
+that you don't have to go through the same thing.
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="orge3150b8"></a>What didn't work:<br>
+<div class="outline-text-5" id="text-orge3150b8">
+<ol class="org-ol">
+<li>Freezing</li>
+<li>Ammonia</li>
+<li>Pipe wrench with 5 foot bar</li>
+<li>combinations of the above</li>
+<li>Tying it between two trees and trying to pull it apart with 3 men and a
+6-1 mechanical advantage system.</li>
+</ol>
+
+<figure>
+<img src="blog_imgs/free_seatpost/pull_apart.jpg" alt="none" title="trying to pull seatpost out" align="center" height="300">
+
+<figcaption><span class="figure-number">Figure 30: </span>We pulled hard, but failed</figcaption>
+</figure>
+</div>
+</li>
+<li><a id="orgcdbba9e"></a>What did work:<br>
+<div class="outline-text-5" id="text-orgcdbba9e">
+<ol class="org-ol">
+<li>Remove everything from the frame except the seatpost</li>
+<li>Use a hacksaw to remove seat and create hole to pour solution
+down.  Leave as much of the post as possible to reduce splashing,
+while still creating a large hole to pour solution
+down. <a href="blog_imgs/free_seatpost/post_in_frame.jpg">post in frame</a>, <a href="blog_imgs/free_seatpost/side_post_in_frame.jpg">side view</a></li>
+<li>Stop up bottom bracket and braze-ons (any holes that will let the
+sodium hydroxide leak out of the seat tube) with rubber or cork
+stoppers.  I got many of different sizes for less than a dollar at
+the hardware store.</li>
+<li>Place frame in well ventilated area on something to catch any
+spills (I used a plastic sled in my driveway). <a href="blog_imgs/free_seatpost/setup.jpg">setup</a></li>
+<li>Add sodium hydroxide salt to water (not water to salt).  I did this
+in an old milk jug.  Sodium hydroxide is sold at your local
+hardware store as lye or drain cleaner.  Check chemical composition
+to verify it is NaOH.  I didn't measure the concentration of the
+solution that I used, but you don't want it to be so concentrated
+that it bubbles violently out of seat tube and destroys your paint.  Also,
+the dissolving of NaOH is exothermic and the milk jug will get
+quite warm, or hot if it's very concentrated.</li>
+<li>Pour solution into seat tube.  The solution needs to be up to the
+top of the tube so that the part of the post inside the tube will
+dissolve, but filling it up this high risks spashes.  Fill up the
+tube part way to make sure there isn't a ton up bubbling and
+splashing, then fill up to top of <span class="underline">tube</span> (not post).  If you didn't saw off too
+much of the post, this length of post sticking out of tube will
+help give you a splash buffer.
+<a href="blog_imgs/free_seatpost/bubbling.jpg">I cut mine too short and the paint was destroyed</a></li>
+<li>Be patient.  My seat post wall was quite thick, at least 2 mm.
+This will take a long time to dissolve.  Wait until the solution is
+finished reacting with aluminum (you can hear the production of
+hydrogen gas), which may take a few hours.  Then pour out the
+solution from your frame and dispose of the dark grey liquid
+(because I wasn't sure if the NaOH was completely used, I added
+vinegar in an attempt to neutralize the base).</li>
+<li>Repeat steps 5-7 until the post is completely dissolved or you
+can pull the post out.</li>
+</ol>
+
+
+<figure>
+<img src="blog_imgs/free_seatpost/remains.jpg" alt="none" align="center" height="300">
+
+<figcaption><span class="figure-number">Figure 31: </span>This is all that was left</figcaption>
+</figure>
+</div>
+</li>
+<li><a id="org82fcbc3"></a>I had apex custom coating in Monona, WI repaint my frame.<br>
+<div class="outline-text-5" id="text-org82fcbc3">
+<p>
+They did a great job and the price was lower than everywhere else I
+looked, but it still wasn't cheap.  Don't let the NaOH stay on your
+frame long!
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Tedward Erker</p>
+<p class="date">Created: 2018-03-09 Fri 09:17</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

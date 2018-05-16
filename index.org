@@ -40,15 +40,14 @@
 :CUSTOM_ID: firstHeader
 :END:
 
-I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
-environment in the places where most of us live: cities.  More
-specifically, I'm interested in how urban forests affect urban
-climate, building energy use, and carbon emissions.  I use Madison, WI
-as a case study.
+I am an urban ecologist.  I seek to understand the interaction between
+humans and the environment in the places where most of us live:
+cities.  More specifically, I'm interested in how urban forests affect
+urban climate, building energy use, and carbon emissions, and in turn
+how the urban environment affects the health and productivity of the
+urban forest.  Madison, WI is my home and case study.
 
 I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]] [[http://orgmode.org/][org-mode]].
-Also, I love brilliant data visualizations and enjoy using them to
-communicate science.
 
 * Background
 :PROPERTIES:
@@ -150,7 +149,7 @@ and get a cup of joe if you're in town.
 
             ("webpage-static"
              :base-directory "~/projects/webpage_cv/"
-             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
+             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
              :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
              :recursive t
@@ -169,25 +168,15 @@ Maybe just use C-c C-e?
 (org-publish-all)
 #+end_src
 
-#+begin_src sh :session a :results verbatim
-  rsync -avz ~/projects/webpage_out/ erker@desk00.stat.wisc.edu:~/public/html/
+#+begin_src sh :session a :results verbatim :eval no
+#  rsync -avz ~/projects/webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+  rsync -avz ~/projects/webpage_out/ erker@desk22.stat.wisc.edu:~/public/html/
 #+end_src
 
 #+results:
-#+begin_example
-erker@desk00.stat.wisc.edu's password:
-building file list ... done
-./
-blog.html
-blog.org
-index.html
-index.org
-tedward_erker_cv.html
-tedward_erker_cv.org
-
-sent 17921 bytes  received 1388 bytes  4290.89 bytes/sec
-total size is 399683591  speedup is 20699.34
-#+end_example
+: ssh: connect to host bigmem03.stat.wisc.edu port 22: Operation timed out
+: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+: rsync error: error in rsync protocol data stream (code 12) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52/rsync/io.c(453) [sender=2.6.9]
 
 * COMMENT Analytics
 

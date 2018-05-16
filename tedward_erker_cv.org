@@ -13,15 +13,34 @@ environment in the places where most of us live: cities.
 * Contact Information
 #+ATTR_HTML: :frame void
 #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
-|      <r> |                                    |
-|   Phone: | 314-324-6079                       |
-|   Email: | [[mailto:erker@wisc.edu][erker@wisc.edu]]                     |
-|     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]         |
-|  Github: | [[https://github.com/tedwarderker][github.com/tedwarderker]]            |
-| Address: | 1630 Linden Dr., Madison, WI 53706 |
-|          |                                    |
+|      <r> |                                      |
+|   Phone: | 314-324-6079                         |
+|   Email: | [[mailto:erker@wisc.edu][erker@wisc.edu]]                       |
+|     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]           |
+| Address: | 1630 Linden Drive, Madison, WI 53706 |
 
 * Education
+** Sep 2013 - Present
+*Ph.D. Forestry* \\
+Department of Forest and Wildlife Ecology \\
+University of Wisconsin--Madison \\
+GPA: 3.929
+
+** Sep 2013 - Present
+*M.S. Biometry* \\
+Department of Statistics \\
+University of Wisconsin--Madison
+
+** Aug 2006 - May 2008 & Aug 2009 - May 2010
+*B.A. Environmental Studies--Ecology/Biology* \\
+Summa Cum Laude \\
+Washington University in St. Louis \\
+GPA: 3.83
+
+** COMMENT Activities (probably no point in including undergrad activities).
+Activities: [[http://outing.wustl.edu/WildernessProject/philosophy.html][Wilderness Project]] Freshman Orientation Program. Founder
+of [[http://burningkumquat.wustl.edu/][The Burning Kumquat]], the campus vegetable garden.
+** COMMENT Old way of printing Education
 
 - Ph.D, [[http://forestandwildlifeecology.wisc.edu/graduate-study-forestry-handbook][Forestry]], University of Wisconsin - Madison, 2013--.
 
@@ -32,17 +51,10 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 
-** COMMENT Activities (probably no point in including undergrad activities).
-Activities: [[http://outing.wustl.edu/WildernessProject/philosophy.html][Wilderness Project]] Freshman Orientation Program. Founder
-of [[http://burningkumquat.wustl.edu/][The Burning Kumquat]], the campus vegetable garden.
-
 * COMMENT awards and fellowships
 #+INCLUDE: awards_fellowships.org :minlevel 1
-* COMMENT Research Experience
-#+INCLUDE: research_experience.org :minlevel 1
-* COMMENT Presentations
+* COMMENT Scientific Presentations and Posters
 #+INCLUDE: presentations.org :minlevel 1
-* COMMENT Posters
 #+INCLUDE: posters.org :minlevel 1
 * COMMENT Teaching Experience
 #+INCLUDE: teaching_experience.org :minlevel 1
@@ -51,13 +63,59 @@ of [[http://burningkumquat.wustl.edu/][The Burning Kumquat]], the campus vegetab
 * COMMENT Relevant Work Experience
 #+INCLUDE: work_experience.org :minlevel 1
 * Professional Affiliations
-Society of American Foresters, 2016--
+Society of American Foresters, 2016--Present
 
 * Languages
 Spoken: English, Spanish
 
 Computing: R
 
+* Service to the Department and University
+** Oct 2015 - Present
+*Graduate Student Representative, Department of Forest and Wildlife
+Ecology*
+*** COMMENT details
+- I represent graduate student interests at monthly department
+  meetings, communicate relevant departmental changes to fellow
+  graduate students, and organize professional development events and
+  the weekly department social.
+** Jul 2017
+*Software Carpentry Volunteer*
+*** COMMENT details
+- Software Carpentry is a workshop designed to teach basic computing
+  skills to researchers
+- I volunteered two days to help teach graduate students the basics of
+  the command line, version control (git), and python.
+
+* Service to Community
+**  Fall 2014 and Fall 2015
+*Guest Lab Instructor, Sustainability by the Numbers, Shabazz High School*
+
+*** COMMENT details
+- Twice, I conducted a two day lab exercise in a sustainability
+  oriented math class exploring the potential for urban trees to offset carbon emissions.
+
+- Each year, I conducted a 2 day lab for about 20 students in a math class focused on
+  sustainability at Malcolm Shabazz City High school, an alternative
+  high school in Madison.
+- The lab consisted of identifying the species and measuring the
+  diameter at breast height of all the trees on the school's
+  campus.  Students then used allometric equations to predict carbon storage and
+  sequestration by trees, and compared this carbon to the carbon emitted by
+  student to determine how many trees would be required to offset
+  their emissions.
+** Fall 2017
+*Guest Lab Instructor, AP Environmental Studies, East High School*
+
+
+*** COMMENT details
+- I assisted with a field trip to the Madison School Forest for 85
+  students in the AP environmental studies class at Madison East High
+  School.
+- Students used a clinometer and diameter at breast height tape to
+  measure forest trees, they estimated carbon content of the trees,
+  and they compared this to the carbon emissions caused by their
+  transportation to and from school.
 
 * COMMENT Graduate Coursework
 #+INCLUDE:graduate_coursework.org :minlevel 1
@@ -76,3 +134,5 @@ put fa\under{}orgmode\under{}cv.sty in ~/Library/texmf/tex/latex
 
 
 
+* COMMENT workshops?
+Andrew Finley's spBayes workshop

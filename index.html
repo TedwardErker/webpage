@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-05-09 Tue 10:36 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tedward Erker</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Tedward Erker" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="data/eric.css" type="text/css">
+<link rel="SHORTCUT ICON" href="data/bristlecone.ico">
+<script type="text/javascript" src="data/webpage.js">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Tedward Erker</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#firstHeader">Research</a></li>
+<li><a href="#background">Background</a></li>
+<li><a href="#orgc68cd3c">Blog</a></li>
+<li><a href="#awards">Awards and Fellowships</a></li>
+<li><a href="#org1c59922">Teaching and Learning</a></li>
+<li><a href="#orgd8f203a">Presentations</a></li>
+<li><a href="#org55d4f48">Posters</a></li>
+<li><a href="#org20f1a83">Contact</a></li>
+</ul>
+</div>
+</div>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+
+<img id="me"  width= "208" height="300" src="imgs/Tedward_Headshot.JPG" title="Tedward Erker"></img>
+
+<div id="contact"><tt>erker wisc.edu</tt></div>
+
+<div id="outline-container-orga2e1280" class="outline-2">
+<h2 id="firstHeader"><a id="orga2e1280"></a>Research</h2>
+<div class="outline-text-2" id="text-firstHeader">
+<p>
+I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
+environment in the places where most of us live: cities.  More
+specifically, I'm interested in how urban forests affect urban
+climate, building energy use, and carbon emissions.  I use Madison, WI
+as a case study.
+</p>
+
+<p>
+I strive to make all my work fully reproducible using <a href="https://www.gnu.org/software/emacs/tour/">emacs</a> <a href="http://orgmode.org/">org-mode</a>.
+Also, I love brilliant data visualizations and enjoy using them to
+communicate science.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0d1edae" class="outline-2">
+<h2 id="background"><a id="org0d1edae"></a>Background</h2>
+<div class="outline-text-2" id="text-background">
+<ul class="org-ul">
+<li>Student - Washington University in St. Louis, 2006-10.
+<ul class="org-ul">
+<li>founded student vegetable garden, The Burning Kumquat</li>
+<li>took junior year off to work on farms in Kentucky and Vermont and
+to bike California coast</li>
+<li>Summer research assistant, Tyson Research Center.  Identify over
+100 species of plants.</li>
+<li>Graduated summa cum laude with degree in Environmental Studies-
+biology/ecology track.  Advisor: Tiffany Knight</li>
+</ul></li>
+<li>Teacher - Biology and Chemistry at Confluence Prep Academy, 2010-2012
+<ul class="org-ul">
+<li>Taught over 120 students in six classes daily.  As first year
+teacher, developed chemistry curriculum for new charter school
+integrating College Readiness Standards with Missouri Science
+Standards.  Cross-country coach.</li>
+</ul></li>
+<li>Tree Care Worker - American Tree Experts and Urban Tree Alliance, 2013-2014
+<ul class="org-ul">
+<li>Mostly dragged brush into chippers.  Also climber and certified pesticide
+applicator, treated for a number of pests including the emerald
+ash borer.</li>
+</ul></li>
+<li>Teaching Assistant
+<ul class="org-ul">
+<li>Forest Ecology, Fall 2013, with Prof. Tom Gower</li>
+<li>Living With Wildlife, Spring 2014 with Prof. Stan Temple</li>
+<li>Forest Ecology, Fall 2014 with Prof. Phil Townsend</li>
+<li>Statistical Methods for Bioscience II, Spring 2015 with Prof. Murray Clayton</li>
+</ul></li>
+<li>Student - University of Wisconsin-Madison, 2013-2018 (expected)
+<ul class="org-ul">
+<li>MS degree in <a href="https://www.stat.wisc.edu/masters-biometry">Biometry</a>, department of statistics,
+advisor: Jun Zhu</li>
+<li>PhD degree in <a href="http://forestandwildlifeecology.wisc.edu/sites/default/files/ForestryPhDHandbook1162.pdf">Forestry</a>, department of Forest and Wildlife Ecology,
+advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
+Schneider, Chris Kucharik</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc68cd3c" class="outline-2">
+<h2 id="orgc68cd3c"><a href="blog.html">Blog</a></h2>
+<div class="outline-text-2" id="text-orgc68cd3c">
+<p>
+<a href="blog.html">my notes on things</a>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org56acd2e" class="outline-2">
+<h2 id="awards"><a id="org56acd2e"></a>Awards and Fellowships</h2>
+<div class="outline-text-2" id="text-awards">
+<ul class="org-ul">
+<li><a href="https://kb.wisc.edu/russell/page.php?id=65402">George Kress Award</a> for Outstanding Contribution of a Forestry Graduate
+Student, Oct 2016, <b>$1000</b></li>
+<li>UW-Madison Department of Forest and Wildlife Ecology Travel Award,
+May 2016, <b>$500</b></li>
+<li><a href="http://news.wisc.edu/cool-science-images-2016/#&amp;gid=1&amp;pid=10">Cool Science Image contest winner</a>, "Madison Lakes". 2016. <b>$100</b></li>
+<li><a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html">NASA</a> Earth and Space Science <a href="https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf">Fellowship</a>, 2015-2018, <b>$105,000</b></li>
+<li><a href="http://enst.wustl.edu/program/awards">Outstanding Overall Achievement in Environmental Studies</a> (highest
+award in major), Washington University in St. Louis, 2010.</li>
+<li><a href="http://tyson.wustl.edu/teaching-ugrad.php">Tyson Research Center Summer Undergraduate Research Fellowship</a>,
+2008, <b>$3750</b></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1c59922" class="outline-2">
+<h2 id="org1c59922">Teaching and Learning</h2>
+<div class="outline-text-2" id="text-org1c59922">
+<p>
+While teaching high school, I experienced the joy and challenges of
+student learning.  I developed the skills that made me a successful
+teaching assistant, and that I hope to continue to develop in higher education.
+</p>
+
+<p>
+It's truly satisfying to help students grow and build confidence in their
+skills.  I am excited to be pursuing a career where I can teach about
+topics that inspire me, and that I hope will inspire my students.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd8f203a" class="outline-2">
+<h2 id="orgd8f203a">Presentations</h2>
+<div class="outline-text-2" id="text-orgd8f203a">
+</div><ul class="org-ul"><li><a id="org8225df2"></a>November 2016<br /><div class="outline-text-3" id="text-org8225df2">
+<p>
+<b><a href="http://pages.stat.wisc.edu/~erker/presentations/SAF_20161105/saf_presentation.html">Mapping Urban Tree Canopy of Wisconsin</a></b>
+</p>
+
+<p>
+Society of American Foresters National Convention. Madison, WI.
+</p>
+</div></li></ul>
+</div>
+<div id="outline-container-org55d4f48" class="outline-2">
+<h2 id="org55d4f48">Posters</h2>
+<div class="outline-text-2" id="text-org55d4f48">
+</div><ul class="org-ul"><li><a id="orgcf9d921"></a>May 2016<br /><div class="outline-text-3" id="text-orgcf9d921">
+<p>
+<b><a href="Posters/NASA_poster_2016.png">How Does Structural and Functional Diversity of the Urban Forest
+Affect the Urban Heat Island and Building Energy Use in Madison, WI?</a></b>
+</p>
+
+<p>
+NASA Biodiversity and Ecological Forecasting Team Meeting in Silver Springs, MD.
+</p>
+</div></li></ul>
+</div>
+<div id="outline-container-org20f1a83" class="outline-2">
+<h2 id="org20f1a83">Contact</h2>
+<div class="outline-text-2" id="text-org20f1a83">
+<p>
+erker wisc.edu
+</p>
+
+<p>
+I limit my presence on social media to prevent distraction, but that
+makes it harder to stay in touch.  If you are an old friend or former
+student who found this website, please email me.  I'd love to catch up
+and get a cup of joe if you're in town.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Tedward Erker</p>
+<p class="date">Created: 2017-05-09 Tue 10:36</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/erker/projects/webpage_cv/blog.org
+
+
+* OLD  Constrained regression for better allometric equations
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-03-07 Wed 18:17
+  :ARCHIVE_FILE: ~/projects/webpage_cv/blog.org
+  :ARCHIVE_CATEGORY: blog
+  :END:
+Allometric equations are used to relate one tree attribute (e.g. leaf
+area, biomass, height) to another attribute (e.g. diameter at breast
+height, DBH).  The basic idea is that if we know the relationship between
+these attributes, we can simply plug the DBH of a tree into the
+equation and get an estimate of its total stored carbon (say if you're
+interested in the carbon cycle and climate change) or its volume (say
+if you're interested in harvesting some trees).  They aren't perfect,
+but, boy, are they handy.
+
+Many, if not most, of these equations take the form of a
+log-log relationship.  That is, something like this:
+
+\[
+\ln(y) = a\ln(x) + b + \epsilon
+\]
+
+where \epsilon is the error term.
+
+Sometimes, though, the equation might be a polynomial, like a
+quadratic function.  A good example is predicting DBH from age.
+
+\[
+DBH = a(Age^2) + b(Age) + c + \epsilon
+\]
+
+Here is an example equation from the USDA's [[https://www.fs.usda.gov/treesearch/pubs/52933][urban tree database and
+allometric equations]].
+
+#+CAPTION: Equation for Tilia america, the linden, in the temperate interior west region (Boise, ID)
+#+ATTR_HTML: :alt none :title :align center :height 200
+file:blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png
+
+
+They found the the quadratic curve gave the best fit, but
+unfortunately the curve predicts that DBH begins declining at old age,
+something we know isn't true.  Diameter should increase monotonically
+with age.  Using curves other than quadratic could ensure that DBH
+never decreases with age, but the quadratic is simple and does a very
+good job matching the data.  The trouble is that for old trees, the
+number of samples is small and the variance/error is large.  A small
+random sample can cause the best fitting curve to be decreasing, when
+we know that if we had more data this wouldn't be the case.  If we
+constrain the curve to be non decreasing over the range of the data,
+we can be almost certain to decrease the prediction error for new
+data.
+
+How to do this?
+
+
+We need the curve to be monotonically increasing over the range of our
+data.  Or, put another way, we need the x-intercept of the line of
+symmetry of the quadratic function to be greater than the maximum
+value of our x data.  The line of symmetry is \(x = \frac{-b}{2a}\).
+We need this to be greater than the maximum value of $x$
+
+\[
+\frac{-b}{2a} > \max(x)
+\]
+
+or equivalently
+
+\[
+2a\max(x) + b < 0
+\]
+
+The function ~lsei~ in the R package ~limSolve~ uses quadratic
+programming to find the solution that minimizes the sum of squared
+error subject to the constraint.  I don't know the math behind this,
+but it is very neat.
+
+Here is a toy example:
+#+begin_src R :session *R* :results none :eval no
+    y <- c(15, 34.5, 39.6, 51.6, 91.7, 73.7)
+    x <- c(10L, 20L, 25L, 40L, 75L, 100L)
+
+  a <- data.frame(y = y, x = x)
+
+    m <- lm(y ~ x + I(x^2) - 1)
+
+    p <- data.frame(x = seq(0,105, 5))
+
+    p$y <- predict(m, p)
+#+end_src
+
+#+begin_src R :eval yes :session *R* :exports both :results graphics :file blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png :height 200 :width 200
+library(ggplot2)
+theme_set(theme_classic(base_size = 12))
+ggplot(a, aes(x = x, y = y))  +
+geom_point() +
+geom_line(data = p) +
+ggtitle("unconstrained fit")
+#+end_src
+
+#+RESULTS:
+[[file:blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png]]
+
+
+
+#+begin_src R :eval no :session *R* :results none
+  library(limSolve)
+
+  A <- matrix(ncol = 2, c(x, x^2))
+  B <- y
+  G <- matrix(nrow = 1, ncol = 2, byrow = T, data = c(1,200))
+  H <- c(0)
+
+  constrained_model <- lsei(A = A,B = B, G = G, H = H, type = 2)
+
+      my_predict <- function(x,coefficients){
+      X <- cbind(x,x^2)
+      predictions <- X%*%coefficients
+      }
+
+      # compute predictions
+      xpred <- seq(0,105,5)
+      predictions_constrained <- my_predict(xpred,constrained_model$X)
+  df2 <- data.frame(xpred,predictions_constrained)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :eval no :session *R* :exports both :results graphics :file figs/constrained_quad.png :height 200 :width 200
+theme_set(theme_classic(base_size = 12))
+  ggplot(a, aes(x = x, y = y))  +
+  geom_point() +
+  geom_line(data = df2, aes(x = xpred, y = predictions_constrained)) +
+ggtitle("constrained")
+#+end_src
+
+#+RESULTS:
+[[file:figs/constrained_quad.png]]
+
+
+Update:  Quadratic form probably not best.
+
+
+

@@ -1,0 +1,548 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2018-03-08 Constrained regression for better tree growth equations · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2018-02-02_Commuting_Across_Mendota.html" />
+    
+    
+    <link rel="prev" href="2018-04-29_gitbookswitch.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="2018-04-29_gitbookswitch.html">
+            
+                <a href="2018-04-29_gitbookswitch.html">
+            
+                    
+                    2018-04-29 switching to gitbook for blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="2018-03-08_Constrained_regression_for_better_tree_growth_equations.html">
+            
+                <a href="2018-03-08_Constrained_regression_for_better_tree_growth_equations.html">
+            
+                    
+                    2018-03-08 Constrained regression for better tree growth equations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="2018-02-02_Commuting_Across_Mendota.html">
+            
+                <a href="2018-02-02_Commuting_Across_Mendota.html">
+            
+                    
+                    2018-02-02 Commuting Across Mendota
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="2018-01-13_STANCon_2018.html">
+            
+                <a href="2018-01-13_STANCon_2018.html">
+            
+                    
+                    2018-01-13 STANCon 2018
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="2017-12-05_Statistics_and_Elections.html">
+            
+                <a href="2017-12-05_Statistics_and_Elections.html">
+            
+                    
+                    2017-12-05 Statistics and Elections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="2017-11-30_Not_Remembering_When_Trees_Disappear.html">
+            
+                <a href="2017-11-30_Not_Remembering_When_Trees_Disappear.html">
+            
+                    
+                    2017-11-30 (Not) Remembering When Trees Disappear
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="2017-10-18_Flyer_to_get_citizen_help_with_urban_forest_research.html">
+            
+                <a href="2017-10-18_Flyer_to_get_citizen_help_with_urban_forest_research.html">
+            
+                    
+                    2017-10-18 Flyer to get citizen help with urban forest research
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="2017-10-12_Madison_East_AP_Environmental_Studies_Field_Trip.html">
+            
+                <a href="2017-10-12_Madison_East_AP_Environmental_Studies_Field_Trip.html">
+            
+                    
+                    2017-10-12 Madison East AP Environmental Studies Field Trip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="2017-05-24_Second_Trip_to_Washington,_DC_for_NASA's_Biodiversity_and_Ecological_Forecasting_Team_Meeting.html">
+            
+                <a href="2017-05-24_Second_Trip_to_Washington,_DC_for_NASA's_Biodiversity_and_Ecological_Forecasting_Team_Meeting.html">
+            
+                    
+                    2017-05-24 Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="2017-05-16_Shotgun_Training.html">
+            
+                <a href="2017-05-16_Shotgun_Training.html">
+            
+                    
+                    2017-05-16 Shotgun Training
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="2017-04-25_Collecting_Urban_Heat_Island_Data_with_Carly_Ziter.html">
+            
+                <a href="2017-04-25_Collecting_Urban_Heat_Island_Data_with_Carly_Ziter.html">
+            
+                    
+                    2017-04-25 Collecting Urban Heat Island Data with Carly Ziter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="2017-04-24_Using_OpenBLAS_to_speed_up_matrix_operations_in_R_linux.html">
+            
+                <a href="2017-04-24_Using_OpenBLAS_to_speed_up_matrix_operations_in_R_linux.html">
+            
+                    
+                    2017-04-24 Using OpenBLAS to speed up matrix operations in R (linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="2017-02-28_Application_Essay:_Catalyzing_Advocacy_in_Science_and_Engineering:_2017_Workshop.html">
+            
+                <a href="2017-02-28_Application_Essay:_Catalyzing_Advocacy_in_Science_and_Engineering:_2017_Workshop.html">
+            
+                    
+                    2017-02-28 Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="2016-10-27_OBSOLETE:Installing_R,_gdal,_geos,_and_proj4_on_UW_Madison's_Center_for_High_Throughput_Computing.html">
+            
+                <a href="2016-10-27_OBSOLETE:Installing_R,_gdal,_geos,_and_proj4_on_UW_Madison's_Center_for_High_Throughput_Computing.html">
+            
+                    
+                    2016-10-27 OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="2016-09-23_Cool_Science_Image_contest.html">
+            
+                <a href="2016-09-23_Cool_Science_Image_contest.html">
+            
+                    
+                    2016-09-23 Cool Science Image contest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="2016-09-20_Field_work_in_northern_Wisconsin.html">
+            
+                <a href="2016-09-20_Field_work_in_northern_Wisconsin.html">
+            
+                    
+                    2016-09-20 Field work in northern Wisconsin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="2016-08-02_Making_this_website.html">
+            
+                <a href="2016-08-02_Making_this_website.html">
+            
+                    
+                    2016-08-02 Making this website
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="2016-08-02_Trip_to_Washington,_DC_for_NASA's_Biodiversity_and_Ecological_Forecasting_Team_Meeting.html">
+            
+                <a href="2016-08-02_Trip_to_Washington,_DC_for_NASA's_Biodiversity_and_Ecological_Forecasting_Team_Meeting.html">
+            
+                    
+                    2016-08-02 Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="2016-08-01_Removing_Stuck_Aluminum_Seatpost_from_a_Steel_Frame.html">
+            
+                <a href="2016-08-01_Removing_Stuck_Aluminum_Seatpost_from_a_Steel_Frame.html">
+            
+                    
+                    2016-08-01 Removing Stuck Aluminum Seatpost from a Steel Frame
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >2018-03-08 Constrained regression for better tree growth equations</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="constrained-regression-for-better-tree-growth-equations">Constrained regression for better tree growth equations</h1>
+<p>2018-03-08</p>
+<p>Say you plant a tree in a city. How big will it be in 20 years? You might want to know because the ecosystem services provided by trees is largely a function of their size - the amount of carbon stored in their wood, the amount of shade and evapotranspiration providing cooling, the amount of leaf area reducing sound and air pollution.</p>
+<p>The Forest Service&apos;s <a href="https://www.fs.usda.gov/treesearch/pubs/52933" target="_blank">urban tree database and allometric equations</a> provides equations to predict how tree size changes with age for the purpose of quantifying ecosystem services. These equations are empirical, that is to say, the researchers tested a bunch of equations of different forms (linear, quadratic, cubic, log-log, &#x2026;) and then selected the form that had the best fit (lowest AIC). What is nice about this method is that provides a good fit for the data. But they don&apos;t take into account knowledge we have about how trees grow, and they could end up making poor predictions on new observations, especially if extrapolated. Here&apos;s an illustration of that problem:</p>
+<p>Below is the quadratic function to predict diameter at breast height (DBH) from age.</p>
+<p>[ DBH = a(Age^2) + b(Age) + c + \epsilon ]</p>
+<p>where &#x3B5; is the error term.</p>
+<p>See the best fitting quadratic relationship between age and DBH for Tilia americana below. This quadratic function does a good job describing how dbh changes with age (better than any other form they tested).</p>
+<p><img src="blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png" alt="img" title="Data and best fitting curve for Tilia americana, the linden, in the temperate interior west region (Boise, ID) from [urban tree database and allometric equations](https://www.fs.usda.gov/treesearch/pubs/52933)"></p>
+<p>They found the quadratic curve gave the best fit, but unfortunately the curve predicts that DBH begins declining at old age, something we know isn&apos;t true. Diameter should increase monotonically with age. The trouble is that for old trees, the number of samples is small and the variance/error is large. A small random sample can cause the best fitting curve to be decreasing, when we know that if we had more data this wouldn&apos;t be the case. If we constrain the curve to be non decreasing over the range of the data, we can be almost certain to decrease the prediction error for new data.</p>
+<p>How to do this?</p>
+<p>We need the curve to be monotonically increasing over the range of our data. Or, put another way, we need the x-intercept of the line of symmetry of the quadratic function to be greater than the maximum value of our x data. The line of symmetry is (x = \frac{-b}{2a}). We need this to be greater than the maximum value of (x)</p>
+<p>[ \frac{-b}{2a} &gt; \max(x) ]</p>
+<p>or equivalently</p>
+<p>[ 2a\max(x) + b &lt; 0 ]</p>
+<p>The function <code>lsei</code> in the R package <code>limSolve</code> uses quadratic programming to find the solution that minimizes the sum of squared error subject to the constraint. I don&apos;t know the math behind this, but it is very neat. This <a href="https://stats.stackexchange.com/questions/220614/linear-regression-polynomial-slope-constraint-in-r?rq=1" target="_blank">stats.stackoverflow question</a> and the <a href="https://cran.r-project.org/web/packages/limSolve/vignettes/limSolve.pdf" target="_blank">limSolve vignette</a> helped me figure this out.</p>
+<p>Here is a toy example:</p>
+<pre><code class="lang-R">y &lt;- c(<span class="hljs-number">15</span>, <span class="hljs-number">34.5</span>, <span class="hljs-number">39.6</span>, <span class="hljs-number">51.6</span>, <span class="hljs-number">91.7</span>, <span class="hljs-number">73.7</span>)
+x &lt;- c(<span class="hljs-number">10L</span>, <span class="hljs-number">20L</span>, <span class="hljs-number">25L</span>, <span class="hljs-number">40L</span>, <span class="hljs-number">75L</span>, <span class="hljs-number">100L</span>)
+
+a &lt;- data.frame(y = y, x = x)
+
+m &lt;- lm(y ~ x + I(x^<span class="hljs-number">2</span>) - <span class="hljs-number">1</span>)
+
+p &lt;- data.frame(x = seq(<span class="hljs-number">0</span>,<span class="hljs-number">105</span>, <span class="hljs-number">5</span>))
+
+p$y &lt;- predict(m, p)
+</code></pre>
+<pre><code class="lang-R"><span class="hljs-keyword">library</span>(ggplot2)
+theme_set(theme_classic(base_size = <span class="hljs-number">12</span>))
+ggplot(a, aes(x = x, y = y))  +
+geom_point() +
+geom_line(data = p) +
+ggtitle(<span class="hljs-string">&quot;unconstrained fit&quot;</span>)
+</code></pre>
+<p><img src="blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png" alt="img"></p>
+<pre><code class="lang-R"><span class="hljs-keyword">library</span>(limSolve)
+
+maxx &lt;- max(x)
+
+A &lt;- matrix(ncol = <span class="hljs-number">2</span>, c(x, x^<span class="hljs-number">2</span>))
+B &lt;- y
+G &lt;- matrix(nrow = <span class="hljs-number">1</span>, ncol = <span class="hljs-number">2</span>, byrow = <span class="hljs-literal">T</span>, data = c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>*maxx))  <span class="hljs-comment"># here&apos;s the inequality constriant</span>
+H &lt;- c(<span class="hljs-number">0</span>)
+
+constrained_model &lt;- lsei(A = A,B = B, G = G, H = H, type = <span class="hljs-number">2</span>)
+
+my_predict &lt;- <span class="hljs-keyword">function</span>(x,coefficients){
+    X &lt;- cbind(x,x^<span class="hljs-number">2</span>)
+    predictions &lt;- X%*%coefficients
+}
+
+                                        <span class="hljs-comment"># compute predictions</span>
+xpred &lt;- seq(<span class="hljs-number">0</span>,<span class="hljs-number">105</span>,<span class="hljs-number">5</span>)
+predictions_constrained &lt;- my_predict(xpred,constrained_model$X)
+df2 &lt;- data.frame(xpred,predictions_constrained)
+</code></pre>
+<pre><code class="lang-R">theme_set(theme_classic(base_size = <span class="hljs-number">12</span>))
+  ggplot(a, aes(x = x, y = y))  +
+  geom_point() +
+  geom_line(data = df2, aes(x = xpred, y = predictions_constrained)) +
+ggtitle(<span class="hljs-string">&quot;constrained&quot;</span>)
+</code></pre>
+<p><img src="figs/constrained_quad.png" alt="img"></p>
+<p>The constrained curve looks pretty good.</p>
+<p>Just a quick note about using <code>lsei</code>, the signs are not what I expected them to be in the G matrix. Maybe my math is wrong somewhere or I don&apos;t fully understand the <code>limSolve</code> package. According to my equation above the G matrix should have negative values, but the solution is correct, so I&apos;m going to go with that. If you read this and find my error, please tell me.</p>
+<p>Even after constraining the quadratic curve to be increasing over the range of data, it&apos;s still not ideal. Extrapolation will certainly give bad predictions because the curve begins decreasing. The quadratic curve is nice because it is simple and easy and fits the data well, but it is probably better to select a model form that is grounded in the extensive knowledge we have of how trees grow. The goal of the urban tree database to create equations specific to urban trees which may have different growth parameters than trees found in forests. But the basic physiology governing tree growth is the same regardless of where the tree is growing, and it makes sense to use a model form that considers this physiology, like something from <a href="https://epubs.scu.edu.au/cgi/viewcontent.cgi?referer=https://www.google.com/&amp;httpsredir=1&amp;article=1538&amp;context=esm_pubs" target="_blank">here</a>.</p>
+<p>Even if I won&apos;t use this, I&apos;m happy to have learned how to perform a regression with a somewhat complex constraint on the parameters.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2018-04-29_gitbookswitch.html" class="navigation navigation-prev " aria-label="Previous page: 2018-04-29 switching to gitbook for blog">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2018-02-02_Commuting_Across_Mendota.html" class="navigation navigation-next " aria-label="Next page: 2018-02-02 Commuting Across Mendota">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2018-03-08 Constrained regression for better tree growth equations","level":"1.3","depth":1,"next":{"title":"2018-02-02 Commuting Across Mendota","level":"1.4","depth":1,"path":"2018-02-02_Commuting_Across_Mendota.md","ref":"2018-02-02_Commuting_Across_Mendota.md","articles":[]},"previous":{"title":"2018-04-29 switching to gitbook for blog","level":"1.2","depth":1,"path":"2018-04-29_gitbookswitch.md","ref":"2018-04-29_gitbookswitch.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2018-03-08_Constrained_regression_for_better_tree_growth_equations.md","mtime":"2018-04-29T22:10:43.042Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-29T22:17:22.527Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
