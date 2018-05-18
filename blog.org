@@ -28,6 +28,7 @@
 
 type "?" to learn navigation, [[file:index.html][HOME]]
 
+* TODO COMMENT use all.css from jblevins as guide for improving my css
 * History Time Warp.   Street trees
 
 I was reading a great cite:barker_1975
