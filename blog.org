@@ -79,7 +79,7 @@ I checked out cite:solotaroff_1911 from the library.
 
 
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
-
+* [2018-04-26 Thu] NASA Biodiversity and Ecological Forecasting Team Meeting 2018
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
 :PROPERTIES:
 :EXPORT_FILE_NAME: ./build/./build/./build/COMMENT_consider_getting_my_blog_to_look_like_this:_https://mgimond.github.io/Spatial/index.html
@@ -402,7 +402,7 @@ is a table which shows that a resident's best guess of when a street
 tree was removed is usually off by several months, even when the
 removal happened recently.
 
-#+BEGIN_SRC org
+
   | Residents Best Guess           | Forester Records Show | Difference  (apprx) |
   |--------------------------------+-----------------------+---------------------|
   | sep 2017                       |            2017-07-12 | 2 months            |
@@ -413,7 +413,7 @@ removal happened recently.
   | before june 2015               |            2015-10-02 | 4 months            |
   | 2016                           |            2015-04-02 | 6 months            |
   | fall 2015                      |            2015-01-09 | 9-11 months         |
-#+END_SRC
+
 
 Probably most surprising was a resident who, when asked about a
 tree, said that no tree ever existed there.
