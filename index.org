@@ -2,10 +2,9 @@
 #+TITLE: Tedward Erker
 #+OPTIONS: toc:t num:nil ^:nil h:1
 #+STARTUP: hideblocks
-#+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
+##+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
 #+HTML_HEAD: <link rel="SHORTCUT ICON" href="data/bristlecone.ico">
 #+HTML_HEAD: <script type="text/javascript" src="data/webpage.js">
-
 
 # font
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
@@ -126,7 +125,7 @@ and get a cup of joe if you're in town.
           '(
 
             ("webpage-org"
-             :base-directory "~/projects/webpage_cv/"
+             :base-directory "~/git/webpage_cv/"
              :base-extension "org"
              :publishing-directory "~/projects/webpage_out/"
              ;;           :publishing-directory "stat server"
@@ -147,7 +146,7 @@ and get a cup of joe if you're in town.
              )
 
             ("webpage-static"
-             :base-directory "~/projects/webpage_cv/"
+             :base-directory "~/git/webpage_cv/"
              :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
              :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
@@ -184,3 +183,6 @@ login google as erker@wisc
 https://analytics.google.com/analytics/web/#report/defaultid/a99109143w145693699p150397542/
 * COMMENT junk
  - [[file:Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin (Society of American Foresters National Convention)]]
+* COMMENT Ideas for doing the website
+http://gongzhitaao.org/orgcss/
+https://jblevins.org/

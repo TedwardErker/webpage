@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-05-09 Tue 10:36 -->
+<!-- 2018-05-18 Fri 14:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Tedward Erker</title>
@@ -68,6 +68,7 @@
   pre.src-fortran:before { content: 'Fortran'; }
   pre.src-gnuplot:before { content: 'gnuplot'; }
   pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
   pre.src-js:before { content: 'Javascript'; }
   pre.src-latex:before { content: 'LaTeX'; }
@@ -179,15 +180,15 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" href="data/eric.css" type="text/css">
 <link rel="SHORTCUT ICON" href="data/bristlecone.ico">
 <script type="text/javascript" src="data/webpage.js">
+<link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -238,42 +239,50 @@ for the JavaScript code in this tag.
 <ul>
 <li><a href="#firstHeader">Research</a></li>
 <li><a href="#background">Background</a></li>
-<li><a href="#orgc68cd3c">Blog</a></li>
-<li><a href="#awards">Awards and Fellowships</a></li>
-<li><a href="#org1c59922">Teaching and Learning</a></li>
-<li><a href="#orgd8f203a">Presentations</a></li>
-<li><a href="#org55d4f48">Posters</a></li>
-<li><a href="#org20f1a83">Contact</a></li>
+<li><a href="#orgf6eb885">Blog</a></li>
+<li><a href="#org2deb39d">Teaching and Learning</a></li>
+<li><a href="#org2627c2b">Contact</a></li>
 </ul>
 </div>
 </div>
+<p>
+##+HTML_HEAD: &lt;link rel="stylesheet" href="data/eric.css" type="text/css"&gt;
+</p>
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
 
 <img id="me"  width= "208" height="300" src="imgs/Tedward_Headshot.JPG" title="Tedward Erker"></img>
 
 <div id="contact"><tt>erker wisc.edu</tt></div>
 
-<div id="outline-container-orga2e1280" class="outline-2">
-<h2 id="firstHeader"><a id="orga2e1280"></a>Research</h2>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-99109143-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<div id="outline-container-org7e9293e" class="outline-2">
+<h2 id="firstHeader"><a id="org7e9293e"></a>Research</h2>
 <div class="outline-text-2" id="text-firstHeader">
 <p>
-I like to call myself an urban ecologist.  I seek to understand the interaction between humans and the
-environment in the places where most of us live: cities.  More
-specifically, I'm interested in how urban forests affect urban
-climate, building energy use, and carbon emissions.  I use Madison, WI
-as a case study.
+I am an urban ecologist.  I seek to understand the interaction between
+humans and the environment in the places where most of us live:
+cities.  More specifically, I'm interested in how urban forests affect
+urban climate, building energy use, and carbon emissions, and in turn
+how the urban environment affects the health and productivity of the
+urban forest.  Madison, WI is my home and case study.
 </p>
 
 <p>
 I strive to make all my work fully reproducible using <a href="https://www.gnu.org/software/emacs/tour/">emacs</a> <a href="http://orgmode.org/">org-mode</a>.
-Also, I love brilliant data visualizations and enjoy using them to
-communicate science.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org0d1edae" class="outline-2">
-<h2 id="background"><a id="org0d1edae"></a>Background</h2>
+<div id="outline-container-org15ab2f4" class="outline-2">
+<h2 id="background"><a id="org15ab2f4"></a>Background</h2>
 <div class="outline-text-2" id="text-background">
 <ul class="org-ul">
 <li>Student - Washington University in St. Louis, 2006-10.
@@ -318,9 +327,9 @@ Schneider, Chris Kucharik</li>
 </div>
 </div>
 
-<div id="outline-container-orgc68cd3c" class="outline-2">
-<h2 id="orgc68cd3c"><a href="blog.html">Blog</a></h2>
-<div class="outline-text-2" id="text-orgc68cd3c">
+<div id="outline-container-orgf6eb885" class="outline-2">
+<h2 id="orgf6eb885"><a href="blog.html">Blog</a></h2>
+<div class="outline-text-2" id="text-orgf6eb885">
 <p>
 <a href="blog.html">my notes on things</a>
 </p>
@@ -328,26 +337,9 @@ Schneider, Chris Kucharik</li>
 </div>
 
 
-<div id="outline-container-org56acd2e" class="outline-2">
-<h2 id="awards"><a id="org56acd2e"></a>Awards and Fellowships</h2>
-<div class="outline-text-2" id="text-awards">
-<ul class="org-ul">
-<li><a href="https://kb.wisc.edu/russell/page.php?id=65402">George Kress Award</a> for Outstanding Contribution of a Forestry Graduate
-Student, Oct 2016, <b>$1000</b></li>
-<li>UW-Madison Department of Forest and Wildlife Ecology Travel Award,
-May 2016, <b>$500</b></li>
-<li><a href="http://news.wisc.edu/cool-science-images-2016/#&amp;gid=1&amp;pid=10">Cool Science Image contest winner</a>, "Madison Lakes". 2016. <b>$100</b></li>
-<li><a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html">NASA</a> Earth and Space Science <a href="https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf">Fellowship</a>, 2015-2018, <b>$105,000</b></li>
-<li><a href="http://enst.wustl.edu/program/awards">Outstanding Overall Achievement in Environmental Studies</a> (highest
-award in major), Washington University in St. Louis, 2010.</li>
-<li><a href="http://tyson.wustl.edu/teaching-ugrad.php">Tyson Research Center Summer Undergraduate Research Fellowship</a>,
-2008, <b>$3750</b></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org1c59922" class="outline-2">
-<h2 id="org1c59922">Teaching and Learning</h2>
-<div class="outline-text-2" id="text-org1c59922">
+<div id="outline-container-org2deb39d" class="outline-2">
+<h2 id="org2deb39d">Teaching and Learning</h2>
+<div class="outline-text-2" id="text-org2deb39d">
 <p>
 While teaching high school, I experienced the joy and challenges of
 student learning.  I developed the skills that made me a successful
@@ -362,36 +354,9 @@ topics that inspire me, and that I hope will inspire my students.
 </div>
 </div>
 
-<div id="outline-container-orgd8f203a" class="outline-2">
-<h2 id="orgd8f203a">Presentations</h2>
-<div class="outline-text-2" id="text-orgd8f203a">
-</div><ul class="org-ul"><li><a id="org8225df2"></a>November 2016<br /><div class="outline-text-3" id="text-org8225df2">
-<p>
-<b><a href="http://pages.stat.wisc.edu/~erker/presentations/SAF_20161105/saf_presentation.html">Mapping Urban Tree Canopy of Wisconsin</a></b>
-</p>
-
-<p>
-Society of American Foresters National Convention. Madison, WI.
-</p>
-</div></li></ul>
-</div>
-<div id="outline-container-org55d4f48" class="outline-2">
-<h2 id="org55d4f48">Posters</h2>
-<div class="outline-text-2" id="text-org55d4f48">
-</div><ul class="org-ul"><li><a id="orgcf9d921"></a>May 2016<br /><div class="outline-text-3" id="text-orgcf9d921">
-<p>
-<b><a href="Posters/NASA_poster_2016.png">How Does Structural and Functional Diversity of the Urban Forest
-Affect the Urban Heat Island and Building Energy Use in Madison, WI?</a></b>
-</p>
-
-<p>
-NASA Biodiversity and Ecological Forecasting Team Meeting in Silver Springs, MD.
-</p>
-</div></li></ul>
-</div>
-<div id="outline-container-org20f1a83" class="outline-2">
-<h2 id="org20f1a83">Contact</h2>
-<div class="outline-text-2" id="text-org20f1a83">
+<div id="outline-container-org2627c2b" class="outline-2">
+<h2 id="org2627c2b">Contact</h2>
+<div class="outline-text-2" id="text-org2627c2b">
 <p>
 erker wisc.edu
 </p>
@@ -407,7 +372,7 @@ and get a cup of joe if you're in town.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Tedward Erker</p>
-<p class="date">Created: 2017-05-09 Tue 10:36</p>
+<p class="date">Created: 2018-05-18 Fri 14:52</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

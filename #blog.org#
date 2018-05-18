@@ -36,8 +36,6 @@ I was reading a great cite:barker_1975
 cite:solotaroff_1911
 
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
-** references
-bibliography:~/git/notes/references.bib
 
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
 :PROPERTIES:
@@ -1199,3 +1197,5 @@ looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
 
 
+* references
+bibliography:~/git/notes/references.bib
