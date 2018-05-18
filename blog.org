@@ -31,13 +31,35 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 * History Time Warp.   Street trees
 
-I was reading a great cite:barker_1975
+I was reading a paper about the susceptibility of urban forests to the
+emerald ash borer cite:ball_e_2007, when I came across a citation
+from 1911:
 
-cite:solotaroff_1911
+#+BEGIN_QUOTE
+Unfortunately, there are a limited number of tree species adapted to
+the harsh growing conditions found in many cities, a fact lamented
+early in the last century (Solotaroff 1911) and repeated to the
+present day. Simply increasing diversity is of little benefit if
+poorly adapted species are used merely to fulfill a quota.
+#+END_QUOTE
+
+This sparked a few questions:
+
+- Why don't we often see citations going back this far?
+- Just how old are some of the ideas in urban forestry, and who were
+  the first to publish them?
+- What insights from the past am I missing because I focus on more
+  recent publications?
+
+And then I went down a little history rabbit hole.
+
+
+I checked out cite:solotaroff_1911 from the library
+
+
+
 
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
-** references
-bibliography:~/git/notes/references.bib
 
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
 :PROPERTIES:
@@ -1199,3 +1221,5 @@ looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
 
 
+* references
+bibliography:~/git/notes/references.bib
