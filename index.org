@@ -2,7 +2,7 @@
 #+TITLE: Tedward Erker
 #+OPTIONS: toc:t num:nil ^:nil h:1
 #+STARTUP: hideblocks
-##+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
+#+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
 #+HTML_HEAD: <link rel="SHORTCUT ICON" href="data/bristlecone.ico">
 #+HTML_HEAD: <script type="text/javascript" src="data/webpage.js">
 

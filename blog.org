@@ -4,7 +4,7 @@
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
 #+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
-#+HTML_HEAD: <link rel="stylesheet" href="data/berger.css" type="text/css">
+#+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 
 #+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 
@@ -28,6 +28,20 @@
 
 type "?" to learn navigation, [[file:index.html][HOME]]
 
+* COMMENT How much municipalities spend on their trees, then and now
+* COMMENT The trees haven't changed, but our preferences have
+1) It shouldn't be a shock, but it kind of is, that the drawings of
+   trees from 1800s are the same as today.  While so much in our lives
+   have changed this hasn't.  I guess neither has human nature and
+   this is a primary lesson of history
+2) But whether a species is a champion or not changes with time
+
+alianthus
+gleditsia
+norway maple
+white ash
+american elm
+
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 * [2018-05-18 Fri] Street Tree History Time Warp
 
@@ -50,11 +64,16 @@ This sparked a few questions:
   the first to publish them?
 - What insights from the past am I missing because I focus on more
   recent publications?
+- Specifically to cite:solotaroff_1911, what are the species that
+  we've tried to plant along streets, but have since abandoned?
 
 And then I went down a little history rabbit hole.
 
 
-I checked out cite:solotaroff_1911 from the library
+The rabbit hole ended up being quite big, so I'll make a few blog
+posts about what I found.
+
+I checked out cite:solotaroff_1911 from the library.
 
 
 
