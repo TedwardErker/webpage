@@ -28,10 +28,15 @@
 
 type "?" to learn navigation, [[file:index.html][HOME]]
 
-* COMMENT Street trees
+* History Time Warp.   Street trees
+
+I was reading a great cite:barker_1975
+
+cite:solotaroff_1911
 
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
 
+bibliography:~/git/notes/references.bib
 
 
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
@@ -200,6 +205,9 @@ model form that considers this physiology, like something from [[https://epubs.s
 
 Even if I won't use this, I'm happy to have learned how to perform a
 regression with a somewhat complex constraint on the parameters.
+
+[2018-05-18 Fri] Update:  I found out QP is a pretty standard thing in
+linear algebra and that it's used to connect splines.  Neat.
 
 * [2018-02-02 Fri] Commuting Across Mendota
 
