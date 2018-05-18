@@ -29,7 +29,7 @@
 type "?" to learn navigation, [[file:index.html][HOME]]
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
-* History Time Warp.   Street trees
+* [2018-05-18 Fri] Street Tree History Time Warp
 
 I was reading a paper about the susceptibility of urban forests to the
 emerald ash borer cite:ball_e_2007, when I came across a citation
