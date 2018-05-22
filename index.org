@@ -29,7 +29,6 @@
 #+HTML:  ga('create', 'UA-99109143-1', 'auto');
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
-
 * COMMENT Navigating "included" files: C-' visits file at point
 
 * Research

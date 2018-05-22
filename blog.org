@@ -27,7 +27,13 @@
 #+HTML:</script>
 
 type "?" to learn navigation, [[file:index.html][HOME]]
+* COMMENT local variables
+# local variables:
+# org-download-image-dir: "~/projects/webpage_cv/blog/blog_imgs"
+# end:
 
+
+* COMMENT It's hard to be a street tree
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
 1) It shouldn't be a shock, but it kind of is, that the drawings of
