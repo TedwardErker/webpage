@@ -28,11 +28,13 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
-# local variables:
-# org-download-image-dir: "~/git/webpage_cv/blog/blog_imgs"
-# end:
+# Local Variables:
+# org-download-image-dir: ~/git/webpage_cv/blog/blog_imgs
+# End:
 
-* COMMENT It's hard to be a street tree
+* It's hard to be a street tree
+#+DOWNLOADED: file:/Users/erker/Pictures/IMG_20180511_175712349_HDR_smaller.jpg @ 2018-05-22 11:12:00
+[[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
@@ -85,7 +87,8 @@ I checked out cite:solotaroff_1911 from the library.
 
 
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
-* [2018-04-26 Thu] NASA Biodiversity and Ecological Forecasting Team Meeting 2018
+* NASA Biodiversity and Ecological Forecasting 2018
+[2018-04-26 Thu]
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
 :PROPERTIES:
 :EXPORT_FILE_NAME: ./build/./build/./build/COMMENT_consider_getting_my_blog_to_look_like_this:_https://mgimond.github.io/Spatial/index.html
@@ -1248,3 +1251,4 @@ frame long!
 
 * references
 bibliography:~/git/notes/references.bib
+
