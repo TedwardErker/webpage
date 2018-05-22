@@ -14,8 +14,8 @@ body {
 #me {
   position: absolute;
   top: 0.5em;
-  width: 208px;
-  height: 300px;}
+  width: 156px;
+  height: 225px;}
 
 
 @media all and (min-width: 800px){
@@ -50,12 +50,12 @@ body {
 
 .title {
   text-align: left;
-  margin-left: 218px;
+  margin-left: 170px;
   border-bottom-style: solid;
   border-bottom-color: lightgray; }
 
 #table-of-contents {
-  margin-left: 218px; }
+  margin-left: 170px; }
   #table-of-contents h2 {
     display: none; }
   #table-of-contents ul {
@@ -110,5 +110,7 @@ blockquote {
   max-width: 75%; }
 
 #firstHeader {
-    padding-top: 108px;
+    padding-top: 94px;
 }
+
+
