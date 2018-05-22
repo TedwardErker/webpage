@@ -36,6 +36,13 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
+* COMMENT Monocultures
+
+intro to roadside planting
+
+
+Earliest example of someone preferring rows of polycultures?
+see scientificamerican8_shadetreesincities.png
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
 1) It shouldn't be a shock, but it kind of is, that the drawings of
