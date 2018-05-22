@@ -1,5 +1,7 @@
 # -*- org-export-html-auto-postamble:nil -*-
 #+TITLE: notes
+type "?" to learn navigation, [[file:index.html][HOME]]
+* Configuration                                            :noexport:archive:
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
@@ -26,16 +28,11 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
-type "?" to learn navigation, [[file:index.html][HOME]]
-* COMMENT local variables
 # local variables:
-# org-download-image-dir:"~/git/webpage_cv/blog/blog_imgs"
+# org-download-image-dir: "~/git/webpage_cv/blog/blog_imgs"
 # end:
 
 * COMMENT It's hard to be a street tree
-
-#+DOWNLOADED: /Users/erker/Pictures/IMG_20180511_175712349_HDR.jpg @ 2018-05-22 10:41:49
-[[file:../../org/attachments/COMMENT It's hard to be a street tree/IMG_20180511_175712349_HDR_2018-05-22_10-41-49.jpg]]
 
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have

@@ -1,0 +1,187 @@
+# -*- org-export-html-auto-postamble:nil -*-
+#+TITLE: Tedward Erker
+#+OPTIONS: toc:t num:nil ^:nil h:1
+#+STARTUP: hideblocks
+#+HTML_HEAD: <link rel="stylesheet" href="data/eric.css" type="text/css">
+#+HTML_HEAD: <link rel="SHORTCUT ICON" href="data/bristlecone.ico">
+#+HTML_HEAD: <script type="text/javascript" src="data/webpage.js">
+
+# font
+#+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+
+# me
+#+HTML:<img id="me"  width= "104" height="150" src="imgs/Tedward_Headshot.JPG" title="Tedward Erker"></img>
+
+# contact
+#+HTML: <div id="contact"><tt>erker wisc.edu</tt></div>
+
+# Add the following to the <body> tag after export.
+#
+#   onload="setup();"
+
+# Google Analytics
+#+HTML:<script>
+#+HTML:  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+#+HTML:  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+#+HTML:  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+#+HTML:  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+#+HTML:
+#+HTML:  ga('create', 'UA-99109143-1', 'auto');
+#+HTML:  ga('send', 'pageview');
+#+HTML:</script>
+* COMMENT Navigating "included" files: C-' visits file at point
+
+* Research
+:PROPERTIES:
+:CUSTOM_ID: research
+:CUSTOM_ID: firstHeader
+:END:
+
+I am an urban ecologist.  I seek to understand the interaction between
+humans and the environment in the places where most of us live:
+cities.  More specifically, I'm interested in how urban forests affect
+urban climate, building energy use, and carbon emissions, and in turn
+how the urban environment affects the health and productivity of the
+urban forest.  Madison, WI is my home and case study.
+
+I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]] [[http://orgmode.org/][org-mode]].
+
+* Background
+:PROPERTIES:
+:CUSTOM_ID: background
+:END:
+- Student - Washington University in St. Louis, 2006-10.
+  - founded student vegetable garden, The Burning Kumquat
+  - took junior year off to work on farms in Kentucky and Vermont and
+    to bike California coast
+  - Summer research assistant, Tyson Research Center.  Identify over
+    100 species of plants.
+  - Graduated summa cum laude with degree in Environmental Studies-
+    biology/ecology track.  Advisor: Tiffany Knight
+- Teacher - Biology and Chemistry at Confluence Prep Academy, 2010-2012
+  - Taught over 120 students in six classes daily.  As first year
+    teacher, developed chemistry curriculum for new charter school
+    integrating College Readiness Standards with Missouri Science
+    Standards.  Cross-country coach.
+- Tree Care Worker - American Tree Experts and Urban Tree Alliance, 2013-2014
+  - Mostly dragged brush into chippers.  Also climber and certified pesticide
+    applicator, treated for a number of pests including the emerald
+    ash borer.
+- Teaching Assistant
+  - Forest Ecology, Fall 2013, with Prof. Tom Gower
+  - Living With Wildlife, Spring 2014 with Prof. Stan Temple
+  - Forest Ecology, Fall 2014 with Prof. Phil Townsend
+  - Statistical Methods for Bioscience II, Spring 2015 with Prof. Murray Clayton
+- Student - University of Wisconsin-Madison, 2013-2018 (expected)
+  - MS degree in [[https://www.stat.wisc.edu/masters-biometry][Biometry]], department of statistics,
+    advisor: Jun Zhu
+  - PhD degree in [[http://forestandwildlifeecology.wisc.edu/sites/default/files/ForestryPhDHandbook1162.pdf][Forestry]], department of Forest and Wildlife Ecology,
+    advisor: Phil Townsend.  Committee Members: Eric Kruger, Annemarie
+    Schneider, Chris Kucharik
+
+* [[file:blog.html][Blog]]
+
+[[file:blog.html][my notes on things]]
+
+
+* COMMENT Awards and Fellowships
+#+INCLUDE: awards_fellowships.org :minlevel 1
+* COMMENT Curriculum Vitae
+:PROPERTIES:
+:CUSTOM_ID: curriculum-vitae
+:END:
+
+My CV (as of DATE) is available at.
+
+* Teaching and Learning
+
+While teaching high school, I experienced the joy and challenges of
+student learning.  I developed the skills that made me a successful
+teaching assistant, and that I hope to continue to develop in higher education.
+
+It's truly satisfying to help students grow and build confidence in their
+skills.  I am excited to be pursuing a career where I can teach about
+topics that inspire me, and that I hope will inspire my students.
+
+* COMMENT Presentations
+#+INCLUDE: presentations.org :minlevel 1
+* COMMENT Posters
+#+INCLUDE: posters.org :minlevel 1
+* Contact
+
+erker wisc.edu
+
+I limit my presence on social media to prevent distraction, but that
+makes it harder to stay in touch.  If you are an old friend or former
+student who found this website, please email me.  I'd love to catch up
+and get a cup of joe if you're in town.
+
+* COMMENT publishing
+#+begin_src emacs-lisp :results none
+
+    (require 'ox-publish)
+    (setq org-publish-project-alist
+          '(
+
+            ("webpage-org"
+             :base-directory "~/git/webpage_cv/"
+             :base-extension "org"
+             :publishing-directory "~/projects/webpage_out/"
+             ;;           :publishing-directory "stat server"
+             :html-postamble ; replaces the auto-generated postamble
+             "<div class=\"clear-fix\"></div>
+      <div id=\"doc-info\">
+        This document is created
+        using <a href=\"http://orgmode.org/\">Org-mode</a>
+        and <a href=\"http://orgmode.org/worg/org-contrib/babel/\">Org-babel</a>.
+        Eric Schulte is <a href=\"http://cs.unm.edu/~eschulte/\">inspiration</a>.
+        The original plain-text document is available
+        at <a href=\"index.org\">index.org</a>
+      </div>"
+             :recursive t
+             :publishing-function org-html-publish-to-html
+             :headline-levels 2             ; Just the default for this project.
+             :auto-preamble t
+             )
+
+            ("webpage-static"
+             :base-directory "~/git/webpage_cv/"
+             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
+             :publishing-directory "~/projects/webpage_out/"
+  ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
+             :recursive t
+             :publishing-function org-publish-attachment
+             )
+
+
+            ("webpage" :components ("webpage-org" "webpage-static"))
+
+          ))
+
+#+end_src
+
+Maybe just use C-c C-e?
+#+begin_src emacs-lisp
+(org-publish-all)
+#+end_src
+
+#+begin_src sh :session a :results verbatim :eval no
+#  rsync -avz ~/projects/webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+  rsync -avz ~/projects/webpage_out/ erker@desk22.stat.wisc.edu:~/public/html/
+#+end_src
+
+#+results:
+: ssh: connect to host bigmem03.stat.wisc.edu port 22: Operation timed out
+: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+: rsync error: error in rsync protocol data stream (code 12) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52/rsync/io.c(453) [sender=2.6.9]
+
+* COMMENT Analytics
+
+login google as erker@wisc
+
+https://analytics.google.com/analytics/web/#report/defaultid/a99109143w145693699p150397542/
+* COMMENT junk
+ - [[file:Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin (Society of American Foresters National Convention)]]
+* COMMENT Ideas for doing the website
+http://gongzhitaao.org/orgcss/
+https://jblevins.org/
