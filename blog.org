@@ -89,6 +89,22 @@ I checked out cite:solotaroff_1911 from the library.
 the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
 * NASA Biodiversity and Ecological Forecasting 2018
 [2018-04-26 Thu]
+Team Meeting
+
+
+#+DOWNLOADED: file:/Users/erker/Pictures/me_einstein_2018.jpg @ 2018-05-22 11:23:15
+[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/me_einstein_2018_2018-05-22_11-23-15.jpg]]
+#+caption: einstein and me again
+
+#+DOWNLOADED: file:/Users/erker/Pictures/dc_oaks.jpg @ 2018-05-22 11:27:21
+[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/dc_oaks_2018-05-22_11-27-21.jpg]]
+#+caption: oaks of DC
+
+#+DOWNLOADED: file:/Users/erker/Pictures/national_mall_2018.jpg @ 2018-05-22 11:25:27
+[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
+#+caption: the national mall on the way out of town
+
+
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
 :PROPERTIES:
 :EXPORT_FILE_NAME: ./build/./build/./build/COMMENT_consider_getting_my_blog_to_look_like_this:_https://mgimond.github.io/Spatial/index.html
