@@ -49,8 +49,8 @@ plot(t,y)
 [[file:figs/sigmoidgrowthfunctions/abneq0.png]]
 
 #+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/a0bneq0.png
-t <- 0:100
-b <- -.8
+t <- seq(0,2.5,.1)
+b <- .4
 y <- exp(-1 * (1 - b * t) ^ (1 / b))
 
 plot(t,y)
