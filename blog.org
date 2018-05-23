@@ -36,17 +36,48 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
 
-#+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/f.png
+#+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/abneq0.png
 t <- 0:100
 a <- .8
-b <- .01
+b <- -1.2
 y <- (1 - a * (1 - b*t)^(1/b))^(1/a)
 
 plot(t,y)
 #+end_src
 
 #+RESULTS:
-[[file:figs/sigmoidgrowthfunctions/f.png]]
+[[file:figs/sigmoidgrowthfunctions/abneq0.png]]
+
+#+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/a0bneq0.png
+t <- 0:100
+b <- -.8
+y <- exp(-1 * (1 - b * t) ^ (1 / b))
+
+plot(t,y)
+#+end_src
+
+#+RESULTS:
+[[file:figs/sigmoidgrowthfunctions/a0bneq0.png]]
+
+#+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/weibull.png
+t <- seq(0,2.5,.1)
+c <- 5
+y <- 1 - exp((-1 * t)^c)
+
+plot(t,y)
+#+end_src
+
+#+RESULTS:
+[[file:figs/sigmoidgrowthfunctions/weibull.png]]
+
+the equation for the weibull in cite:garcia_2005 is not the cdf on
+wikipedia.
+
+
+#+begin_src R
+?weibull
+#+end_src
+
 
 * It's hard to be a street tree
 #+caption: A maple on monroe
