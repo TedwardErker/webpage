@@ -32,6 +32,9 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 # org-download-image-dir: ~/git/webpage_cv/blog/blog_imgs
 # End:
 
+* sigmoid growth functions
+sliders: https://plot.ly/r/sliders/
+https://plot.ly/r/sliders/#mulitple-slider-controls
 * It's hard to be a street tree
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
