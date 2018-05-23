@@ -5,7 +5,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 
 #+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
@@ -35,6 +35,19 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
+
+#+begin_src R :exports results :results graphics :file figs/sigmoidgrowthfunctions/f.png
+t <- 0:100
+a <- .8
+b <- .01
+y <- (1 - a * (1 - b*t)^(1/b))^(1/a)
+
+plot(t,y)
+#+end_src
+
+#+RESULTS:
+[[file:figs/sigmoidgrowthfunctions/f.png]]
+
 * It's hard to be a street tree
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
