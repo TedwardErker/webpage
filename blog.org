@@ -7,6 +7,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+STARTUP: hideblocks
 #+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
+#+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
 
 #+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 
@@ -35,7 +36,8 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
   - 2560 x 1600 is b's screen resolution.
-- [ ] fix css
+- [ ] fix css to be like blevins
+- [ ] ankur flux tower on youtube
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
@@ -1331,7 +1333,8 @@ frame long!
 
 * Fall 2015 hemi video
 
-yt:9lEiTtP1YsQ
+#+HTML: <div class="video-container"> <iframe src="https://www.youtube.com/embed/9lEiTtP1YsQ" width="100%" frameborder="0" allowfullscreen></iframe> </div>
+
 * references
 bibliography:~/git/notes/references.bib
 
