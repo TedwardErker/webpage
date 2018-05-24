@@ -38,6 +38,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
   - 2560 x 1600 is b's screen resolution.
 - [ ] fix css to be like blevins
 - [ ] ankur flux tower on youtube
+- [ ] fix landing page to be more like blevins
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
