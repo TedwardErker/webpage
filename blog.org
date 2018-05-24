@@ -1338,7 +1338,7 @@ frame long!
 
 youtube:
 
-youtube:9lEiTtP1YsQ
+[[youtube:9lEiTtP1YsQ]]
 
 * references
 bibliography:~/git/notes/references.bib
