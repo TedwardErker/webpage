@@ -5,7 +5,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 
 #+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
@@ -1329,7 +1329,9 @@ They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
 
+* Fall 2015 hemi video
 
+yt:9lEiTtP1YsQ
 * references
 bibliography:~/git/notes/references.bib
 
