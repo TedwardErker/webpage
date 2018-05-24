@@ -34,6 +34,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
+  - 2560 x 1600 is b's screen resolution.
 - [ ] fix css
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
