@@ -32,6 +32,9 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 # org-download-image-dir: ~/git/webpage_cv/blog/blog_imgs
 # End:
 
+* TODO COMMENT use all.css from jblevins as guide for improving my css
+- [ ] make website smaller (remove unnecessary files, shrink images).
+- [ ] fix css
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
@@ -78,7 +81,6 @@ wikipedia.
 ?weibull
 #+end_src
 
-
 * It's hard to be a street tree
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
@@ -103,8 +105,6 @@ gleditsia
 norway maple
 white ash
 american elm
-
-* TODO COMMENT use all.css from jblevins as guide for improving my css
 * Street Tree History Time Warp
 [2018-05-18 Fri]
 
@@ -167,7 +167,6 @@ Team Meeting
 
 #+caption: the national mall on the way out of town
 [[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
-
 
 
 * COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
