@@ -1336,6 +1336,10 @@ frame long!
 
 #+HTML: <div class="video-container"> <iframe src="https://www.youtube.com/embed/9lEiTtP1YsQ" width="100%" frameborder="0" allowfullscreen></iframe> </div>
 
+youtube:
+
+youtube:9lEiTtP1YsQ
+
 * references
 bibliography:~/git/notes/references.bib
 
