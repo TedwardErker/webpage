@@ -39,6 +39,9 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 - [ ] fix css to be like blevins
 - [ ] ankur flux tower on youtube
 - [ ] fix landing page to be more like blevins
+* The U.S. Population in Heating and Cooling Degree Day Space
+
+
 * sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
