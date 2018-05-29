@@ -40,7 +40,7 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55.png]]
 
 See an interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]]:
-/Users/erker/git/webpage_cv/blog/populations_in_cdd_hdd_space.html
+
 #+HTML: <iframe src="blog/populations_in_cdd_hdd_space.html" height=400px width=120%></iframe>
 
 * sigmoid growth functions
