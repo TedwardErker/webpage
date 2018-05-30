@@ -93,14 +93,16 @@ wikipedia.
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
-* COMMENT Monocultures
+* Monocultures
 
-intro to roadside planting
+People have liked streets lined with a single species for quite a
+while.  The
 
+#+DOWNLOADED: /Users/erker/Downloads/Meindert_Hobbema_001.jpg @ 2018-05-30 11:38:07
+[[file:blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07.jpg]]
 
-#+DOWNLOADED: /Users/erker/Downloads/Meindert_Hobbema_001.jpg @ 2018-05-30 11:02:35
-[[file:blog/blog_imgs/COMMENT Monocultures/Meindert_Hobbema_001_2018-05-30_11-02-35.jpg]]
-
+#+DOWNLOADED: /Users/erker/Downloads/Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg @ 2018-05-30 11:37:27
+[[file:blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg]]
 
 
 Earliest example of someone preferring rows of polycultures?
