@@ -39,30 +39,47 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 [2018-05-25 Fri]
 
 Madison, where I live now, is a cold city, especially when compared to
-my hometown St. Louis.  Lake ice in Madison is measured in feet.  The
-ice on the man-made ponds of St. Louis is an ephemeral phenonmenon and
-thickness of a few inches are a bygone memory from childhood.  The
-summers of Madison are cool.  I used to complain after I left
-St. Louis that summer midnight bike rides in Madison lack something
-visceral: the stored day's heat radiating off the asphalt and into
-your skin as you ride through a blanket of humidity.  But as I write
-this I'm sweating on my front porch.  It doesn't feel like I live in a
-cold city today.
+my hometown St. Louis.  Lake ice in Madison is measured in feet.  Ice
+of any thickness on the man-made ponds of St. Louis is an ephemeral
+phenonmenon and ice of a few inches thick, a bygone memory from
+childhood.  The summers of Madison are also cool.  I used to complain
+after I left St. Louis that summer midnight bike rides in Madison lack
+something: the stored day's heat radiating off the asphalt and into
+your skin as you ride through a blanket of humidity.  But, as I write
+this, I'm sweating on my front porch.  It doesn't feel like I live in
+a cold city today.
 
-For something tangentially related to my work, I was curious how
-Madison compared not just to St. Louis, but also to the rest of the
-country.  What percent of Americans live in a climate that is as cold
-or colder than Madison?  What is the boundary between a "hot" and a
-"cold" city?  And where do most Americans live?
+For something related to my work, I was curious how Madison compared
+not just to St. Louis, but also to the rest of the country.  What
+percent of Americans live in a climate that is as cold or colder than
+Madison?  What is the boundary between a "hot" and a "cold" city?  And
+where do most Americans live?
 
 One way to measure this is with heating and cooling degree days.
-These are basically a measure of how much a place deviates from the
-balmy temperature of 65 degrees farenheit.  Cold places have more
+These are basically a measure of how much a place deviates from a
+balmy temperature, say 65 degrees farenheit.  Cold places have more
 heating degree days (days when you need to turn on the heat) and hot
 places have more cooling degree days (days when you need to turn on
 the A/C).
 
+I pulled climate data from NOAA and plotted it below.  [[https://github.com/TedwardErker/climate_normals][See this github
+repo for code]].
 
+
+
+#+DOWNLOADED: /Users/erker/git/climate_normals/figs/HDD_atStations_albers_thumb.png @ 2018-05-30 15:57:59
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/HDD_atStations_albers_thumb_2018-05-30_15-57-59.png]]
+
+#+DOWNLOADED: /Users/erker/git/climate_normals/figs/CDD_atStations_albers_thumb.png @ 2018-05-30 15:57:50
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/CDD_atStations_albers_thumb_2018-05-30_15-57-50.png]]
+
+
+#+DOWNLOADED: /Users/erker/git/climate_normals/figs/geo_hdd_cdd_TF_thumb.png @ 2018-05-30 15:58:13
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-30_15-58-13.png]]
+
+
+#+DOWNLOADED: /Users/erker/git/climate_normals/figs/geo_hdd_cdd_thumb.png @ 2018-05-30 15:58:52
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_thumb_2018-05-30_15-58-52.png]]
 
 
 Combining census tract information and weather station climate data I
