@@ -116,26 +116,32 @@ who prefer monocultures for ease of management.  Then I found this
 article from volume 8 of Scientific American, 1852, and I realized
 that there have always been some who prefer a diverse street.
 
+#+ATTR_HTML: width: 300
 #+caption: [[https://babel.hathitrust.org/cgi/pt?id=coo.31924080787629;view=1up;seq=3][cover of volume 8 of Scientific American 1852]]
-[[file:blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-10-54.png]]
+[[file:blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-28-04.png]]
+
 
 The article was mostly about the merits and demerits of ailanthus,
 which was starting to go out of fashion, but there was also this
-paragraph:
+paragraph (emphasis mine):
 
 #+BEGIN_QUOTE
 
-
+Our people are too liable to go everything by fashionable excitements,
+instead of individual independent taste.  This is the reason why whole
+avenues of one kind of tree may be seen in one place, and whole
+avenues of a different kind in another place; and how at one time one
+kind of tree, only, will be in demand, and at another period a
+different tree will be the only one in demand.  *We like to see
+variety;* and the ailanthus is a beautiful, suitable, and excellent
+tree to give a chequered air of beauty to the scene.  *We do not like
+to see any street lined and shaded with only one kind of tree*; we like
+to see the maple, whitewood, mountain ash, horse-chestnut, ailanthus,
+&c., mingled in harmonious rows.
 
 #+END_QUOTE
 
 
-that the preference for monocultures along streets
-was the only , and that only recently had we begun to consider planting
-multiple species along a street.
-
-Earliest example of someone preferring rows of polycultures?
-see scientificamerican8_shadetreesincities.png
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
 1) It shouldn't be a shock, but it kind of is, that the drawings of
