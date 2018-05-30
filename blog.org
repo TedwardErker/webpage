@@ -43,17 +43,36 @@ my hometown St. Louis.  Lake ice in Madison is measured in feet.  The
 ice on the man-made ponds of St. Louis is an ephemeral phenonmenon and
 a few inches was a bygone memory from childhood.  The summers of
 Madison are cool.  I used to complain after I left St. Louis that
-summer midnight bike rides in Madison lack something wonderful: the comfort
-of the day's heat radiating back off the asphalt and into your skin as
-you ride through a blanket of humidity.  But as I write this I'm
-sweating on my front porch.  It doesn't feel like I live in a cold
+summer midnight bike rides in Madison lack something wonderful: the
+comfort of the day's heat radiating back off the asphalt and into your
+skin as you ride through a blanket of humidity.  But as I write this
+I'm sweating on my front porch.  It doesn't feel like I live in a cold
 city today.
+
+For something tangentially related to my work, I was curious how
+Madison compared to the rest of the country.  Just how much colder is
+Madison than St. Louis?  What percent of Americans live in a climate
+that is as cold or colder than Madison?  What is the boundary between
+a "hot" and a "cold" city?
 
 What the cold cities and what are the hot cities in the U.S?  Is
 St. Louis really a hot city, or is it just one relative to where I
 live now?  Do most of us live in hot or cold places?
 
-One way to
+One way to measure this is with heating and cooling degree days.
+These are basically a measure of how much a place deviates from the
+balmy temperature of 65 degrees farenheit.  Cold places have more
+heating degree days and hot places have more
+
+
+Combining census tract information and weather station climate data I
+plotted the U.S. population in heating and cooling degree day space.
+Dark hexagons have more people in them than lighter hexagons.
+
+inversely related.
+
+some mild places. LA
+
 
 If I go beyond my personal experience
 
@@ -75,6 +94,8 @@ https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_ener
 
 Curious where your city falls in cooling and heating degree space?
 Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]]:
+
+
 
 * COMMENT sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
