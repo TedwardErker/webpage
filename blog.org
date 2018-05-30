@@ -36,6 +36,12 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 - [ ] ankur flux tower on youtube
 - [ ] fix landing page to be more like blevins
 * The U.S. Population in Heating and Cooling Degree Day Space
+[2018-05-25 Fri]
+What percent of Americans live in a place where they have to run the
+heat more than the A/C?  I was pretty sure that most of us lived in
+cold places that need more heat than A/C.  But as I write this
+I'm sweating on my front porch
+
 #+DOWNLOADED: /Users/erker/projects/webpage_cv/blog/hdd_cdd_tracts_cities.png @ 2018-05-29 11:42:55
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55.png]]
 
@@ -99,7 +105,7 @@ People have liked streets lined with a single species for quite a
 while.  The Roads Beautifying Association observed in 1930, 'How the
 landscape can be transfigured is seen by Hobbema's painting, which has
 been one of the world's favourites for more than two hundred years,
-"The Avenue at Middelharnis, Holland."'
+"The Avenue at Middelharnis, Holland."' citep:roads_1930
 
 #+caption: An early example of a street lined with trees.  [[https://en.wikipedia.org/wiki/The_Avenue_at_Middelharnis][The Avenue at Middelharnis, Holland]], detail, Meindert Hobbema, 1689.  The street is lined with alders
 [[file:blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07.jpg]]
