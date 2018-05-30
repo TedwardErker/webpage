@@ -118,17 +118,6 @@ american elm
 [2018-05-18 Fri]
 
 
-https://agresearchmag.ars.usda.gov/2013/sep/saunders/
-
-
-
-#+DOWNLOADED: file:/Users/erker/Downloads/gingko_1870.jpg @ 2018-05-22 12:31:34
-[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
-
-#+DOWNLOADED: file:/Users/erker/Downloads/ginkgo_later.jpg @ 2018-05-22 12:30:29
-[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
-
-
 I was reading a paper about the susceptibility of urban forests to the
 emerald ash borer cite:ball_e_2007, when I came across a citation
 from 1911:
@@ -153,16 +142,44 @@ This sparked a few questions:
 
 And then I went down a little history rabbit hole.
 
+I checked out cite:solotaroff_1911 from the library and quickly
+realized how some things have changed enormously (public enemy number
+one of street trees is no longer the horse), while others (the trees
+themselves) are the same.  The book is filled with great photos of
+tree lined streets, meant to exemplefy the beauty of a monospecific
+tree lined street and highlight each species' characteristics (Fig. [[fig:red_oak_street]]).
+
+#+name: fig:red_oak_street
+#+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
+[[file:blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg]]
+
+I tried finding these streets on google street view to see if the trees
+still existed.  I checked a few and found the trees gone and the
+streets radically transformed.  Some of the streets were on what would
+be come the national mall and didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]].
+
+
+
+the ginkgos and the usda building didn't survive the
+
+https://agresearchmag.ars.usda.gov/2013/sep/saunders/
+
+#+DOWNLOADED: file:/Users/erker/Downloads/gingko_1870.jpg @ 2018-05-22 12:31:34
+[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
+
+#+DOWNLOADED: file:/Users/erker/Downloads/ginkgo_later.jpg @ 2018-05-22 12:30:29
+[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
+
+
+
+
+
+
+
+
 
 The rabbit hole ended up being quite big, so I'll make a few blog
 posts about what I found.
-
-I checked out cite:solotaroff_1911 from the library.
-
-
-
-
-the ginkgos and the usda building didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]]
 * NASA Biodiversity and Ecological Forecasting 2018             :nasa:travel:
 [2018-04-26 Thu]
 
