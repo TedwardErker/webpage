@@ -107,6 +107,32 @@ been one of the world's favourites for more than two hundred years,
 #+caption: An even earlier example of a street lined with trees.  [[https://commons.wikimedia.org/wiki/File:Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg][The Avenue at Meerdervoort]], Aelbert Cuyp, 1650-1652.
 [[file:blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg]]
 
+I had long thought that those who planted trees along streets back in
+the day only considered planting monocultures.  Indeed, many authors
+take it as a given that this is the preferred, more beautiful way.
+Only recently with the repeated loss of popular species did I think
+this idea was being commonly challenged and even then, there are many
+who prefer monocultures for ease of management.  Then I found this
+article from volume 8 of Scientific American, 1852, and I realized
+that there have always been some who prefer a diverse street.
+
+#+caption: [[https://babel.hathitrust.org/cgi/pt?id=coo.31924080787629;view=1up;seq=3][cover of volume 8 of Scientific American 1852]]
+[[file:blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-10-54.png]]
+
+The article was mostly about the merits and demerits of ailanthus,
+which was starting to go out of fashion, but there was also this
+paragraph:
+
+#+BEGIN_QUOTE
+
+
+
+#+END_QUOTE
+
+
+that the preference for monocultures along streets
+was the only , and that only recently had we begun to consider planting
+multiple species along a street.
 
 Earliest example of someone preferring rows of polycultures?
 see scientificamerican8_shadetreesincities.png
