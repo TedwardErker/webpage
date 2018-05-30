@@ -41,12 +41,13 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 Madison, where I live now, is a cold city, especially when compared to
 my hometown St. Louis.  Lake ice in Madison is measured in feet.  The
 ice on the man-made ponds of St. Louis is an ephemeral phenonmenon and
-a few inches was a bygone memory from childhood.  The summers of
-Madison are cool.  I used to complain after I left St. Louis that
-summer midnight bike rides in Madison lack something visceral: the
-stored day's heat radiating off the asphalt and into your skin as you
-ride through a blanket of humidity.  But as I write this I'm sweating
-on my front porch.  It doesn't feel like I live in a cold city today.
+thickness of a few inches are a bygone memory from childhood.  The
+summers of Madison are cool.  I used to complain after I left
+St. Louis that summer midnight bike rides in Madison lack something
+visceral: the stored day's heat radiating off the asphalt and into
+your skin as you ride through a blanket of humidity.  But as I write
+this I'm sweating on my front porch.  It doesn't feel like I live in a
+cold city today.
 
 For something tangentially related to my work, I was curious how
 Madison compared not just to St. Louis, but also to the rest of the
@@ -92,7 +93,7 @@ https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_ener
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55.png]]
 
 Curious where your city falls in cooling and heating degree space?
-Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]]:
+Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]].
 
 
 
@@ -161,9 +162,6 @@ been one of the world's favourites for more than two hundred years,
 #+caption: An even earlier example of a street lined with trees.  [[https://commons.wikimedia.org/wiki/File:Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg][The Avenue at Meerdervoort]], Aelbert Cuyp, 1650-1652.
 [[file:blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg]]
 
-
-
-
 I had long thought that those who planted trees along streets back in
 the day only considered planting monocultures.  Indeed, many authors
 take it as a given that this is the preferred, more beautiful way.
@@ -201,7 +199,16 @@ It's an interesting list of species too.  I'm not sure what whitewood
 is, maybe Tilia?  Moutain ash, horse-chestnut, and ailanthus are still
 around but rarely planted as street trees.
 
+** update:
+Crazy coincidence that the [[https://news.artnet.com/art-world/david-hockney-scores-new-yorker-cover-1266473][New Yorker's April 2018 cover]] is based on a
+work by David Hockney which is based on the "Avenue at Middelharnis".
+#+caption:See, people still like trees of the same type all in a row.
+[[file:blog/blog_imgs/Early monocultures and early polycultures./hockney-750x1024_newyorkerApril2018_2018-05-30_15-38-04.jpg]]
 
+
+** COMMENT other paintings
+https://commons.wikimedia.org/wiki/File:Van_gogh_lallee_des_alyscamps.jpg 1888
+https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Pappelallee_im_Herbst.jpeg 1884
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
 1) It shouldn't be a shock, but it kind of is, that the drawings of
