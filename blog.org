@@ -94,7 +94,7 @@ wikipedia.
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
 * Early monocultures and early polycultures.
-
+[2018-05-16 Wed]
 People have liked streets lined with a single species for quite a
 while.  The Roads Beautifying Association observed in 1930, 'How the
 landscape can be transfigured is seen by Hobbema's painting, which has
@@ -114,9 +114,8 @@ Only recently with the repeated loss of popular species did I think
 this idea was being commonly challenged and even then, there are many
 who prefer monocultures for ease of management.  Then I found this
 article from volume 8 of Scientific American, 1852, and I realized
-that there have always been some who prefer a diverse street.
+that the desire for a diverse street goes way back.
 
-#+ATTR_HTML: width: 300
 #+caption: [[https://babel.hathitrust.org/cgi/pt?id=coo.31924080787629;view=1up;seq=3][cover of volume 8 of Scientific American 1852]]
 [[file:blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-28-04.png]]
 
@@ -141,6 +140,10 @@ to see the maple, whitewood, mountain ash, horse-chestnut, ailanthus,
 
 #+END_QUOTE
 
+It's an interesting list of species too.  I'm not sure what whitewood
+is, maybe Tilia?  Moutain ash, horse-chestnut, and ailanthus are still
+around but rarely planted as street trees.
+
 
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
@@ -157,7 +160,7 @@ white ash
 american elm
 
 * Street Tree History Time Warp
-[2018-05-18 Fri]
+[2018-05-11 Fri]
 
 
 I was reading a paper about the susceptibility of urban forests to the
