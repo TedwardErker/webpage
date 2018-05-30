@@ -147,7 +147,7 @@ realized how some things have changed enormously (public enemy number
 one of street trees is no longer the horse), while others (the trees
 themselves) are the same.  The book is filled with great photos of
 tree lined streets, meant to exemplefy the beauty of a monospecific
-tree lined street and highlight each species' characteristics (Fig. [[fig:red_oak_street]]).
+tree lined street and highlight each species' characteristics (Figure [[fig:red_oak_street]]).
 
 #+name: fig:red_oak_street
 #+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  I love the little boy in the bottom right.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
@@ -159,23 +159,24 @@ radically transformed and the trees were gone.  Most had changed with
 development.  Some were on what would become the national mall and
 [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan's plan]] removed them.
 
-I did have luck with Solotaroff's example of a street lined with
-gingkos (Fig. [[fig:30yrGingkos]]).
+However, with gingkos I did have luck. Figure [[fig:30yrGingkos]] from
+Solotaroff shows a block of 30 year old gingkos.
 
 #+name: fig:30yrGingkos
 #+caption: Original Caption from Solotaroff: Street of Gingkos, leading from the grounds of the United States Department of Agriculture, Washington, D.C. Thirty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-49-25.jpg]]
 
+With some searching, I found [[https://agresearchmag.ars.usda.gov/2013/sep/saunders/][this article about George Saunders on the
+USDA website]].  Saunders was responsible for the planting of the
+gingkos around 1870 (Figure [[fig:1870Gingkos]]), and, while the USDA
+building is now gone, two of the original trees are still around
+(Figure .
 
-the ginkgos and the usda building didn't survive the
-
-https://agresearchmag.ars.usda.gov/2013/sep/saunders/
-
-
-#+DOWNLOADED: file:/Users/erker/Downloads/gingko_1870.jpg @ 2018-05-22 12:31:34
+#+name: fig:1870Gingkos
+#+caption: Two rows of gingkos planted circa 1870.
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
 
-#+DOWNLOADED: file:/Users/erker/Downloads/ginkgo_later.jpg @ 2018-05-22 12:30:29
+#+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
 
