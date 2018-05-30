@@ -150,19 +150,27 @@ tree lined streets, meant to exemplefy the beauty of a monospecific
 tree lined street and highlight each species' characteristics (Fig. [[fig:red_oak_street]]).
 
 #+name: fig:red_oak_street
-#+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
+#+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  I love the little boy in the bottom right.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg]]
 
-I tried finding these streets on google street view to see if the trees
-still existed.  I checked a few and found the trees gone and the
-streets radically transformed.  Some of the streets were on what would
-be come the national mall and didn't survive the [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan plan]].
+I wanted to find these streets on google street view to see if the
+trees still existed.  The few I checked before being discouraged were
+radically transformed and the trees were gone.  Most had changed with
+development.  Some were on what would become the national mall and
+[[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan's plan]] removed them.
 
+I did have luck with Solotaroff's example of a street lined with
+gingkos (Fig. [[fig:30yrGingkos]]).
+
+#+name: fig:30yrGingkos
+#+caption: Original Caption from Solotaroff: Street of Gingkos, leading from the grounds of the United States Department of Agriculture, Washington, D.C. Thirty years old.
+[[file:blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-49-25.jpg]]
 
 
 the ginkgos and the usda building didn't survive the
 
 https://agresearchmag.ars.usda.gov/2013/sep/saunders/
+
 
 #+DOWNLOADED: file:/Users/erker/Downloads/gingko_1870.jpg @ 2018-05-22 12:31:34
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
