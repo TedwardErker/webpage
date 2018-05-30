@@ -113,7 +113,7 @@ gleditsia
 norway maple
 white ash
 american elm
-
+* Old depictions of street trees.
 * Street Tree History Time Warp
 [2018-05-18 Fri]
 
@@ -129,7 +129,13 @@ early in the last century (Solotaroff 1911) and repeated to the
 present day.
 #+END_QUOTE
 
-This sparked a few questions:
+After reading this I immediately had the desire to cite somebody from over 100 years
+ago. Like the author who pulls quotes from Horace to express the
+unchanging nature of the human condition across millennia, I wanted to
+find my /Odes/ so that I could uncover the ancients' connection to
+city trees and determine if it was like my own.
+
+Then I had a few questions:
 
 - Why don't we often see citations going back this far?
 - Just how old are some of the ideas in urban forestry, and who were
@@ -152,7 +158,7 @@ street and highlight each species' characteristics (Figure [[fig:red_oak_street]
 #+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  I love the little boy in the bottom right.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg]]
 
-I wanted to find these streets on google street view to see if the
+I searched for these streets on google street view to see if the
 trees still existed.  The few I checked before becoming discouraged were
 radically transformed and the trees were gone.  Most had changed with
 development.  Some were located on what would become the national mall and
