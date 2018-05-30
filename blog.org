@@ -37,10 +37,30 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 - [ ] fix landing page to be more like blevins
 * The U.S. Population in Heating and Cooling Degree Day Space
 [2018-05-25 Fri]
+
+Madison, where I live now, is a cold city, especially when compared to
+my hometown St. Louis.  Lake ice in Madison is measured in feet.  The
+ice on the man-made ponds of St. Louis is an ephemeral phenonmenon and
+a few inches was a bygone memory from childhood.  The summers of
+Madison are cool.  I used to complain after I left St. Louis that
+midnight bike rides in Madison lack something wonderful: the comfort
+of the day's heat radiating back off the asphalt and into your skin as you
+ride through a blanket of humidity.  But as I write this I'm sweating
+on my front porch.  It doesn't feel like I live in a cold city today.
+
+
 What percent of Americans live in a place where they have to run the
-heat more than the A/C?  I was pretty sure that most of us lived in
-cold places that need more heat than A/C.  But as I write this
-I'm sweating on my front porch
+heat more than the A/C?
+
+
+
+But we are biased by our personal experiences.  What is the acutal breakdown?
+
+I was pretty sure that most of us lived in relatively cold places that
+need more heat than A/C.
+
+
+https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_energy_climate_population.org
 
 #+DOWNLOADED: /Users/erker/projects/webpage_cv/blog/hdd_cdd_tracts_cities.png @ 2018-05-29 11:42:55
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55.png]]
