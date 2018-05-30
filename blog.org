@@ -53,7 +53,7 @@ For something related to my work, I was curious how Madison compared
 not just to St. Louis, but also to the rest of the country.  What
 percent of Americans live in a climate that is as cold or colder than
 Madison?  What is the boundary between a "hot" and a "cold" city?  And
-where do most Americans live?
+what percent of Americans live in cold places? hot places?
 
 One way to measure this is with heating and cooling degree days.
 These are basically a measure of how much a place deviates from a
@@ -80,6 +80,26 @@ repo for code]].
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_thumb_2018-05-30_15-58-52.png]]
 
 
+From the above maps it's pretty clear that most of the continental
+U.S. is heating dominated (cold).  This isn't surprising, but is neat
+to visualize and moves us closer to an approximation of what percent
+of Americans live in a heating or cooling dominated area.  To answer
+that we need population data.
+
+I joined census tract data with HDD and CDD based off the closest
+weather station to the tract's centroid (more [[https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_energy_climate_population.org][code here]]).  Figure
+[[fig:USpop_hdd_cdd_space]] plots the population in HDD and CDD space,
+using hexagon bins to prevent overplotting.
+
+
+#+name: fig:USpop_hdd_cdd_space
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png]]
+
+Curious where your city falls in cooling and heating degree space?
+Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]].
+
+
+
 Combining census tract information and weather station climate data I
 plotted the U.S. population in heating and cooling degree day space.
 Dark hexagons have more people in them than lighter hexagons.
@@ -100,15 +120,6 @@ But we are biased by our personal experiences.  What is the acutal breakdown?
 
 I was pretty sure that most of us lived in relatively cold places that
 need more heat than A/C.
-
-
-https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_energy_climate_population.org
-
-#+name: fig:USpop_hdd_cdd_space
-[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png]]
-
-Curious where your city falls in cooling and heating degree space?
-Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]].
 
 
 
