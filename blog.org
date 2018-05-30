@@ -98,6 +98,11 @@ wikipedia.
 intro to roadside planting
 
 
+#+DOWNLOADED: /Users/erker/Downloads/Meindert_Hobbema_001.jpg @ 2018-05-30 11:02:35
+[[file:blog/blog_imgs/COMMENT Monocultures/Meindert_Hobbema_001_2018-05-30_11-02-35.jpg]]
+
+
+
 Earliest example of someone preferring rows of polycultures?
 see scientificamerican8_shadetreesincities.png
 * COMMENT How much municipalities spend on their trees, then and now
@@ -174,13 +179,25 @@ gingkos.
 
 With some searching, I found [[https://agresearchmag.ars.usda.gov/2013/sep/saunders/][this article about George Saunders on the
 USDA website]].  Saunders was responsible for the planting of the
-gingkos around 1870 (Figure [[fig:1870Gingkos]]), and, while the USDA
+gingkos around 1870 (Figure [[fig:1870Gingkos]]).  I also found two photos
+(I think taken from the Washington Monument), overlooking the mall in
+1901 and 1908 in which the ginkgos are visible (Figures
+[[fig:1901gingkos]] and [[fig:1908gingkos]]), while the USDA
 building is now gone, two of the original trees are still around
 (Figure [[fig:2013Gingko]]).
 
 #+name: fig:1870Gingkos
 #+caption: Two rows of gingkos planted circa 1870.
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
+
+
+#+name: fig:1901gingkos
+#+caption: I believe the ginkgos are the trees in the red box.
+[[file:blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-08-08.jpg]]
+
+#+name: fig:1908gingkos
+#+caption: Note how the gingkos have grown since 1901, and note all the new buildings.
+[[file:blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1908_-_Washington_DC_2018-05-30_11-05-52.jpg]]
 
 #+name: fig:2013Gingko
 #+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
