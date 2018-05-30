@@ -43,21 +43,16 @@ my hometown St. Louis.  Lake ice in Madison is measured in feet.  The
 ice on the man-made ponds of St. Louis is an ephemeral phenonmenon and
 a few inches was a bygone memory from childhood.  The summers of
 Madison are cool.  I used to complain after I left St. Louis that
-summer midnight bike rides in Madison lack something wonderful: the
-comfort of the day's heat radiating back off the asphalt and into your
-skin as you ride through a blanket of humidity.  But as I write this
-I'm sweating on my front porch.  It doesn't feel like I live in a cold
-city today.
+summer midnight bike rides in Madison lack something visceral: the
+stored day's heat radiating off the asphalt and into your skin as you
+ride through a blanket of humidity.  But as I write this I'm sweating
+on my front porch.  It doesn't feel like I live in a cold city today.
 
 For something tangentially related to my work, I was curious how
-Madison compared to the rest of the country.  Just how much colder is
-Madison than St. Louis?  What percent of Americans live in a climate
-that is as cold or colder than Madison?  What is the boundary between
-a "hot" and a "cold" city?
-
-What the cold cities and what are the hot cities in the U.S?  Is
-St. Louis really a hot city, or is it just one relative to where I
-live now?  Do most of us live in hot or cold places?
+Madison compared not just to St. Louis, but also to the rest of the
+country.  What percent of Americans live in a climate that is as cold
+or colder than Madison?  What is the boundary between a "hot" and a
+"cold" city?  And where do most Americans live?
 
 One way to measure this is with heating and cooling degree days.
 These are basically a measure of how much a place deviates from the
