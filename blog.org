@@ -57,7 +57,11 @@ or colder than Madison?  What is the boundary between a "hot" and a
 One way to measure this is with heating and cooling degree days.
 These are basically a measure of how much a place deviates from the
 balmy temperature of 65 degrees farenheit.  Cold places have more
-heating degree days and hot places have more
+heating degree days (days when you need to turn on the heat) and hot
+places have more cooling degree days (days when you need to turn on
+the A/C).
+
+
 
 
 Combining census tract information and weather station climate data I
@@ -156,6 +160,9 @@ been one of the world's favourites for more than two hundred years,
 
 #+caption: An even earlier example of a street lined with trees.  [[https://commons.wikimedia.org/wiki/File:Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg][The Avenue at Meerdervoort]], Aelbert Cuyp, 1650-1652.
 [[file:blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg]]
+
+
+
 
 I had long thought that those who planted trees along streets back in
 the day only considered planting monocultures.  Indeed, many authors
