@@ -134,21 +134,12 @@ early in the last century (Solotaroff 1911) and repeated to the
 present day.
 #+END_QUOTE
 
-After reading this I immediately had the desire to cite somebody from over 100 years
-ago. Like the author who pulls quotes from Horace to express the
-unchanging nature of the human condition across millennia, I wanted to
+After reading this I immediately had the desire to cite somebody from
+over 100 years ago. Like the author who pulls quotes from Horace to
+show our unchanging human condition across millennia, I wanted to
 find my /Odes/ so that I could uncover the ancients' connection to
-city trees and determine if it was like my own.
-
-Then I had a few questions:
-
-- Why don't we often see citations going back this far?
-- Just how old are some of the ideas in urban forestry, and who were
-  the first to publish them?
-- What insights from the past am I missing because I focus on more
-  recent publications?
-- Specifically to cite:solotaroff_1911, what are the species that
-  we've tried to plant along streets, but have since abandoned?
+city trees and determine if it was like my own.  How did they view
+their trees and are we different today?
 
 And then I went down a little history rabbit hole.
 
@@ -182,7 +173,7 @@ USDA website]].  Saunders was responsible for the planting of the
 gingkos around 1870 (Figure [[fig:1870Gingkos]]).  I also found two photos
 (I think taken from the Washington Monument), overlooking the mall in
 1901 and 1908 in which the ginkgos are visible (Figures
-[[fig:1901gingkos]] and [[fig:1908gingkos]]), while the USDA
+[[fig:1901gingkos]] and [[fig:1908gingkos]]).  Today, even though the USDA
 building is now gone, two of the original trees are still around
 (Figure [[fig:2013Gingko]]).
 
@@ -208,6 +199,18 @@ in such a large city is notable.  Next time I go to D.C. I have a
 scavenger hunt planned out to see if any of the other trees Solotaroff
 photographed in 1911 are still around today, or if the only survivor
 is the hearty ginkgo.
+
+** COMMENT archived questions
+
+Then I had a few questions:
+
+- Why don't we often see citations going back this far?
+- Just how old are some of the ideas in urban forestry, and who were
+  the first to publish them?
+- What insights from the past am I missing because I focus on more
+  recent publications?
+- Specifically to cite:solotaroff_1911, what are the species that
+  we've tried to plant along streets, but have since abandoned?
 
 * NASA Biodiversity and Ecological Forecasting 2018             :nasa:travel:
 [2018-04-26 Thu]
