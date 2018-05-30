@@ -126,8 +126,7 @@ from 1911:
 Unfortunately, there are a limited number of tree species adapted to
 the harsh growing conditions found in many cities, a fact lamented
 early in the last century (Solotaroff 1911) and repeated to the
-present day. Simply increasing diversity is of little benefit if
-poorly adapted species are used merely to fulfill a quota.
+present day.
 #+END_QUOTE
 
 This sparked a few questions:
@@ -146,17 +145,17 @@ I checked out cite:solotaroff_1911 from the library and quickly
 realized how some things have changed enormously (public enemy number
 one of street trees is no longer the horse), while others (the trees
 themselves) are the same.  The book is filled with great photos of
-tree lined streets, meant to exemplefy the beauty of a monospecific
-tree lined street and highlight each species' characteristics (Figure [[fig:red_oak_street]]).
+tree lined streets, meant to exemplify the beauty of a monospecific
+street and highlight each species' characteristics (Figure [[fig:red_oak_street]]).
 
 #+name: fig:red_oak_street
 #+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  I love the little boy in the bottom right.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg]]
 
 I wanted to find these streets on google street view to see if the
-trees still existed.  The few I checked before being discouraged were
+trees still existed.  The few I checked before becoming discouraged were
 radically transformed and the trees were gone.  Most had changed with
-development.  Some were on what would become the national mall and
+development.  Some were located on what would become the national mall and
 [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan's plan]] removed them.
 
 However, with gingkos I did have luck. Figure [[fig:30yrGingkos]] from
@@ -170,25 +169,22 @@ With some searching, I found [[https://agresearchmag.ars.usda.gov/2013/sep/saund
 USDA website]].  Saunders was responsible for the planting of the
 gingkos around 1870 (Figure [[fig:1870Gingkos]]), and, while the USDA
 building is now gone, two of the original trees are still around
-(Figure .
+(Figure [[fig:2013Gingko]]).
 
 #+name: fig:1870Gingkos
 #+caption: Two rows of gingkos planted circa 1870.
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
 
+#+name: fig:2013Gingko
 #+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
+They are a little bit of living history.  Their survival to a mature age
+in such a large city is notable.  Next time I go to D.C. I have a
+scavenger hunt planned out to see if any of the other trees Solotaroff
+photographed in 1911 are still around today, or if the only survivor
+is the hearty ginkgo.
 
-
-
-
-
-
-
-
-The rabbit hole ended up being quite big, so I'll make a few blog
-posts about what I found.
 * NASA Biodiversity and Ecological Forecasting 2018             :nasa:travel:
 [2018-04-26 Thu]
 
