@@ -93,15 +93,18 @@ wikipedia.
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
-* Monocultures
+* Early monocultures and early polycultures.
 
 People have liked streets lined with a single species for quite a
-while.  The
+while.  The Roads Beautifying Association observed in 1930, 'How the
+landscape can be transfigured is seen by Hobbema's painting, which has
+been one of the world's favourites for more than two hundred years,
+"The Avenue at Middelharnis, Holland."'
 
-#+DOWNLOADED: /Users/erker/Downloads/Meindert_Hobbema_001.jpg @ 2018-05-30 11:38:07
+#+caption: An early example of a street lined with trees.  [[https://en.wikipedia.org/wiki/The_Avenue_at_Middelharnis][The Avenue at Middelharnis, Holland]], detail, Meindert Hobbema, 1689.  The street is lined with alders
 [[file:blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07.jpg]]
 
-#+DOWNLOADED: /Users/erker/Downloads/Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg @ 2018-05-30 11:37:27
+#+caption: An even earlier example of a street lined with trees.  [[https://commons.wikimedia.org/wiki/File:Aelbert_Cuyp_Avenue_at_Meerdervoort.jpg][The Avenue at Meerdervoort]], Aelbert Cuyp, 1650-1652.
 [[file:blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg]]
 
 
