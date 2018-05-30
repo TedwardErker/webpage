@@ -39,11 +39,10 @@ type "?" to learn navigation, [[file:index.html][HOME]]
 #+DOWNLOADED: /Users/erker/projects/webpage_cv/blog/hdd_cdd_tracts_cities.png @ 2018-05-29 11:42:55
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55.png]]
 
-See an interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]]:
+Curious where your city falls in cooling and heating degree space?
+Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]]:
 
-#+HTML: <iframe src="blog/populations_in_cdd_hdd_space.html" height=400px width=120%></iframe>
-
-* sigmoid growth functions
+* COMMENT sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
 
@@ -90,6 +89,7 @@ wikipedia.
 #+end_src
 
 * It's hard to be a street tree
+[2018-05-18 Fri]
 #+caption: A maple on monroe
 [[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
@@ -113,7 +113,7 @@ gleditsia
 norway maple
 white ash
 american elm
-* Old depictions of street trees.
+
 * Street Tree History Time Warp
 [2018-05-18 Fri]
 
@@ -158,14 +158,15 @@ street and highlight each species' characteristics (Figure [[fig:red_oak_street]
 #+caption: Plate 9 - Street of Red Oaks from Solotaroff 1911.  I love the little boy in the bottom right.  Original Text: Twelfth Street, West, between North and South B Streets, Washington, D. C. Twenty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg]]
 
-I searched for these streets on google street view to see if the
-trees still existed.  The few I checked before becoming discouraged were
-radically transformed and the trees were gone.  Most had changed with
-development.  Some were located on what would become the national mall and
-[[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan's plan]] removed them.
+I searched for these streets on google street view, to see if the
+trees survived the century.  The few streets I checked before becoming
+discouraged were radically transformed and the trees were gone.  Most
+had changed with development.  Some were located on what would become
+the national mall and [[https://en.wikipedia.org/wiki/McMillan_Plan][McMillan's plan]] removed them.  However, with
+gingkos I did have luck.
 
-However, with gingkos I did have luck. Figure [[fig:30yrGingkos]] from
-Solotaroff shows a block of 30 year old gingkos.
+Figure [[fig:30yrGingkos]] from Solotaroff shows a block of 30 year old
+gingkos.
 
 #+name: fig:30yrGingkos
 #+caption: Original Caption from Solotaroff: Street of Gingkos, leading from the grounds of the United States Department of Agriculture, Washington, D.C. Thirty years old.
