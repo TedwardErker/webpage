@@ -1,6 +1,6 @@
 # -*- org-export-html-auto-postamble:nil -*-
 #+TITLE: notes
-type "?" to learn navigation, [[file:index.html][HOME]]
+ type "?" to learn navigation, [[file:index.html][HOME]]
 * Configuration                                            :noexport:archive:
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
