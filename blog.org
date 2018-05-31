@@ -43,8 +43,8 @@ my hometown St. Louis.  Lake ice in Madison is measured in feet.  Ice
 of any thickness on the man-made ponds of St. Louis is an ephemeral
 phenonmenon and ice of a few inches thick, a bygone memory from
 childhood.  The summers of Madison are also cool.  I used to complain
-after I left St. Louis that summer midnight bike rides in Madison lack
-something: the stored day's heat radiating off the asphalt and into
+after I left St. Louis that midnight summer bike rides in Madison lack
+something critical: the stored day's heat radiating off the asphalt and into
 your skin as you ride through a blanket of humidity.  But, as I write
 this, I'm sweating on my front porch.  It doesn't feel like I live in
 a cold city today.
@@ -52,7 +52,7 @@ a cold city today.
 For something related to my work, I was curious how Madison compared
 not just to St. Louis, but also to the rest of the country.  What
 percent of Americans live in a climate that is as cold or colder than
-Madison?  What is the boundary between a "hot" and a "cold" city?  And
+Madison?  Where is the boundary between a "hot" and a "cold" city?  And
 what percent of Americans live in cold places? hot places?
 
 One way to measure this is with heating and cooling degree days.
@@ -73,7 +73,7 @@ repo for code]].
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/CDD_atStations_albers_thumb_2018-05-30_15-57-50.png]]
 #+name: fig:hddcddUS_TF
 #+caption: Whether a weather station has more heating or cooling degree days.  This separates heating dominated from cooling dominated regions.  It is approximately the geospatial mapping of the 1:1 line in Figure [[fig:USpop_hdd_cdd_space]]
-[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-30_15-58-13.png]]
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-31_07-47-25.png]]
 
 #+name: fig:hddcddUS
 #+caption: The difference between the number of heating and cooling degree days.  A more continous version of Figure [[fig:hddcddUS_TF]].
@@ -81,7 +81,7 @@ repo for code]].
 
 
 From the above maps it's pretty clear that most of the continental
-U.S. is heating dominated (cold).  This isn't surprising, but is neat
+U.S. is heating dominated (cold).  This isn't surprising, but it is neat
 to visualize and moves us closer to an approximation of what percent
 of Americans live in a heating or cooling dominated area.  To answer
 that we need population data.
@@ -91,43 +91,23 @@ weather station to the tract's centroid (more [[https://github.com/TedwardErker/
 [[fig:USpop_hdd_cdd_space]] plots the population in HDD and CDD space,
 using hexagon bins to prevent overplotting.   The 1:1 line separates
 places that have more CDD than HDD from those that have more HDD than
-CDD.  Summing the populations in each
+CDD.
 
-this figures adds to Figure [[fig:hddcddUS]] bec also shows mild places
-and clear inverse relationship
+A few key takeaways:
+- slightly more than 3 out of every 4 Americans (77%) live in a heating dominated climate.
+- Madison is a lot colder than most of the U.S.
+- California, especially southern, is an exception to the strong
+  inverse relationship between HDD and CDD across most of the
+  country.  They are not really hot and not really cold.
 
 Look at Madison there.
 
 #+name: fig:USpop_hdd_cdd_space
+#+caption: U.S. population in heating and cooling degree space.  This figures adds to Figure [[fig:hddcddUS]] bec also shows mild places and the inverse relationship between HDD and CDD.
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png]]
 
 Curious where your city falls in cooling and heating degree space?
 Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]].
-
-
-
-Combining census tract information and weather station climate data I
-plotted the U.S. population in heating and cooling degree day space.
-Dark hexagons have more people in them than lighter hexagons.
-
-inversely related.
-
-some mild places. LA
-
-
-If I go beyond my personal experience
-
-What percent of Americans live in a place where they have to run the
-heat more than the A/C?
-
-
-
-But we are biased by our personal experiences.  What is the acutal breakdown?
-
-I was pretty sure that most of us lived in relatively cold places that
-need more heat than A/C.
-
-
 
 * COMMENT sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
