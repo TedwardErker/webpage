@@ -305,7 +305,7 @@ building is now gone, two of the original trees are still around
 
 #+name: fig:1870Gingkos
 #+caption: Two rows of gingkos planted circa 1870.
-[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
+[[file:blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg]]
 
 
 #+name: fig:1901gingkos
