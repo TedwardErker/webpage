@@ -5,7 +5,7 @@
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 #+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
 
@@ -29,7 +29,7 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
-* Getting Google Scholar Results Into a Nice Table
+* Google Scholar Results In a Nice Table
 Say you want to take a look at all the papers that cite a paper.  You
 do a search, then click the "cited by" link.  Now you can see all the
 papers that cited this one.  Pretty neat.  How can you get the results
@@ -101,7 +101,8 @@ Error in open.connection(x, "rb") : HTTP error 503.
 Google prevents massive automatic downloads for good reason.  This
 will probably only work for the occasional search and for downloading
 the first several results pages, not many pages.  This will work for
-any 
+any google scholar search, not just one of papers that cite another
+paper.
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
