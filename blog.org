@@ -59,37 +59,38 @@ The results aren't all on a single page.  So you need to give a vector
 of page urls.
 
 Copy and paste the first and second page.  By changing the number
-after "start=" in the second url, you can get the remaining pages.  I
-go up as high as there are results. In this case there are 55.
+after "start=" in the second url, you can get the remaining pages. 
 
 #+begin_src R :session *R* :results none
     first.page <- c("https://scholar.google.com/scholar?cites=16900404805115852262&as_sdt=5,50&sciodt=0,50&hl=en")
-    later.pages <- paste0("https://scholar.google.com/scholar?start=",seq(10,50,10),"&hl=en&as_sdt=5,50&sciodt=0,50&cites=16900404805115852262&scipsc=")
+    later.pages <- paste0("https://scholar.google.com/scholar?start=",seq(10,20,10),"&hl=en&as_sdt=5,50&sciodt=0,50&cites=16900404805115852262&scipsc=")
     pages <- c(first.page, later.pages)
 #+end_src
 
 ** extract the title; authors, publication, and year; and link using CSS classes
 #+begin_src R :session *R* :results none
-  out <- lapply(pages, function(page) {
-    res <- read_html(page)
-    title <- res %>%
+    out <- lapply(pages, function(page) {
+      res <- read_html(page)
+      title <- res %>%
+          html_nodes(".gs_rt > a") %>%
+          html_text()
+
+      authors <- res %>%
+          html_nodes(".gs_a") %>%
+          html_text()
+
+      link <- res %>%
         html_nodes(".gs_rt > a") %>%
-        html_text()
+        html_attr(name = "href")
 
-    authors <- res %>%
-        html_nodes(".gs_a") %>%
-        html_text()
+      o <- data_frame(title,authors,link)
 
-    link <- res %>%
-      html_nodes(".gs_rt > a") %>%
-      html_attr(name = "href")
+      Sys.sleep(3) # wait 3 seconds
+    })
 
-    o <- data_frame(title,authors,link)
+    df <- do.call("rbind", out)
 
-    Sys.sleep(3) # wait 3 seconds
-  })
-
-  df <- do.call("rbind", out)
+    df <- mutate(link = paste0("[[",link,"][link]]"))  # make org mode link
 #+end_src
 ** print as org table
 #+begin_src R :session *R* :results output
@@ -105,9 +106,9 @@ Error in open.connection(x, "rb") : HTTP error 503.
 #+END_QUOTE
 
 Google prevents massive automatic downloads for good reason.  This
-code is meant to prevent the
-will probably only work for the occasional search and for downloading
-the first couple results pages, not many pages.  
+code is meant to prevent the manual typing of page results into a
+table, not scrape hundreds of results.
+
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
