@@ -89,8 +89,14 @@ that we need population data.
 I joined census tract data with HDD and CDD based off the closest
 weather station to the tract's centroid (more [[https://github.com/TedwardErker/us_energy_climate_population/blob/master/us_energy_climate_population.org][code here]]).  Figure
 [[fig:USpop_hdd_cdd_space]] plots the population in HDD and CDD space,
-using hexagon bins to prevent overplotting.
+using hexagon bins to prevent overplotting.   The 1:1 line separates
+places that have more CDD than HDD from those that have more HDD than
+CDD.  Summing the populations in each
 
+this figures adds to Figure [[fig:hddcddUS]] bec also shows mild places
+and clear inverse relationship
+
+Look at Madison there.
 
 #+name: fig:USpop_hdd_cdd_space
 [[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png]]
