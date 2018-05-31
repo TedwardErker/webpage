@@ -164,7 +164,7 @@ wikipedia.
 * It's hard to be a street tree
 [2018-05-18 Fri]
 #+caption: A maple on monroe
-[[file:../../git/webpage_cv/blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
+[[file:blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
 * Early monocultures and early polycultures.
 [2018-05-16 Wed]
@@ -345,13 +345,13 @@ Then I had a few questions:
 Team Meeting
 
 #+CAPTION: einstein and me again
-[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/me_einstein_2018_2018-05-22_11-23-15.jpg]]
+[[file:blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/me_einstein_2018_2018-05-22_11-23-15.jpg]]
 
 #+caption: oaks of DC
-[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/dc_oaks_2018-05-22_11-27-21.jpg]]
+[[file:blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/dc_oaks_2018-05-22_11-27-21.jpg]]
 
 #+caption: the national mall on the way out of town
-[[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
+[[file:blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
 
 *  Constrained regression for better tree growth equations
 [2018-03-08 Thu]
@@ -592,12 +592,12 @@ enlightening conversations.
 
 It was also very beautiful there:
 #+CAPTION: Asilomar State Beach
-#+ATTR_HTML: :alt none :title :align center :height 400
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/stancon2018/pacificocean_asilomar.jpg]]
 
 
 #+CAPTION: Flying home: Mountains in Utah.  Incredible.  We flew over the most incredible canyon too.  I wish I knew where it was so I could visit on foot.
-#+ATTR_HTML: :alt none :title :align center :height 400
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/stancon2018/Utah_mtns.jpg]]
 
 * COMMENT saying bad things about trees
