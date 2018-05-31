@@ -30,10 +30,14 @@
 #+HTML:</script>
 
 * Google Scholar Results In a Nice Table
+#+caption: Example Google Scholar results
+[[file:blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24.png]]
+
 Say you want to take a look at all the papers that cite a paper.  You
 do a search, then click the "cited by" link.  Now you can see all the
 papers that cited this one.  Pretty neat.  How can you get the results
 into a table that you can add notes to?
+
 
 ** load libraries
 #+begin_src R :session *R* :results none
