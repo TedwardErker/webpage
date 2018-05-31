@@ -100,14 +100,20 @@ A few key takeaways:
   inverse relationship between HDD and CDD across most of the
   country.  They are not really hot and not really cold.
 
-Look at Madison there.
-
 #+name: fig:USpop_hdd_cdd_space
-#+caption: U.S. population in heating and cooling degree space.  This figures adds to Figure [[fig:hddcddUS]] bec also shows mild places and the inverse relationship between HDD and CDD.
-[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png]]
+#+caption: U.S. population in heating and cooling degree space.  This figures adds to Figure [[fig:hddcddUS]] because it also shows mild places and the inverse relationship between HDD and CDD.
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_2018-05-31_08-08-54.png]]
 
-Curious where your city falls in cooling and heating degree space?
-Check out the interactive version of the above chart [[file:blog/populations_in_cdd_hdd_space.html][here]].
+
+#+name: fig:USpop_hdd_cdd_space_cities
+#+caption: Adding some major cities to Figure[[fig:USpop_hdd_cdd_space]]
+[[file:blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-31_08-10-16.png]]
+
+It can be a little hard to see the city names.  Looking for a more
+clear figure or curious where your city falls in cooling and heating
+degree space?
+
+[[file:blog/populations_in_cdd_hdd_space.html][Check out the interactive version of the above chart here]]
 
 * COMMENT sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
