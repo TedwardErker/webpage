@@ -168,11 +168,16 @@ wikipedia.
 
 * Early monocultures and early polycultures.
 [2018-05-16 Wed]
+
 People have liked streets lined with a single species for quite a
-while.  The Roads Beautifying Association observed in 1930, 'How the
-landscape can be transfigured is seen by Hobbema's painting, which has
-been one of the world's favourites for more than two hundred years,
-"The Avenue at Middelharnis, Holland."' citep:roads_1930
+while.  The Roads Beautifying Association observed in 1930:
+
+#+BEGIN_QUOTE
+How the landscape can be transfigured is seen by Hobbema's painting,
+which has been one of the world's favourites for more than two hundred
+years, "The Avenue at Middelharnis, Holland."
+#+END_QUOTE
+ citep:roads_1930
 
 #+caption: An early example of a street lined with trees.  [[https://en.wikipedia.org/wiki/The_Avenue_at_Middelharnis][The Avenue at Middelharnis, Holland]], detail, Meindert Hobbema, 1689.  The street is lined with alders
 [[file:blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07.jpg]]
@@ -348,7 +353,8 @@ Team Meeting
 #+caption: the national mall on the way out of town
 [[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
 
-* [2018-03-08 Thu] Constrained regression for better tree growth equations
+*  Constrained regression for better tree growth equations
+[2018-03-08 Thu]
 
 Say you plant a tree in a city.  How big will it be in 20 years?  You
 might want to know because the ecosystem services provided by trees is
@@ -509,23 +515,24 @@ regression with a somewhat complex constraint on the parameters.
 [2018-05-18 Fri] Update:  I found out QP is a pretty standard thing in
 linear algebra and that it's used to connect splines.  Neat.
 
-* [2018-02-02 Fri] Commuting Across Mendota
-
-#+ATTR_HTML: :alt none :title :align center :height 600
+* Commuting Across Mendota
+[2018-02-02 Fri]
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/frozenmad_isthmus_commute.jpg.png]]
 
-#+ATTR_HTML: :alt none :title :align center :height 600
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/ben_ski.jpg]]
 
-#+ATTR_HTML: :alt none :title :align center :height 600
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/ice.jpg]]
 
-#+ATTR_HTML: :alt none :title :align center :height 600
+#+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/snowsun.jpg]]
 
 The best way to get to work is by ice.
 
-* [2018-01-13 Sat] STANCon 2018
+* STANCon 2018
+[2018-01-13 Sat]
 
 [[http://mc-stan.org/][Stan]] is a probabilistic programming language used for bayesian
 statistical inference. I got a student scholarship to attend the Stan
@@ -597,8 +604,11 @@ It was also very beautiful there:
 It's hard for me to do. Socialized that trees are good.  Important to
 try to check that notion before doing science.  I know I read a paper
 that talked about this.
-* COMMENT [2017-12-19 Tue] My latest rejection: presidential management fellowship
-* [2017-12-05 Tue] Statistics and Elections                      :statistics:
+* COMMENT My latest rejection: presidential management fellowship
+[2017-12-19 Tue]
+* Statistics and Elections                      :statistics:
+[2017-12-05 Tue]
+
 Statistics can be a powerful tool for identifying fraud in elections.
 One of my favorite examples comes from the 2011 Russian election.  See
 the [[https://en.wikipedia.org/wiki/Russian_legislative_election,_2011#Statistics][wikipedia article]] and this [[https://en.wikipedia.org/wiki/Russian_legislative_election,_2011#/media/File:2011_Duma_votes.svg][figure]].  The distribution of the votes
@@ -644,7 +654,8 @@ cancel out.
 1 - ( (|a_1 - a_2| +  |b_1 - b_2| + |c_1 - c_2|) / 2) / n
 
 * COMMENT mac blas; homebrew R versus default R
-* [2017-11-30] (Not) Remembering When Trees Disappear
+* (Not) Remembering When Trees Disappear
+[2017-11-30]
 
 One of the fun parts of my work this semester was knocking on doors
 and asking people when nearby trees were removed.  We wanted to see if
@@ -725,7 +736,8 @@ got and email from her
 
 note the 2015 engineering project actually removed trees in late 2015
 or 2016.  imagery from fall 2015 confirm this.
-* [2017-10-18 Wed] Flyer to get citizen help with urban forest research. :UrbanHeatIsland:
+* Flyer to get citizen help with urban forest research.     :UrbanHeatIsland:
+[2017-10-18 Wed]
 
 |[[file:blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png]]  | [[file:blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png]] |
 
@@ -735,7 +747,8 @@ was removed.  As of today we've had a couple responses that have given
 us the exact date trees were removed.  Thank you Sara Sandberg and
 Mike Bussan!
 
-* [2017-10-12 Thu] Madison East AP Environmental Studies Field Trip
+* Madison East AP Environmental Studies Field Trip
+[2017-10-12 Thu]
 
 I got to help students in Madison East's AP Environmental studies on
 their field trip to the Madison School Forest.  With 85 students and
@@ -773,12 +786,16 @@ calculating probabilities sum
 introduce cheynne
 photo of cheyenne at sensor
 
-* [2017-05-24 Wed] Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
+* Second Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
+[2017-05-24 Wed]
+
 #+CAPTION: National Museum of African American History and Culture
 #+ATTR_HTML: :alt none :title :align center :height 600
 [[file:blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg]]
 
-* [2017-05-16 Tue] Shotgun Training
+* Shotgun Training
+[2017-05-16 Tue]
+
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg]]
 
@@ -807,11 +824,15 @@ model
 even with such great data, would it have been possible to find the
 true model?
 
-* [2017-04-25 Tue] Collecting Urban Heat Island Data with Carly Ziter :UrbanHeatIsland:
+* Collecting Urban Heat Island Data with Carly Ziter :UrbanHeatIsland:
+[2017-04-25 Tue]
+
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
 
-* [2017-04-24 Mon] Using OpenBLAS to speed up matrix operations in R (linux)
+* Using OpenBLAS to speed up matrix operations in R (linux)
+[2017-04-24 Mon]
+
 I use the =foreach= and =doParallel= packages in R to speed up my work
 that can be easily parallelized.  However, sometimes work can't be
 easily parallelized and things are slower than I'd like.  An example
@@ -985,7 +1006,9 @@ From comments [[http://edustatistics.org/nathanvan/2013/07/09/for-faster-r-use-o
 an issue, I may have to include a shell code chunk in a literate program
 to change between BLAS libraries.
 
-* [2017-02-28 Tue] Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop
+* Application Essay: Catalyzing Advocacy in Science and Engineering: 2017 Workshop
+[2017-02-28 Tue]
+
 I just applied to the [[https://www.aaas.org/page/about-0][CASE 2017 Workshop]] in Washington, DC.  The
 application process led to some interesting thoughts, so I thought I'd
 share the essay.
@@ -1051,7 +1074,8 @@ elected officials from across the state.
 In 2014 and this year, I applied to the Garden Club of America's urban
 forestry grant.  Both times I was not selected.
 
-* [2016-10-27 Thu] OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
+* OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
+[2016-10-27 Thu]
 
 *NOTE*
 
@@ -1311,7 +1335,9 @@ exit
 Upon exiting, the tar.gz files created should be sent back to your
 submit node
 
-* [2016-09-23 Fri] Cool Science Image contest
+* Cool Science Image contest
+[2016-09-23 Fri]
+
 #+CAPTION: MNF transformation of AVIRIS hyperspectral imagery over lakes Mendota, Monona, and Wingra
 #+ATTR_HTML: :alt none :title :align center :height 600
 [[file:blog_imgs/CoolScienceImage/beautiful_madison_lakes.png]]
@@ -1334,7 +1360,8 @@ reflections on the water.  There's probably some algae detection going
 on too.  My goal for next year is to make an image that is heavier on
 the science and still very cool.
 
-* [2016-09-20 Tue] Field work in northern Wisconsin
+* Field work in northern Wisconsin
+[2016-09-20 Tue]
 
 Field work provides the opportunity to be outside, help out on
 lab-wide projects, and to learn about new research that isn't exactly
@@ -1390,7 +1417,9 @@ the joy of being in the north woods.
 #+END_video
 Flux tower of Ankur Desai's research group, much smaller than NEON's.  Maples creating lovely dappled light.
 
-* [2016-08-02 Tue] Making this website                              :orgmode:
+* Making this website                              :orgmode:
+[2016-08-02 Tue]
+
 I use emacs org-mode as the core application for my research.  It
 makes sense to use the great org publishing features to create a
 website without having to learn many new skills.  I had considered
@@ -1420,12 +1449,15 @@ You can clone the github [[https://github.com/TedwardErker/webpage][repo]] to se
 It is great to be able to work on the content of the website in a very
 familiar way and export it to the internet with one command.  Amazing.
 
-* [2016-08-02 Tue] Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
+* Trip to Washington, DC for NASA's Biodiversity and Ecological Forecasting Team Meeting :nasa:travel:
+[2016-08-02 Tue]
+
 #+CAPTION: Albert Einstein Memorial
 #+ATTR_HTML: :alt none :title :align center :height 300
 [[file:blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
 
-* [2016-08-01 Mon] Removing Stuck Aluminum Seatpost from a Steel Frame :bike:
+* Removing Stuck Aluminum Seatpost from a Steel Frame :bike:
+[2016-08-01 Mon]
 
 *** In short:
 Use a sodium hydroxide solution with proper protection and
