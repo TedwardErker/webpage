@@ -240,7 +240,6 @@ gleditsia
 norway maple
 white ash
 american elm
-
 * Street Tree History Time Warp
 [2018-05-11 Fri]
 
@@ -287,7 +286,7 @@ Figure [[fig:30yrGingkos]] from Solotaroff shows a block of 30 year old
 gingkos.
 
 #+name: fig:30yrGingkos
-#+caption: Original Caption from Solotaroff: Street of Gingkos, leading from the grounds of the United States Department of Agriculture, Washington, D.C. Thirty years old.
+#+caption: Gingkos in 1911. Original Caption from Solotaroff: Street of Gingkos, leading from the grounds of the United States Department of Agriculture, Washington, D.C. Thirty years old.
 [[file:blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-49-25.jpg]]
 
 With some searching, I found [[https://agresearchmag.ars.usda.gov/2013/sep/saunders/][this article about George Saunders on the
@@ -305,22 +304,23 @@ building is now gone, two of the original trees are still around
 
 
 #+name: fig:1901gingkos
-#+caption: I believe the ginkgos are the trees in the red box.
+#+caption: I believe the ginkgos are the trees in the red box. 1901
 [[file:blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-08-08.jpg]]
 
 #+name: fig:1908gingkos
-#+caption: Note how the gingkos have grown since 1901, and note all the new buildings.
+#+caption: Note how the gingkos have grown since 1901, and note all the new buildings.  1908
 [[file:blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1908_-_Washington_DC_2018-05-30_11-05-52.jpg]]
 
 #+name: fig:2013Gingko
 #+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
 [[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
-They are a little bit of living history.  Their survival to a mature age
-in such a large city is notable.  Next time I go to D.C. I have a
-scavenger hunt planned out to see if any of the other trees Solotaroff
-photographed in 1911 are still around today, or if the only survivor
-is the hearty ginkgo.
+They are a little bit of living history.  Their survival to a mature
+age in such a large city certainly required a lot of people making
+decisions to spare them during development.  Next time I go to D.C. I
+have a scavenger hunt planned out to see if any of the other trees
+Solotaroff photographed in 1911 are still around today, or if the only
+survivor is the hearty ginkgo.
 
 ** COMMENT archived questions
 
@@ -348,16 +348,6 @@ Team Meeting
 #+caption: the national mall on the way out of town
 [[file:../../git/webpage_cv/blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
 
-
-* COMMENT consider getting my blog to look like this: https://mgimond.github.io/Spatial/index.html
-:PROPERTIES:
-:EXPORT_FILE_NAME: ./build/./build/./build/COMMENT_consider_getting_my_blog_to_look_like_this:_https://mgimond.github.io/Spatial/index.html
-:END:
-https://stackoverflow.com/questions/23094647/difficulty-in-getting-gitbook-site-to-show-up-in-github-page
-https://www.gitbook.com/
-https://stackoverflow.com/questions/23094647/difficulty-in-getting-gitbook-site-to-show-up-in-github-page
-https://stackoverflow.com/questions/23445394/how-to-serve-my-own-gitbook-using-github-pages?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
-https://urosjarc.github.io/gitbook-plugin-build/getStarted/
 * [2018-03-08 Thu] Constrained regression for better tree growth equations
 
 Say you plant a tree in a city.  How big will it be in 20 years?  You
@@ -602,7 +592,6 @@ It was also very beautiful there:
 #+CAPTION: Flying home: Mountains in Utah.  Incredible.  We flew over the most incredible canyon too.  I wish I knew where it was so I could visit on foot.
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/stancon2018/Utah_mtns.jpg]]
-
 
 * COMMENT saying bad things about trees
 It's hard for me to do. Socialized that trees are good.  Important to
