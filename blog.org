@@ -5,7 +5,7 @@
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 #+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
 
@@ -28,6 +28,67 @@
 #+HTML:  ga('create', 'UA-99109143-1', 'auto');
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
+
+* Getting Google Scholar Results Into a Nice Table
+Say you want to take a look at all the papers that cite a paper.  You
+do a search, then click the "cited by" link.  Now you can see all the
+papers that cited this one.  Pretty neat.  How can you get the results
+into a table that you can ?
+
+** load libraries
+#+begin_src R :session *R* :results none
+
+  library(rvest)  # rvest for web scraping
+  library(dplyr)  # dplyr for pipes (%>%)
+
+
+  library(ascii)  # ascii for printing the dataframe in org mode
+  options(asciiType = "org")
+  org.ascii <- function(x) {
+    suppressWarnings(print(ascii(x)))
+  }
+
+#+end_src
+
+** get urls of pages you want to download
+The results aren't all on a single page.  So you need to give a vector
+of page urls.
+
+Copy and paste the first and second page.  By changing the number
+after "start=" in the second url, you can get the remaining pages.  I
+go up as high as there are results. In this case there are 55.
+
+#+begin_src R :session *R* :results none
+    first.page <- c("https://scholar.google.com/scholar?cites=16900404805115852262&as_sdt=5,50&sciodt=0,50&hl=en")
+    later.pages <- paste0("https://scholar.google.com/scholar?start=",seq(10,50,10),"&hl=en&as_sdt=5,50&sciodt=0,50&cites=16900404805115852262&scipsc=")
+    pages <- c(first.page, later.pages)
+#+end_src
+
+** extract the title; authors, publication, and year; and link using CSS classes
+#+begin_src R :session *R* :results none
+  out <- lapply(pages, function(page) {
+    res <- read_html(page)
+    title <- res %>%
+        html_nodes(".gs_rt > a") %>%
+        html_text()
+
+    authors <- res %>%
+        html_nodes(".gs_a") %>%
+        html_text()
+
+    link <- res %>%
+      html_nodes(".gs_rt > a") %>%
+      html_attr(name = "href")
+
+  o <- data_frame(title,authors,link)
+  })
+
+  df <- do.call("rbind", out)
+#+end_src
+** print as org table
+#+begin_src R :session *R* :results output
+  org.ascii(df)
+#+end_src
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
