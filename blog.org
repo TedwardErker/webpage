@@ -29,6 +29,17 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
+* TODO COMMENT use all.css from jblevins as guide for improving my css
+- [ ] make website smaller (remove unnecessary files, shrink images).
+  - 2560 x 1600 is b's screen resolution.
+- [ ] fix css to be like blevins
+- [ ] ankur flux tower on youtube
+- [ ] fix landing page to be more like blevins
+- [ ] fix header id's
+  - https://writequit.org/articles/emacs-org-mode-generate-ids.html
+
+
+
 * Google Scholar Results In a Nice Table
 #+caption: Example Google Scholar results
 [[file:blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24.png]]
@@ -108,14 +119,6 @@ Error in open.connection(x, "rb") : HTTP error 503.
 Google prevents massive automatic downloads for good reason.  This
 code is meant to prevent the manual typing of page results into a
 table, not scrape hundreds of results.
-
-
-* TODO COMMENT use all.css from jblevins as guide for improving my css
-- [ ] make website smaller (remove unnecessary files, shrink images).
-  - 2560 x 1600 is b's screen resolution.
-- [ ] fix css to be like blevins
-- [ ] ankur flux tower on youtube
-- [ ] fix landing page to be more like blevins
 * The U.S. Population in Heating and Cooling Degree Day Space
 [2018-05-25 Fri]
 
