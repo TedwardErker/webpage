@@ -84,7 +84,9 @@ go up as high as there are results. In this case there are 55.
       html_nodes(".gs_rt > a") %>%
       html_attr(name = "href")
 
-  o <- data_frame(title,authors,link)
+    o <- data_frame(title,authors,link)
+
+    Sys.sleep(3) # wait 3 seconds
   })
 
   df <- do.call("rbind", out)
@@ -103,10 +105,9 @@ Error in open.connection(x, "rb") : HTTP error 503.
 #+END_QUOTE
 
 Google prevents massive automatic downloads for good reason.  This
+code is meant to prevent the
 will probably only work for the occasional search and for downloading
-the first several results pages, not many pages.  This will work for
-any google scholar search, not just one of papers that cite another
-paper.
+the first couple results pages, not many pages.  
 
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
