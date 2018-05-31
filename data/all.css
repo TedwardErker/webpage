@@ -206,6 +206,11 @@ abbr[title] {
 /*
  * Monospace environments
  */
+
+.src-R {
+    font-size: .7em;
+}
+
 code, pre, kbd {
   font-family: Inconsolata, inconsolata, "Source Code Pro", Terminus, Consolas, "Liberation Mono", "Bitstream Vera Sans Mono", "Andale Mono WT", "Andale Mono", Monaco, "Lucida Console", "Lucida Sans Typewriter", "Nimbus Mono L", "Courier New", Courier, monospace;
 }
@@ -217,7 +222,7 @@ pre {
   /* 11 px */
   background-color: #f1efec;
   color: #333232;
-  line-height: 1.5rem;
+  line-height: 1rem;
   white-space: pre;
   overflow-x: auto;
   -webkit-border-radius: 0.5rem;
@@ -226,7 +231,7 @@ pre {
   border-radius: 0.5rem;
 }
 
-code, kbd {
+pre, kbd {
   /* border: 1px solid $block-border-color; */
   padding: 0 .3rem;
   background-color: #f1efec;
