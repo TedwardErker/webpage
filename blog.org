@@ -5,7 +5,7 @@
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 #+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
 
@@ -29,6 +29,8 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
+#+TAGS: nasa travel statistics UrbanHeatIsland bike orgmode computing UrbanTrees life orgmode
+
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
   - 2560 x 1600 is b's screen resolution.
@@ -39,7 +41,7 @@
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
 
-* Google Scholar Results In a Nice Table
+* Google Scholar Results In a Nice Table                          :computing:
 #+caption: Example Google Scholar results
 [[file:blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24.png]]
 
@@ -104,45 +106,18 @@ after "start=" in the second url, you can get the remaining pages.
     df <- mutate(df, link = paste0("[[",link,"][link]]"))  # make org mode link
 #+end_src
 ** print as org table
-#+begin_src R :session *R* :results output
-  org.ascii(df)
+#+begin_src R :session *R* :results raw
+  org.ascii(head(df))
 #+end_src
 
-
-|    | title                                    | authors              | link |
-|----+------------------------------------------+----------------------+------|
-|    | <40>                                     | <20>                 |      |
-|  1 | Ten ways remote sensing can contribute to conservation | RA Rose, D Byler, JR Eastman… - Conservation …, 2015 - Wiley Online Library | [[http://onlinelibrary.wiley.com/doi/10.1111/cobi.12397/full][link]] |
-|  2 | Phenology and gross primary production of two dominant savanna woodland ecosystems in Southern Africa | C Jin, X Xiao, L Merbold, A Arneth… - Remote Sensing of …, 2013 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S003442571300120X][link]] |
-|  3 | The role of remote sensing in process-scaling studies of managed forest ecosystems | JG Masek, DJ Hayes, MJ Hughes, SP Healey… - Forest Ecology and …, 2015 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0378112715003011][link]] |
-|  4 | Remote monitoring of forest insect defoliation. A review | CDR Silva, AE Olthoff, JAD de la Mata… - Forest Systems, 2013 - dialnet.unirioja.es | [[https://dialnet.unirioja.es/descarga/articulo/4860699.pdf][link]] |
-|  5 | Monitoring forest decline through remote sensing time series analysis | J Lambert, C Drenou, JP Denux, G Balent… - GIScience & remote …, 2013 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/15481603.2013.820070][link]] |
-|  6 | Landsat remote sensing of forest windfall disturbance | M Baumann, M Ozdogan, PT Wolter, A Krylov… - Remote sensing of …, 2014 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0034425714000054][link]] |
-|  7 | Long-distance dispersal of spruce budworm (Choristoneura fumiferana Clemens) in Minnesota (USA) and Ontario (Canada) via the atmospheric pathway | BR Sturtevant, GL Achtemeier, JJ Charney… - Agricultural and forest …, 2013 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0168192312002821][link]] |
-|  8 | Mapping asynchrony between gypsy moth egg-hatch and forest leaf-out: Putting the phenological window hypothesis in a spatial context | JR Foster, PA Townsend, DJ Mladenoff - Forest ecology and management, 2013 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0378112712005397][link]] |
-|  9 | Characterizing spectral–temporal patterns of defoliator and bark beetle disturbances using Landsat time series | C Senf, D Pflugmacher, MA Wulder, P Hostert - Remote Sensing of …, 2015 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0034425715301425][link]] |
-| 10 | Modeling a historical mountain pine beetle outbreak using Landsat MSS and multiple lines of evidence | TJ Assal, J Sibold, R Reich - Remote sensing of environment, 2014 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0034425714003435][link]] |
-| 11 | Remote sensing of forest pest damage: a review and lessons learned from a Canadian perspective | RJ Hall, G Castilla, JC White, BJ Cooke… - The Canadian …, 2016 - cambridge.org | [[https://www.cambridge.org/core/journals/canadian-entomologist/article/remote-sensing-of-forest-pest-damage-a-review-and-lessons-learned-from-a-canadian-perspective/FD254D701965AD576E249B0879693DF7][link]] |
-| 12 | Spatial dynamics of a gypsy moth defoliation outbreak and dependence on habitat characteristics | JR Foster, PA Townsend, DJ Mladenoff - Landscape ecology, 2013 - Springer | [[https://link.springer.com/article/10.1007/s10980-013-9879-8][link]] |
-| 13 | Near-real time detection of beetle infestation in pine forests using MODIS data | A Anees, J Aryal - IEEE Journal of Selected Topics in Applied …, 2014 - ieeexplore.ieee.org | [[http://ieeexplore.ieee.org/abstract/document/6862846/][link]] |
-| 14 | Remote sensing of seasonal changes and disturbances in mangrove forest: a case study from South Florida | K Zhang, B Thapa, M Ross, D Gann - Ecosphere, 2016 - Wiley Online Library | [[http://onlinelibrary.wiley.com/doi/10.1002/ecs2.1366/full][link]] |
-| 15 | Remote monitoring of defoliation by the beech leaf-mining weevil Rhynchaenus fagi in northern Spain | C Rullán-Silva, AE Olthoff, V Pando, JA Pajares… - Forest Ecology and …, 2015 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0378112715001164][link]] |
-| 16 | Mapping health levels of Robinia pseudoacacia forests in the Yellow River delta, China, using IKONOS and Landsat 8 OLI imagery | H Wang, R Pu, Q Zhu, L Ren… - International Journal of …, 2015 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/01431161.2015.1007253][link]] |
-| 17 | A multi-scale analysis of western spruce budworm outbreak dynamics | C Senf, EM Campbell, D Pflugmacher, MA Wulder… - Landscape …, 2017 - Springer | [[https://link.springer.com/article/10.1007/s10980-016-0460-0][link]] |
-| 18 | Tamm review: insights gained from light use and leaf growth efficiency indices | R Waring, J Landsberg, S Linder - Forest Ecology and Management, 2016 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0378112716304388][link]] |
-| 19 | Mapping individual tree health using full-waveform airborne laser scans and imaging spectroscopy: A case study for a floodplain eucalypt forest | I Shendryk, M Broich, MG Tulbure, A McGrath… - Remote Sensing of …, 2016 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0034425716303868][link]] |
-| 20 | Detection of spatio-temporal changes of Norway spruce forest stands in Ore Mountains using Landsat time series and airborne hyperspectral imagery | J Mišurec, V Kopačková, Z Lhotáková, P Campbell… - Remote Sensing, 2016 - mdpi.com | [[http://www.mdpi.com/2072-4292/8/2/92/html][link]] |
-| 21 | Remote sensing of forest insect disturbances: Current state and future directions | C Senf, R Seidl, P Hostert - … Journal of Applied Earth Observation and …, 2017 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0303243417300880][link]] |
-| 22 | A new approach for forest decline assessments: maximizing detail and accuracy with multispectral imagery | J Pontius - International journal of remote sensing, 2014 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/01431161.2014.903439][link]] |
-| 23 | Assessing very high resolution UAV imagery for monitoring forest health during a simulated disease outbreak | JP Dash, MS Watt, GD Pearse, M Heaphy… - ISPRS Journal of …, 2017 - Elsevier | [[https://www.sciencedirect.com/science/article/pii/S0924271617302745][link]] |
-| 24 | Missing data and regression models for spatial images | J Zhang, MK Clayton… - IEEE Transactions on …, 2015 - ieeexplore.ieee.org | [[http://ieeexplore.ieee.org/abstract/document/6881650/][link]] |
-| 25 | Detecting beetle infestations in pine forests using MODIS NDVI time-series data | A Anees, JC Olivier, M O'Rielly… - Geoscience and Remote …, 2013 - ieeexplore.ieee.org | [[http://ieeexplore.ieee.org/abstract/document/6723540/][link]] |
-| 26 | 基于影像纹理特征的川西南山地常绿阔叶林有效叶面积指数的空间分析 | 赵安玖， 杨长青， 廖成云 - 应用生态学报, 2014 - cjae.net | [[http://www.cjae.net/CN/article/downloadArticleFile.do?attachType=PDF&id=19801][link]] |
-| 27 | Effect of forest structure and health on the relative surface temperature captured by airborne thermal imagery–Case study in Norway Spruce-dominated stands in … | S Junttila, M Vastaranta, J Hämäläinen… - … Journal of Forest …, 2017 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/02827581.2016.1207800][link]] |
-| 28 | Remote sensing of forest damage by diseases and insects | G Chen, RK Meentemeyer - … . CRC Press, Taylor & Francis Group …, 2016 - researchgate.net | [[https://www.researchgate.net/profile/Gang_Chen46/publication/311668237_Remote_Sensing_of_Forest_Damage_by_Diseases_and_Insects/links/5a0b105ca6fdccc69ed9edbb/Remote-Sensing-of-Forest-Damage-by-Diseases-and-Insects.pdf][link]] |
-| 29 | A study of the potential of using GF-1 images for the detection of forest defoliation | M Shi, H Wu - Remote Sensing Letters, 2015 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/2150704X.2015.1047043][link]] |
-| 30 | Using intra-annual Landsat time series for attributing forest disturbance agents in Central Europe | J Oeser, D Pflugmacher, C Senf, M Heurich, P Hostert - Forests, 2017 - mdpi.com | [[http://www.mdpi.com/1999-4907/8/7/251/htm][link]] |
-
+|   | title                                                                                                 | authors                                                                                  | link |
+|---+-------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+------|
+| 1 | Ten ways remote sensing can contribute to conservation                                                | RA Rose, D Byler, JR Eastman… - Conservation …, 2015 - Wiley Online Library              | [[http://onlinelibrary.wiley.com/doi/10.1111/cobi.12397/full][link]] |
+| 2 | Phenology and gross primary production of two dominant savanna woodland ecosystems in Southern Africa | C Jin, X Xiao, L Merbold, A Arneth… - Remote Sensing of …, 2013 - Elsevier               | [[https://www.sciencedirect.com/science/article/pii/S003442571300120X][link]] |
+| 3 | The role of remote sensing in process-scaling studies of managed forest ecosystems                    | JG Masek, DJ Hayes, MJ Hughes, SP Healey… - Forest Ecology and …, 2015 - Elsevier        | [[https://www.sciencedirect.com/science/article/pii/S0378112715003011][link]] |
+| 4 | Remote monitoring of forest insect defoliation. A review                                              | CDR Silva, AE Olthoff, JAD de la Mata… - Forest Systems, 2013 - dialnet.unirioja.es      | [[https://dialnet.unirioja.es/descarga/articulo/4860699.pdf][link]] |
+| 5 | Monitoring forest decline through remote sensing time series analysis                                 | J Lambert, C Drenou, JP Denux, G Balent… - GIScience & remote …, 2013 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/15481603.2013.820070][link]] |
+| 6 | Landsat remote sensing of forest windfall disturbance                                                 | M Baumann, M Ozdogan, PT Wolter, A Krylov… - Remote sensing of …, 2014 - Elsevier        | [[https://www.sciencedirect.com/science/article/pii/S0034425714000054][link]] |
 
 ** concluding thoughts
 
@@ -281,12 +256,12 @@ wikipedia.
 ?weibull
 #+end_src
 
-* It's hard to be a street tree
+* It's hard to be a street tree                                  :UrbanTrees:
 [2018-05-18 Fri]
 #+caption: A maple on monroe
 [[file:blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
-* Early monocultures and early polycultures.
+* Early monocultures and early polycultures.                     :UrbanTrees:
 [2018-05-16 Wed]
 
 People have liked streets lined with a single species for quite a
@@ -365,7 +340,7 @@ gleditsia
 norway maple
 white ash
 american elm
-* Street Tree History Time Warp
+* Street Tree History Time Warp                                  :UrbanTrees:
 [2018-05-11 Fri]
 
 
@@ -473,7 +448,7 @@ Team Meeting
 #+caption: the national mall on the way out of town
 [[file:blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
 
-*  Constrained regression for better tree growth equations
+*  Constrained regression for better tree growth equations       :UrbanTrees:
 [2018-03-08 Thu]
 
 Say you plant a tree in a city.  How big will it be in 20 years?  You
@@ -635,7 +610,7 @@ regression with a somewhat complex constraint on the parameters.
 [2018-05-18 Fri] Update:  I found out QP is a pretty standard thing in
 linear algebra and that it's used to connect splines.  Neat.
 
-* Commuting Across Mendota
+* Commuting Across Mendota                                             :life:
 [2018-02-02 Fri]
 #+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/frozenmad_isthmus_commute.jpg.png]]
@@ -651,7 +626,7 @@ linear algebra and that it's used to connect splines.  Neat.
 
 The best way to get to work is by ice.
 
-* STANCon 2018
+* STANCon 2018                                                   :statistics:
 [2018-01-13 Sat]
 
 [[http://mc-stan.org/][Stan]] is a probabilistic programming language used for bayesian
@@ -950,7 +925,7 @@ true model?
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
 
-* Using OpenBLAS to speed up matrix operations in R (linux)
+* Using OpenBLAS to speed up matrix operations in R (linux)       :computing:
 [2017-04-24 Mon]
 
 I use the =foreach= and =doParallel= packages in R to speed up my work
@@ -1194,7 +1169,7 @@ elected officials from across the state.
 In 2014 and this year, I applied to the Garden Club of America's urban
 forestry grant.  Both times I was not selected.
 
-* OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
+* OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing :computing:
 [2016-10-27 Thu]
 
 *NOTE*
@@ -1576,7 +1551,7 @@ familiar way and export it to the internet with one command.  Amazing.
 #+ATTR_HTML: :alt none :title :align center :height 300
 [[file:blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
 
-* Removing Stuck Aluminum Seatpost from a Steel Frame :bike:
+* Removing Stuck Aluminum Seatpost from a Steel Frame             :bike:life:
 [2016-08-01 Mon]
 
 *** In short:
@@ -1649,7 +1624,7 @@ They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
 
-* Fall 2015 hemi video
+* Fall 2015 hemi video                                           :UrbanTrees:
 
 [[youtube:9lEiTtP1YsQ]]
 
