@@ -412,7 +412,7 @@ building is now gone, two of the original trees are still around
 
 #+name: fig:2013Gingko
 #+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
-[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
+[[file:blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
 They are a little bit of living history.  Their survival to a mature
 age in such a large city certainly required a lot of people making
