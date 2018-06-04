@@ -6,10 +6,9 @@
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
 #+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
+#+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 #+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
-
-#+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 
 # font
 #+HTML: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
@@ -29,6 +28,8 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
+#+TAGS: nasa travel statistics UrbanHeatIsland bike orgmode computing UrbanTrees life orgmode
+
 * TODO COMMENT use all.css from jblevins as guide for improving my css
 - [ ] make website smaller (remove unnecessary files, shrink images).
   - 2560 x 1600 is b's screen resolution.
@@ -40,9 +41,8 @@
 
 
 
-* Google Scholar Results In a Nice Table
+* Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
-
 #+caption: Example Google Scholar results
 [[file:blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24.png]]
 
@@ -70,7 +70,7 @@ The results aren't all on a single page.  So you need to give a vector
 of page urls.
 
 Copy and paste the first and second page.  By changing the number
-after "start=" in the second url, you can get the remaining pages. 
+after "start=" in the second url, you can get the remaining pages.
 
 #+begin_src R :session *R* :results none
     first.page <- c("https://scholar.google.com/scholar?cites=16900404805115852262&as_sdt=5,50&sciodt=0,50&hl=en")
@@ -94,19 +94,29 @@ after "start=" in the second url, you can get the remaining pages.
         html_nodes(".gs_rt > a") %>%
         html_attr(name = "href")
 
+     Sys.sleep(3) # wait 3 seconds
+
       o <- data_frame(title,authors,link)
 
-      Sys.sleep(3) # wait 3 seconds
     })
 
     df <- do.call("rbind", out)
 
-    df <- mutate(link = paste0("[[",link,"][link]]"))  # make org mode link
+    df <- mutate(df, link = paste0("[[",link,"][link]]"))  # make org mode link
 #+end_src
 ** print as org table
-#+begin_src R :session *R* :results output
-  org.ascii(df)
+#+begin_src R :session *R* :results raw
+  org.ascii(head(df))
 #+end_src
+
+|   | title                                                                                                 | authors                                                                                  | link |
+|---+-------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+------|
+| 1 | Ten ways remote sensing can contribute to conservation                                                | RA Rose, D Byler, JR Eastman… - Conservation …, 2015 - Wiley Online Library              | [[http://onlinelibrary.wiley.com/doi/10.1111/cobi.12397/full][link]] |
+| 2 | Phenology and gross primary production of two dominant savanna woodland ecosystems in Southern Africa | C Jin, X Xiao, L Merbold, A Arneth… - Remote Sensing of …, 2013 - Elsevier               | [[https://www.sciencedirect.com/science/article/pii/S003442571300120X][link]] |
+| 3 | The role of remote sensing in process-scaling studies of managed forest ecosystems                    | JG Masek, DJ Hayes, MJ Hughes, SP Healey… - Forest Ecology and …, 2015 - Elsevier        | [[https://www.sciencedirect.com/science/article/pii/S0378112715003011][link]] |
+| 4 | Remote monitoring of forest insect defoliation. A review                                              | CDR Silva, AE Olthoff, JAD de la Mata… - Forest Systems, 2013 - dialnet.unirioja.es      | [[https://dialnet.unirioja.es/descarga/articulo/4860699.pdf][link]] |
+| 5 | Monitoring forest decline through remote sensing time series analysis                                 | J Lambert, C Drenou, JP Denux, G Balent… - GIScience & remote …, 2013 - Taylor & Francis | [[http://www.tandfonline.com/doi/abs/10.1080/15481603.2013.820070][link]] |
+| 6 | Landsat remote sensing of forest windfall disturbance                                                 | M Baumann, M Ozdogan, PT Wolter, A Krylov… - Remote sensing of …, 2014 - Elsevier        | [[https://www.sciencedirect.com/science/article/pii/S0034425714000054][link]] |
 
 ** concluding thoughts
 
@@ -245,12 +255,12 @@ wikipedia.
 ?weibull
 #+end_src
 
-* It's hard to be a street tree
+* It's hard to be a street tree                                  :UrbanTrees:
 [2018-05-18 Fri]
 #+caption: A maple on monroe
 [[file:blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
 
-* Early monocultures and early polycultures.
+* Early monocultures and early polycultures.                     :UrbanTrees:
 [2018-05-16 Wed]
 
 People have liked streets lined with a single species for quite a
@@ -329,7 +339,7 @@ gleditsia
 norway maple
 white ash
 american elm
-* Street Tree History Time Warp
+* Street Tree History Time Warp                                  :UrbanTrees:
 [2018-05-11 Fri]
 
 
@@ -402,7 +412,7 @@ building is now gone, two of the original trees are still around
 
 #+name: fig:2013Gingko
 #+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
-[[file:../../git/webpage_cv/blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
+[[file:blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
 They are a little bit of living history.  Their survival to a mature
 age in such a large city certainly required a lot of people making
@@ -437,7 +447,7 @@ Team Meeting
 #+caption: the national mall on the way out of town
 [[file:blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg]]
 
-*  Constrained regression for better tree growth equations
+*  Constrained regression for better tree growth equations       :UrbanTrees:
 [2018-03-08 Thu]
 
 Say you plant a tree in a city.  How big will it be in 20 years?  You
@@ -599,7 +609,7 @@ regression with a somewhat complex constraint on the parameters.
 [2018-05-18 Fri] Update:  I found out QP is a pretty standard thing in
 linear algebra and that it's used to connect splines.  Neat.
 
-* Commuting Across Mendota
+* Commuting Across Mendota                                             :life:
 [2018-02-02 Fri]
 #+ATTR_HTML: :alt none :title :align center
 [[file:blog_imgs/commute/frozenmad_isthmus_commute.jpg.png]]
@@ -615,7 +625,7 @@ linear algebra and that it's used to connect splines.  Neat.
 
 The best way to get to work is by ice.
 
-* STANCon 2018
+* STANCon 2018                                                   :statistics:
 [2018-01-13 Sat]
 
 [[http://mc-stan.org/][Stan]] is a probabilistic programming language used for bayesian
@@ -914,7 +924,7 @@ true model?
 #+ATTR_HTML: :alt none :title :align center :height 400
 [[file:blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
 
-* Using OpenBLAS to speed up matrix operations in R (linux)
+* Using OpenBLAS to speed up matrix operations in R (linux)       :computing:
 [2017-04-24 Mon]
 
 I use the =foreach= and =doParallel= packages in R to speed up my work
@@ -1158,7 +1168,7 @@ elected officials from across the state.
 In 2014 and this year, I applied to the Garden Club of America's urban
 forestry grant.  Both times I was not selected.
 
-* OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing
+* OBSOLETE:Installing R, gdal, geos, and proj4 on UW Madison's Center for High Throughput Computing :computing:
 [2016-10-27 Thu]
 
 *NOTE*
@@ -1540,7 +1550,7 @@ familiar way and export it to the internet with one command.  Amazing.
 #+ATTR_HTML: :alt none :title :align center :height 300
 [[file:blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
 
-* Removing Stuck Aluminum Seatpost from a Steel Frame :bike:
+* Removing Stuck Aluminum Seatpost from a Steel Frame             :bike:life:
 [2016-08-01 Mon]
 
 *** In short:
@@ -1613,7 +1623,7 @@ They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
 frame long!
 
-* Fall 2015 hemi video
+* Fall 2015 hemi video                                           :UrbanTrees:
 
 [[youtube:9lEiTtP1YsQ]]
 
