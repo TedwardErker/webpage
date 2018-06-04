@@ -40,7 +40,6 @@
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
 
-
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
