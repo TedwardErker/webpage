@@ -410,7 +410,7 @@ building is now gone, two of the original trees are still around
 [[file:blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1908_-_Washington_DC_2018-05-30_11-05-52.jpg]]
 
 #+name: fig:2013Gingko
-#+caption: One of the gingkos, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
+#+caption: One of the surviving gingkos, on the northwest side of the Whitten Building, 2013.  [[https://www.ars.usda.gov/oc/images/photos/sep13/d3013-1/][Photo by Robert Griesbach]].
 [[file:blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg]]
 
 They are a little bit of living history.  Their survival to a mature
@@ -419,6 +419,19 @@ decisions to spare them during development.  Next time I go to D.C. I
 have a scavenger hunt planned out to see if any of the other trees
 Solotaroff photographed in 1911 are still around today, or if the only
 survivor is the hearty ginkgo.
+
+** [2018-06-05 Tue] Update
+
+Rob Griesbach at the USDA sent me these additonal photos of the
+ginkgos:
+
+[[file:blog/blog_imgs/Street Tree History Time Warp/Picture1_2018-06-05_14-58-05.jpg]]
+
+[[file:blog/blog_imgs/Street Tree History Time Warp/Picture2_2018-06-05_15-25-38.jpg]]
+
+[[file:blog/blog_imgs/Street Tree History Time Warp/Picture4_2018-06-05_15-25-58.jpg]]
+
+Thanks, Rob!
 
 ** COMMENT archived questions
 
@@ -1632,5 +1645,5 @@ bibliography:~/git/notes/references.bib
 
 
 # Local Variables:
-# org-download-image-dir: ~/git/webpage_cv/blog/blog_imgs
+# org-download-image-dir: blog/blog_imgs
 # End:
