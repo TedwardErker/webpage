@@ -53,7 +53,7 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 
 * COMMENT awards and fellowships
 #+INCLUDE: awards_fellowships.org :minlevel 1
-* COMMENT Scientific Presentations and Posters
+* Scientific Presentations and Posters                               :ignore:
 #+INCLUDE: presentations.org :minlevel 1
 #+INCLUDE: posters.org :minlevel 1
 * COMMENT Teaching Experience
