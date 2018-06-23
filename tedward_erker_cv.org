@@ -47,6 +47,32 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 
+* Summary of Qualifications and Skills
+
+R
+familiarity with other languages (Python and Stan).
+
+reproducible research git
+
+science
+
+statistics
+
+making figures
+
+writing
+
+background in education
+
+manage undergraduates
+
+independent work but also part of a team.
+
+deadlines.
+
+coursework
+
+
 * awards and fellowships                                             :ignore:
 #+INCLUDE: awards_fellowships.org :minlevel 1
 * Scientific Presentations and Posters                               :ignore:
