@@ -15,6 +15,69 @@
 |  github: | [[https://github.com/tedwarderker][github.com/tedwarderker]]             |
 | address: | 425 N Baldwin St, Madison, WI 53703 |
 
+
+* Summary of Qualifications and Skills
+
+Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
+of research and data analysis experience and 2 years of high school
+teaching experience.  Familiar with a wide range of statistical
+methods including GLMs, GAMs, shrinkage and dimension
+reduction, tree-based methods, some bayesian techniques and
+working with dependent and large datasets.
+
+
+
+
+distilling the key point communicating with
+
+
+Independent, and team.
+
+timely completion
+
+Use R
+
+large data
+
+
+
+
+Statistical methods I have implemented: GLMs, GAMs, mixed effects/
+multilevel models, partial least squares regression, elastic net, principal
+components analysis, random forests, support vector machines, boosted
+regression trees.
+
+shrinkage methods, high dimension, large data, dependent data.  some bayesian.
+
+Computing: Daily use of R, familiarity with python and Stan.
+
+R
+familiarity with other languages (Python and Stan).
+
+reproducible research git
+
+science
+
+statistics
+
+making figures
+
+writing
+
+background in education
+
+manage undergraduates
+
+independent work but also part of a team.
+
+deadlines.
+
+coursework
+
+web scraping
+
+writing - papers, proposals ($money), presentations
+
 * Education
 ** Sep 2013 - May 2019 (expected)
 *Ph.D. Forestry* \\
@@ -72,41 +135,6 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Statistical Consulting                  | A     |
 | Statistical Methods-Spatial Data        | AB    |
 | Multilevel Models                       | A     |
-
-
-* Summary of Qualifications and Skills
-
-Statistical methods I have implemented: GLMs, GAMs, mixed effects/
-multilevel models, partial least squares regression, elastic net, principal
-components analysis, random forests, support vector machines, boosted
-regression trees.
-
-Computing: Daily use of R, familiarity with python and Stan.
-
-R
-familiarity with other languages (Python and Stan).
-
-reproducible research git
-
-science
-
-statistics
-
-making figures
-
-writing
-
-background in education
-
-manage undergraduates
-
-independent work but also part of a team.
-
-deadlines.
-
-coursework
-
-web scraping
 
 * awards and fellowships                                             :ignore:
 #+INCLUDE: awards_fellowships.org :minlevel 1
