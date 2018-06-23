@@ -4,29 +4,25 @@
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: entitiespretty
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
-
-#+BEGIN_QUOTE
-I seek to understand the interaction between humans and the
-environment in the places where most of us live: cities.
-#+END_QUOTE
 * COMMENT Navigating "included" files: C-' visits file at point
 * Contact Information
 #+ATTR_HTML: :frame void
 #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
-|      <r> |                                      |
-|   Phone: | 314-324-6079                         |
-|   Email: | [[mailto:erker@wisc.edu][erker@wisc.edu]]                       |
-|     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]           |
-| Address: | 1630 Linden Drive, Madison, WI 53706 |
+|      <r> |                                     |
+|   Phone: | 314-324-6079                        |
+|   Email: | [[mailto:erker@wisc.edu][tedward.erker@gmail.com]]             |
+|     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]          |
+|  github: | https://github.com/tedwarderker     |
+| Address: | 425 N Baldwin St, Madison, WI 53703 |
 
 * Education
-** Sep 2013 - Present
+** Sep 2013 - May 2019 (expected)
 *Ph.D. Forestry* \\
 Department of Forest and Wildlife Ecology \\
 University of Wisconsin--Madison \\
 GPA: 3.929
 
-** Sep 2013 - Present
+** Sep 2013 - May 2019 (expected)
 *M.S. Biometry* \\
 Department of Statistics \\
 University of Wisconsin--Madison
