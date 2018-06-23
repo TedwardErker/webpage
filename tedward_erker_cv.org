@@ -12,8 +12,8 @@
 |   Phone: | 314-324-6079                        |
 |   Email: | [[mailto:erker@wisc.edu][tedward.erker@gmail.com]]             |
 |     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]          |
-|  github: | https://github.com/tedwarderker     |
-| Address: | 425 N Baldwin St, Madison, WI 53703 |
+|  github: | [[https://github.com/tedwarderker][github.com/tedwarderker]]             |
+| address: | 425 N Baldwin St, Madison, WI 53703 |
 
 * Education
 ** Sep 2013 - May 2019 (expected)
@@ -49,13 +49,11 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 
 * Relevant graduate coursework
 
-| Statistical Methods for Bioscience I | Inquiry-Based Biology Teaching        |
-| Intermediate Data Analysis with R    | Statistical Methods for Bioscience II |
-| Teaching Biology: Special Topics     | Advanced Data Analysis with R         |
-| Calculus--Functions of Variables     | Intro Mathematical Statistics I       |
-| Tools for Reproducible Research      | Intro Mathematical Statistics II      |
-| Teaching Statistics                  | Statistical Consulting                |
-| Statistical Methods-Spatial Data     | Multilevel Models                     |
+| Tools for Reproducible Research      | Advanced Data Analysis with R             |
+| Statistical Methods-Spatial Data     | Multilevel Models                         |
+| Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
+| Teaching Statistics                  | Inquiry-Based Biology Teaching            |
+
 
 * Relevant graduate coursework
 | Course                                  | Grade |
