@@ -48,6 +48,16 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 
 * Relevant graduate coursework
+
+| Statistical Methods for Bioscience I | Inquiry-Based Biology Teaching        |
+| Intermediate Data Analysis with R    | Statistical Methods for Bioscience II |
+| Teaching Biology: Special Topics     | Advanced Data Analysis with R         |
+| Calculus--Functions of Variables     | Intro Mathematical Statistics I       |
+| Tools for Reproducible Research      | Intro Mathematical Statistics II      |
+| Teaching Statistics                  | Statistical Consulting                |
+| Statistical Methods-Spatial Data     | Multilevel Models                     |
+
+* Relevant graduate coursework
 | Course                                  | Grade |
 |-----------------------------------------+-------|
 | Statistical Methods for Bioscience I    | A     |
@@ -64,6 +74,7 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Statistical Consulting                  | A     |
 | Statistical Methods-Spatial Data        | AB    |
 | Multilevel Models                       | A     |
+
 
 * Summary of Qualifications and Skills
 
