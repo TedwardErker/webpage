@@ -47,6 +47,25 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 
+* Relevant graduate coursework
+| Course                                  | Grade |
+|-----------------------------------------+-------|
+| Statistical Methods for Bioscience I    | A     |
+| Inquiry-Based Biology Teaching          | A     |
+| Intermediate Data Analysis with R       | A     |
+| Statistical Methods for Bioscience II   | A     |
+| Teaching Biology: Special Topics        | A     |
+| Advanced Data Analysis with R           | A     |
+| Calculus--Functions of Variables        | S     |
+| Intro Mathematical Statistics I         | A     |
+| Tools for Reproducible Research         | A     |
+| Intro Mathematical Statistics II        | AB    |
+| Teaching Statistics                     | A     |
+| Statistical Consulting                  | A     |
+| Statistical Methods-Spatial Data        | AB    |
+| Multilevel Models                       | A     |
+
+
 * Summary of Qualifications and Skills
 
 R
@@ -71,6 +90,16 @@ independent work but also part of a team.
 deadlines.
 
 coursework
+
+* work history
+
+maybe not include this irrelevant things
+
+| where                 | what                 | when              |
+|-----------------------+----------------------+-------------------|
+| Urban Tree Alliance   | Arborist             | 2013/08 - 2014-12 |
+| American Tree Experts | Arborist             | 2013/02 - 2013-08 |
+|                       | Greenhouse Assistant |                   |
 
 
 * awards and fellowships                                             :ignore:
