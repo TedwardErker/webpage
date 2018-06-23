@@ -90,6 +90,15 @@ deadlines.
 
 coursework
 
+* Skills
+Statistical methods I have implemented: GLMs, GAMs, mixed effects/
+multilevel models, partial least squares regression, elastic net, principal
+components analysis, random forests, support vector machines, boosted
+regression trees.
+
+Computing: Daily use of R, familiarity with python and Stan.
+
+
 * work history
 
 maybe not include this irrelevant things
