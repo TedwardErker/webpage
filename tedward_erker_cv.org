@@ -65,7 +65,6 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Statistical Methods-Spatial Data        | AB    |
 | Multilevel Models                       | A     |
 
-
 * Summary of Qualifications and Skills
 
 R
