@@ -20,29 +20,22 @@
 
 Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
 of research and data analysis experience and 2 years of high school
-teaching experience.  Familiar with a wide range of statistical
+teaching experience.
+
+Comfortable with a wide range of statistical
 methods including GLMs, GAMs, shrinkage and dimension reduction,
-tree-based methods, some bayesian techniques and working with
-dependent and large datasets in R.  Driven to understand problems in
-depth and then distill key findings for nonexpert audiences via fully
-reproducible literate programming reports and compelling figures.
+tree-based methods, and working with dependent data and large datasets
+in R.
 
-
-Independently motivated
-
-
-
-
-Independent, and team.
+Driven to understand complex problems in depth and then distill
+key findings for nonexpert audiences via fully reproducible literate
+programming reports and compelling figures.  Independently motivated
+and a positive, constructive team member.  Passionate about working in
+education.
 
 timely completion
 
-Use R
-
-large data
-
-
-
+** COMMENT
 
 Statistical methods I have implemented: GLMs, GAMs, mixed effects/
 multilevel models, partial least squares regression, elastic net, principal
@@ -111,32 +104,11 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
-
 * Relevant graduate coursework
-
 | Tools for Reproducible Research      | Advanced Data Analysis with R             |
 | Statistical Methods-Spatial Data     | Multilevel Models                         |
 | Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
 | Teaching Statistics                  | Inquiry-Based Biology Teaching            |
-
-
-* Relevant graduate coursework
-| Course                                  | Grade |
-|-----------------------------------------+-------|
-| Statistical Methods for Bioscience I    | A     |
-| Inquiry-Based Biology Teaching          | A     |
-| Intermediate Data Analysis with R       | A     |
-| Statistical Methods for Bioscience II   | A     |
-| Teaching Biology: Special Topics        | A     |
-| Advanced Data Analysis with R           | A     |
-| Calculus--Functions of Variables        | S     |
-| Intro Mathematical Statistics I         | A     |
-| Tools for Reproducible Research         | A     |
-| Intro Mathematical Statistics II        | AB    |
-| Teaching Statistics                     | A     |
-| Statistical Consulting                  | A     |
-| Statistical Methods-Spatial Data        | AB    |
-| Multilevel Models                       | A     |
 
 * awards and fellowships                                             :ignore:
 #+INCLUDE: awards_fellowships.org :minlevel 1
