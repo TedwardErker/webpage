@@ -21,14 +21,16 @@
 Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
 of research and data analysis experience and 2 years of high school
 teaching experience.  Familiar with a wide range of statistical
-methods including GLMs, GAMs, shrinkage and dimension
-reduction, tree-based methods, some bayesian techniques and
-working with dependent and large datasets.
+methods including GLMs, GAMs, shrinkage and dimension reduction,
+tree-based methods, some bayesian techniques and working with
+dependent and large datasets in R.  Driven to understand problems in
+depth and then distill key findings for nonexpert audiences via fully
+reproducible literate programming reports and compelling figures.
 
 
+Independently motivated
 
 
-distilling the key point communicating with
 
 
 Independent, and team.
