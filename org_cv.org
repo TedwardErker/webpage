@@ -79,9 +79,10 @@ writing - papers, proposals ($money), presentations
   - Assessed impact of tree canopy on residential building energy use
     and carbon emissions of ~30,000 Madison homes.
 - Canopy Foliar Trait Mapping with [[https://aviris-ng.jpl.nasa.gov/][Imaging Spectroscopy]].
-  - Apply partial least squares regression to predict foliar traits (e.g.
-    nitrogen content) from imaging spectroscopy data
-  - Explore anthropogenic and environmental drivers of trait variation
+  - Applied partial least squares regression models to predict foliar
+    canopy traits (e.g.  nitrogen content) from [[https://aviris-ng.jpl.nasa.gov/][imaging spectroscopy]]
+    data
+  - Explored anthropogenic and environmental drivers of trait variation
     across Madison, WI.
 #+LATEX: }
 
@@ -110,24 +111,6 @@ writing - papers, proposals ($money), presentations
 #+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
 #+LATEX:\cventry{2006--2008 2009-2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
 
-
-** COMMENT Sep 2013 - Present
-*Ph.D. Forestry* \\
-Department of Forest and Wildlife Ecology, University of Wisconsin--Madison \\
-GPA: 3.929
-
-** COMMENT Sep 2013 - Present
-*M.S. Biometry* \\
-Department of Statistics, University of Wisconsin--Madison
-
-** COMMENT Aug 2006 - May 2008 & Aug 2009 - May 2010
-*B.A. Environmental Studies--Ecology/Biology* \\
-Summa Cum Laude, Washington University in St. Louis \\
-GPA: 3.83
-
-** COMMENT Activities (probably no point in including undergrad activities).
-Activities: [[http://outing.wustl.edu/WildernessProject/philosophy.html][Wilderness Project]] Freshman Orientation Program. Founder
-of [[http://burningkumquat.wustl.edu/][The Burning Kumquat]], the campus vegetable garden.
 ** COMMENT Old way of printing Education
 
 - Ph.D, [[http://forestandwildlifeecology.wisc.edu/graduate-study-forestry-handbook][Forestry]], University of Wisconsin - Madison, 2013--.
@@ -156,3 +139,9 @@ https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mo
 
 * skills
 webscraping
+
+html
+css
+
+*R*
+
