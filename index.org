@@ -45,7 +45,7 @@ urban forest.  Madison, WI is my home and case study.
 
 I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]] [[http://orgmode.org/][org-mode]].
 
-* Background
+* COMMENT Background
 :PROPERTIES:
 :CUSTOM_ID: background
 :END:
@@ -82,17 +82,16 @@ I strive to make all my work fully reproducible using [[https://www.gnu.org/soft
 
 [[file:blog.html][my notes on things]]
 
-
 * COMMENT Awards and Fellowships
 #+INCLUDE: awards_fellowships.org :minlevel 1
-* COMMENT Curriculum Vitae
+* TODO COMMENT I Should add a link to my CV
 :PROPERTIES:
 :CUSTOM_ID: curriculum-vitae
 :END:
 
 My CV (as of DATE) is available at.
 
-* Teaching and Learning
+* COMMENT Teaching and Learning
 
 While teaching high school, I experienced the joy and challenges of
 student learning.  I developed the skills that made me a successful
