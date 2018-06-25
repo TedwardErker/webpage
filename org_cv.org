@@ -1,19 +1,20 @@
 #+TITLE: Tedward Erker
 #+AUTHOR: Tedward Erker
-#+OPTIONS: toc:nil num:nil
+#+OPTIONS: toc:nil num:nil author:nil
 #+STARTUP: entitiespretty
 #+LATEX_CLASS: moderncv
+#+LATEX_CLASS_OPTIONS: [11pt]
 #+LATEX_HEADER: \moderncvstyle{classic}
 #+LATEX_HEADER: \moderncvcolor{blue}
 #+LATEX_HEADER: \usepackage[scale=0.75]{geometry}
-#+LATEX_HEADER: \name{Tedward}{Erker}
-#+LATEX_HEADER:
-#+LATEX_HEADER:
-#+LATEX_HEADER:
-#+LATEX_HEADER:
-#+LATEX_HEADER:
+#+LATEX_HEADER: \name{Tedwardo}{Erker}
+#+LATEX_HEADER: \address{Madison, WI}
+#+LATEX_HEADER: \phone[mobile]{(314)~324~6079}
+#+LATEX_HEADER: \email{tedward.erker@gmail.com}                               % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \homepage{stat.wisc.edu/~erker/}                         % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
 * Summary of Qualifications and Skills
-
 Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
 of research and data analysis experience and 2 years of high school
 teaching experience.  Comfortable with a wide range of statistical
@@ -96,3 +97,5 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
+* COMMENT help
+https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
