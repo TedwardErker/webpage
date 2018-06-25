@@ -3,13 +3,14 @@
 #+KEYWORDS: vita, CV, resume
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: entitiespretty
+#+LATEX_CLASS: moderncv
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
-#+LATEX:\documentclass{moderncv}
-#+LATEX:\moderncvstyle{classic}
-#+LATEX:\name{John}{Doe}
-#+LATEX:\address{Street St., 167}{8888 Town}{Country}
-#+LATEX:\phone{+1~(234)~567~890}
-#+LATEX:\homepage{xxx.ddd.cc.ee}
+##+LATEX_HEADER: \documentclass{moderncv}
+#+LATEX_HEADER: \moderncvstyle{classic}
+#+LATEX_HEADER: \name{John}{Doe}
+#+LATEX: \address{Street St., 167}{8888 Town}{Country}
+#+LATEX: \phone{+1~(234)~567~890}
+#+LATEX: \homepage{xxx.ddd.cc.ee}
 * COMMENT Navigating "included" files: C-' visits file at point
 
 * Contact Information                                                :ignore:
