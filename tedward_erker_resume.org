@@ -101,11 +101,15 @@ writing - papers, proposals ($money), presentations
 #+LATEX: }
 
 #+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
-  Selected from over 46,000 applicants nationwide to join
-  the national teacher corps of recent college graduates who commit
-  two years to teach in under-resourced public schools.
 #+LATEX: }
 
+** COMMENT removed
+under TFA.  Education Analyitics should know hwat this is.
+ #+BEGIN_QUOTE
+ Selected from over 46,000 applicants nationwide to join
+  the national teacher corps of recent college graduates who commit
+  two years to teach in under-resourced public schools.
+ #+END_QUOTE
 * Education
 #+LATEX:\cventry{2013--Present}{Ph.D.}{University of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology}
 #+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
@@ -131,17 +135,26 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Tools for Reproducible Research      | Advanced Data Analysis with R             |
 | Statistical Methods-Spatial Data     | Multilevel Models                         |
 | Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
-| Teaching Statistics                  | Inquiry-Based Biology Teaching            |
-
-* COMMENT help
-https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
-
+| Teaching Statistics                  | Statistical Consulting                    |
 
 * skills
+#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
+
 webscraping
 
 html
 css
 
 *R*
+ggplot
 
+
+
+writing
+- paper in review
+- proposals over 150k
+
+
+
+* COMMENT help
+https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
