@@ -72,7 +72,7 @@ writing - papers, proposals ($money), presentations
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
-  - Tested 3 machine learning algorithms to classify nearly a terabyte of imagery
+  - Tested 3 machine learning algorithms to classify terabytes of imagery
   - Processed imagery in parallel at UW's Center for High Throughput Computing
   - Geospatial analysis in R and image segmentation in python.
 - Carbon Budget of Urban Forest
@@ -143,48 +143,54 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 #+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
 #+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
 #+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
+#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
 
 * Letter                                                             :ignore:
 #+LATEX: \clearpage
-#+LATEX: \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+#+LATEX: \recipient{Education Analytics Recruitment Team}{Education Analytics, Inc.\\131 West Wilson Street, Suite 200\\Madison, WI 53703}
 #+LATEX: \date{\today}
-#+LATEX: \opening{Dear Sir or Madam,}
-#+LATEX: \closing{Yours faithfully,}
-#+LATEX: \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+#+LATEX: \opening{To Research Analyst Hiring Manager,}
+#+LATEX: \closing{My best,}
+#+LATEX: \enclosure[Attached]{resume}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 #+LATEX: \makelettertitle
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-ullamcorper neque sit amet lectus facilisis sed luctus nisl
-iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra
-tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque
-vehicula volutpat. Duis tristique justo vel massa fermentum
-accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend
-ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque
-vel massa at felis accumsan rhoncus.
+My first attempt at data-driven improvement in student achievement was
+in 2010.  As a first year biology and chemistry teacher at a charter
+school in St. Louis, I wanted my students to grow at least 3 points on
+the ACT, an ambitious push towards college readiness.  I administered
+tests quarterly, tracked students' performance, and created daily
+practice problems for target standards.  Working with this data, I
+encountered the challenges inherent in measuring student learning.
+How reliable are the tests that I'm putting together from old ACTs?
+What to do about missing students?  How much of my students'
+performance is even atributable to me, the teacher?  And how can I use
+these results to make my teaching more effective?
 
+I loved my high school students, but I wanted to teach college level
+courses.  So in 2013 I moved to Madison to pursue a PhD in Forestry
+and a Masters in Biometry.  My proclivity for data analysis followed
+me and was honed at the university.  The highlights of my statistical
+training were a multilevel modeling course, being the teaching
+assistant for a graduate level statistics course for natural science
+majors, and statistical consulting.  Relevant skills from my PhD work
+include working with large datasets (terabytes of imagery) in R, using
+machine learning algorithms (e.g. random forests), writing literate
+programs for reproducible research, and mastering the visual display
+of quantitative information for effective communication. As I am
+nearing the completion of my PhD and considering the needs of my
+family, I am reconsidering the itinerant academic career path, and I'm
+exploring the option of staying in Madison.
 
-Suspendisse commodo, massa eu congue tincidunt, elit mauris
-pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam
-adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a
-accumsan ligula. Class aptent taciti sociosqu ad litora torquent per
-conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem
-vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna,
-ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec
-sapien nulla, feugiat eget adipiscing sit amet, lacinia ut
-dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam
-aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus
-varius blandit.
+want to use my skills. work for good.
 
+The intelligent use of the correct data will help create a better
+education system, and by extension, a better world.  I want to join
+Education Analytics to work to build this
 
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta
-risus et sagittis. Ut interdum, enim varius pellentesque tincidunt,
-magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus
-odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc
-sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar
-diam venenatis.
+This is the path
+I want to work to build.  Education Analytics is a clear leader in
+this field and I would be very excited to join your team.
 
-
-Albert Einstein discovered that $e=mc^2$ in 1905.
 
 
 #+LATEX: \makeletterclosing
