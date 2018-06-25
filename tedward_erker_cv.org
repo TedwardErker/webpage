@@ -4,10 +4,18 @@
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: entitiespretty
 #+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
+#+LATEX:\documentclass{moderncv}
+#+LATEX:\moderncvstyle{classic}
+#+LATEX:\name{John}{Doe}
+#+LATEX:\address{Street St., 167}{8888 Town}{Country}
+#+LATEX:\phone{+1~(234)~567~890}
+#+LATEX:\homepage{xxx.ddd.cc.ee}
 * COMMENT Navigating "included" files: C-' visits file at point
-* Contact Information                                                :ignore:
-#+LATEX: \contact{{tedward.erker@gmail.com}{(314) 324-6079}{stat.wisc.edu/~erker}}
 
+* Contact Information                                                :ignore:
+#+LATEX: \contactnoaddress{tedward.erker@gmail.com}{(314) 324-6079}
+
+** COMMENT old
 #+ATTR_HTML: :frame void
 #+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
 |      <r> |                                     |
@@ -16,8 +24,6 @@
 |     Web: | [[http://pages.stat.wisc.edu/~erker/][pages.stat.wisc.edu/~erker]]          |
 |  github: | [[https://github.com/tedwarderker][github.com/tedwarderker]]             |
 | address: | 425 N Baldwin St, Madison, WI 53703 |
-
-
 
 
 * Summary of Qualifications and Skills
