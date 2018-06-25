@@ -17,17 +17,16 @@
 
 
 * Summary of Qualifications and Skills
-#+LATEX: \parindent=0in
+#+LATEX: {\leftskip=0.02\textwidth
 Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
 of research and data analysis experience and 2 years of high school
 teaching experience.  Comfortable with a wide range of statistical
 methods including generalized linear models and tree-based
-methods. Driven to understand complex problems in depth and then
-distill key findings for nonexpert audiences via fully reproducible
-literate programming reports and compelling figures.  Independently
-motivated. A positive, constructive team member and leader.
-Passionate about working in education.
-
+methods. Driven to understand complex problems and distill key
+findings for nonexpert audiences via fully reproducible reports and
+compelling figures.  Independently motivated. A positive, constructive
+team member and leader.  Passionate about working in education.
+#+LATEX: \par}
 ** COMMENT
 
 Statistical methods I have implemented: GLMs, GAMs, mixed effects/
