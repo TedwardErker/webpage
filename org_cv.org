@@ -74,12 +74,15 @@ writing - papers, proposals ($money), presentations
 - Map Urban Forests of Wisconsin
   - Tested 3 machine learning algorithms to classify nearly a terabyte of imagery
   - Processed imagery in parallel at UW's Center for High Throughput Computing
-- Carbon Budget of Urban Forest:
-  - Assessed impact of tree canopy on residential building energy use and carbon emissions
-- Canopy Foliar Trait Mapping with Imaging Spectroscopy.
-  - Apply partial least squares regression to Sub-achievement (a);
-  - Sub-achievement (b), with sub-sub-achievements (don't do)
-  - Sub-achievement (c);
+  - Geospatial analysis in R and image segmentation in python.
+- Carbon Budget of Urban Forest
+  - Assessed impact of tree canopy on residential building energy use
+    and carbon emissions of ~30,000 Madison homes.
+- Canopy Foliar Trait Mapping with [[https://aviris-ng.jpl.nasa.gov/][Imaging Spectroscopy]].
+  - Apply partial least squares regression to predict foliar traits (e.g.
+    nitrogen content) from imaging spectroscopy data
+  - Explore anthropogenic and environmental drivers of trait variation
+    across Madison, WI.
 #+LATEX: }
 
 #+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
@@ -149,3 +152,7 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 
 * COMMENT help
 https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
+
+
+* skills
+webscraping
