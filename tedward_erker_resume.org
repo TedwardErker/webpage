@@ -138,7 +138,10 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Teaching Statistics                  | Statistical Consulting                    |
 
 * skills
-#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
+#+LATEX: \cvitemwithcomment{Statistical Analysis}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods in R and some Stan}{}
+#+LATEX: \cvitemwithcomment{Writing}{1 scientific paper in review; over \$150,00 in proposals}{}
+#+LATEX: \cvitemwithcomment{Presenting}{2 scientific posters, 1 academic presentation, years of teaching}{}
+#+LATEX: \cvitemwithcomment{Data Display}{Daily use of grammar of graphics in R's ggplot2}{}
 
 webscraping
 

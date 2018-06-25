@@ -84,6 +84,10 @@ writing - papers, proposals ($money), presentations
 
 1 paper in review; over $150k in proposals
 
+command line
+
+version control (git)
+
 * Education
 ** Sep 2013 - Present
 *Ph.D. Forestry* \\
