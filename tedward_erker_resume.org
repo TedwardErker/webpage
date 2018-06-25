@@ -176,22 +176,16 @@ majors, and statistical consulting.  Relevant skills from my PhD work
 include working with large datasets (terabytes of imagery) in R, using
 machine learning algorithms (e.g. random forests), writing literate
 programs for reproducible research, and mastering the visual display
-of quantitative information for effective communication. As I am
-nearing the completion of my PhD and considering the needs of my
-family, I am reconsidering the itinerant academic career path, and I'm
-exploring the option of staying in Madison.
+of quantitative information for effective communication.
 
-want to use my skills. work for good.
-
-The intelligent use of the correct data will help create a better
-education system, and by extension, a better world.  I want to join
-Education Analytics to work to build this
-
-This is the path
-I want to work to build.  Education Analytics is a clear leader in
-this field and I would be very excited to join your team.
-
-
+As I am nearing the completion of my PhD and considering the needs of
+my family, I am reconsidering the academic career path.  I'm exploring
+the option of staying in Madison but want to be sure I can make full
+use of my skills and work for the common good.  I believe, like
+Education Analytics, that the intelligent use of the correct data will
+help create a better education system, and by extension, a better
+world.  I want to join Education Analytics and apply my skills to
+build this world, one district at a time.
 
 #+LATEX: \makeletterclosing
 
