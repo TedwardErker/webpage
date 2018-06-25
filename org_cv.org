@@ -3,7 +3,7 @@
 #+OPTIONS: toc:nil num:nil author:nil
 #+STARTUP: entitiespretty
 #+LATEX_CLASS: moderncv
-#+LATEX_CLASS_OPTIONS: [11pt]
+#+LATEX_CLASS_OPTIONS: [11pt, sans]
 #+LATEX_HEADER: \moderncvstyle{classic}
 #+LATEX_HEADER: \moderncvcolor{blue}
 #+LATEX_HEADER: \usepackage[scale=0.75]{geometry}
@@ -15,7 +15,7 @@
 #+LATEX_HEADER: \social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
 #+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
 * Summary of Qualifications and Skills
-Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
+[[https://www.stat.wisc.edu/masters-biometry][Biometry M.S.]] and Forestry Ph.D. (expected spring 2019) with 5 years
 of research and data analysis experience and 2 years of high school
 teaching experience.  Comfortable with a wide range of statistical
 methods including generalized linear models and tree-based
@@ -70,7 +70,7 @@ writing - papers, proposals ($money), presentations
 1 paper in review; over $150k in proposals
 
 * Experience
-#+LATEX: \cventry{2015--Now}{Research Assistant}{UW-Madison}{}{}{Investigate interactions between humans and the urban forest:%
+#+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
   - Tested 3 machine learning algorithms to classify nearly a terabyte of imagery
   - Processed imagery in parallel at UW's Center for High Throughput Computing
@@ -85,7 +85,8 @@ writing - papers, proposals ($money), presentations
 #+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
 - Statistical Methods for Bioscience II, Spring 2015
   - Led 2 weekly discussion groups, graded homework and exams for
-      this graduate-level course
+      this graduate-level course largely covering multiple linear and
+    logistic regression
 - Forest Ecology, Fall 2013 and Fall 2014
 - Living With Wildlife, Spring 2014
 #+LATEX: }
@@ -102,16 +103,21 @@ writing - papers, proposals ($money), presentations
 #+LATEX: }
 
 * Education
-** Sep 2013 - Present
+#+LATEX:\cventry{2013--Present}{Ph.D.}{University of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology}
+#+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
+#+LATEX:\cventry{2006--2008 2009-2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
+
+
+** COMMENT Sep 2013 - Present
 *Ph.D. Forestry* \\
 Department of Forest and Wildlife Ecology, University of Wisconsin--Madison \\
 GPA: 3.929
 
-** Sep 2013 - Present
+** COMMENT Sep 2013 - Present
 *M.S. Biometry* \\
 Department of Statistics, University of Wisconsin--Madison
 
-** Aug 2006 - May 2008 & Aug 2009 - May 2010
+** COMMENT Aug 2006 - May 2008 & Aug 2009 - May 2010
 *B.A. Environmental Studies--Ecology/Biology* \\
 Summa Cum Laude, Washington University in St. Louis \\
 GPA: 3.83
@@ -129,5 +135,17 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
+* Relevant graduate coursework
+#+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
+#+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
+#+LATEX:\cvlistdoubleitem{Intro Mathematical Statistics I \& II}{Statistical Meth. for Bioscience I \& II}
+#+LATEX:\cvlistdoubleitem{Teaching Statistics}{Inquiry-Based Biology Teaching}
+
+** COMMENT org table
+| Tools for Reproducible Research      | Advanced Data Analysis with R             |
+| Statistical Methods-Spatial Data     | Multilevel Models                         |
+| Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
+| Teaching Statistics                  | Inquiry-Based Biology Teaching            |
+
 * COMMENT help
 https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
