@@ -1,4 +1,4 @@
-#+TITLE: Tedward Erker
+#+TITLE: \nbsp
 #+AUTHOR: Tedward Erker
 #+OPTIONS: toc:nil num:nil author:nil
 #+STARTUP: entitiespretty
@@ -7,7 +7,7 @@
 #+LATEX_HEADER: \moderncvstyle{classic}
 #+LATEX_HEADER: \moderncvcolor{blue}
 #+LATEX_HEADER: \usepackage[scale=0.75]{geometry}
-#+LATEX_HEADER: \name{Tedwardo}{Erker}
+#+LATEX_HEADER: \name{Tedward}{Erker}
 #+LATEX_HEADER: \address{Madison, WI}
 #+LATEX_HEADER: \phone[mobile]{(314)~324~6079}
 #+LATEX_HEADER: \email{tedward.erker@gmail.com}                               % optional, remove / comment the line if not wanted
@@ -68,6 +68,38 @@ web scraping
 writing - papers, proposals ($money), presentations
 
 1 paper in review; over $150k in proposals
+
+* Experience
+#+LATEX: \cventry{2015--Now}{Research Assistant}{UW-Madison}{}{}{Investigate interactions between humans and the urban forest:%
+- Map Urban Forests of Wisconsin
+  - Tested 3 machine learning algorithms to classify nearly a terabyte of imagery
+  - Processed imagery in parallel at UW's Center for High Throughput Computing
+- Carbon Budget of Urban Forest:
+  - Assessed impact of tree canopy on residential building energy use and carbon emissions
+- Canopy Foliar Trait Mapping with Imaging Spectroscopy.
+  - Apply partial least squares regression to Sub-achievement (a);
+  - Sub-achievement (b), with sub-sub-achievements (don't do)
+  - Sub-achievement (c);
+#+LATEX: }
+
+#+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
+- Statistical Methods for Bioscience II, Spring 2015
+  - Led 2 weekly discussion groups, graded homework and exams for
+      this graduate-level course
+- Forest Ecology, Fall 2013 and Fall 2014
+- Living With Wildlife, Spring 2014
+#+LATEX: }
+
+#+LATEX: \cventry{2010--2012}{Chemistry and Biology Teacher}{Confluence Prep Academy}{St. Louis}{}{
+- Educated over 120 students in six classes daily.
+- As first year teacher, developed chemistry curriculum for new charter school integrating College Readiness Standards with Missouri Science Standards.
+#+LATEX: }
+
+#+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
+  Selected from over 46,000 applicants nationwide to join
+  the national teacher corps of recent college graduates who commit
+  two years to teach in under-resourced public schools.
+#+LATEX: }
 
 * Education
 ** Sep 2013 - Present
