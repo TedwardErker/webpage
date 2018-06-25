@@ -190,11 +190,6 @@ build this world, one district at a time.
 #+LATEX: \makeletterclosing
 
 
-
-
-
-
-
 * COMMENT help
 https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
 
