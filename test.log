@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2018 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2018 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,32 +992,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 50.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 62.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 78.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 91.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 86.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 97.
-
-
-LaTeX Warning: Citation `book1' on page 2 undefined on input line 118.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 99.
 
 No file test.bbl.
 [2] [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (./test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 
 
 Package rerunfilecheck Warning: File `test.out' has changed.
@@ -1025,17 +1022,14 @@ Package rerunfilecheck Warning: File `test.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `test.out':
-(rerunfilecheck)             Before: 28811090CB3F7C92F13E397F5EF073EF;1069
-(rerunfilecheck)             After:  0F3D074861144B70F8C98B1222BE102C;1149.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Before: DABA890FBA009EC47E6D9A45BE2B27CF;637
+(rerunfilecheck)             After:  8408FA86D21F4B573E87EE77E089D9FB;1414.
  ) 
 Here is how much of TeX's memory you used:
- 28269 strings out of 493014
- 524599 string characters out of 6133351
- 608027 words of memory out of 5000000
- 31372 multiletter control sequences out of 15000+600000
+ 28262 strings out of 493014
+ 524518 string characters out of 6133351
+ 609026 words of memory out of 5000000
+ 31365 multiletter control sequences out of 15000+600000
  76115 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,20n,60p,10356b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1055,10 +1049,10 @@ sbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on test.pdf (3 pages, 193062 bytes).
+Output written on test.pdf (3 pages, 193091 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 118 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
- 24165 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24117 words of extra memory for PDF output out of 24883 (max. 10000000)
 

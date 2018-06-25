@@ -117,6 +117,12 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 | Statistical Methods-Spatial Data     | Multilevel Models                         |
 | Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
 | Teaching Statistics                  | Inquiry-Based Biology Teaching            |
+* Relevant Experience
+Graduate Research Assistant
+
+Stats TA
+
+High School Teacher.
 
 * awards and fellowships                                             :ignore:
 #+INCLUDE: awards_fellowships.org :minlevel 1
