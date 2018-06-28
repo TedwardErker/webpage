@@ -203,50 +203,37 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
 
 
 * Presentations
-#+LATEX: \cventry{Nov 2016}{
-[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
-#+LATEX:}{}{}{}{
-Society of American Foresters National Convention
-#+LATEX:}
-
-#+LATEX: \cvitem{Nov 2016}{
+#+LATEX: \cvitemwithcomment{
+Nov 2016
+#+LATEX:}{
 *[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]*
-#+LATEX:}
-Society of American Foresters National Convention
-
-#+LATEX: \cvitem{Nov 2016}{
-*[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]*
-#+LATEX:}
-- Society of American Foresters National Convention
-
-#+LATEX: \cventry{Nov 2016}{
-[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
-#+LATEX:}{}{}{}{
+#+LATEX:}{
+Madison, WI
+#+LATEX:}\cvitem{}{
 Society of American Foresters National Convention
 #+LATEX:}
 
-#+LATEX: \cventry{Nov 2016}{
-[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
-#+LATEX:}{}{}{}{
-Society of American Foresters National Convention
-#+LATEX:}
 * Posters
-#+LATEX: \cventry{Apr 2018}{
-[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]
-#+LATEX:}{}{Washington, D.C.}{}{
+#+LATEX: \cvitemwithcomment{
+Apr 2018
+#+LATEX:}{
+*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]*
+#+LATEX:}{
+Washington, D.C.
+#+LATEX:}\cvitem{}{
 NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}
 
-* COMMENT Posters
-**
+#+LATEX: \cvitemwithcomment{
+May 2016
+#+LATEX:}{
+*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does the Urban Forest Affect the Urban Heat Island and Building Energy Use?]]*
+#+LATEX:}{
+Silver Springs, MD.
+#+LATEX:}\cvitem{}{
+NASA Biodiversity and Ecological Forecasting Team Meeting
+#+LATEX:}
 
-
-
-** May 2016
-*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does Structural and Functional Diversity of the Urban Forest
-Affect the Urban Heat Island and Building Energy Use in Madison, WI?]]*
-
-NASA Biodiversity and Ecological Forecasting Team Meeting in Silver Springs, MD.
 
 * Teaching Experience                                                :ignore:
 #+INCLUDE: teaching_experience.org :minlevel 1
