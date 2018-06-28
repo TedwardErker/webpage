@@ -15,22 +15,9 @@
 #+LATEX_HEADER: \social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
 #+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
 * Education
-#+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology;\newline{}Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
-
-
+#+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology\newline{}Committee: Phil Townsend, Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
 #+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
 #+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
-
-** COMMENT Old way of printing Education
-
-- Ph.D, [[http://forestandwildlifeecology.wisc.edu/graduate-study-forestry-handbook][Forestry]], University of Wisconsin - Madison, 2013--.
-
-Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
-  Annemarie Schneider.
-
-- M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
-- B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
-  in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
@@ -63,16 +50,9 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 #+LATEX: }
 
 #+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
+- Selected from over 46,000 applicants nationwide
+- Commited two years to teach in under-resourced public schools
 #+LATEX: }
-
-** COMMENT removed
-under TFA.  Education Analyitics should know hwat this is.
- #+BEGIN_QUOTE
- Selected from over 46,000 applicants nationwide to join
-  the national teacher corps of recent college graduates who commit
-  two years to teach in under-resourced public schools.
- #+END_QUOTE
-
 
 * Awards, Grants, and Fellowships
 #+LATEX: \cvitemwithcomment{
@@ -222,9 +202,31 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
  selection 2016-09
 
 
-* Scientific Presentations and Posters                               :ignore:
-#+INCLUDE: presentations.org :minlevel 1
-#+INCLUDE: posters.org :minlevel 1
+* Presentations
+#+LATEX: \cventry{Nov 2016}{
+[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
+#+LATEX:}{Madison, WI}{}{}{
+Society of American Foresters National Convention. Madison, WI
+#+LATEX:}
+* COMMENT Posters
+#+LATEX: \cventry{Nov 2016}{
+[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
+#+LATEX:}{Madison, WI}{}{}{
+Society of American Foresters National Convention. Madison, WI
+#+LATEX:}
+
+* COMMENT Posters
+** April 2018
+*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]*
+
+NASA Biodiversity and Ecological Forecasting Team Meeting in
+Washington, D.C.
+** May 2016
+*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does Structural and Functional Diversity of the Urban Forest
+Affect the Urban Heat Island and Building Energy Use in Madison, WI?]]*
+
+NASA Biodiversity and Ecological Forecasting Team Meeting in Silver Springs, MD.
+
 * Teaching Experience                                                :ignore:
 #+INCLUDE: teaching_experience.org :minlevel 1
 * Mentoring                                                  :ignore:
