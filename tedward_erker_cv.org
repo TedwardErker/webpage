@@ -35,7 +35,7 @@
     across Madison, WI.
 #+LATEX:}
 
-#+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
+#+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{
 - Statistical Methods for Bioscience II, Spring 2015
   - Led 2 weekly discussion groups, graded homework and exams for
     this graduate-level course largely covering multiple linear and
@@ -48,33 +48,16 @@
 - Living With Wildlife, Spring 2014
   - Graded journals and exams, assisted students during office hours.
   - Prof. Stan Temple.
-
 #+LATEX:}
 
-#+LATEX: \cventry{
-2013--2014
-#+LATEX:}{
-Arborist
-#+LATEX:}{
-[[http://www.urbantreealliance.org/][Urban Tree Alliance]]
-#+LATEX:}{
-Madison, WI
-#+LATEX:}{}{
+#+LATEX: \cventry{2013--2014}{Arborist}{\href{http://www.urbantreealliance.org/}{Urban Tree Alliance}}{Madison, WI}{}{
 - Worked part time as ground crew, hauling brush and aiding climber.
 - Developed online Wisconsin tree species identification application.
 #+LATEX:}
 
-#+LATEX:\cventry{
-2013
-#+LATEX:}{
-Arborist             \(%\)
-#+LATEX:}{
-[[http://atetreecare.com/][American Tree Experts]]
-#+LATEX:}{
-New Berlin, WI
-#+LATEX:}{}{
+#+LATEX: \cventry{Feb--Jul 2013}{Arborist}{\href{http://atetreecare.com/}{American Tree Experts}}{New Berlin, WI}{}{
 - Performed ground crew work and climbed for pruning and removals
-- as certified pesticide applicator treated for a number of pests
+- As certified pesticide applicator, treated for a number of pests
   including the emerald ash borer.
 #+LATEX:}
 
@@ -89,38 +72,20 @@ New Berlin, WI
 - Commited two years to teach in under-resourced public schools
 #+LATEX:}
 
-#+LATEX: \cventry{
-2007--2010
-#+LATEX: }{
-Greenhouse Assistant
-#+LATEX:}{
-[[http://biology4.wustl.edu/greenhouse/index.html][Washington University Plant Research Facility]]
-#+LATEX:}{
-St. Louis, MO
-#+LATEX:}{}{
+#+LATEX: \cventry{2007--2010}{Greenhouse Assistant}{\href{http://biology4.wustl.edu/greenhouse/index.html}{Wash. U. Plant Research Facility}}{St. Louis, MO}{}{
 - Water, transplant, and propagate plants; maintain greenhouse.
 - Work-Study
 #+LATEX:}
 
-#+LATEX: \cventry{
-Apr - Aug 2009
-#+LATEX: }{
-Farm Education Intern and Farmer
-#+LATEX: }{
-[[https://farmandwilderness.org/][Farm And Wilderness Summer Camps]]
-#+LATEX: }{
-Plymouth, VT
-#+LATEX: }{}{
+#+LATEX: \cventry{Apr--Aug 2009}{Farm Education Intern and Farmer}{\href{https://farmandwilderness.org/}{Farm And Wilderness}}{Plymouth, VT}{}{
 - Organized and guided trips of 16-40 students at farm and wilderness education center.
 - Managed 3⁄4 acre garden and cared for sheep, goats, chickens, pigs, and cows as part of farm team.
 #+LATEX: }
 
-#+LATEX: \cventry{Spring 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
+#+LATEX: \cventry{Jan--May 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
 - Brave New Crops, Environmental Studies 3322
 - Prof. Glenn Davis Stone
 #+LATEX: }
-
-
 
 * Awards, Grants, and Fellowships
 #+LATEX: \cvitemwithcomment{
@@ -269,7 +234,6 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
  application 2016-09
  selection 2016-09
 
-
 * Presentations
 #+LATEX: \cvitem{
 Nov 2016
@@ -303,8 +267,27 @@ NASA Biodiversity and Ecological Forecasting Team Meeting
 Silver Springs, MD.
 #+LATEX:}
 
-* Mentoring                                                  :ignore:
-#+INCLUDE: mentoring.org :minlevel 1
+* Mentoring
+My undergraduate mentees research a topic, collect new data, perform statistical
+analyses, and write final papers to complete small research projects.  They
+create posters or presentations to share their work. \\
+#+LATEX: \newline{}\cvitemwithcomment{
+2017
+#+LATEX:}{
+Cheyenne Brandt
+#+LATEX: }{
+Effect of Leaf Area and Tree Canopy on the Urban Heat Island of Madison, WI.
+#+LATEX: }
+
+#+LATEX: \cvitemwithcomment{
+2015
+#+LATEX:}{
+Bobby Shepherd
+#+LATEX: }{
+Investigating the influence of the urban heat island on autumn
+phenology of /Acer platanoides/ with smartphone hemispherical photos.
+#+LATEX: }
+
 * Professional Affiliations
 Society of American Foresters, 2016--Present
 
