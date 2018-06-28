@@ -1,6 +1,6 @@
-% Created 2018-06-25 Mon 08:52
+% Created 2018-06-28 Thu 12:26
 % Intended LaTeX compiler: pdflatex
-\documentclass{article}
+\documentclass[11pt, sans]{moderncv}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -14,158 +14,209 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\usepackage{fa_orgmode_cv}
-\name{John}{Doe}
-\author{Tedward Erker}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[scale=0.75]{geometry}
+\name{Tedward}{Erker}
+\address{Madison, WI}
+\phone[mobile]{(314)~324~6079}
+\email{tedward.erker@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{stat.wisc.edu/~erker/}                         % optional, remove / comment the line if not wanted
+\social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
+\title{title}                               % optional, remove / comment the line if not wanted
 \date{\today}
-\title{Tedward Erker}
+\title{~}
 \hypersetup{
  pdfauthor={Tedward Erker},
- pdftitle={Tedward Erker},
- pdfkeywords={vita, CV, resume},
+ pdftitle={~},
+ pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 25.1.1 (Org mode 9.1.7)},
  pdflang={English}}
 \begin{document}
 
 \maketitle
-\#\#+LATEX\(_{\text{CLASS}}\): moderncv
-\#\#+LATEX\(_{\text{HEADER}}\): \documentclass{moderncv}
-\#\#+LATEX\(_{\text{HEADER}}\): \moderncvstyle{classic}
-\address{Street St., 167}{8888 Town}{Country}
-\phone{+1~(234)~567~890}
-\homepage{xxx.ddd.cc.ee}
-\contactnoaddress{tedward.erker@gmail.com}{(314) 324-6079}
+\section*{Experience}
+\label{sec:org01676c3}
+\cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
+\begin{itemize}
+\item Map Urban Forests of Wisconsin
+\begin{itemize}
+\item Tested 3 machine learning algorithms to classify terabytes of imagery
+\item Processed imagery in parallel at UW's Center for High Throughput Computing
+\item Geospatial analysis in R and image segmentation in python.
+\end{itemize}
+\item Carbon Budget of Urban Forest
+\begin{itemize}
+\item Assessed impact of tree canopy on residential building energy use
+and carbon emissions of \textasciitilde{}30,000 Madison homes.
+\end{itemize}
+\item Canopy Foliar Trait Mapping with \href{https://aviris-ng.jpl.nasa.gov/}{Imaging Spectroscopy}.
+\begin{itemize}
+\item Applied partial least squares regression models to predict foliar
+canopy traits (e.g.  nitrogen content) from \href{https://aviris-ng.jpl.nasa.gov/}{imaging spectroscopy}
+data
+\item Explored anthropogenic and environmental drivers of trait variation
+across Madison, WI.
+\end{itemize}
+\end{itemize}
+}
 
-\section*{Summary of Qualifications and Skills}
-\label{sec:org46ccaab}
-{\leftskip=0.02\textwidth
-Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
-of research and data analysis experience and 2 years of high school
-teaching experience.  Comfortable with a wide range of statistical
-methods including generalized linear models and tree-based
-methods. Driven to understand complex problems and distill key
-findings for nonexpert audiences via fully reproducible reports and
-compelling figures.  Independently motivated. A positive, constructive
-team member and leader.  Passionate about working in education.
-\par}
+\cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
+\begin{itemize}
+\item Statistical Methods for Bioscience II, Spring 2015
+\begin{itemize}
+\item Led 2 weekly discussion groups, graded homework and exams for
+  this graduate-level course largely covering multiple linear and
+logistic regression
+\end{itemize}
+\item Forest Ecology, Fall 2013 and Fall 2014
+\item Living With Wildlife, Spring 2014
+\end{itemize}
+}
+
+\cventry{2010--2012}{Chemistry and Biology Teacher}{Confluence Prep Academy}{St. Louis}{}{
+\begin{itemize}
+\item Educated over 120 students in six classes daily.
+\item As first year teacher, developed chemistry curriculum for new charter school integrating College Readiness Standards with Missouri Science Standards.
+\end{itemize}
+}
+
+\cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
+}
+
 \section*{Education}
-\label{sec:orgdc8caa0}
-\subsection*{Sep 2013 - Present}
-\label{sec:orgd302271}
-\textbf{Ph.D. Forestry} \\
-Department of Forest and Wildlife Ecology, University of Wisconsin--Madison \\
-GPA: 3.929
-
-\subsection*{Sep 2013 - Present}
-\label{sec:org4298039}
-\textbf{M.S. Biometry} \\
-Department of Statistics, University of Wisconsin--Madison
-
-\subsection*{Aug 2006 - May 2008 \& Aug 2009 - May 2010}
-\label{sec:org07fe472}
-\textbf{B.A. Environmental Studies--Ecology/Biology} \\
-Summa Cum Laude, Washington University in St. Louis \\
-GPA: 3.83
+\label{sec:orga17cbfa}
+\cventry{2013--Present}{Ph.D.}{University of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology}
+\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
+\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
 
 \section*{Relevant graduate coursework}
-\label{sec:orgcd47245}
-\begin{center}
-\begin{tabular}{ll}
-Tools for Reproducible Research & Advanced Data Analysis with R\\
-Statistical Methods-Spatial Data & Multilevel Models\\
-Intro Mathematical Statistics I \& II & Statistical Methods for Bioscience I \& II\\
-Teaching Statistics & Inquiry-Based Biology Teaching\\
-\end{tabular}
-\end{center}
+\label{sec:orge840fc0}
+\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
+\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
+\cvlistdoubleitem{Intro Mathematical Statistics I \& II}{Statistical Meth. for Bioscience I \& II}
+\cvlistdoubleitem{Teaching Statistics}{Statistical Consulting}
+
+\section*{Skills}
+\label{sec:org9accccc}
+\cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
+\cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
+\cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
+\cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
+\cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
+\cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
 
 \section*{Awards, Grants, and Fellowships}
-\label{sec:orge1cdd50}
+\label{sec:org9b56e2d}
+\cvitemwithcomment{
+Jan 2018
+}{
+\href{http://mc-stan.org/events/}{Stan Conference} Scholarship
+}{}
+\cvitemwithcomment{
+2015-2018
+}{
+NASA Earth and Space Science \href{https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=\%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3\%7D/viewSolicitationDocument=1/NESSF15\%20selections.pdf}{Fellowship}
+}{
+\$105,000
+}
+
+
+\cvitemwithcomment{}{}{}
+\cvitemwithcomment{}{}{}
+\cvitemwithcomment{}{}{}
+\cvitemwithcomment{}{}{}
+\cvitemwithcomment{}{}{}
+\cvitemwithcomment{}{}{}
+
+
+
 \subsection*{Jan 2018}
-\label{sec:orgfa6d2be}
+\label{sec:org380a908}
 \href{http://mc-stan.org/events/}{Stan Conference 2018} Scholarship
 
 \subsection*{2015-2018}
-\label{sec:orgd70e230}
+\label{sec:orgca13e95}
 NASA Earth and Space Science \href{https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=\%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3\%7D/viewSolicitationDocument=1/NESSF15\%20selections.pdf}{Fellowship}\\
 \$105,000
 
 \subsection*{Sep 2016}
-\label{sec:orge3f76e4}
+\label{sec:org4a47595}
 Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin
 Department of Natural Resources\\
 \$50,000
 
 \subsection*{Oct 2016}
-\label{sec:org831b62d}
+\label{sec:org7eefa44}
 \href{https://kb.wisc.edu/russell/page.php?id=65402}{George Kress Award} for Outstanding Contribution of a Forestry Graduate
 Student \\
 \$1,000
 
 \subsection*{May 2016}
-\label{sec:orga2f971e}
+\label{sec:org6c84b79}
 Travel Award, UW-Madison Department of Forest and Wildlife Ecology\\
 
 \subsection*{Mar 2016}
-\label{sec:orgbcbb019}
+\label{sec:org8dc2483}
 \href{http://news.wisc.edu/cool-science-images-2016/\#\&gid=1\&pid=10}{Cool Science Image contest winner}, "Madison Lakes" \\
 
 \subsection*{May  2010}
-\label{sec:org91af49f}
+\label{sec:org0e41915}
 \href{http://enst.wustl.edu/program/awards}{Outstanding Overall Achievement in Environmental Studies} (highest
 award in major), Washington University in St. Louis
 
 \subsection*{Jun 2008}
-\label{sec:org09b4e08}
+\label{sec:org83b5d93}
 \href{https://tyson.wustl.edu/2008}{Tyson Research Center Summer Undergraduate Research Fellowship} \\
  \$3,750
 
 \section*{Presentations}
-\label{sec:orgeff3d3a}
+\label{sec:org904cb03}
 \subsection*{November 2016}
-\label{sec:org74efc9c}
+\label{sec:org0da9e2d}
 \textbf{\href{http://pages.stat.wisc.edu/\~erker/Presentations/SAF\_20161105/saf\_presentation.html}{Mapping Urban Tree Canopy of Wisconsin}}
 
 Society of American Foresters National Convention. Madison, WI.
 \section*{Posters}
-\label{sec:org106f9e3}
+\label{sec:orge6c083e}
 \subsection*{April 2018}
-\label{sec:org54cf37a}
+\label{sec:org779306b}
 \textbf{\href{http://pages.stat.wisc.edu/\~erker/Posters/NASA\_poster\_2018.jpg}{Functional and Species Diversity of Trees in Urban Streets}}
 
 NASA Biodiversity and Ecological Forecasting Team Meeting in
 Washington, D.C.
 \subsection*{May 2016}
-\label{sec:org002c08d}
+\label{sec:org1001e99}
 \textbf{\href{http://pages.stat.wisc.edu/\~erker/Posters/NASA\_poster\_2016.jp2}{How Does Structural and Functional Diversity of the Urban Forest
 Affect the Urban Heat Island and Building Energy Use in Madison, WI?}}
 
 NASA Biodiversity and Ecological Forecasting Team Meeting in Silver Springs, MD.
 \section*{Teaching Experience}
-\label{sec:org49b9c99}
+\label{sec:org780ee20}
 \subsection*{Spring 2015}
-\label{sec:orga98f31f}
+\label{sec:orgadc2331}
 \textbf{Statistical Methods for Bioscience II Teaching Assistant}
 
 Led 2 weekly discussion groups, graded homework and exams for this
 graduate-level course. Prof. Murray Clayton.
-
+;
 \subsection*{Fall 2013 and Fall 2014}
-\label{sec:orga23d6b0}
+\label{sec:org5afdb77}
 \textbf{Forest Ecology Teaching Assistant}
 
 Redesigned, created and independently implemented lab lessons in field and computer lab for \textasciitilde{}70
 students.  Prof. Tom Gower (2013) and Prof. Phil Townsend (2014).
 
 \subsection*{Spring 2014}
-\label{sec:org2982cba}
+\label{sec:org4be10c6}
 \textbf{Living With Wildlife Teaching Assistant}
 
 Graded journals and exams, assisted students during office hours.
 Prof. Stan Temple.
 
 \subsection*{August 2010 - May 2012}
-\label{sec:org56f7edd}
+\label{sec:org36ac48f}
 \textbf{High School Chemistry and Biology Teacher}
 
 Educated over 120 students in six classes daily. As first year
@@ -174,7 +225,7 @@ integrating College Readiness Standards with Missouri Science
 Standards. Cross-country coach. \href{https://www.google.com/search?q=Confluence+Preparatory+Academy+St.+Louis\&oq=Confluence+Prep+Academy+St.+Louis\&aqs=chrome..69i57.7294j0j8\&sourceid=chrome\&ie=UTF-8\#q=Confluence+Prep+Academy+High+School+St.+Louis}{Confluence Preparatory Academy}. St. Louis, MO.
 
 \subsection*{June 2010 - May 2012}
-\label{sec:orgf5ed893}
+\label{sec:orgb2e15c3}
 \textbf{\href{https://www.teachforamerica.org/}{Teach For America} Corps Member}
 
 Selected from over 46,000 applicants nationwide to join the national
@@ -182,31 +233,31 @@ teacher corps of recent college graduates who commit two years to
 teach in under-resourced public schools.  Chicago, IL \& St. Louis, MO.
 
 \section*{Mentoring}
-\label{sec:org90faf33}
+\label{sec:org4af550a}
 
 My undergraduate mentees research a topic, collect new data, perform statistical
 analyses, and write final papers to complete small research projects.  They
 create posters or presentations to share their work.
 
 \subsection*{Fall 2017}
-\label{sec:orgbfdbbb5}
+\label{sec:orgf34eeb7}
 \textbf{Cheyenne Brandt}
 
 Undergraduate Research Project: Effect of Leaf Area and Tree Canopy on the Urban
 Heat Island of Madison, WI.
 
 \subsection*{Fall 2015}
-\label{sec:org395b3d3}
+\label{sec:org43fb804}
 \textbf{Bobby Shepherd}
 
 Undergraduate Research Project: Investigating the influence of the
 urban heat island on autumn phenology of Norway Maple (\emph{Acer
 platanoides}) with smartphone hemispherical photos.
 \section*{Relevant Work Experience}
-\label{sec:org0a4e5e4}
+\label{sec:org5a67348}
 
 \subsection*{August 2013 - December 2014}
-\label{sec:org8d6f7b1}
+\label{sec:org0b2f305}
 \textbf{Arborist}
 
 Worked part time as ground crew, hauling brush and aiding climber.
@@ -214,7 +265,7 @@ Developed online Wisconsin tree species identification application.
 \href{http://www.urbantreealliance.org/}{Urban Tree Alliance}, Non-profit. Madison, WI.
 
 \subsection*{February 2013 - August 2013}
-\label{sec:org931f0ed}
+\label{sec:orge1cb924}
 \textbf{Arborist}
 
 Performed ground crew work, climbed, and as certified pesticide
@@ -222,14 +273,14 @@ applicator treated for a number of pests including the emerald ash
 borer. \href{http://atetreecare.com/}{American Tree Experts}.  New Berlin, WI
 
 \subsection*{March 2007 - May 2010}
-\label{sec:org980b518}
+\label{sec:org07abbd5}
 \textbf{Greenhouse Assistant}
 
 Water, transplant, propagate plants; maintain greenhouse. Work-Study
 at \href{http://biology4.wustl.edu/greenhouse/index.html}{Washington University Plant Research Facility}. St. Louis, MO.
 
 \subsection*{April - August 2009}
-\label{sec:org3712a69}
+\label{sec:orgff1e200}
 \textbf{Farm Education Intern and Farmer}
 
 Organized and guided trips of 16-40 students at farm and wilderness
@@ -238,44 +289,44 @@ chickens, pigs, and cows as part of farm team.  \href{https://farmandwilderness.
 Summer Camps}. Plymouth, VT.
 
 \subsection*{May - August 2008}
-\label{sec:org0d9fe31}
+\label{sec:org016186d}
 \textbf{Research Assistant}
 
 Sampled vegetation, identified over 100 plant species as part of study
 to explore phylogenic relationships in invasiveness.  \href{https://tyson.wustl.edu/2008}{Tyson Research
 Center}. Eureka, MO.
 \section*{Professional Affiliations}
-\label{sec:org389678e}
+\label{sec:orga776f93}
 Society of American Foresters, 2016--Present
 
 \section*{Languages}
-\label{sec:orgaa86e1b}
+\label{sec:org67e6d84}
 Spoken: English, Spanish
 
 Computing: R
 
 \section*{Service to the Department and University}
-\label{sec:org39d78df}
+\label{sec:orgeb2f6ad}
 \subsection*{Oct 2015 - Present}
-\label{sec:org04dd465}
+\label{sec:org3b689e7}
 \textbf{Graduate Student Representative, Department of Forest and Wildlife
 Ecology}
 \subsection*{Jul 2017}
-\label{sec:orgf95bd35}
+\label{sec:org88f903c}
 \textbf{Software Carpentry Volunteer}
 \section*{Service to Community}
-\label{sec:orge96e77e}
+\label{sec:org625c2b3}
 \subsection*{Fall 2014 and Fall 2015}
-\label{sec:org77c1969}
+\label{sec:org9829d20}
 \textbf{Guest Lab Instructor, Sustainability by the Numbers, Shabazz High School}
 
 \subsection*{Fall 2017}
-\label{sec:org3f7f7fc}
+\label{sec:org5904596}
 \textbf{Guest Lab Instructor, AP Environmental Studies, East High School}
 
 
 \section*{Graduate Coursework}
-\label{sec:orge1f103a}
+\label{sec:org414590e}
 \begin{center}
 \begin{tabular}{lllrl}
 Semester & Code & Course & Credits & Grade\\
