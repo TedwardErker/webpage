@@ -18,6 +18,14 @@
 #+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology\newline{}Committee: Phil Townsend, Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
 #+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
 #+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
+* Skills
+#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
+#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
+#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
+#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
+#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
+#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
+
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
@@ -290,18 +298,15 @@ My undergraduate mentees research a topic, collect new data, perform statistical
 analyses, and write final papers to complete small research projects.  They
 create posters or presentations to share their work. \\
 
-
 * Professional Affiliations
 \cvitem{2016--Present}{Society of American Foresters}
 \cvitem{2018--Present}{American Geophysical Union}
 * Languages
 \cvitem{Spoken:}{English, Spanish}
 \cvitem{Programming:}{R, Python, Stan}
-
 * Service to the Department and University
 #+latex: \cvitemwithcomment{2015--2018}{Graduate Student Representative}{Department of Forest and Wildlife Ecology}
 #+latex: \cvitemwithcomment{2017}{\href{https://software-carpentry.org/}{Software Carpentry Volunteer}}{UW-Madison}
-
 ** COMMENT details
 
 I represented graduate student interests at monthly department
@@ -317,7 +322,6 @@ I represented graduate student interests at monthly department
 * Service to Community
 #+latex: \cvitemwithcomment{2014, 2015}{Guest Lab Instructor, Sustainability by the Numbers}{Shabazz High School}
 #+latex: \cvitemwithcomment{2017}{Guest Lab Instructor, AP Environmental Studies}{East High School}
-
 *** COMMENT details
 - Twice, I conducted a two day lab exercise in a sustainability
   oriented math class exploring the potential for urban trees to offset carbon emissions.
@@ -342,29 +346,30 @@ I represented graduate student interests at monthly department
   transportation to and from school.
 
 * Graduate Coursework
-| Semester | Course                                  | Grade |
-|----------+-----------------------------------------+-------|
-| F 2013   | Diseases of Trees and Shrubs            | A     |
-|          | Tree Physiology                         | A     |
-|          | Statistical Methods for Bioscience I    | A     |
-| S 2014   | Inquiry-Based Biology Teaching          | A     |
-|          | Intermediate Data Analysis with R       | A     |
-|          | Principles of Silviculture              | S     |
-|          | Statistical Methods for Bioscience II   | A     |
-|          | Teaching Biology: Special Topics        | A     |
-|          | Advanced Data Analysis with R           | A     |
-| Su 2014  | Calculus--Functions of Variables        | S     |
-| F 2014   | Field Methods in Remote Sensing         | A     |
-|          | Environmental Biophysics                | A     |
-|          | Intro Mathematical Statistics I         | A     |
-| S 2015   | Tools for Reproducible Research         | A     |
-|          | Remote Sensing Digital Image Processing | A     |
-|          | Intro Mathematical Statistics II        | AB    |
-|          | Teaching Statistics                     | A     |
-| Su 2015  | Statistical Consulting                  | A     |
-| F 2015   | Statistical Methods-Spatial Data        | AB    |
-| S 2016   | Multilevel Models                       | A     |
-| S 2017   | Ecosystem Concepts                      | B     |
+| Semester \nbsp\nbsp | Course                             \nbsp        | Grade |
+|-------------+---------------------------------------------+-------|
+| F 2013      | Diseases of Trees and Shrubs                | A     |
+|             | Tree Physiology                             | A     |
+|             | Statistical Methods for Bioscience I        | A     |
+| S 2014      | Inquiry-Based Biology Teaching              | A     |
+|             | Intermediate Data Analysis with R           | A     |
+|             | Principles of Silviculture                  | S     |
+|             | Statistical Methods for Bioscience II       | A     |
+|             | Teaching Biology: Special Topics            | A     |
+|             | Advanced Data Analysis with R               | A     |
+| Su 2014     | Calculus--Functions of Variables            | S     |
+| F 2014      | Field Methods in Remote Sensing             | A     |
+|             | Environmental Biophysics                    | A     |
+|             | Intro Mathematical Statistics I             | A     |
+| S 2015      | Tools for Reproducible Research             | A     |
+|             | Remote Sensing Digital Image Processing\nbsp\nbsp\nbsp\nbsp | A     |
+|             | Intro Mathematical Statistics II            | AB    |
+|             | Teaching Statistics                         | A     |
+| Su 2015     | Statistical Consulting                      | A     |
+| F 2015      | Statistical Methods-Spatial Data            | AB    |
+| S 2016      | Multilevel Models                           | A     |
+| S 2017      | Ecosystem Concepts^*                        | B     |
+\ast my favorite course
 
 **  COMMENT Relevant Graduate coursework
 #+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
@@ -378,13 +383,10 @@ I represented graduate student interests at monthly department
 | Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
 | Teaching Statistics                  | Statistical Consulting                    |
 
-* COMMENT Resume Skills  Maybe include, maybe don't
-#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
-#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
-#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
-#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
-#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
-#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
+* Workshops
+#+latex: \cvitemwithcomment{2017}{Hierarchical Modeling and Analysis of Spatial-Temporal Data}{Andrew Finley}
+#+latex: \cvitemwithcomment{2016}{Software Carpentry}{}
+
 
 
 * COMMENT how to cv
