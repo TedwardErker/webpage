@@ -14,6 +14,23 @@
 #+LATEX_HEADER: \homepage{stat.wisc.edu/~erker/}                         % optional, remove / comment the line if not wanted
 #+LATEX_HEADER: \social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
 #+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
+* Education
+#+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology;\newline{}Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
+
+
+#+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
+#+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
+
+** COMMENT Old way of printing Education
+
+- Ph.D, [[http://forestandwildlifeecology.wisc.edu/graduate-study-forestry-handbook][Forestry]], University of Wisconsin - Madison, 2013--.
+
+Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
+  Annemarie Schneider.
+
+- M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
+- B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
+  in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
@@ -55,93 +72,65 @@ under TFA.  Education Analyitics should know hwat this is.
   the national teacher corps of recent college graduates who commit
   two years to teach in under-resourced public schools.
  #+END_QUOTE
-* Education
-#+LATEX:\cventry{2013--Present}{Ph.D.}{University of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology}
-#+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
-#+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
 
-** COMMENT Old way of printing Education
-
-- Ph.D, [[http://forestandwildlifeecology.wisc.edu/graduate-study-forestry-handbook][Forestry]], University of Wisconsin - Madison, 2013--.
-
-Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
-  Annemarie Schneider.
-
-- M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
-- B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
-  in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
-* Relevant graduate coursework
-#+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
-#+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
-#+LATEX:\cvlistdoubleitem{Intro Mathematical Statistics I \& II}{Statistical Meth. for Bioscience I \& II}
-#+LATEX:\cvlistdoubleitem{Teaching Statistics}{Statistical Consulting}
-
-** COMMENT org table
-| Tools for Reproducible Research      | Advanced Data Analysis with R             |
-| Statistical Methods-Spatial Data     | Multilevel Models                         |
-| Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
-| Teaching Statistics                  | Statistical Consulting                    |
-
-* Skills
-#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
-#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
-#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
-#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
-#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
-#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
 
 * Awards, Grants, and Fellowships
 #+LATEX: \cvitemwithcomment{
 Jan 2018
 #+LATEX:}{
-[[http://mc-stan.org/events/][Stan Conference]] Scholarship
+[[http://mc-stan.org/events/][Stan Conference Scholarship]]
 #+LATEX: }{}
+
 #+LATEX: \cvitemwithcomment{
 2015-2018
 #+LATEX:}{
-NASA Earth and Space Science [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]]
+[[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][NASA Earth and Space Science Fellowship]]
 #+LATEX: }{
 $105,000
 #+LATEX:}
+
 #+LATEX: \cvitemwithcomment{
 Sep 2016
 #+LATEX:}{
-Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin Department of Natural Resources
+Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin DNR
 #+LATEX: }{
 $50,000
 #+LATEX:}
 
-
-** Jan 2018
-[[http://mc-stan.org/events/][Stan Conference 2018]] Scholarship
-
-**  2015-2018
-NASA Earth and Space Science [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]]\\
-$105,000
-
-** Sep 2016
-Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin
-Department of Natural Resources\\
-$50,000
-
-** Oct 2016
-[[https://kb.wisc.edu/russell/page.php?id=65402][George Kress Award]] for Outstanding Contribution of a Forestry Graduate
-Student \\
+#+LATEX: \cvitemwithcomment{
+Oct 2016
+#+LATEX:}{
+[[https://kb.wisc.edu/russell/page.php?id=65402][George Kress Award for Outstanding Contribution of a Graduate Student]]
+#+LATEX: }{
 $1,000
+#+LATEX:}
 
-** May 2016
-Travel Award, UW-Madison Department of Forest and Wildlife Ecology\\
+#+LATEX: \cvitemwithcomment{
+May 2016
+#+LATEX:}{
+Travel Award, UW-Madison Department of Forest and Wildlife Ecology
+#+LATEX: }{}
 
-** Mar 2016
-[[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner]], "Madison Lakes" \\
+#+LATEX: \cvitemwithcomment{
+Mar 2016
+#+LATEX:}{
+[[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner, "Madison Lakes"]]
+#+LATEX: }{}
 
-** May  2010
-[[http://enst.wustl.edu/program/awards][Outstanding Overall Achievement in Environmental Studies]] (highest
-award in major), Washington University in St. Louis
+#+LATEX: \cvitemwithcomment{
+May  2010
+#+LATEX:}{
+[[http://enst.wustl.edu/program/awards][Outstanding Overall Achievement in Environmental Studies]]
+#+LATEX: }{}
 
-** Jun 2008
-[[https://tyson.wustl.edu/2008][Tyson Research Center Summer Undergraduate Research Fellowship]] \\
+#+LATEX: \cvitemwithcomment{
+Jun 2008
+#+LATEX:}{
+[[https://tyson.wustl.edu/2008][Tyson Research Center Summer Undergraduate Research Fellowship]]
+#+LATEX: }{
  $3,750
+#+LATEX:}
+
 
 ** COMMENT table
 |           |                                                                                   | <r>        |
@@ -297,23 +286,62 @@ Ecology*
   and they compared this to the carbon emissions caused by their
   transportation to and from school.
 
-* Graduate Coursework                                                :ignore:
-#+INCLUDE:graduate_coursework.org :minlevel 1
+* Graduate Coursework
+| Semester | Course                                  | Grade |
+|----------+-----------------------------------------+-------|
+| F 2013   | Diseases of Trees and Shrubs            | A     |
+|          | Tree Physiology                         | A     |
+|          | Statistical Methods for Bioscience I    | A     |
+| S 2014   | Inquiry-Based Biology Teaching          | A     |
+|          | Intermediate Data Analysis with R       | A     |
+|          | Principles of Silviculture              | S     |
+|          | Statistical Methods for Bioscience II   | A     |
+|          | Teaching Biology: Special Topics        | A     |
+|          | Advanced Data Analysis with R           | A     |
+| Su 2014  | Calculus--Functions of Variables        | S     |
+| F 2014   | Field Methods in Remote Sensing         | A     |
+|          | Environmental Biophysics                | A     |
+|          | Intro Mathematical Statistics I         | A     |
+| S 2015   | Tools for Reproducible Research         | A     |
+|          | Remote Sensing Digital Image Processing | A     |
+|          | Intro Mathematical Statistics II        | AB    |
+|          | Teaching Statistics                     | A     |
+| Su 2015  | Statistical Consulting                  | A     |
+| F 2015   | Statistical Methods-Spatial Data        | AB    |
+| S 2016   | Multilevel Models                       | A     |
+| S 2017   | Ecosystem Concepts                      | B     |
+
+**  COMMENT Relevant Graduate coursework
+#+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
+#+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
+#+LATEX:\cvlistdoubleitem{Intro Mathematical Statistics I \& II}{Statistical Meth. for Bioscience I \& II}
+#+LATEX:\cvlistdoubleitem{Teaching Statistics}{Statistical Consulting}
+
+*** COMMENT org table
+| Tools for Reproducible Research      | Advanced Data Analysis with R             |
+| Statistical Methods-Spatial Data     | Multilevel Models                         |
+| Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
+| Teaching Statistics                  | Statistical Consulting                    |
+
+* COMMENT Resume Skills  Maybe include, maybe don't
+#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
+#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
+#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,00 in proposals}
+#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
+#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
+#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
+
 
 * COMMENT how to cv
+
+New way uses Modern.cv.
+** old way
 https://github.com/fasheng/orgmode-latex-cv
 #+LATEX_HEADER:\def\myemail{xavier.garrido@lal.in2p3.fr}
 #+LATEX_HEADER:\def\myweb{stat.wisc.edu/~erker}
 #+LATEX_HEADER:\def\myphone{+33 (0)1 64 46 84 28}
 
 put fa\under{}orgmode\under{}cv.sty in ~/Library/texmf/tex/latex
-
-
-
-
-
-
-
 * COMMENT workshops?
 Andrew Finley's spBayes workshop
 * COMMENT Navigating "included" files: C-' visits file at point
