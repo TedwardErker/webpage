@@ -82,6 +82,9 @@ I strive to make all my work fully reproducible using [[https://www.gnu.org/soft
 
 [[file:blog.html][my notes on things]]
 
+* [[http://www.stat.wisc.edu/~erker/tedward_erker_cv.pdf][CV]]
+
+[[http://www.stat.wisc.edu/~erker/tedward_erker_cv.pdf][full CV here]]
 * COMMENT Awards and Fellowships
 #+INCLUDE: awards_fellowships.org :minlevel 1
 * TODO COMMENT I Should add a link to my CV

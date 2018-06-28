@@ -90,6 +90,11 @@
 - Managed 3⁄4 acre garden and cared for sheep, goats, chickens, pigs, and cows as part of farm team.
 #+LATEX: }
 
+#+LATEX: \cventry{May--Aug 2008}{Research Assistant}{\href{}{Tyson Research Center}}{Eureka, MO}{}{
+- Sampled vegetation, identified over 100 plant species as part of
+  [[https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/12-1310.1][study]] to explore phylogenic relationships in invasiveness.
+#+LATEX: }
+
 #+LATEX: \cventry{Jan--May 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
 - Brave New Crops, Environmental Studies 3322
 - Prof. Glenn Davis Stone
@@ -369,8 +374,7 @@ I represented graduate student interests at monthly department
 | F 2015      | Statistical Methods-Spatial Data            | AB    |
 | S 2016      | Multilevel Models                           | A     |
 | S 2017      | Ecosystem Concepts^*                        | B     |
-\ast my favorite course
-
+\nbsp^* my favorite course
 **  COMMENT Relevant Graduate coursework
 #+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
 #+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
@@ -387,8 +391,6 @@ I represented graduate student interests at monthly department
 #+latex: \cvitemwithcomment{2017}{Hierarchical Modeling and Analysis of Spatial-Temporal Data}{Andrew Finley}
 #+latex: \cvitemwithcomment{2016}{Software Carpentry}{}
 
-
-
 * COMMENT how to cv
 
 New way uses Modern.cv.
@@ -402,6 +404,4 @@ https://github.com/fasheng/orgmode-latex-cv
 #+LATEX_HEADER:\def\myphone{+33 (0)1 64 46 84 28}
 
 put fa\under{}orgmode\under{}cv.sty in ~/Library/texmf/tex/latex
-* COMMENT workshops?
-Andrew Finley's spBayes workshop
 * COMMENT Navigating "included" files: C-' visits file at point
