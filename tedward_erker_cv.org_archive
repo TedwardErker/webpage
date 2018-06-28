@@ -53,3 +53,12 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 - M.S., [[https://www.stat.wisc.edu/masters-biometry][Biometry]], University of Wisconsin--Madison, 2013--.
 - B.A., [[https://enst.wustl.edu/programs][Environmental Studies]]--Ecology/Biology, Summa Cum Laude, Washington University
   in St. Louis, 2006/8-2008/5, 2009/8-2010/5.  GPA: 3.83
+
+* Scientific Presentations and Posters                               :ignore:
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-06-28 Thu 12:56
+:ARCHIVE_FILE: ~/git/webpage_cv/tedward_erker_cv.org
+:ARCHIVE_CATEGORY: tedward_erker_cv
+:END:
+#+INCLUDE: presentations.org :minlevel 1
+#+INCLUDE: posters.org :minlevel 1
