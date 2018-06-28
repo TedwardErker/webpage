@@ -289,22 +289,19 @@ phenology of /Acer platanoides/ with smartphone hemispherical photos.
 #+LATEX: }
 
 * Professional Affiliations
-Society of American Foresters, 2016--Present
-
+\cvitem{2016--Present}{Society of American Foresters}
+\cvitem{2018--Present}{American Geophysical Union}
 * Languages
-Spoken: English, Spanish
-
-Computing: R
+\cvdoubleitem{Spoken:}{English, Spanish}{Programming:}{R, Python, Stan}
 
 * Service to the Department and University
-** Oct 2015 - Present
-*Graduate Student Representative, Department of Forest and Wildlife
-Ecology*
-*** COMMENT details
-- I represent graduate student interests at monthly department
-  meetings, communicate relevant departmental changes to fellow
-  graduate students, and organize professional development events and
+\cvitem{2015--2018}{Graduate Student Representative, Department of Forest and Wildlife Ecology}
+#+latex: \cvitem{}{
+I represented graduate student interests at monthly department
+  meetings, communicated relevant departmental changes to fellow
+  graduate students, and organized professional development events and
   the weekly department social.
+#+latex:}
 ** Jul 2017
 *Software Carpentry Volunteer*
 *** COMMENT details
@@ -392,6 +389,9 @@ Ecology*
 * COMMENT how to cv
 
 New way uses Modern.cv.
+
+if the latex code is on one line I don't need to include #+latex:
+
 ** old way
 https://github.com/fasheng/orgmode-latex-cv
 #+LATEX_HEADER:\def\myemail{xavier.garrido@lal.in2p3.fr}
