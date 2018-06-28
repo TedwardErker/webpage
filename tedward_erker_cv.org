@@ -33,7 +33,7 @@
     data
   - Explored anthropogenic and environmental drivers of trait variation
     across Madison, WI.
-#+LATEX: }
+#+LATEX:}
 
 #+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
 - Statistical Methods for Bioscience II, Spring 2015
@@ -49,17 +49,70 @@
   - Graded journals and exams, assisted students during office hours.
   - Prof. Stan Temple.
 
-#+LATEX: }
+#+LATEX:}
+
+#+LATEX: \cventry{
+2013--2014
+#+LATEX:}{
+Arborist
+#+LATEX:}{
+[[http://www.urbantreealliance.org/][Urban Tree Alliance]]
+#+LATEX:}{
+Madison, WI
+#+LATEX:}{}{
+- Worked part time as ground crew, hauling brush and aiding climber.
+- Developed online Wisconsin tree species identification application.
+#+LATEX:}
+
+#+LATEX:\cventry{
+2013
+#+LATEX:}{
+Arborist             \(%\)
+#+LATEX:}{
+[[http://atetreecare.com/][American Tree Experts]]
+#+LATEX:}{
+New Berlin, WI
+#+LATEX:}{}{
+- Performed ground crew work and climbed for pruning and removals
+- as certified pesticide applicator treated for a number of pests
+  including the emerald ash borer.
+#+LATEX:}
 
 #+LATEX: \cventry{2010--2012}{Chemistry and Biology Teacher}{Confluence Prep Academy}{St. Louis}{}{
 - Educated over 120 students in six classes daily.
 - As first year teacher, developed chemistry curriculum for new charter school integrating College Readiness Standards with Missouri Science Standards.
 - Cross-country coach
-#+LATEX: }
+#+LATEX:}
 
 #+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
 - Selected from over 46,000 applicants nationwide
 - Commited two years to teach in under-resourced public schools
+#+LATEX:}
+
+#+LATEX: \cventry{
+2007--2010
+#+LATEX: }{
+Greenhouse Assistant
+#+LATEX:}{
+[[http://biology4.wustl.edu/greenhouse/index.html][Washington University Plant Research Facility]]
+#+LATEX:}{
+St. Louis, MO
+#+LATEX:}{}{
+- Water, transplant, and propagate plants; maintain greenhouse.
+- Work-Study
+#+LATEX:}
+
+#+LATEX: \cventry{
+Apr - Aug 2009
+#+LATEX: }{
+Farm Education Intern and Farmer
+#+LATEX: }{
+[[https://farmandwilderness.org/][Farm And Wilderness Summer Camps]]
+#+LATEX: }{
+Plymouth, VT
+#+LATEX: }{}{
+- Organized and guided trips of 16-40 students at farm and wilderness education center.
+- Managed 3⁄4 acre garden and cared for sheep, goats, chickens, pigs, and cows as part of farm team.
 #+LATEX: }
 
 #+LATEX: \cventry{Spring 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
@@ -250,12 +303,8 @@ NASA Biodiversity and Ecological Forecasting Team Meeting
 Silver Springs, MD.
 #+LATEX:}
 
-* Teaching Experience                                                :ignore:
-#+INCLUDE: teaching_experience.org :minlevel 1
 * Mentoring                                                  :ignore:
 #+INCLUDE: mentoring.org :minlevel 1
-* Relevant Work Experience                                           :ignore:
-#+INCLUDE: work_experience.org :minlevel 1
 * Professional Affiliations
 Society of American Foresters, 2016--Present
 
