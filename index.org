@@ -144,7 +144,7 @@ and get a cup of joe if you're in town.
 
             ("webpage-static"
              :base-directory "~/git/webpage_cv/"
-             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
+             :base-extension "html\\|mov\\|css\\|js\\|png\\|jpg\\|jp2\\|jpeg\\|gif\\|pdf\\|mp3\\|org\\|swf\\|ico"
              :publishing-directory "~/projects/webpage_out/"
   ;;           :publishing-directory /ssh:erker@bigmem03.stat.wisc.edu:~/public/html/
              :recursive t

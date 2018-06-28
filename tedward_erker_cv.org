@@ -38,21 +38,36 @@
 #+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{%
 - Statistical Methods for Bioscience II, Spring 2015
   - Led 2 weekly discussion groups, graded homework and exams for
-      this graduate-level course largely covering multiple linear and
+    this graduate-level course largely covering multiple linear and
     logistic regression
+  - Prof. Murray Clayton.
 - Forest Ecology, Fall 2013 and Fall 2014
+  - Redesigned, created and independently implemented lab lessons in
+    field and computer lab for ~70 students.
+  - Prof. Tom Gower (2013) and Prof. Phil Townsend (2014).
 - Living With Wildlife, Spring 2014
+  - Graded journals and exams, assisted students during office hours.
+  - Prof. Stan Temple.
+
 #+LATEX: }
 
 #+LATEX: \cventry{2010--2012}{Chemistry and Biology Teacher}{Confluence Prep Academy}{St. Louis}{}{
 - Educated over 120 students in six classes daily.
 - As first year teacher, developed chemistry curriculum for new charter school integrating College Readiness Standards with Missouri Science Standards.
+- Cross-country coach
 #+LATEX: }
 
 #+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
 - Selected from over 46,000 applicants nationwide
 - Commited two years to teach in under-resourced public schools
 #+LATEX: }
+
+#+LATEX: \cventry{Spring 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
+- Brave New Crops, Environmental Studies 3322
+- Prof. Glenn Davis Stone
+#+LATEX: }
+
+
 
 * Awards, Grants, and Fellowships
 #+LATEX: \cvitemwithcomment{
@@ -203,37 +218,37 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
 
 
 * Presentations
-#+LATEX: \cvitemwithcomment{
+#+LATEX: \cvitem{
 Nov 2016
 #+LATEX:}{
 *[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]*
+#+LATEX:}
+#+LATEX:\cvitemwithcomment{}{
+Society of American Foresters National Convention
 #+LATEX:}{
 Madison, WI
-#+LATEX:}\cvitem{}{
-Society of American Foresters National Convention
 #+LATEX:}
 
 * Posters
-#+LATEX: \cvitemwithcomment{
+#+LATEX: \cvitem{
 Apr 2018
 #+LATEX:}{
 *[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]*
+#+LATEX:}\cvitemwithcomment{}{
+NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}{
 Washington, D.C.
-#+LATEX:}\cvitem{}{
-NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}
 
-#+LATEX: \cvitemwithcomment{
+#+LATEX: \cvitem{
 May 2016
 #+LATEX:}{
 *[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does the Urban Forest Affect the Urban Heat Island and Building Energy Use?]]*
+#+LATEX:}\cvitemwithcomment{}{
+NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}{
 Silver Springs, MD.
-#+LATEX:}\cvitem{}{
-NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}
-
 
 * Teaching Experience                                                :ignore:
 #+INCLUDE: teaching_experience.org :minlevel 1
