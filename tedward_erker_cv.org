@@ -268,9 +268,6 @@ Silver Springs, MD.
 #+LATEX:}
 
 * Mentoring
-My undergraduate mentees research a topic, collect new data, perform statistical
-analyses, and write final papers to complete small research projects.  They
-create posters or presentations to share their work. \\
 #+LATEX: \newline{}\cvitemwithcomment{
 2017
 #+LATEX:}{
@@ -288,31 +285,38 @@ Investigating the influence of the urban heat island on autumn
 phenology of /Acer platanoides/ with smartphone hemispherical photos.
 #+LATEX: }
 
+** COMMENT details
+My undergraduate mentees research a topic, collect new data, perform statistical
+analyses, and write final papers to complete small research projects.  They
+create posters or presentations to share their work. \\
+
+
 * Professional Affiliations
 \cvitem{2016--Present}{Society of American Foresters}
 \cvitem{2018--Present}{American Geophysical Union}
 * Languages
-\cvdoubleitem{Spoken:}{English, Spanish}{Programming:}{R, Python, Stan}
+\cvitem{Spoken:}{English, Spanish}
+\cvitem{Programming:}{R, Python, Stan}
 
 * Service to the Department and University
-\cvitem{2015--2018}{Graduate Student Representative, Department of Forest and Wildlife Ecology}
-#+latex: \cvitem{}{
+#+latex: \cvitemwithcomment{2015--2018}{Graduate Student Representative}{Department of Forest and Wildlife Ecology}
+#+latex: \cvitemwithcomment{2017}{\href{https://software-carpentry.org/}{Software Carpentry Volunteer}}{UW-Madison}
+
+** COMMENT details
+
 I represented graduate student interests at monthly department
   meetings, communicated relevant departmental changes to fellow
   graduate students, and organized professional development events and
   the weekly department social.
-#+latex:}
-** Jul 2017
-*Software Carpentry Volunteer*
-*** COMMENT details
+
 - Software Carpentry is a workshop designed to teach basic computing
   skills to researchers
 - I volunteered two days to help teach graduate students the basics of
   the command line, version control (git), and python.
 
 * Service to Community
-**  Fall 2014 and Fall 2015
-*Guest Lab Instructor, Sustainability by the Numbers, Shabazz High School*
+#+latex: \cvitemwithcomment{2014, 2015}{Guest Lab Instructor, Sustainability by the Numbers}{Shabazz High School}
+#+latex: \cvitemwithcomment{2017}{Guest Lab Instructor, AP Environmental Studies}{East High School}
 
 *** COMMENT details
 - Twice, I conducted a two day lab exercise in a sustainability
@@ -327,9 +331,6 @@ I represented graduate student interests at monthly department
   sequestration by trees, and compared this carbon to the carbon emitted by
   student to determine how many trees would be required to offset
   their emissions.
-** Fall 2017
-*Guest Lab Instructor, AP Environmental Studies, East High School*
-
 
 *** COMMENT details
 - I assisted with a field trip to the Madison School Forest for 85
