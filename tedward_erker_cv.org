@@ -205,22 +205,21 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
 * Presentations
 #+LATEX: \cventry{Nov 2016}{
 [[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
-#+LATEX:}{Madison, WI}{}{}{
+#+LATEX:}{}Madison, WI}{}{
 Society of American Foresters National Convention. Madison, WI
 #+LATEX:}
-* COMMENT Posters
-#+LATEX: \cventry{Nov 2016}{
-[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
-#+LATEX:}{Madison, WI}{}{}{
-Society of American Foresters National Convention. Madison, WI
+* Posters
+#+LATEX: \cventry{Apr 2018}{
+[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]
+#+LATEX:}{}{Washington, D.C.}{}{
+NASA Biodiversity and Ecological Forecasting Team Meeting
 #+LATEX:}
 
 * COMMENT Posters
-** April 2018
-*[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]*
+**
 
-NASA Biodiversity and Ecological Forecasting Team Meeting in
-Washington, D.C.
+
+
 ** May 2016
 *[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does Structural and Functional Diversity of the Urban Forest
 Affect the Urban Heat Island and Building Energy Use in Madison, WI?]]*
