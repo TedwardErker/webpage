@@ -373,8 +373,8 @@ I represented graduate student interests at monthly department
 | Su 2015     | Statistical Consulting                      | A     |
 | F 2015      | Statistical Methods-Spatial Data            | AB    |
 | S 2016      | Multilevel Models                           | A     |
-| S 2017      | Ecosystem Concepts^*                        | B     |
-\nbsp^* my favorite course
+| S 2017      | Ecosystem Concepts                           | B     |
+
 **  COMMENT Relevant Graduate coursework
 #+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
 #+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
