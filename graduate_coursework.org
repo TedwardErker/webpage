@@ -5,11 +5,11 @@
 |          | F&W ECOL 415 | Tree Physiology                         |       3 | A     |
 |          | HORT 571     | Statistical Methods for Bioscience I    |       4 | A     |
 | S 2014   | PL PATH 800  | Inquiry-Based Biology Teaching          |       1 | A     |
+|          | PL PATH 801  | Teaching Biology: Special Topics        |       1 | A     |
 |          | STAT 692     | Intermediate Data Analysis with R       |       1 | A     |
+|          | STAT 692     | Advanced Data Analysis with R           |       1 | A     |
 |          | F&W ECOL 410 | Principles of Silviculture              |   audit | S     |
 |          | STAT 572     | Statistical Methods for Bioscience II   |       4 | A     |
-|          | PL PATH 801  | Teaching Biology: Special Topics        |       1 | A     |
-|          | STAT 692     | Advanced Data Analysis with R           |       1 | A     |
 | Su 2014  | MATH 234     | Calculus--Functions of Variables        |       4 | S     |
 | F 2014   | F&W ECOL 875 | Field Methods in Remote Sensing         |       1 | A     |
 |          | SOIL SCI 532 | Environmental Biophysics                |       3 | A     |
