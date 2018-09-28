@@ -41,15 +41,106 @@
 
 * Some Principal Components Analysis things
 :PROPERTIES:
-:header-args:R: :eval yes
+:header-args:R: :eval yes :session *R*
 :END:
 
-#+begin_src R
-c(1)
+mean 0, sd 1
+
+** k = 2
+#+begin_src R :results none
+  library(MASS)
+  k = 2
+  cr <- matrix(c(1,0.8,0.8,1),2)
+  sd.mat <- as.matrix(rep(1,k))
+  sig = cr *sd.mat%*%t(sd.mat)
+  d <- mvrnorm(n = 100, mu = rep(0,k), sig)
+
+#+end_src
+
+#+begin_src R :exports results :results graphics :file figs/cor1.png
+plot(d)
 #+end_src
 
 #+RESULTS:
-: 1
+[[file:figs/cor1.png]]
+
+#+begin_src R
+pca <- prcomp(d)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R
+plot(pca)
+#+end_src
+
+#+RESULTS:
+
+** k = 3
+#+begin_src R :results none
+  library(MASS)
+  k = 3
+  cr <- matrix(c(1,0.9,0,0.9,1,0,0,0,1),3)
+#  cr <- matrix(c(1,0,0,0,1,0,0,0,1),3)
+  sd.mat <- as.matrix(rep(1,k))
+  sig = cr *sd.mat%*%t(sd.mat)
+  d <- mvrnorm(n = 100, mu = rep(0,k), sig)
+
+#+end_src
+
+#+begin_src R :exports results :results graphics :file figs/cor1.png
+pairs(d)
+#+end_src
+
+#+RESULTS:
+[[file:figs/cor1.png]]
+
+#+begin_src R
+pca <- prcomp(d)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :exports results :results graphics :file figs/pca.png
+plot(pca)
+#+end_src
+
+#+RESULTS:
+[[file:figs/pca.png]]
+
+** k = 4
+#+begin_src R :results none
+        library(MASS)
+        k = 4
+        cr <- matrix(c(1,0.9,0,0,
+                       0.9,1,0,0,
+                       0,0,1,.8,
+                       0,0,.8,1),k, byrow = T)
+        sd.mat <- as.matrix(rep(1,k))
+        sig = cr *sd.mat%*%t(sd.mat)
+        d <- mvrnorm(n = 100, mu = rep(0,k), sig)
+
+#+end_src
+
+#+begin_src R :exports results :results graphics :file figs/cor1.png
+pairs(d)
+#+end_src
+
+#+RESULTS:
+[[file:figs/cor1.png]]
+
+#+begin_src R
+pca <- prcomp(d)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :exports results :results graphics :file figs/pca.png
+plot(pca)
+#+end_src
+
+#+RESULTS:
+[[file:figs/pca.png]]
 
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
