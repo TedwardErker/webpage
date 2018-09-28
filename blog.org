@@ -5,7 +5,7 @@
 #+OPTIONS: toc:t num:nil ^:nil html5-fancy:t
 #+HTML_DOCTYPE: html5
 #+STARTUP: hideblocks
-#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval yes
+#+PROPERTY:  header-args:R :cache no :results output :exports both :comments link :session *R* :eval no
 #+INFOJS_OPT: view:showall toc:t path:data/org-info.js ltoc:nil mouse:nil sdepth:1 tdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="data/all.css" type="text/css">
 #+HTML_HEAD: <link rel="stylesheet" href="data/video.css" type="text/css">
@@ -47,6 +47,9 @@
 #+begin_src R
 c(1)
 #+end_src
+
+#+RESULTS:
+: 1
 
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
