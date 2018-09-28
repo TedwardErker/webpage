@@ -39,9 +39,9 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-* Some Principal Components Analysis things
+* COMMENT Some Principal Components Analysis things
 :PROPERTIES:
-:header-args:R: :eval yes :session *R*
+:header-args:R: :eval no :session *R*
 :END:
 
 mean 0, sd 1
