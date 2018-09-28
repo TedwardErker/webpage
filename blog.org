@@ -142,6 +142,73 @@ plot(pca)
 #+RESULTS:
 [[file:figs/pca.png]]
 
+#+begin_src R
+pca_12 <- prcomp(d[,1:2])
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :exports results :results graphics :file figs/pca_12.png
+plot(pca_12)
+#+end_src
+
+#+RESULTS:
+[[file:figs/pca_12.png]]
+
+#+begin_src R
+pca_13 <- prcomp(d[,c(1,3)])
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :exports results :results graphics :file figs/pca_13.png
+plot(pca_13)
+#+end_src
+
+#+RESULTS:
+[[file:figs/pca_13.png]]
+
+
+
+How many species or which species can you select and still have the
+same number of pc's?
+
+This question needs to be better defined.
+
+** k = 4 no cor
+#+begin_src R :results none
+        library(MASS)
+        k = 4
+        cr <- matrix(c(1,0,0,0,
+                       0,1,0,0,
+                       0,0,1,0,
+                       0,0,0,1),k, byrow = T)
+        sd.mat <- as.matrix(rep(1,k))
+        sig = cr *sd.mat%*%t(sd.mat)
+        d <- mvrnorm(n = 100, mu = rep(0,k), sig)
+
+#+end_src
+
+#+begin_src R :exports results :results graphics :file figs/cor1.png
+pairs(d)
+#+end_src
+
+#+RESULTS:
+[[file:figs/cor1.png]]
+
+#+begin_src R
+pca <- prcomp(d)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R :exports results :results graphics :file figs/pca_4_nocor.png
+plot(pca)
+#+end_src
+
+#+RESULTS:
+[[file:figs/pca_4_nocor.png]]
+
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
