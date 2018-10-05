@@ -227,7 +227,7 @@ plot(pca)
 #+RESULTS:
 [[file:figs/pca_4_nocor.png]]
 
-* A 2-dimensional color palette
+* A 2-dimensional color palette                               :visualization:
 
 Color scales are usually applied to one variable in a plot.  For
 example:
@@ -263,9 +263,12 @@ bit of grey around mean GDD and mean precipitation.  I think this
 works, but could be more informative.  Here's another palette:
 #+attr_html: :width 300
 #+name: complex_2dpal
-#+caption: A more complex 2 dimensional color palette
+#+caption: A more complex 2-dimensional color palette
 [[file:blog/blog_imgs/2dcolpal/hue_pal_complex.png]]
+
 and the map:
+#+name: map_complex_pal
+#+caption: Weather stations colored by growing degree days and precipitation using the more complex palette.
 [[file:blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey_complex.png]]
 
 While this palette is more of a mess of colors and the gradients may
@@ -284,6 +287,8 @@ color because I was more interested in general patterns (high, medium,
 low) rather than the specific number.
 
 One way around this problem is shown in the figure below:
+#+name: climate_and_map
+#+caption: Weather stations plot in climate space and (subset) geographic space
 [[file:blog/blog_imgs/2dcolpal/climate_space_wMap.png]]
 
 Here the weather stations are plotted in climate space and geographic
