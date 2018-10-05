@@ -229,7 +229,10 @@ plot(pca)
 
 * A 2-dimensional color palette
 
-Color ramps are usually applied to one
+Color ramps are usually applied to one variable in a plot.  For
+example:
+
+
 
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
