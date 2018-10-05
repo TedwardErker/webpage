@@ -229,11 +229,33 @@ plot(pca)
 
 * A 2-dimensional color palette
 
-Color ramps are usually applied to one variable in a plot.  For
+Color scales are usually applied to one variable in a plot.  For
 example:
 
+[[file:blog/blog_imgs/2dcolpal/gdd_cont.png]]
+or
+[[file:blog/blog_imgs/2dcolpal/precip_cont.png]]
 
+These two figures show the annual growing degree days and
+precipitation at weather stations across the conterminous United
+States.
 
+(Code for these and the below figures is in this [[https://github.com/TedwardErker/2-dimensional-Color-Palette][repository]]).
+
+But what if you wanted to show changes in both precipitation and
+growing degree days at the same time with color.  This would require
+a kind of 2-d color palette.  Something like this:
+
+#+attr_html: :width 300
+[[file:blog/blog_imgs/2dcolpal/hue_pal_simplest.png]]
+Here high GDD and low precip is magenta, high precip low GDD is blue,
+high both is green, and low both is black.
+
+Here's a map using this color scheme:
+[[file:blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey.png]]
+
+This is nice, but color interpolation is hard to do.  There is a fair
+bit of grey around mean GDD and mean precipitation.
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
