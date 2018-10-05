@@ -232,14 +232,15 @@ plot(pca)
 Color scales are usually applied to one variable in a plot.  For
 example:
 
+#+name:gdd_map
+#+caption: Growing Degree Days at weather stations across the US
 [[file:blog/blog_imgs/2dcolpal/gdd_cont.png]]
+
 or
+
+#+name:precip_map
+#+caption: Precipitation (hundredths of inch) at weather stations across the US
 [[file:blog/blog_imgs/2dcolpal/precip_cont.png]]
-
-These two figures show the annual growing degree days and
-precipitation at weather stations across the conterminous United
-States.
-
 (Code for these and the below figures is in this [[https://github.com/TedwardErker/2-dimensional-Color-Palette][repository]]).
 
 But what if you wanted to show changes in both precipitation and
@@ -247,15 +248,49 @@ growing degree days at the same time with color.  This would require
 a kind of 2-d color palette.  Something like this:
 
 #+attr_html: :width 300
+#+name:simple_2dpal
+#+caption: A 2-dimensional color palette.
 [[file:blog/blog_imgs/2dcolpal/hue_pal_simplest.png]]
-Here high GDD and low precip is magenta, high precip low GDD is blue,
-high both is green, and low both is black.
+
 
 Here's a map using this color scheme:
+#+name:map_simple_pal
+#+caption: Weather stations colored by growing degree days and precipitation using the above palette.
 [[file:blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey.png]]
 
 This is nice, but color interpolation is hard to do.  There is a fair
-bit of grey around mean GDD and mean precipitation.
+bit of grey around mean GDD and mean precipitation.  I think this
+works, but could be more informative.  Here's another palette:
+#+attr_html: :width 300
+#+name: complex_2dpal
+#+caption: A more complex 2 dimensional color palette
+[[file:blog/blog_imgs/2dcolpal/hue_pal_complex.png]]
+and the map:
+[[file:blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey_complex.png]]
+
+While this palette is more of a mess of colors and the gradients may
+break some rules about how palettes should be made to maximize a
+person's ability to accurately compare of values, I find it more
+informative.  It is clear that the variation of gdd and precip across
+the US is a continuous gradient, but clear climate lines break out in
+places you might expect.
+
+One problem with this approach is that there are actually many weather
+stations with precip greater than 60 inches per year and other
+stations that fall outside of the scale.  What ggplot does by default
+in these cases is it turns these points grey, which is what I probably
+should have done.  But instead I assigned these points the closest
+color because I was more interested in general patterns (high, medium,
+low) rather than the specific number.
+
+One way around this problem is shown in the figure below:
+[[file:blog/blog_imgs/2dcolpal/climate_space_wMap.png]]
+
+Here the weather stations are plotted in climate space and geographic
+space.  Color then connects the two.  This shows that the purple
+colored weather stations can have very high precipitation
+levels.  It also shows how weather spaces are distributed in both
+climate and geographic space.
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
