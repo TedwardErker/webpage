@@ -227,6 +227,10 @@ plot(pca)
 #+RESULTS:
 [[file:figs/pca_4_nocor.png]]
 
+* A 2-dimensional color palette
+
+Color ramps are usually applied to one
+
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
