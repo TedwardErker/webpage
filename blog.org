@@ -185,13 +185,71 @@ m123 <- lm(X1 + X2 + X3 + X4 ~ X1 + X2 + X3, df)
 
 #+RESULTS:
 
-#+BEGIN_SRC R
+#+BEGIN_SRC R :results output
 summary(m12)
-summary(m13)
-
 #+END_SRC
 
 #+RESULTS:
+#+begin_example
+
+Call:
+lm(formula = X1 + X2 + X3 + X4 ~ X1 + X2, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max
+-5.5723 -1.2587 -0.2711  1.5540  5.2698
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.08245    0.20472   0.403  0.68802
+X1           0.70266    0.44492   1.579  0.11752
+X2           1.54681    0.42087   3.675  0.00039 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.018 on 97 degrees of freedom
+Multiple R-squared:  0.5185,	Adjusted R-squared:  0.5086
+F-statistic: 52.23 on 2 and 97 DF,  p-value: 4.031e-16
+#+end_example
+
+
+#+begin_src R :results output
+summary(m13)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+
+Call:
+lm(formula = X1 + X2 + X3 + X4 ~ X1 + X3, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max
+-2.12968 -0.56796  0.07328  0.63687  1.43964
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept) -0.07722    0.08777   -0.88    0.381
+X1           2.00963    0.09526   21.10   <2e-16 ***
+X3           1.80975    0.08045   22.49   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8641 on 97 degrees of freedom
+Multiple R-squared:  0.9118,	Adjusted R-squared:  0.9099
+F-statistic: 501.1 on 2 and 97 DF,  p-value: < 2.2e-16
+#+end_example
+
+#+begin_src R :colnames yes
+rbind(glance(m12), glance(m13)) %>% data.frame
+#+end_src
+
+#+RESULTS:
+|         r.squared |     adj.r.squared |             sigma |        statistic |              p.value | df |            logLik |              AIC |              BIC |         deviance | df.residual |
+|-------------------+-------------------+-------------------+------------------+----------------------+----+-------------------+------------------+------------------+------------------+-------------|
+| 0.518510393931581 | 0.508582773187902 |   2.0183965311233 | 52.2290695141365 | 4.03148870142867e-16 |  3 | -210.601232917857 | 429.202465835715 | 439.623146579667 | 395.170682014507 |          97 |
+| 0.911757718623682 | 0.909938290141696 | 0.864074913853309 | 501.123142597219 | 7.33366875770848e-52 |  3 | -125.761312137424 | 259.522624274848 |   269.9433050188 | 72.4226693048085 |          97 |
+
 
 ** k = 4 no cor
 #+begin_src R :results none
