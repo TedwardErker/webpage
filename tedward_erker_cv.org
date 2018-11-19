@@ -157,7 +157,7 @@ Jun 2008
  $3,750
 #+LATEX:}
 
-
+** COMMENT AmeriCorps Segal Education Award ? should I add this
 ** COMMENT table
 |           |                                                                                   | <r>        |
 | Sep 2016  | Mapping Wisconsin's Urban Tree Canopy (co-author), WI DNR                         | *$50,000*  |
