@@ -39,7 +39,8 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-
+* COMMENT I have a masters now.
+* COMMENT simulation of trees across
 * A 2-dimensional color palette                               :visualization:
 
 Color scales are usually applied to one variable in a plot.  For
