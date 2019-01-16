@@ -169,7 +169,7 @@ Maybe just use C-c C-e?
 #+end_src
 
 #+begin_src sh :session a :results verbatim :eval yes
-  rsync -avz ~/projects/webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+  rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/
 
 #+end_src
 
