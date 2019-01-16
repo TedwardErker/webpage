@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Bayesian Nonlinear Multilevel Modeling of Urban Tree Growth</title>
+<meta name="author" content="(Tedward Erker)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///Users/erker/.emacs.d/reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:///Users/erker/.emacs.d/reveal.js/css/theme/black.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///Users/erker/.emacs.d/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+<section id="slide-orgddeb084">
+<h2 id="orgddeb084">Biometry Project</h2>
+<p>
+Bayesian Nonlinear Multilevel Modeling of Urban Tree Growth
+</p>
+
+<p>
+Tedward Erker
+</p>
+
+<p>
+December 3, 2018
+</p>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/monroe_tree.jpg" alt="monroe_tree.jpg" height="750px">
+
+</figure>
+
+<aside class="notes">
+<p>
+When a city or a person plants a tree, they might want to know how
+that tree will grow in diameter through time.
+</p>
+
+<p>
+need to know how big trees are going to get.  infrastructure and
+ecosystem services
+</p>
+
+</aside>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/annapolis_oak.jpg" alt="annapolis_oak.jpg" height="750px">
+
+</figure>
+
+<aside class="notes">
+<p>
+One reason why folks are interested is because trees can interfere
+with infrastructure.  Here's an oak tree in annapolis that is pushing
+up the sidewalk.
+</p>
+
+</aside>
+
+</section>
+<section>
+
+<figure id="orgfe1021f">
+<img src="figs/elmer.jpg" alt="elmer.jpg">
+
+</figure>
+
+<aside class="notes">
+<p>
+But also trees can provide ecosystem services, for example modifying
+microclimates for our benefit.  Here is an american elm, "elmer",
+outside of biochemistry, soon after it was cut down.  That courtyard
+has changed greatly with the absence of the tree.  Often the services
+trees provide is in proportion to their size and so modeling growth is
+a first step to modeling ecosystem services.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org00f2f62">
+<h3 id="org00f2f62">Forest &ne; Urban</h3>
+<div class="column" style="float:left; width:49%">
+
+<figure>
+<img src="figs/eg_forest1.jpg" alt="eg_forest1.jpg" height="650px">
+
+</figure>
+</div>
+
+<div class="column" style="float:right; width:49%">
+
+<figure>
+<img src="figs/eg_urban.jpg" alt="eg_urban.jpg" height="650px">
+
+</figure>
+</div>
+
+<aside class="notes">
+<p>
+You could use existing growth equations that have been developed, but forest trees grow differently than urban trees.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org6fb1fc0">
+<h3 id="org6fb1fc0">Open Grown &ne; Urban</h3>
+<div class="column" style="float:left; width:49%">
+
+<figure>
+<img src="figs/open_oak.jpg" alt="open_oak.jpg" height="650px">
+
+</figure>
+</div>
+
+<div class="column" style="float:right; width:49%">
+
+<figure>
+<img src="figs/eg_urban.jpg" alt="eg_urban.jpg" height="650px">
+
+</figure>
+</div>
+
+<aside class="notes">
+<p>
+They also aren't simply open grown trees.  urban trees are often hacked up.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org0c3bc85">
+<h2 id="org0c3bc85">Growth of urban trees?</h2>
+</section>
+<section>
+
+<figure>
+<img src="figs/UTD_cover.png" alt="UTD_cover.png" height="750px">
+
+</figure>
+
+<aside class="notes">
+<p>
+How can we predict the growth of urban trees?
+</p>
+
+<p>
+give summary of data here.
+</p>
+
+<p>
+dbh and age
+</p>
+
+<p>
+units of dbh are cm
+</p>
+
+<p>
+4.5ft above ground 1.3m.
+</p>
+
+</aside>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/ClimateRegions_UTD.png" alt="ClimateRegions_UTD.png" height="750px" class="plain">
+
+</figure>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/CityScientificNameData_CityCentric_n_commonSpecies.png" alt="CityScientificNameData_CityCentric_n_commonSpecies.png" height="750px" class="plain">
+
+</figure>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/CityScientificNameData_CityCentric_n_splits.png" alt="CityScientificNameData_CityCentric_n_splits.png" height="750px" class="plain">
+
+</figure>
+
+</section>
+<section id="slide-org9327a05">
+<h3 id="org9327a05">Existing Approach</h3>
+
+<figure>
+<img src="figs/predictions_cities_notB1_dbh_bySpeciesCity_wData_no_UTDpredictions_focus_acpl_FullData.png" alt="predictions_cities_notB1_dbh_bySpeciesCity_wData_no_UTDpredictions_focus_acpl_FullData.png" height="650px" class="plain">
+
+</figure>
+
+<aside class="notes">
+<p>
+for every species and city combination
+test a number of models,
+select the one with the lowest AIC.
+</p>
+
+<p>
+no extrapolation
+quadradic
+cubic
+</p>
+
+</aside>
+
+<aside class="notes">
+<p>
+two major problems:
+</p>
+<ol>
+<li>poor extrapolation because of curves not based on biology</li>
+<li>they even predict negative values at times</li>
+
+</ol>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org5b9c9f2">
+<h2 id="org5b9c9f2">Model Considerations</h2>
+<div class="outline-text-2" id="text-org5b9c9f2">
+</div>
+</section>
+<section id="slide-org60b0b6f">
+<h3 id="org60b0b6f">Model Considerations</h3>
+<div class="column" style="float:left; width:60%">
+<ol>
+<li>Biologically realistic</li>
+<li>Variance increases with age</li>
+<li>Share information across groups</li>
+
+</ol>
+<p>
+(Cities, Genera, Species)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_one.png" alt="weibull_one.png" class="plain">
+
+</figure>
+</div>
+</section>
+<section id="slide-org97d5216">
+<h3 id="org97d5216">Model Considerations</h3>
+<div class="column" style="float:left; width:60%">
+<ol>
+<li>Biologically realistic</li>
+<li>Variance increases with age</li>
+<li>Share information across groups</li>
+
+</ol>
+<p>
+(Cities, Genera, Species)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_one_wGammaY.png" alt="weibull_one_wGammaY.png" class="plain">
+
+</figure>
+</div>
+
+</section>
+<section id="slide-org7d24d05">
+<h3 id="org7d24d05">Weibull</h3>
+<div class="column" style="float:left; width:60%">
+<p>
+\(\mu_i = 1 - \exp(-\color{red}{\beta^{(2)}}x_i^{\color{red}{\beta^{(3)}}})\)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_cdf2.png" alt="weibull_cdf2.png" class="plain">
+
+</figure>
+</div>
+
+<aside class="notes">
+<p>
+it is flexible and sigmoidal
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org8c2753f">
+<h3 id="org8c2753f">Weibull</h3>
+<div class="column" style="float:left; width:60%">
+<p>
+\(\mu_i = \color{red}{\beta^{(1)}} \{1 - \exp(-\beta^{(2)}x_i^{\beta^{(3)}})\}\)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_scaled.png" alt="weibull_scaled.png" class="plain">
+
+</figure>
+</div>
+
+<aside class="notes">
+<p>
+it can be scaled to an asymptote
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org4c43ff1">
+<h3 id="org4c43ff1">Weibull</h3>
+<div class="column" style="float:left; width:60%">
+<p>
+\(\mu_i = \color{red}{\beta^{(0)}} + \beta^{(1)} \{1 - \exp(-\beta^{(2)}x_i^{\beta^{(3)}})\}\)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_scaled_intercept.png" alt="weibull_scaled_intercept.png" class="plain">
+
+</figure>
+</div>
+
+<aside class="notes">
+<p>
+and an intercept added because at time of transplanting, age 0, trees
+have a dbh.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org584d04c">
+<h3 id="org584d04c">Y ~ Normal</h3>
+<div class="column" style="float:left; width:60%">
+<p>
+\(\mu_i = \beta^{(0)} + \beta^{(1)} \{1 - \exp(-\beta^{(2)}x_i^{\beta^{(3)}})\}\)
+</p>
+
+<p>
+\(y_i \sim \mbox{Normal}(\mu_i, \sigma)\)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_scaled_intercept_normal_obs.png" alt="weibull_scaled_intercept_normal_obs.png" class="plain">
+
+</figure>
+</div>
+
+<aside class="notes">
+<ol>
+<li>Positive</li>
+<li>Increasing variance</li>
+
+</ol>
+
+</aside>
+
+</section>
+<section id="slide-orgb130f87">
+<h3 id="orgb130f87">Y ~ Gamma</h3>
+<div class="column" style="float:left; width:60%">
+<p>
+\(\mu_i = \beta^{(0)} + \beta^{(1)} \{1 - \exp(-\beta^{(2)}x_i^{\beta^{(3)}})\}\)
+</p>
+
+<p>
+\(y_i \sim \mbox{Gamma}(\mu_i, \alpha)\)
+</p>
+</div>
+
+<div class="column" style="float:right; width:40%">
+
+<figure>
+<img src="figs/weibull_scaled_intercept_obs.png" alt="weibull_scaled_intercept_obs.png" class="plain">
+
+</figure>
+</div>
+
+<aside class="notes">
+<ol>
+<li>Positive</li>
+<li>Increasing variance</li>
+
+</ol>
+
+</aside>
+
+</section>
+<section id="slide-org1bf4375">
+<h3 id="org1bf4375">Pooling</h3>
+<p class="fragment appear" height="450px" class="plain">
+<img src="figs/marginal_effects_genus_none_species_single_cities_single_climate_none_hetero_no_family_Gamma_points.png" alt="marginal_effects_genus_none_species_single_cities_single_climate_none_hetero_no_family_Gamma_points.png" class="plain" height="450px"><br>
+complete pooling
+</p>
+
+<aside class="notes">
+<p>
+we can fit this model to any single species city combination (no
+pooling, as was done with UTD), or to all the trees combined (complete pooling, shown
+here).  The multilevel approach allows for information to be shared
+across groups: cities, genera and species, so that species city
+combinations with little or no data can have somewhat reasonable predictions.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb0eb73a">
+<h2 id="orgb0eb73a">Multilevel Modeling</h2>
+<div class="outline-text-2" id="text-orgb0eb73a">
+</div>
+</section>
+<section id="slide-org03b413a">
+<h3 id="org03b413a">Multilevel Modeling</h3>
+<p>
+\(y_{i\color{red}{gsc}} \sim \mbox{Gamma}(\mu_{i\color{red}{gsc}}, \alpha_y)\)
+</p>
+
+<p class="fragment appear">
+\(\mu_{i\color{red}{gsc}} = \beta^{(0)}_{\color{red}{gsc}} + \beta^{(1)}_{\color{red}{gs}} \{1 - \exp(-\beta^{(2)}_{\color{red}{gsc}} x_{i\color{red}{gsc}}^{\beta^{(3)}_{\color{red}{gsc}}})\}\)
+</p>
+
+<aside class="notes">
+<p>
+focus on defining the subscripts, <i>igsc</i>, I can explain a bit more on
+the next side.  Just not that they vary by igsc
+repeat: species, <i>s</i>; genus, <i>g</i>; city, <i>c</i>
+</p>
+
+</aside>
+</section>
+<section id="slide-orgc4c0082">
+<h3 id="orgc4c0082">Multilevel Modeling</h3>
+<p>
+\(\mu_{igsc} = \color{red}{\beta^{(0)}_{gsc}} + \beta^{(1)}_{gs} \{1 - \exp(-\color{red}{\beta^{(2)}_{gsc}} x_{igsc}^{\beta^{(3)}_{gsc}})\}\)
+<br>
+<br>
+</p>
+<p class="fragment appear">
+For \(\beta^{(j)}_{igsc}\), <i>j</i> = 0,2, <br>
+\(\beta^{(j)}_{igsc} = \beta^{(j)}_0 + \gamma^{(j)}_{gs}+\delta^{(j)}_{c}\)
+<br>
+<br>
+</p>
+<aside class="notes">
+<p>
+asymptote does not vary by city
+\(\mu_{igsc} = \color{red}{\beta^{(0)}_{igsc}} + \beta^{(1)}_{igs} \{1 - \exp(-\color{red}{\beta^{(2)}_{igsc}} x_{igsc}^{\beta^{(3)}_{igsc}})\}\)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orga0a2fe0">
+<h3 id="orga0a2fe0">Multilevel Modeling</h3>
+<p>
+\(\mu_{igsc} = \beta^{(0)}_{gsc} + \color{red}{\beta^{(1)}_{gs}} \{1 - \exp(-\beta^{(2)}_{gsc} x_{igsc}^{\beta^{(3)}_{gsc}})\}\)
+<br>
+<br>
+</p>
+<p class="fragment appear">
+For \(\beta^{(1)}_{igs}\), <br>
+\(\beta^{(1)}_{igs} = \beta^{(1)}_0 + \gamma^{(1)}_{gs}\)
+<br>
+<br>
+</p>
+<aside class="notes">
+<p>
+asymptote does not vary by city
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org1970594">
+<h3 id="org1970594">Multilevel Modeling</h3>
+<p>
+\(\mu_{igsc} = \beta^{(0)}_{gsc} + \beta^{(1)}_{gs} \{1 - \exp(-\beta^{(2)}_{gsc} x_{igsc}^{\color{red}{\beta^{(3)}_{gsc}}})\}\)
+<br>
+<br>
+For \(\beta^{(3)}_{igsc}\), <br>
+</p>
+\begin{split}
+\beta^{(3)}_{ig sc} = \beta^{(3)}_0 + \color{red}{\tau_1} * \text{precip}_c + \color{red}{\tau_2} * \text{gdd}_c + \color{red}{\tau_3} *(\text{precip}_c * \text{gdd}_c) + \\
+\gamma^{(3)}_{gs}+\delta^{(3)}_{c}
+\end{split}
+
+</section>
+<section>
+
+<figure>
+<img src="figs/ClimateRegions_UTD.png" alt="ClimateRegions_UTD.png" height="750px" class="plain">
+
+</figure>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/climate_space_wMap_labels.png" alt="climate_space_wMap_labels.png" height="750px" class="plain" style="background:none">
+
+</figure>
+
+</section>
+<section id="slide-orgb823c66">
+<h3 id="orgb823c66">Multilevel Modeling</h3>
+<p class="fragment appear">
+\(\gamma^{(j)}_{gs} \sim N(\gamma^{(j)}_{g}, \sigma^{(j)}_{genus:species})\)
+</p>
+
+<p class="fragment appear">
+\(\gamma^{(j)}_{g} \sim N(0, \sigma^{(j)}_{genus})\)
+</p>
+
+<p class="fragment appear">
+\(\delta^{(j)}_{c} \sim N(0, \sigma^{(j)}_{city})\)
+</p>
+
+</section>
+<section id="slide-orgfa915dc">
+<h3 id="orgfa915dc">Priors</h3>
+<p class="fragment appear">
+\(\beta^{(j)}_0 \sim \mbox{Gamma}\) <br>
+</p>
+<p class="fragment appear">
+\(\sigma^{(j)}_{group} \sim \mbox{half-Normal}\) <br>
+</p>
+<p class="fragment appear">
+\(\alpha_y \sim \mbox{Gamma}\)
+</p>
+
+<aside class="notes">
+<p>
+This is what makees it bayesian.  We treat all parameters are random
+variables. talk about them, biologically realistic/ possible.
+</p>
+
+<p>
+\(\beta^{(j)}_0 \sim Gamma \theta_j, \alpha_j)\) <br>
+\(\sigma^{(j)}_{group} \sim half-Normal(\theta_j, \alpha_j)\) <br>
+\(\alpha_y \sim Gamma(\theta_{\alpha_y}, \alpha_{\alpha_y})\)
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org68b1f8b">
+<h2 id="org68b1f8b">Model Fitting</h2>
+<div class="outline-text-2" id="text-org68b1f8b">
+</div>
+</section>
+<section id="slide-org4e9b264">
+<h3 id="org4e9b264"><code>brms</code></h3>
+
+<figure>
+<img src="figs/brms.png" alt="brms.png" width="250" class="plain">
+
+</figure>
+
+</section>
+<section id="slide-org9e9dd84">
+<h3 id="org9e9dd84">Stan</h3>
+
+<figure>
+<img src="figs/stan_logo.png" alt="stan_logo.png" width="250" class="plain" style="background:none">
+
+</figure>
+
+</section>
+<section id="slide-orgb3587c5">
+<h3 id="orgb3587c5"><code>brms</code></h3>
+<div style="font-size:50px">
+<div class="org-src-container">
+
+<pre  class="src src-R">DBH ~ beta0 + beta1 * (1 - exp(-beta2 * AGE^beta3)) 
+beta0 ~ (1 | City) + (1 | Genus/Species) 
+beta1 ~ (1 | Genus/Species) 
+beta2 ~ (1 | City) + (1 | Genus/Species) 
+beta3 ~ precip * gdd + (1 | City) + (1 | Genus/Species)
+</pre>
+</div>
+</div>
+
+<p class="fragment appear">
+and some lines to specify priors
+</p>
+
+</section>
+<section id="slide-orgc88d44d">
+<h3 id="orgc88d44d">Stan Code</h3>
+<div class="column" style="float:left; width:33%; font-size:18px">
+<div class="org-src-container">
+
+<pre  class="src src-stan"><span style="color: #586e75;">// </span><span style="color: #586e75;">generated with brms 2.4.3</span>
+<span style="color: #859900; font-weight: bold;">functions</span> {
+}
+<span style="color: #859900; font-weight: bold;">data</span> {
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">total number of observations</span>
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Y</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">response variable</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">K_b0</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">number of population-level effects</span>
+  <span style="color: #b58900;">matrix</span>[N, K_b0] <span style="color: #268bd2;">X_b0</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level design matrix</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">K_b1</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">number of population-level effects</span>
+  <span style="color: #b58900;">matrix</span>[N, K_b1] <span style="color: #268bd2;">X_b1</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level design matrix</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">K_b2</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">number of population-level effects</span>
+  <span style="color: #b58900;">matrix</span>[N, K_b2] <span style="color: #268bd2;">X_b2</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level design matrix</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">K_b3</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">number of population-level effects</span>
+  <span style="color: #b58900;">matrix</span>[N, K_b3] <span style="color: #268bd2;">X_b3</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level design matrix</span>
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">covariate vectors</span>
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">C_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 1</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_1</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_1</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_1</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_1_b0_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 2</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_2</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_2</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_2</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_2_b0_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 3</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_3</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_3</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_3</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_3_b0_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 4</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_4</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_4</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_4</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_4_b1_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 5</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_5</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_5</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_5</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_5_b1_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 6</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_6</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_6</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_6</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_6_b2_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 7</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_7</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_7</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_7</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_7_b2_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 8</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_8</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_8</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_8</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_8_b2_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 9</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_9</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_9</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_9</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_9_b3_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 10</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_10</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_10</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_10</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_10_b3_1</span>;
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">data for group-level effects of ID 11</span>
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">J_11</span>[N];
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">N_11</span>;
+  <span style="color: #b58900;">int</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>1&gt; <span style="color: #268bd2;">M_11</span>;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">Z_11_b3_1</span>;
+  <span style="color: #b58900;">int</span> <span style="color: #268bd2;">prior_only</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">should the likelihood be ignored?</span>
+}
+<span style="color: #859900; font-weight: bold;">transformed data</span> {
+}
+</pre>
+</div>
+</div>
+
+<div class="column" style="float:left; width:33%; font-size:18px">
+<div class="org-src-container">
+
+<pre  class="src src-stan"><span style="color: #859900; font-weight: bold;">parameters</span> {
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[K_b0] <span style="color: #268bd2;">b_b0</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[K_b1] <span style="color: #268bd2;">b_b1</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[K_b2] <span style="color: #268bd2;">b_b2</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[K_b3] <span style="color: #268bd2;">b_b3</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">population-level effects</span>
+  <span style="color: #b58900;">real</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt; <span style="color: #268bd2;">shape</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">shape parameter</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_1] <span style="color: #268bd2;">sd_1</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_1] <span style="color: #268bd2;">z_1</span>[M_1];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_2] <span style="color: #268bd2;">sd_2</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_2] <span style="color: #268bd2;">z_2</span>[M_2];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_3] <span style="color: #268bd2;">sd_3</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_3] <span style="color: #268bd2;">z_3</span>[M_3];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_4] <span style="color: #268bd2;">sd_4</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_4] <span style="color: #268bd2;">z_4</span>[M_4];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_5] <span style="color: #268bd2;">sd_5</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_5] <span style="color: #268bd2;">z_5</span>[M_5];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_6] <span style="color: #268bd2;">sd_6</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_6] <span style="color: #268bd2;">z_6</span>[M_6];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_7] <span style="color: #268bd2;">sd_7</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_7] <span style="color: #268bd2;">z_7</span>[M_7];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_8] <span style="color: #268bd2;">sd_8</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_8] <span style="color: #268bd2;">z_8</span>[M_8];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_9] <span style="color: #268bd2;">sd_9</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_9] <span style="color: #268bd2;">z_9</span>[M_9];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_10] <span style="color: #268bd2;">sd_10</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_10] <span style="color: #268bd2;">z_10</span>[M_10];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+  <span style="color: #b58900;">vector</span>&lt;<span style="color: #859900; font-weight: bold;">lower</span><span style="color: #268bd2; font-weight: bold;">=</span>0&gt;[M_11] <span style="color: #268bd2;">sd_11</span>;  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level standard deviations</span>
+  <span style="color: #b58900;">vector</span>[N_11] <span style="color: #268bd2;">z_11</span>[M_11];  <span style="color: #586e75;">// </span><span style="color: #586e75;">unscaled group-level effects</span>
+}
+
+<span style="color: #859900; font-weight: bold;">transformed parameters</span> {
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_1] r_1_b0_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_1[1] * (z_1[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_2] r_2_b0_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_2[1] * (z_2[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_3] r_3_b0_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_3[1] * (z_3[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_4] r_4_b1_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_4[1] * (z_4[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_5] r_5_b1_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_5[1] * (z_5[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_6] r_6_b2_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_6[1] * (z_6[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_7] r_7_b2_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_7[1] * (z_7[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_8] r_8_b2_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_8[1] * (z_8[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_9] r_9_b3_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_9[1] * (z_9[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_10] r_10_b3_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_10[1] * (z_10[1]);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">group-level effects</span>
+  <span style="color: #b58900;">vector</span>[N_11] r_11_b3_1 <span style="color: #268bd2; font-weight: bold;">=</span> sd_11[1] * (z_11[1]);
+}
+</pre>
+</div>
+</div>
+
+<div class="column" style="float:right; width:33%; font-size:18px">
+<div class="org-src-container">
+
+<pre  class="src src-stan"><span style="color: #859900; font-weight: bold;">model</span> {
+  <span style="color: #b58900;">vector</span>[N] nlp_b0 <span style="color: #268bd2; font-weight: bold;">=</span> X_b0 * b_b0;
+  <span style="color: #b58900;">vector</span>[N] nlp_b1 <span style="color: #268bd2; font-weight: bold;">=</span> X_b1 * b_b1;
+  <span style="color: #b58900;">vector</span>[N] nlp_b2 <span style="color: #268bd2; font-weight: bold;">=</span> X_b2 * b_b2;
+  <span style="color: #b58900;">vector</span>[N] nlp_b3 <span style="color: #268bd2; font-weight: bold;">=</span> X_b3 * b_b3;
+  <span style="color: #b58900;">vector</span>[N] <span style="color: #268bd2;">mu</span>;
+  <span style="color: #859900; font-weight: bold;">for</span> (n <span style="color: #859900; font-weight: bold;">in</span> 1:N) {
+    nlp_b0[n] <span style="color: #268bd2; font-weight: bold;">+=</span> r_1_b0_1[J_1[n]] * Z_1_b0_1[n] + r_2_b0_1[J_2[n]] * Z_2_b0_1[n] + r_3_b0_1[J_3[n]] * Z_3_b0_1[n];
+    nlp_b1[n] <span style="color: #268bd2; font-weight: bold;">+=</span> r_4_b1_1[J_4[n]] * Z_4_b1_1[n] + r_5_b1_1[J_5[n]] * Z_5_b1_1[n];
+    nlp_b2[n] <span style="color: #268bd2; font-weight: bold;">+=</span> r_6_b2_1[J_6[n]] * Z_6_b2_1[n] + r_7_b2_1[J_7[n]] * Z_7_b2_1[n] + r_8_b2_1[J_8[n]] * Z_8_b2_1[n];
+    nlp_b3[n] <span style="color: #268bd2; font-weight: bold;">+=</span> r_9_b3_1[J_9[n]] * Z_9_b3_1[n] + r_10_b3_1[J_10[n]] * Z_10_b3_1[n] + r_11_b3_1[J_11[n]] * Z_11_b3_1[n];
+    <span style="color: #586e75;">// </span><span style="color: #586e75;">compute non-linear predictor</span>
+    mu[n] <span style="color: #268bd2; font-weight: bold;">=</span> shape / (nlp_b0[n] + 100 * nlp_b1[n] * (1 - <span style="color: #268bd2;">exp</span>( - (nlp_b2[n] / 100) * C_1[n] ^ (nlp_b3[n]))));
+  }
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">priors including all constants</span>
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(b_b0 | 9, 3)
+    - 1 * <span style="color: #268bd2;">gamma_lccdf</span>(0 | 9, 3);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(b_b1 | 34, 19.4)
+    - 1 * <span style="color: #268bd2;">gamma_lccdf</span>(0 | 34, 19.4);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(b_b2 | 69.4, 55.5)
+    - 1 * <span style="color: #268bd2;">gamma_lccdf</span>(0 | 69.4, 55.5);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(b_b3[1] | 16, 26)
+    - 1 * <span style="color: #268bd2;">gamma_lccdf</span>(0 | 16, 26);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(b_b3[2] | 0.01, 0.01)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0.01, 0.01);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(b_b3[3] | 0.01, 0.015)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0.01, 0.015);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(b_b3[4] | 0.005, 0.005)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0.005, 0.005);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(shape | 20, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_1 | 0, 0.3)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.3);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_1[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_2 | 0, 0.4)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.4);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_2[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_3 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_3[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_4 | 0.1, 0.4)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0.1, 0.4);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_4[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_5 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_5[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_6 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_6[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_7 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_7[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_8 | 0, 0.05)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.05);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_8[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_9 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_9[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_10 | 0, 0.1)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_10[1] | 0, 1);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(sd_11 | 0, 0.05)
+    - 1 * <span style="color: #268bd2;">normal_lccdf</span>(0 | 0, 0.05);
+  <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">normal_lpdf</span>(z_11[1] | 0, 1);
+  <span style="color: #586e75;">// </span><span style="color: #586e75;">likelihood including all constants</span>
+  <span style="color: #859900; font-weight: bold;">if</span> (!prior_only) {
+    <span style="color: #859900; font-weight: bold;">target</span> <span style="color: #268bd2; font-weight: bold;">+=</span> <span style="color: #268bd2;">gamma_lpdf</span>(Y | shape, mu);
+  }
+}
+<span style="color: #859900; font-weight: bold;">generated quantities</span> {
+}
+</pre>
+</div>
+</div>
+</section>
+<section id="slide-org603fab5">
+<h3 id="org603fab5">Sampling the Posterior</h3>
+</section>
+<section>
+<p>
+Metropolis-Hastings
+</p>
+
+<figure>
+<img src="figs/RMH.gif" alt="RMH.gif" class="plain" height="600px">
+
+</figure>
+
+<p>
+<a href="http://chi-feng.github.io/mcmc-demo/">http://chi-feng.github.io/mcmc-demo/</a>
+</p>
+
+</section>
+<section>
+<p>
+No-U-Turn Sampler (NUTS)
+</p>
+<p height="600px" class="plain">
+<img src="figs/NUTS.gif" alt="NUTS.gif" height="600px" class="plain">
+<a href="http://chi-feng.github.io/mcmc-demo/">http://chi-feng.github.io/mcmc-demo/</a>
+</p>
+
+</section>
+<section id="slide-org82d97e1">
+<h3 id="org82d97e1">MCMC diagnostics</h3>
+<p>
+check
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbfa1e9f">
+<h2 id="orgbfa1e9f">Results</h2>
+<div class="outline-text-2" id="text-orgbfa1e9f">
+</div>
+</section>
+<section id="slide-org71561dc">
+<h3 id="org71561dc">Comparison</h3>
+
+<figure>
+<img src="figs/predictions_cities_notB1_dbh_bySpeciesCity_wData_wUTDpredictions_focus_acpl_FullData.png" alt="predictions_cities_notB1_dbh_bySpeciesCity_wData_wUTDpredictions_focus_acpl_FullData.png" height="600px" class="plain">
+
+</figure>
+</section>
+<section id="slide-org4ec3f28">
+<h3 id="org4ec3f28">Genus and City Variability</h3>
+<p class="fragment appear">
+\(\sigma^{(0)}_{genus} < \sigma^{(0)}_{city}\)
+</p>
+<p class="fragment appear">
+\(\sigma^{(2)}_{genus} \approx \sigma^{(2)}_{city}\) <br>
+\(\sigma^{(3)}_{genus} \approx \sigma^{(3)}_{city}\)
+</p>
+</section>
+<section>
+</section>
+<section id="slide-orgc7301be">
+<h4 id="orgc7301be">Genus</h4>
+
+<figure>
+<img src="figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_GenusEffects_lines.png" alt="marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_GenusEffects_lines.png" height="700px" class="plain" style="background:none">
+
+</figure>
+<aside class="notes">
+<p>
+the 76 genera
+</p>
+
+<p>
+Albizia saman is very high beta2 (looks like). (in data goes by old
+name salmanea salman, code is PISA2).  Also called monkey pod
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgeec8b44">
+<h4 id="orgeec8b44">City</h4>
+</section>
+<section>
+
+<figure>
+<img src="figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_lines.png" alt="marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_lines.png" height="800px" class="plain" style="background:none">
+
+</figure>
+<aside class="notes">
+<p>
+honolulu is the warm wet city with slow growth.  Does it share any
+species with the other cities?  Only one species is shared and that is
+just with one other city.  honolulu being in the same model might be suspect.
+</p>
+
+</aside>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_ribbons.png" alt="marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_ribbons.png" height="800px" class="plain" style="background:none">
+
+</figure>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_points.png" alt="marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_points.png" height="800px" class="plain" style="background:none">
+
+</figure>
+
+
+<aside class="notes">
+<p>
+show the same species in two cities with similar climates but
+different management to prove the management is important point.
+Though, as Brian noted, there 
+</p>
+
+<p>
+crepe myrtl, camphor, sweetgum
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgbe3e4b2">
+<h3 id="orgbe3e4b2">Climate</h3>
+<div class="column" style="float:left; width:50%">
+
+<figure>
+<img src="figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_mean_directlabel.png" alt="marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_mean_directlabel.png" height="600px" class="plain">
+
+</figure>
+</div>
+
+<div class="column" style="float:right; width:50%">
+
+</div>
+
+</section>
+<section id="slide-org4e45dd9">
+<h3 id="org4e45dd9">Climate</h3>
+<div class="column" style="float:left; width:50%">
+
+<figure>
+<img src="figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_mean_directlabel.png" alt="marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_mean_directlabel.png" height="600px" class="plain">
+
+</figure>
+</div>
+
+<div class="column" style="float:right; width:50%">
+
+<figure>
+<img src="figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_se.png" alt="marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_se.png" height="600px" class="plain">
+
+</figure>
+</div>
+
+</section>
+<section id="slide-orgb30fd28">
+<h3 id="orgb30fd28">Uncertainty</h3>
+
+<figure>
+<img src="figs/predicting_cities_notB1_unobserved_groups_FullData.png" alt="predicting_cities_notB1_unobserved_groups_FullData.png" height="600px" class="plain">
+
+</figure>
+
+</section>
+</section>
+<section>
+<section id="slide-org2a315ae">
+<h2 id="org2a315ae">Limitations</h2>
+<div class="outline-text-2" id="text-org2a315ae">
+</div>
+</section>
+<section id="slide-org73e8c3b">
+<h3 id="org73e8c3b">age extrapolation</h3>
+<p>
+Yoshino Cherry
+</p>
+
+<figure>
+<img src="figs/yoshinocherry.png" alt="yoshinocherry.png" height="400px" class="plain">
+
+</figure>
+
+<aside class="notes">
+<ul>
+<li>weird data
+<ul>
+<li>MN less variability</li>
+<li>huge cherry trees</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+problems
+</p>
+
+<p>
+an estimate of life-span of trees.
+</p>
+
+</aside>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/prye_multistem.jpg" alt="prye_multistem.jpg" height="400px">
+
+</figure>
+
+</section>
+<section>
+
+<figure>
+<img src="figs/large_yoshino_washington.jpg" alt="large_yoshino_washington.jpg" height="600px">
+
+</figure>
+
+<aside class="notes">
+<p>
+these trees on the university of washington campus are 80 years old
+<a href="http://www.washington.edu/news/blog/2015-uw-cherry-tree-watch-flowers-on-all-trees-full-bloom-by-mid-march/">http://www.washington.edu/news/blog/2015-uw-cherry-tree-watch-flowers-on-all-trees-full-bloom-by-mid-march/</a>
+</p>
+
+
+<p>
+Incorporating Champion trees could help with this problem.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orge0cf4e7">
+<h3 id="orge0cf4e7">Minneapolis, MN</h3>
+
+<figure>
+<img src="figs/MN.png" alt="MN.png" height="600px" class="plain" style="background:none">
+
+</figure>
+
+
+</section>
+<section id="slide-org4eb57ac">
+<h3 id="org4eb57ac">other limitations</h3>
+<ul>
+<li>no repeat measures</li>
+<li>missing less common species</li>
+<li>no mortality estimates</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgff6d624">
+<h2 id="orgff6d624">Extensions</h2>
+<ul>
+<li>Individual level predictors</li>
+<li>Genus and Species level predictors (traits)</li>
+<li>Measurement error in age</li>
+<li>Height and crown width as joint responses</li>
+<li>More taxonomic levels</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+possible extensions with existing data
+</p>
+
+<p>
+(or phylogentic distance GP)
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgdb9f370">
+<h2 id="orgdb9f370">Conclusion</h2>
+
+<figure>
+<img src="figs/predictions_cities_notB1_dbh_bySpeciesCity_wData_wUTDpredictions_focus_acpl_FullData.png" alt="predictions_cities_notB1_dbh_bySpeciesCity_wData_wUTDpredictions_focus_acpl_FullData.png" height="550px" class="plain">
+
+</figure>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org4dba394">
+<h2 id="org4dba394">Thank you</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-orga6eaee9">
+<h2 id="orga6eaee9">actual presentation</h2>
+<p>
+grace wahba - combining data
+</p>
+
+
+<ul>
+<li>comparison to nlme.</li>
+<li></li>
+
+</ul>
+
+<p>
+journal forest ecology and management
+</p>
+<ul>
+<li>compare to frequentist approach</li>
+<li>would need nlme
+<ul>
+<li>touch base with doug bates.</li>
+
+</ul></li>
+<li>expound on why ours is better than existing UTD</li>
+<li></li>
+
+<li></li>
+
+</ul>
+
+<p>
+get learning goal form.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org70ad3a3">
+<h2 id="org70ad3a3">extras:</h2>
+<div class="outline-text-2" id="text-org70ad3a3">
+</div>
+</section>
+<section id="slide-org094f548">
+<h3 id="org094f548">Monkeypod</h3>
+
+<figure>
+<img src="figs/salman_monkeypod.jpg" alt="salman_monkeypod.jpg">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/monkeypod.png" alt="monkeypod.png">
+
+</figure>
+</section>
+<section id="slide-org27763db">
+<h3 id="org27763db">parameter estimates</h3>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_mainparameters.png" alt="posterior_distributions_model_FullData_mainparameters.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_climate_effects.png" alt="posterior_distributions_model_FullData_climate_effects.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_sd_beta0.png" alt="posterior_distributions_model_FullData_sd_beta0.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_sd_beta1.png" alt="posterior_distributions_model_FullData_sd_beta1.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_sd_beta2.png" alt="posterior_distributions_model_FullData_sd_beta2.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_sd_beta3.png" alt="posterior_distributions_model_FullData_sd_beta3.png" height="550px" class="plain">
+
+</figure>
+</section>
+<section>
+
+<figure>
+<img src="figs/posterior_distributions_model_FullData_shape.png" alt="posterior_distributions_model_FullData_shape.png" height="250px" class="plain">
+
+</figure>
+</section>
+</section>
+</div>
+</div>
+<p> Created by Erker </p>
+<script src="file:///Users/erker/.emacs.d/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///Users/erker/.emacs.d/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 850,
+margin: 0.00,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///Users/erker/.emacs.d/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///Users/erker/.emacs.d/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/erker/.emacs.d/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/erker/.emacs.d/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///Users/erker/.emacs.d/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
