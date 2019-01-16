@@ -44,13 +44,12 @@
 
 * COMMENT I am a master of science now. [2018-12-03 Mon]    :life:statistics:
 
-Today I defended my biometry project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]])
+Today I defended my biometry MS project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]]).  Learning
+is certainly a continuous process
 
 
 
 learning is continuous, then you get recognized.  It feels nice.
-
-[2019-01-16 Wed] Update: here's a letter for proof
 
 * COMMENT simulation of trees across
 * A 2-dimensional color palette                               :visualization:
