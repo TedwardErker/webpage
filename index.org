@@ -38,12 +38,12 @@ I am a
 :CUSTOM_ID: firstHeader
 :END:
 
-I seek to understand the interaction between
-humans and the environment in the places where most of us live:
-cities.  More specifically, I'm interested in how urban forests affect
-urban climate, building energy use, and carbon emissions, and in turn
-how the urban environment affects the health and productivity of the
-urban forest.  Madison, WI is my home and case study.
+I seek to understand the interaction between humans and the
+environment in the places where most of us live: cities.  More
+specifically, I'm interested in how urban forests affect urban
+climate, building energy use, and carbon emissions, and in turn how
+the urban environment affects the health and productivity of the urban
+forest.  Madison, WI is my home and case study.
 
 I strive to make all my work fully reproducible using [[https://www.gnu.org/software/emacs/tour/][emacs]] [[http://orgmode.org/][org-mode]].
 
