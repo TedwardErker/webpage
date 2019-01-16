@@ -18,14 +18,6 @@
 #+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology\newline{}Committee: Phil Townsend, Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
 #+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
 #+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
-* Skills
-#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
-#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
-#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,000 in proposals}
-#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
-#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
-#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
-
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
 - Map Urban Forests of Wisconsin
