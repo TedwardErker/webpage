@@ -248,6 +248,12 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
  application 2016-09
  selection 2016-09
 
+* Publications
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., Wang L., Lorentz L., and Stoltman A. \textit{(in review)}. A statewide urban tree canopy mapping method. \textit{Remote Sensing of Environment}}
+#+LATEX: \cvitem{}{Erker T., Townsend P.A. \textit{(in review)}. Trees in many US cities may indirectly increase atmospheric carbon. \textit{Environmental Research Letters}}
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., Zhu J., \textit{(in prep).} A Bayesian Nonlinear Multilevel Model of Urban Tree Growth }
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., \textit{(in prep).} Environmental drivers of urban tree canopy foliar traits derived from imaging spectroscopy}
+
 * Presentations
 #+LATEX: \cvitem{
 Nov 2016
@@ -315,6 +321,8 @@ My undergraduate mentees research a topic, collect new data, perform statistical
 analyses, and write final papers to complete small research projects.  They
 create posters or presentations to share their work. \\
 
+* Professional Service
+Referee/Reviewer: Remote Sensing of Environment
 * Professional Affiliations
 \cvitem{2016--Present}{Society of American Foresters}
 \cvitem{2018--Present}{American Geophysical Union}
@@ -400,6 +408,7 @@ I represented graduate student interests at monthly department
 | Teaching Statistics                  | Statistical Consulting                    |
 
 * Workshops
+#+latex: \cvitemwithcomment{2018}{SESYNC: Urban Woodlands Pursuit}{}
 #+latex: \cvitemwithcomment{2017}{Hierarchical Modeling and Analysis of Spatial-Temporal Data}{Andrew Finley}
 #+latex: \cvitemwithcomment{2016}{Software Carpentry}{}
 
