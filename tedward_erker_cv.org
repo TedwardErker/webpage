@@ -29,6 +29,12 @@
 - Carbon Budget of Urban Forest
   - Assessed impact of tree canopy on residential building energy use
     and carbon emissions of ~30,000 Madison homes.
+- Growth Equations for Urban Trees
+  - Developed a bayesian nonlinear multilevel model of urban tree growth
+  - Method makes more biologically realistic predictions than
+    [[https://www.fs.fed.us/psw/publications/documents/psw_gtr253/psw_gtr_253.pdf][exisiting urban tree growth equations]]
+  - Method allows for predictions for trees of unobserved species or
+    cities while accounting for uncertainty.
 - Canopy Foliar Trait Mapping with [[https://aviris-ng.jpl.nasa.gov/][Imaging Spectroscopy]].
   - Applied partial least squares regression models to predict foliar
     canopy traits (e.g.  nitrogen content) from [[https://aviris-ng.jpl.nasa.gov/][imaging spectroscopy]]
@@ -255,6 +261,17 @@ Madison, WI
 #+LATEX:}
 
 * Posters
+#+LATEX: \cvitem{
+Dec 2018
+#+LATEX:}{
+[[http://pages.stat.wisc.edu/~erker/Posters/erker_energy_agu_2018.jpg][*Urban shade trees may be an atmospheric carbon source for much of the
+US*]]
+#+LATEX:}\cvitemwithcomment{}{
+American Geophysical Union Fall Meeting 2018
+#+LATEX:}{
+Washington, D.C.
+#+LATEX:}
+
 #+LATEX: \cvitem{
 Apr 2018
 #+LATEX:}{
