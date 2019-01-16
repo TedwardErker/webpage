@@ -39,17 +39,16 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
+* COMMENT Stat Consultant Job
 * COMMENT shadow animations
 * COMMENT Add new poster for AGU 2018 to cv and make a blog post
 
-* COMMENT I am a master of science now. [2018-12-03 Mon]    :life:statistics:
+* I am a master of science now. [2018-12-03 Mon]    :life:statistics:
 
-Today I defended my biometry MS project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]]).  Learning
-is certainly a continuous process
-
-
-
-learning is continuous, then you get recognized.  It feels nice.
+Today I defended my biometry MS project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]]).  It felt
+good to be recognized for all the learning I've done in the past
+many years.  I am now officially a master of science.  Now back to
+work on my PhD.
 
 * COMMENT simulation of trees across
 * A 2-dimensional color palette                               :visualization:
