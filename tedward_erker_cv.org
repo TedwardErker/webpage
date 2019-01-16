@@ -251,7 +251,7 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
 * Publications
 #+LATEX: \cvitem{}{Erker T., Townsend P.A., Wang L., Lorentz L., and Stoltman A. \textit{(in review)}. A statewide urban tree canopy mapping method. \textit{Remote Sensing of Environment}}
 #+LATEX: \cvitem{}{Erker T., Townsend P.A. \textit{(in review)}. Trees in many US cities may indirectly increase atmospheric carbon. \textit{Environmental Research Letters}}
-#+LATEX: \cvitem{}{Erker T., Townsend P.A., Zhu J., \textit{(in prep).} A Bayesian Nonlinear Multilevel Model of Urban Tree Growth }
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., Zhu J., \textit{(in prep).} A bayesian nonlinear multilevel model of urban tree growth }
 #+LATEX: \cvitem{}{Erker T., Townsend P.A., \textit{(in prep).} Environmental drivers of urban tree canopy foliar traits derived from imaging spectroscopy}
 
 * Presentations

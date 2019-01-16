@@ -62,3 +62,17 @@ Committee: Phil Townsend (advisor), Jun Zhu, Chris Kucharik, Eric Kruger,
 :END:
 #+INCLUDE: presentations.org :minlevel 1
 #+INCLUDE: posters.org :minlevel 1
+
+* Skills
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-01-16 Wed 11:13
+:ARCHIVE_FILE: ~/git/webpage_cv/tedward_erker_cv.org
+:ARCHIVE_CATEGORY: tedward_erker_cv
+:END:
+#+LATEX: \cvitemwithcomment{Statistical Analysis}{}{GLMs, GAMs, multilevel models, shrinkage and dimension reduction, tree-based methods, dependent data in R and some Stan}
+#+LATEX: \cvitemwithcomment{Data Display}{}{Daily use of grammar of graphics in R's ggplot2}
+#+LATEX: \cvitemwithcomment{Writing}{}{1 scientific paper in review; over \$150,000 in proposals}
+#+LATEX: \cvitemwithcomment{Presenting}{}{2 scientific posters, 1 academic presentation, 4 years of teaching}
+#+LATEX: \cvitemwithcomment{Computing}{}{R, python, webscraping, emacs org mode, unix command line, version control (git)}
+#+LATEX: \cvitemwithcomment{Mentoring}{}{2 undergraduate research assistants, 4 years of teaching}
+
