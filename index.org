@@ -30,13 +30,15 @@
 #+HTML:</script>
 * COMMENT Navigating "included" files: C-' visits file at point
 
+* About
+I am a 
 * Research
 :PROPERTIES:
 :CUSTOM_ID: research
 :CUSTOM_ID: firstHeader
 :END:
 
-I am an urban ecologist.  I seek to understand the interaction between
+I seek to understand the interaction between
 humans and the environment in the places where most of us live:
 cities.  More specifically, I'm interested in how urban forests affect
 urban climate, building energy use, and carbon emissions, and in turn
@@ -166,8 +168,8 @@ Maybe just use C-c C-e?
 (org-publish-all)
 #+end_src
 
-#+begin_src sh :session a :results verbatim :eval no
-#  rsync -avz ~/projects/webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
+#+begin_src sh :session a :results verbatim :eval yes
+  rsync -avz ~/projects/webpage_out/ erker@bigmem03.stat.wisc.edu:~/public/html/
 
 #+end_src
 
