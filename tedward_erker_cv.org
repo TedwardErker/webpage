@@ -258,7 +258,7 @@ Wisconsin DNR UTC continuation/ extension to whole state (co-author)
 #+LATEX: \cvitem{
 Dec 2018
 #+LATEX:}{
-*[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][A Bayesian Nonlinear Multilevel Model of Urban Tree Growth]]*
+*[[http://pages.stat.wisc.edu/~erker/Presentations/Biometry_Defense_20181203/allo_presentation.html][A Bayesian Nonlinear Multilevel Model of Urban Tree Growth]]*
 #+LATEX:}
 #+LATEX:\cvitemwithcomment{}{
 Biometry MS Defense
