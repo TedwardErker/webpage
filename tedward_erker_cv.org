@@ -16,14 +16,16 @@
 #+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
 * Education
 #+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology\newline{}Committee: Phil Townsend, Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
-#+LATEX:\cventry{2013--Present}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
+#+LATEX:\cventry{2013--2018}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
 #+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
 * Experience
 #+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
-- Map Urban Forests of Wisconsin
-  - Tested 3 machine learning algorithms to classify terabytes of imagery
+- Urban Forest Cover of Wisconsin
+  - Tested 3 machine learning algorithms to classify terabytes of 1 m
+    NAIP imagery
   - Processed imagery in parallel at UW's Center for High Throughput Computing
   - Geospatial analysis in R and image segmentation in python.
+  - Product available for analysis through [[https://landscape.itreetools.org/maps/][iTree landscape]].
 - Carbon Budget of Urban Forest
   - Assessed impact of tree canopy on residential building energy use
     and carbon emissions of ~30,000 Madison homes.
@@ -35,16 +37,17 @@
     across Madison, WI.
 #+LATEX:}
 
-#+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{
+#+LATEX: \cventry{2013--2015, 2018}{Teaching Assistant}{UW-Madison}{}{}{
+- Forest Ecology, Fall 2013, Fall 2014, Fall 2018
+  - Redesigned, created and independently implemented lab lessons in
+    field and computer lab for ~70 students (2014).
+  - Developed cases, led student discussions, and graded weekly papers (2018).
+  - Prof. Tom Gower (2013) and Prof. Phil Townsend (2014, 2018).
 - Statistical Methods for Bioscience II, Spring 2015
   - Led 2 weekly discussion groups, graded homework and exams for
     this graduate-level course largely covering multiple linear and
     logistic regression
   - Prof. Murray Clayton.
-- Forest Ecology, Fall 2013 and Fall 2014
-  - Redesigned, created and independently implemented lab lessons in
-    field and computer lab for ~70 students.
-  - Prof. Tom Gower (2013) and Prof. Phil Townsend (2014).
 - Living With Wildlife, Spring 2014
   - Graded journals and exams, assisted students during office hours.
   - Prof. Stan Temple.
