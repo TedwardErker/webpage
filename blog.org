@@ -42,10 +42,28 @@
 * COMMENT Stat Consultant Job
 
 
-* COMMENT Add new poster for AGU 2018 to cv and make a blog post
-* House shadow animations
+* AGU Fall meeting 2018 Poster
+
+#+name: agu_2018_poster
+[[file:Posters/erker_energy_agu_2018.jpg]]
+
+Find a larger image here: [[http://pages.stat.wisc.edu/~erker/Posters/erker_energy_agu_2018.jpg][*Urban shade trees may be an atmospheric carbon source for much of the
+US*]].
+
+
+
+* Tree shadows on a house
+
+#+name:winter_solstice
+#+caption: Winter Solstice
 [[file:blog/blog_imgs/house_shadow_animations/longer_winter_solstice_gray.gif]]
+
+#+name:summer_solstice
+#+caption: Summer Solstice
 [[file:blog/blog_imgs/house_shadow_animations/longer_summer_solstice_gray.gif]]
+
+I made these to illustrate the patterns of shade that trees provide to
+houses throughout the year at the latitude of Madison, WI.
 
 * I am a master of science now. [2018-12-03 Mon]    :life:statistics:
 
