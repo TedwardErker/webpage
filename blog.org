@@ -41,18 +41,21 @@
 
 * COMMENT Stat Consultant Job
 
-
-* AGU Fall meeting 2018 Poster
+* AGU Fall meeting 2018 Poster                                   :UrbanTrees:
 
 #+name: agu_2018_poster
 [[file:Posters/erker_energy_agu_2018.jpg]]
 
-Find a larger image here: [[http://pages.stat.wisc.edu/~erker/Posters/erker_energy_agu_2018.jpg][*Urban shade trees may be an atmospheric carbon source for much of the
-US*]].
+Unfortunately, I wasn't able to attend the conference, so Phil
+presented my poster for me.  I was standing by to video chat with
+anyone interested, but there were no takers :(.  A few reporters were
+interested - one even called me later to ask some questions.  But I
+don't think any story will come of it.  Still, it was very neat to
+share my work with a large audience.  Find a larger image here: [[http://pages.stat.wisc.edu/~erker/Posters/erker_energy_agu_2018.jpg][*Urban
+shade trees may be an atmospheric carbon source for much of the US*]].
+This work is now in review at Environmental Research Letters.
 
-
-
-* Tree shadows on a house
+* Tree shadows on a house                                     :visualization:
 
 #+name:winter_solstice
 #+caption: Winter Solstice
@@ -72,7 +75,7 @@ good to be recognized for all the learning I've done in the past
 many years.  I am now officially a master of science.  Now back to
 work on my PhD.
 
-* COMMENT SESYNC Workshop
+* SESYNC Workshop in Annapolis                            :travel:UrbanTrees:
 
 * COMMENT simulation of trees across
 * A 2-dimensional color palette                               :visualization:
