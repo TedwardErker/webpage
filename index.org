@@ -175,14 +175,12 @@ Maybe just use C-c C-e?
 #+end_src
 
 #+begin_src sh :session a :results verbatim :eval yes
-  rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/
+  #rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/
+  rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/ --delete
+
+# the --delete flag removes destination files that aren't at the source
 
 #+end_src
-
-#+results:
-: ssh: connect to host bigmem03.stat.wisc.edu port 22: Operation timed out
-: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-: rsync error: error in rsync protocol data stream (code 12) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52/rsync/io.c(453) [sender=2.6.9]
 
 * COMMENT Analytics
 
