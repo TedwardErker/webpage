@@ -45,7 +45,7 @@
 
 * I am a master of science now. [2018-12-03 Mon]    :life:statistics:
 
-Today I defended my biometry MS project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]]).  It felt
+Today I defended my biometry MS project ([[Presentations/Biometry_Defense_20181203/allo_presentation.html]resentation here]]).  It felt
 good to be recognized for all the learning I've done in the past
 many years.  I am now officially a master of science.  Now back to
 work on my PhD.
