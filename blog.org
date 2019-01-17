@@ -75,7 +75,21 @@ good to be recognized for all the learning I've done in the past
 many years.  I am now officially a master of science.  Now back to
 work on my PhD.
 
-* SESYNC Workshop in Annapolis                            :travel:UrbanTrees:
+* SESYNC Workshop in Annapolis [2018-11-15 Thu]                           :travel:UrbanTrees:
+
+#+name:sesync_logo
+#+caption: SESYNC
+[[file:blog/blog_imgs/sesync_20181115/sesync_logo01.jpg]]
+
+This week I participated in a National Socio-Environmental Synthesis
+Center (SESYNC) pursuit workshop.  Drs. Lea Johnson and Michelle
+Johnson brought together a team of around a dozen or so social
+scientists, natural scientists and managers to plan a study of urban forest
+patches in Chicago and the Megalopolis of the east coast (Washington
+D.C., Baltimore, Philidelphia, and NYC).  It was an amazing experience
+to meet people from all over who are as interested in urban trees as I
+am.  We had loads of constructive discussion and I'm excited for the
+follow-up workshops in 2019.
 
 * COMMENT simulation of trees across
 * A 2-dimensional color palette                               :visualization:
