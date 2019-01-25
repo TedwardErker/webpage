@@ -39,7 +39,22 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-* COMMENT Stat Consultant Job
+* My first review  [2020-01-05 Sun]                                    :life:
+#+BEGIN_QUOTE
+Dear Mr. Erker,
+
+Thank you for your review of this manuscript. Your review is an
+important part of the publication process. Serving as a reviewer is a
+time consuming and often thankless job.  Please be assured that your
+help is appreciated.
+
+#+END_QUOTE
+
+* Stat Consultant Job                                                  :life:
+I'm excited to say that in March I will start part time as a
+statistical consultant in the [[https://www.stat.wisc.edu/consulting-lab][CALS stat consulting lab]]. Find the form
+to sign up for a consultation [[https://www.stat.wisc.edu/consulting-policies][here]] :) . 
+
 * AGU Fall meeting 2018 Poster                                   :UrbanTrees:
 
 #+name: agu_2018_poster
