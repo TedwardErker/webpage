@@ -182,6 +182,22 @@ Maybe just use C-c C-e?
 
 #+end_src
 
+#+RESULTS:
+#+begin_example
+
+erker@stat-remote.stat.wisc.edu's password: 
+building file list ... done
+./
+blog.html
+blog.org
+index.html
+index.org
+tedward_erker_cv.pdf
+
+sent 55060 bytes  received 3304 bytes  10611.64 bytes/sec
+total size is 685764083  speedup is 11749.78
+#+end_example
+
 * COMMENT Analytics
 
 login google as erker@wisc
