@@ -50,6 +50,10 @@ help is appreciated.
 
 #+END_QUOTE
 
+Plus this corny certificate
+
+
+
 * Stat Consultant Job                                                  :life:
 I'm excited to say that in March I will start part time as a
 statistical consultant in the [[https://www.stat.wisc.edu/consulting-lab][CALS stat consulting lab]]. Find the form
