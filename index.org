@@ -184,7 +184,7 @@ Maybe just use C-c C-e?
 
 #+RESULTS:
 #+begin_example
-
+You have new mail in /var/mail/erker
 erker@stat-remote.stat.wisc.edu's password: 
 building file list ... done
 ./
@@ -192,10 +192,12 @@ blog.html
 blog.org
 index.html
 index.org
-tedward_erker_cv.pdf
+blog/blog_imgs/
+blog/blog_imgs/My_first_review/
+blog/blog_imgs/My_first_review/elsevier_rse_reviewer_certificate.png
 
-sent 55060 bytes  received 3304 bytes  10611.64 bytes/sec
-total size is 685764083  speedup is 11749.78
+sent 3207671 bytes  received 2092 bytes  493809.69 bytes/sec
+total size is 688935129  speedup is 214.64
 #+end_example
 
 * COMMENT Analytics
