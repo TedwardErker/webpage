@@ -40,6 +40,9 @@
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
 * My first review  [2020-01-05 Sun]                                    :life:
+
+I got this sweet email:
+
 #+BEGIN_QUOTE
 Dear Mr. Erker,
 
@@ -50,9 +53,8 @@ help is appreciated.
 
 #+END_QUOTE
 
-Plus this corny certificate
-
-
+Plus this corny certificate:
+[[file:blog/blog_imgs/My_first_review/elsevier_rse_reviewer_certificate.png]]
 
 * Stat Consultant Job                                                  :life:
 I'm excited to say that in March I will start part time as a
