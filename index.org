@@ -35,7 +35,7 @@
 :CUSTOM_ID: firstHeader
 :END:
 I am a statistical consultant (starting March 2019) and a research
-fellow (ending May 2019).  As a consultant in the [[https://calslab.cals.wisc.edu/stat-consulting/][CALS Statistical
+fellow (ending 2019).  As a consultant in the [[https://calslab.cals.wisc.edu/stat-consulting/][CALS Statistical
 Consulting Lab]], I assist researchers in data analysis and study
 design.  As a research fellow, I study urban ecology.
 
