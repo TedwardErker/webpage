@@ -174,10 +174,11 @@ Maybe just use C-c C-e?
 (org-publish-all)
 #+end_src
 
+http://www.stat.wisc.edu/services/how-log-thin-client
 #+begin_src sh :session a :results verbatim :eval yes
   #rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/
   rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/ --delete
-
+best-statdesk
 # the --delete flag removes destination files that aren't at the source
 
 #+end_src
