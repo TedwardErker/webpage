@@ -1,0 +1,761 @@
+#+TITLE: \nbsp
+#+AUTHOR: Tedward Erker
+#+OPTIONS: toc:nil num:nil author:nil
+#+STARTUP: entitiespretty
+#+LATEX_CLASS: moderncv
+#+LATEX_CLASS_OPTIONS: [11pt, sans]
+#+LATEX_HEADER: \moderncvstyle{classic}
+#+LATEX_HEADER: \moderncvcolor{blue}
+#+LATEX_HEADER: \usepackage[scale=0.75]{geometry}
+#+LATEX_HEADER: \name{Tedward}{Erker}
+#+LATEX_HEADER: % \address{Madison, WI}
+#+LATEX_HEADER: % \phone[mobile]{(314)~324~6079}
+#+LATEX_HEADER: \email{tedward.erker@gmail.com}                               % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \homepage{stat.wisc.edu/~erker/}                         % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \social[github]{tedwarderker}                              % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \title{title}                               % optional, remove / comment the line if not wanted
+#+LATEX_HEADER: \usepackage{lastpage}
+#+LATEX_HEADER: %\rfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+* COMMENT position description
+http://jobs.hr.wisc.edu/cw/en-us/job/498562/applied-statistician-data-scientist
+https://www.ohr.wisc.edu/weblisting/External/PVLSummaryPrint.aspx?pvl_num=95099
+* Summary of Qualifications and Skills
+Biometry M.S. and Forestry Ph.D. (expected spring 2019) with 5 years
+of research and statistical analysis experience
+
+** COMMENT
+
+ and
+2 years of high school teaching experience.  Comfortable with a wide
+range of statistical methods
+
+Statistical methods I have implemented: GLMs, GAMs, mixed effects/
+multilevel models, partial least squares regression, elastic net, principal
+components analysis, random forests, support vector machines, boosted
+regression trees.
+
+
+GLMs, GAMs, shrinkage and dimension reduction,
+tree-based methods, and working with dependent data and large datasets
+in R.
+
+shrinkage methods, high dimension, large data, dependent data.  some bayesian.
+
+Computing: Daily use of R, familiarity with python and Stan.
+
+R
+familiarity with other languages (Python and Stan).
+
+reproducible research git
+
+science
+
+statistics
+
+making figures
+
+writing
+
+manage undergraduates
+
+independent work but also part of a team.
+
+deadlines.
+
+coursework
+
+writing - papers, proposals ($money), presentations
+
+1 paper in review; over $150k in proposals
+* Education
+#+LATEX:\cventry{2013--Present}{Ph.D.}{Universifty of Wisconsin--Madison}{}{\textit{3.929}}{Forestry, Department of Forest and Wildlife Ecology\newline{}Committee: Phil Townsend, Jun Zhu, Chris Kucharik, Eric Kruger, Annemarie Schneider.}
+#+LATEX:\cventry{2013--2018}{M.S.}{University of Wisconsin--Madison}{}{}{\href{https://www.stat.wisc.edu/masters-biometry}{Biometry}, Department of Statistics}
+#+LATEX:\cventry{2006--2010}{B.A.}{Washington University in St. Louis}{}{\textit{3.83}}{Environmental Studies--Ecology/Biology, Summa Cum Laude}
+** COMMENT i'll need to revise my grad gpa when I get the eco concepts grade.
+* Relevant Graduate Coursework and Workshops
+\cvitemwithcomment{2017}{Hierarchical Modeling and Analysis of Spatial-Temporal Data}{Workshop}
+\cvitemwithcomment{S 2016}{Multilevel Models (STAT 679)}{A}
+\cvitemwithcomment{}{Software Carpentry}{Workshop}
+\cvitemwithcomment{F 2015}{Statistical Methods for Spatial Data (STAT 575)}{AB}
+\cvitemwithcomment{Su 2015}{Statistical Consulting (STAT 699)}{A}
+\cvitemwithcomment{S 2015}{Teaching Statistics (STAT 692)}{A}
+\cvitemwithcomment{}{Intro Mathematical Statistics II (STAT 312)}{AB}
+\cvitemwithcomment{}{Remote Sensing Digital Image Processing (ENVIR ST 556)}{A}
+\cvitemwithcomment{}{Tools for Reproducible Research (BMI 826)}{A}
+\cvitemwithcomment{F 2014}{Intro Mathematical Statistics I (STAT 311)}{A}
+\cvitemwithcomment{S 2014}{Statistical Methods for Bioscience II (STAT 572)}{A}
+\cvitemwithcomment{}{Advanced Data Analysis with R (STAT 692)}{A}
+\cvitemwithcomment{}{Intermediate Data Analysis with R (STAT 692)}{A}
+\cvitemwithcomment{}{Teaching Biology: Special Topics (PL PATH 801)}{A}
+\cvitemwithcomment{}{Inquiry-Based Biology Teaching (PL PATH 800)}{A}
+\cvitemwithcomment{F 2013}{Statistical Methods for Bioscience I (STAT 571)}{A}
+
+\pagebreak
+**  COMMENT Relevant Graduate coursework
+#+LATEX: \cvitemwithcomment{\textbf{Semester}}{\textbf{Course}}{\textbf{Grade}}
+
+
+#+LATEX:\cvlistdoubleitem{Tools for Reproducible Research}{Advanced Data Analysis with R}
+#+LATEX:\cvlistdoubleitem{Statistical Methods-Spatial Data}{Multilevel Models}
+#+LATEX:\cvlistdoubleitem{Intro Mathematical Statistics I \& II}{Statistical Meth. for Bioscience I \& II}
+#+LATEX:\cvlistdoubleitem{Teaching Statistics}{Statistical Consulting}
+
+*** COMMENT org table
+| Tools for Reproducible Research      | Advanced Data Analysis with R             |
+| Statistical Methods-Spatial Data     | Multilevel Models                         |
+| Intro Mathematical Statistics I & II | Statistical Methods for Bioscience I & II |
+| Teaching Statistics                  | Statistical Consulting                    |
+
+* Research Experiences
+#+LATEX: \cventry{2015--Present}{Research Assistant}{UW-Madison}{}{}{%
+- Map Urban Forests of Wisconsin
+  - Tested 3 machine learning algorithms to classify terabytes of imagery
+  - Processed imagery in parallel at UW's Center for High Throughput Computing
+  - Geospatial analysis in R and image segmentation in python.
+- Carbon Budget of Urban Forest
+  - Assessed impact of tree canopy on residential building energy use
+    and carbon emissions of ~30,000 Madison homes.
+- Canopy Foliar Trait Mapping with [[https://aviris-ng.jpl.nasa.gov/][Imaging Spectroscopy]].
+  - Applied partial least squares regression models to predict foliar
+    canopy traits (e.g.  nitrogen content) from [[https://aviris-ng.jpl.nasa.gov/][imaging spectroscopy]]
+    data
+  - Explored anthropogenic and environmental drivers of trait variation
+    across Madison, WI.
+#+LATEX:}
+
+#+LATEX: \cventry{May--Aug 2008}{Research Assistant}{\href{}{Tyson Research Center}}{Eureka, MO}{}{
+- Sampled vegetation, identified over 100 plant species as part of
+  [[https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/12-1310.1][study]] to explore phylogenic relationships in invasiveness.
+#+LATEX: }
+
+* Statistical Consulting  Experiences
+#+LATEX: \cventry{2015}{Student Statistical Consultant}{CALS Statistical Consulting Lab}{}{}{%
+- N_{2}O flux from maize fields
+  - Determined the best time of day to measure N_{2}O flux in order to
+    predict total daily flux.
+- Bee foraging behavior
+  - Visualized individual bee length of time inside and outside hive
+  - Advised on how to test for differences between honey and bumble bee behavior
+#+LATEX:}
+
+#+LATEX: \cventry{2015-Present}{Informal within Lab Consulting}{Townsend Lab}{}{}{%
+- Designed sampling for study of leaf traits across species and seasons
+- Compared algorithms for predicting leaf foliar traits from
+  reflectance spectroscopy
+#+LATEX:}
+
+* Teaching Experiences
+#+LATEX: \cventry{2013--2015}{Teaching Assistant}{UW-Madison}{}{}{
+- Stat 572: Statistical Methods for Bioscience II, Spring 2015
+  - Led 2 weekly discussion groups, graded homework and exams for
+    this graduate-level course largely covering multiple linear and
+    logistic regression
+  - Rated 4.53 / 5.00 in student evaluations (n = 46)
+  - Prof. Murray Clayton.
+- FWE 550/551: Forest Ecology, Fall 2013 and Fall 2014
+  - Redesigned, created and independently implemented lab lessons in
+    field and computer lab for ~70 students.
+  - Prof. Tom Gower (2013) and Prof. Phil Townsend (2014).
+- FWE 110: Living With Wildlife, Spring 2014
+  - Graded journals and exams, assisted students during office hours.
+  - Prof. Stan Temple.
+#+LATEX:}
+
+#+LATEX: \cventry{2010--2012}{Chemistry and Biology Teacher}{Confluence Prep Academy}{St. Louis}{}{
+- Educated over 120 students in six classes daily.
+- As first year teacher, developed chemistry curriculum for new charter school integrating College Readiness Standards with Missouri Science Standards.
+- Cross-country coach
+#+LATEX:}
+
+#+LATEX: \cventry{2010--2012}{Corps Member}{Teach For America}{Chicago \& St. Louis}{}{
+- Selected from over 46,000 applicants nationwide
+- Commited two years to teach in under-resourced public schools
+#+LATEX:}
+
+#+LATEX: \cventry{Apr--Aug 2009}{Farm Education Intern and Farmer}{\href{https://farmandwilderness.org/}{Farm And Wilderness}}{Plymouth, VT}{}{
+- Organized and guided trips of 16-40 students at farm and wilderness education center.
+- Managed 3⁄4 acre garden and cared for sheep, goats, chickens, pigs, and cows as part of farm team.
+#+LATEX: }
+
+#+LATEX: \cventry{Jan--May 2008}{Undergraduate Teaching Assistant}{Washington University in St. Louis}{}{}{
+- Brave New Crops, Environmental Studies 3322
+- Prof. Glenn Davis Stone
+#+LATEX: }
+* Publications
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., Wang L., Lorentz L., and Stoltman A. \textit{(in review)}. A statewide urban tree canopy mapping method. \textit{Remote Sensing of Environment}}
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., \textit{(in prep).} For much of the US, urban shade trees in residential areas may be an atmospheric carbon source}
+#+LATEX: \cvitem{}{Erker T., Townsend P.A., \textit{(in prep).} Environmental drivers of urban tree canopy foliar traits derived from imaging spectroscopy}
+
+* Presentations and Posters
+#+LATEX: \cvitem{Dec 2018}{For much of the US, urban shade trees in residential areas may be an atmospheric carbon source (abstract submitted). American Geophysical Union Fall Meeting, Washington, D.C.}
+#+LATEX:\cvitem{Apr 2018}{Functional and Species Diversity of Trees in Urban Streets. NASA Biodiversity and Ecological Forecasting Team Meeting, Washington, D.C.}
+#+LATEX: \cvitem{Nov 2016}{Mapping Urban Tree Canopy of Wisconsin. Society of American Foresters National Convention, Madison, WI}
+#+LATEX: \cvitem{May 2016}{How Does the Urban Forest Affect the Urban Heat Island and Building Energy Use? NASA Biodiversity and Ecological Forecasting Team Meeting, Silver Springs, MD.}
+
+** COMMENT old way
+#+LATEX: \cvitem{
+Dec 2018
+#+LATEX:}{
+For much of the US, urban shade trees in residential areas may be an
+ atmospheric carbon source (abstract submitted)
+#+LATEX:}\cvitemwithcomment{}{
+American Geophysical Union Fall Meeting
+#+LATEX:}{
+Washington, D.C.
+#+LATEX:}
+
+#+LATEX:\cvitem{Apr 2018}{\textit{
+[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]],
+#+LATEX:}
+NASA Biodiversity and Ecological Forecasting Team Meeting, Washington, D.C.
+#+LATEX:}
+
+#+LATEX: \cvitem{
+Apr 2018
+#+LATEX:}{
+[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2018.jpg][Functional and Species Diversity of Trees in Urban Streets]]
+#+LATEX:}\cvitemwithcomment{}{\textit{
+NASA Biodiversity and Ecological Forecasting Team Meeting
+#+LATEX:}}{
+Washington, D.C.
+#+LATEX:}
+
+#+LATEX: \cvitem{
+Nov 2016
+#+LATEX:}{
+[[http://pages.stat.wisc.edu/~erker/Presentations/SAF_20161105/saf_presentation.html][Mapping Urban Tree Canopy of Wisconsin]]
+#+LATEX:}
+#+LATEX:\cvitemwithcomment{}{
+Society of American Foresters National Convention
+#+LATEX:}{
+Madison, WI
+#+LATEX:}
+
+#+LATEX: \cvitem{
+May 2016
+#+LATEX:}{
+[[http://pages.stat.wisc.edu/~erker/Posters/NASA_poster_2016.jp2][How Does the Urban Forest Affect the Urban Heat Island and Building Energy Use?]]
+#+LATEX:}\cvitemwithcomment{}{
+NASA Biodiversity and Ecological Forecasting Team Meeting
+#+LATEX:}{
+Silver Springs, MD.
+#+LATEX:}
+
+* Awards, Grants, and Fellowships
+#+LATEX: \cvitemwithcomment{
+Jan 2018
+#+LATEX:}{
+[[http://mc-stan.org/events/][Stan Conference Scholarship]]
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+2015-2018
+#+LATEX:}{
+[[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][NASA Earth and Space Science Fellowship]]
+#+LATEX: }{}
+
+
+#+LATEX: \cvitemwithcomment{
+Sep 2016
+#+LATEX:}{
+Wisconsin DNR Research Grant: Mapping Wisconsin's Urban Tree Canopy
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+Oct 2016
+#+LATEX:}{
+[[https://kb.wisc.edu/russell/page.php?id=65402][George Kress Award for Outstanding Contribution of a Graduate Student]]
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+May 2016
+#+LATEX:}{
+Travel Award, UW-Madison Department of Forest and Wildlife Ecology
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+Mar 2016
+#+LATEX:}{
+[[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner, "Madison Lakes"]]
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+May  2010
+#+LATEX:}{
+[[http://enst.wustl.edu/program/awards][Outstanding Overall Achievement in Environmental Studies]]
+#+LATEX: }{}
+
+#+LATEX: \cvitemwithcomment{
+Jun 2008
+#+LATEX:}{
+[[https://tyson.wustl.edu/2008][Tyson Research Center Summer Undergraduate Research Fellowship]]
+#+LATEX: }{}
+
+\pagebreak
+
+** COMMENT table
+|           |                                                                                   | <r>        |
+| Sep 2016  | Mapping Wisconsin's Urban Tree Canopy (co-author), WI DNR                         | *$50,000*  |
+| Oct 2016  | George Kress Award for Outstanding Contribution of a Forestry Graduate Student    | *$1,000*   |
+| May 2016  | UW-Madison Department of Forest and Wildlife Ecology Travel Award                 | *$500*     |
+| Mar 2016  | [[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner]], "Madison Lakes"                                | *$100*     |
+| 2015-2018 | NASA Earth and Space Science  [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]]                                          | *$105,000* |
+| May 2010  | Outstanding Overall Achievement in Environmental Studies (highest award in major) |            |
+| Jun 2008  | Tyson Research Center Summer Undergraduate Research Fellowship                    | *$3750*    |
+
+Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin
+Department of Natural Resources, Sep 2016 \\
+*$50,000*
+
+George Kress Award for Outstanding Contribution of a Forestry Graduate
+Student, Oct 2016 \\
+*$1,000*
+
+Travel Award, UW-Madison Department of Forest and Wildlife Ecology, May 2016 \\
+*$500*
+
+[[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner]], "Madison Lakes", Mar 2016 \\
+*$100*
+
+NASA Earth and Space Science  [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]], 2015-2018 \\
+*$105,000*
+
+Outstanding Overall Achievement in Environmental Studies (highest
+award in major), Washington University in St. Louis, 2010
+
+Tyson Research Center Summer Undergraduate Research Fellowship, Jun 2008 \\
+ *$3750*
+** COMMENT Awards and Fellowships
+- [[http://mc-stan.org/events/][Stan Conference 2018]] Scholarship, Jan 2018
+- [[https://www.nasa.gov/multimedia/imagegallery/iotd.html][NASA]] Earth and Space Science [[https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=459947/solicitationId=%7BB6CDCEA6-8EDD-A48A-FAF8-E588F66661C3%7D/viewSolicitationDocument=1/NESSF15%20selections.pdf][Fellowship]], 2015-2018, *$105,000*
+- Mapping Wisconsin's Urban Tree Canopy (co-author), Wisconsin Department of
+  Natural Resources. Sep 2016, *$50,000*
+- [[https://kb.wisc.edu/russell/page.php?id=65402][George Kress Award]] for Outstanding Contribution of a Forestry Graduate
+  Student, Oct 2016, *$1000*
+- UW-Madison Department of Forest and Wildlife Ecology Travel Award,
+  May 2016, *$500*
+- [[http://news.wisc.edu/cool-science-images-2016/#&gid=1&pid=10][Cool Science Image contest winner]], "Madison Lakes". 2016. *$100*
+- [[http://enst.wustl.edu/program/awards][Outstanding Overall Achievement in Environmental Studies]] (highest
+  award in major), Washington University in St. Louis, 2010.
+- [[http://tyson.wustl.edu/teaching-ugrad.php][Tyson Research Center Summer Undergraduate Research Fellowship]],
+  2008, *$3750*
+** COMMENT add funding from DNR?  I wrote first draft of the renewal proposal
+** COMMENT things i've applied for in graduate school with dates
+- GCA: Garden Club of America Urban Forestry Grant
+- NSF GRFP: NSF Graduate Research Fellowship Program
+- CASE: Catalyzing Advocacy in Science and Engineering 2017 Workshop
+
+
+First Committee Meeting 2014-12-10
+Preliminary Exam to become Dissertator 2015-08-27
+Became dissertator Fall 2016
+
+NSF GRFP application 2014-11-04
+NSF GRFP rejection 2015-03-30
+
+Catalyzing Advocacy in Science and Engineering (CASE): 2017 Workshop
+(Washington, DC)
+CASE 2017 application 2017-02-28
+CASE 2017 rejection 2017-03-09
+
+Cool Science Image Contest
+application 2016-03-07
+selection 2016-03-11
+
+Garden Club of America (GCA)
+GCA application 2014-01-31
+GCA rejection 2014-03-15
+GCA application 2017-01-31
+GCA rejection 2017-04-04
+
+NASA Earth and Space Science Fellowship (NESSF)
+NESSF 2015 application 2015-02-06
+NESSF 2015 selection 2015-05-26
+
+NESSF renewal 2016 application 2016-03-15
+NESSF renewal 2016 selection 2016-05-01
+
+NESSF renewal 2017 application 2017-03-15
+NESSF renewal 2017 selection 2017-05-01
+
+Wisconsin DNR UTC continuation/ extension to whole state (co-author)
+ application 2016-09
+ selection 2016-09
+
+* Service
+** Department and University
+#+latex: \cvitemwithcomment{2015--2018}{Graduate Student Representative}{Department of Forest and Wildlife Ecology}
+#+latex: \cvitemwithcomment{2017}{\href{https://software-carpentry.org/}{Software Carpentry Volunteer}}{UW-Madison}
+** Community
+#+latex: \cvitemwithcomment{2014, 2015}{Guest Lab Instructor, Sustainability by the Numbers}{Shabazz High School}
+#+latex: \cvitemwithcomment{2017}{Guest Lab Instructor, AP Environmental Studies}{East High School}
+** Undergraduate Mentoring
+#+LATEX: \newline{}\cvitemwithcomment{
+2017
+#+LATEX:}{
+Cheyenne Brandt
+#+LATEX: }{
+Effect of Leaf Area and Tree Canopy on the Urban Heat Island of Madison, WI.
+#+LATEX: }
+
+#+LATEX: \cvitemwithcomment{
+2015
+#+LATEX:}{
+Bobby Shepherd
+#+LATEX: }{
+Investigating the influence of the urban heat island on autumn
+phenology of /Acer platanoides/ with smartphone hemispherical photos.
+#+LATEX: }
+
+** COMMENT details
+
+I represented graduate student interests at monthly department
+  meetings, communicated relevant departmental changes to fellow
+  graduate students, and organized professional development events and
+  the weekly department social.
+
+- Software Carpentry is a workshop designed to teach basic computing
+  skills to researchers
+- I volunteered two days to help teach graduate students the basics of
+  the command line, version control (git), and python.
+
+** COMMENT details
+- Twice, I conducted a two day lab exercise in a sustainability
+  oriented math class exploring the potential for urban trees to offset carbon emissions.
+
+- Each year, I conducted a 2 day lab for about 20 students in a math class focused on
+  sustainability at Malcolm Shabazz City High school, an alternative
+  high school in Madison.
+- The lab consisted of identifying the species and measuring the
+  diameter at breast height of all the trees on the school's
+  campus.  Students then used allometric equations to predict carbon storage and
+  sequestration by trees, and compared this carbon to the carbon emitted by
+  student to determine how many trees would be required to offset
+  their emissions.
+
+** COMMENT details
+- I assisted with a field trip to the Madison School Forest for 85
+  students in the AP environmental studies class at Madison East High
+  School.
+- Students used a clinometer and diameter at breast height tape to
+  measure forest trees, they estimated carbon content of the trees,
+  and they compared this to the carbon emissions caused by their
+  transportation to and from school.
+* Languages and Software
+\cvitem{Spoken:}{English, Spanish}
+\cvitem{Programming:}{R, Python, Stan, SAS}
+\cvitem{Other Software:}{Emacs, QGIS, Microsoft Office, git}
+
+* Professional Affiliations
+\cvitem{2016--Present}{Society of American Foresters}
+\cvitem{2018--Present}{American Geophysical Union}
+
+
+* Letter                                                             :ignore:
+#+LATEX: \clearpage
+#+LATEX: \recipient{}{1450 Linden Dr\\Agriculture Hall\\Madison, WI 53706}
+#+LATEX: \date{\today}
+#+LATEX: \opening{Dear Search Committee Members, }
+#+LATEX: \closing{Yours Sincerely,}
+#+LATEX: \enclosure[Attached]{resume}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+#+LATEX: \makelettertitle
+
+I am applying to the applied statistician position in the CALS
+Biometry Statistical Consulting Facility because I'm passionate about
+people and statistics.  I know first-hand the dedication researchers
+have for their work, and I'm excited by the opportunity to help them
+apply statistical methods to gain insight into new problems.  From my
+time as a student statistical consultant, I learned the process is
+driven first by human considerations, meeting people at their level of
+knowledge and recognizing their feelings towards statistics.  From
+Nick Keuler, my consulting supervisor, I learned the importance
+of listening. When given space to talk, researchers not only clarify
+their own thinking, but also identify objectives and needs for the
+consultant to address.  My years as a high school teacher and a TA,
+especially for Stat 572, taught me that building relationships based
+on trust and respect is the foundation of success, learning, and the
+proper application of statistics.
+
+My statistical training at UW-Madison and my dedication to constant
+improvement would serve me well as a consultant.  Coursework taught me
+how to think probabilistically and how to apply a variety of methods
+such as spatial statistics and multilevel models.  My research in
+forestry has extended the breadth and depth of methods I use.  For
+example, I have compared several machine learning algorithms for
+classification and analyzed data with more predictors than
+observations.  My biometry project uses Stan to fit nonlinear Bayesian
+multilevel models of urban tree growth.  I know how to meet the varied
+needs of researchers including modeling for inference, prediction and
+experimental design, and how to provide advice on statistical
+limitations and assumptions.  When clients need or request methods
+unfamiliar to me, I look forward to diving into a new challenge and
+learning.
+
+I have extensive experiences working with large datasets, multiple
+programming languages, and reproducible workflows. For my
+dissertation, I classified 4 terabytes imagery at the UW Center for
+High Throughput Computing.  I have used many R packages for big data
+and also use smart data management techniques to ease the
+computational burden.  I work routinely with R and am familiar with
+several other programming languages including Stan and SAS.  I have
+not used SAS much outside of coursework, but I would enjoy the
+opportunity to improve my SAS skills to meet the needs of clients.
+All my work is fully reproducible and version controlled, and I love
+sharing literate programming with others.  Outreach seminars on best
+statistical and data visualization practices would leverage my
+excellent teaching and presenting skills.
+
+I am very grateful to be considered for this opportunity and am
+confident I have the skills and mindset to contribute to the
+success of CALS Biometry.
+
+#+LATEX: \makeletterclosing
+\pagebreak
+** COMMENT from job posting
+
+Thank you for taking the time to
+closing
+people statistics
+continually laern
+
+daily challenge of new problems and people
+
+needs:
+      - inference, prediction, modeling, tests, experimental design
+    - serve to inform on statististical limitations and assumptions
+
+speak to the pricipal duties:
+- 80%: One-on-one consulting meetings with students, faculty and staff
+  regarding study design and data analysis for data-rich projects.
+
+- 10% Organize and extend informational material, possibly in form of
+  seminars or workshops, on best practices for statistical and
+  informatics software packages including SAS and R.
+  - I would really like to do this.
+  - software carpentry
+  - my love of teaching.
+
+- 10%: Manage consulting and outreach activities for the Biometry Program.
+
+Minimum number of years and type of relevant work experience:
+-One or more years of experience consulting preferred.
+-Experience with one or more statistical computing languages, in particular SAS and R.
+-Experience advising others on best practices with organizing and executing applied statistics and data science projects.
+-Excellent professional skills to collaborate in teams and work independently.
+Principal duties:
+80%: One-on-one consulting meetings with students, faculty and staff regarding study design and data analysis for data-rich projects.
+10%: Organize and extend informational material, possibly in form of seminars or workshops, on best practices for statistical and informatics software packages including SAS and R.
+10%: Manage consulting and outreach activities for the Biometry Program.
+ 	Additional Information
+ 	Ideal candidate is able to work well with faculty, staff and students, handle multiple types of tasks and meet deadlines, and have excellent problem solving, time management, teamwork and leadership skills for frequent task shifts.
+
+
+
+sas - talk about my bit of experience and also my ability to laern
+languages quickly.
+
+
+
+
+
+
+* COMMENT help
+https://tex.stackexchange.com/questions/386620/export-into-pdf-a-moderncv-org-mode-file-mactex
+
+* COMMENT old stuff
+** posting
+Job OpeningsResearch Analyst (L10008)
+Apply To Position
+Apply Using LinkedIn
+
+Education Analytics is a non-profit organization that uses data
+analysis to inform education policy decisions. We work with school
+districts, regional offices of education, non-profits, and
+policymakers to identify ways that make education systems better. We
+are seeking a full-time Research Analyst to support processing,
+interpreting, and analyzing large educational data sets. An ideal
+candidate has exposure to statistics and an associated programming
+language, as well as an interest in education policy.
+
+
+Responsibilities
+
+· Work within a team to complete various analysis projects and meet deadlines
+
+· Investigate data sources, understand data quality, and process data according to agreed-upon rules
+
+· Develop visualizations and reports for less technical audiences
+
+· Support providing analyses to researchers to drive discussions on analytic approaches
+
+· Support implementation of various statistical models
+
+· Ad-hoc requests for reports, visualizations and research projects
+
+Qualifications
+
+· Minimum bachelor's degree in Statistics, Economics, Computer Science, Mathematics, or related field from four-year college or university.
+
+· Proficiency with a statistical programming language desired (R strongly preferred)
+
+· Understanding of statistical modeling techniques like linear regression, logistic regressions, and machine learning desired
+
+Benefits
+
+· Competitive salary
+
+· Annual merit bonuses
+
+· Paid holidays and one month of paid vacation per year
+
+· Generous 401k and health benefits
+
+The weekly hour expectation is 45 hours per week at EA’s office in Madison, WI. Additional nights and weekends are sometimes required.
+
+Education Analytics is committed to creating a diverse environment and
+is proud to be an equal opportunity employer. All qualified applicants
+will receive consideration for employment without regard to race,
+color, religion, gender, gender identity or expression, sexual
+orientation, national origin, genetics, disability, age, or veteran
+status.
+
+** cover letter
+My first attempt at data-driven improvement in student achievement was
+in 2010.  As a first year biology and chemistry teacher at a charter
+school in St. Louis, I wanted my students to grow at least 3 points on
+the ACT, an ambitious push towards college readiness.  I administered
+tests quarterly, tracked students' performance, and created daily
+practice problems for target standards.  Working with this data, I
+encountered the challenges inherent in measuring student learning.
+How reliable are the tests that I'm putting together from old ACTs?
+What to do about missing students?  How much of my students'
+performance is even atributable to me, the teacher?  And how can I use
+these results to make my teaching more effective?
+
+I loved my high school students, but I wanted to teach college level
+courses.  So in 2013 I moved to Madison to pursue a PhD in Forestry
+and a Masters in Biometry.  My proclivity for data analysis followed
+me and was honed at the university.  The highlights of my statistical
+training were a multilevel modeling course, being the teaching
+assistant for a graduate level statistics course for natural science
+majors, and statistical consulting.  Relevant skills from my PhD work
+include working with large datasets (terabytes of imagery) in R, using
+machine learning algorithms (e.g. random forests), writing literate
+programs for reproducible research, and mastering the visual
+display of information for effective communication. As I am nearing
+the completion of my PhD and considering the needs of my family, I'm
+reconsidering my tolerance for the itinerant academic career path, and
+I'm exploring the option of staying in Madison.
+
+The intelligent use of the correct data will help create a better
+education system, and by extension, a better world.  I want to join
+Education Analytics to work to build this
+
+This is the path
+I want to work to build.  Education Analytics is a clear leader in
+this field and I would be very excited to join your team.
+
+
+
+I should write in a way that recognizes that some skills are very
+difficult to measure and maybe not worth the effort ..  Just imply
+that standardized tests are _part_ of the solution.
+not all things can be measure
+
+
+
+
+
+
+
+
+working with others.....
+
+
+computing
+statistics
+spatial
+multilevel models
+consulting - clients with varying levels of statistical background.
+TA for graduate level statistics course 572
+
+
+forestry projects
+- working with large datasets (
+  - center for high throughput computing
+- skilled in R, tidyverse
+- machine learning (random forests, support vector machines, boosted
+  regression trees) for image classification work.
+- making figures.
+  - visual display of data for effective communication.
+
+abilty to work hard (longish hours and extra time are what I am used to).
+
+
+it's where I learned I loved to
+
+
+
+make my own questions, even have them analyze the results of the test
+as practice
+
+by making it longitudinal some of the analysis issues go away.
+
+ACT College readiness standards
+
+Why
+
+environment
+
+stan; gelman hill; social sciences education.  statistical modelling
+
+
+
+My number one priority for my work is taht is working towards a
+greater good and therefore personally fulfilling.
+
+
+I buy into the mission of EA  improving education.  that is our future.
+
+statisitcal methods:
+
+glm
+gam
+multilevel modelling / mixed effects
+pls
+lasso/elastic net
+pca
+spca
+rf
+svm
+boosted trees
+spatial methods
+CAR?.....
+
+skills.:z
+CHTC
+
+** junk
+
+Never having taken
+a math class in college, I took calc 3 over the summer (for no credit)
+so I could pursue the biometry masters
+
+* References
+- Jun Zhu
+  - Biometry MS Advisor
+  - Professor, Department of Statistics and Department of Entomology
+  - jzhu@stat.wisc.edu
+  - 608-262-1287 (statistics office), 608-890-3916 (entomology office)
+- Phil Townsend
+  - Forestry PhD Advisor
+  - Professor, Department of Forest and Wildlife Ecology
+  - ptownsend@wisc.edu
+  - 608-263–9107
+- Bret Larget
+  - Statistics Instructor
+  - Professor, Department of Statistics and Department of Botany
+  - bret.larget@wisc.edu
+  - 608-262-7979 (statistics office), 608-265-6799 (botany office)
+
