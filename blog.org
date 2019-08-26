@@ -39,7 +39,9 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-* My first review  [2020-01-05 Sun]                                    :life:
+* My first paper published
+
+* My first review  [2019-01-05 Sat]                                    :life:
 
 I got this sweet email:
 
