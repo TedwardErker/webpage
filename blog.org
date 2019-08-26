@@ -39,7 +39,16 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-* My first paper published
+* My [[https://doi.org/10.1016/j.rse.2019.03.037][first paper]] published! :ATTACH:
+:PROPERTIES:
+:ID:       9DAD7DA0-D836-4798-9535-8CB169EF721D
+:Attachments: p_2019-08-26_16-27-08.png
+:END:
+
+Finally.  This took too long, but here you go world.  
+
+#+DOWNLOADED: https://uc34069af34b053b44ed530b33ad.previews.dropboxusercontent.com/p/thumb/AAipmUb9ewn47R5Y6s1INgElefOLJ3wsGUstF0mvifWE6Tep-WrkoEJcPC2Ay3kaEhzHsPFfpGV8sAapX1FIY2zvEimaNyiSRIPKw9LKbp3G-Y0b5gWvGfyhLoQdXDo9LjOCAU1tKu1PV8xifEh63kO-SCdu5hae2_xJ1XEJiBKAcs8OYXNCZzgTgXWRWqHZD3_j6bRd8PpMNXxhZBXtM9LluIbsOqiKsH2BrMTFoNjpWtt8RkQ4JULHwycVo3jratZRqMLEEhENPFtfj6-taXK7nCLh8c1pGodApoITLCkrSJLHs1f8mYkFWnIUMSwAYsQpsv6VRoukzMzq2lcNuszJTyA3LqUTa2S7Ctrcx8By9MKGFJWx82QKldnqR8D6w2BNZzIXlIRNbypSxE14d2VK4_lRDnjODG-2pVDFPILcTYcARyTW4H-5cSlHnx3P_VXeRM5f_MBFgZMn0uoI8KqTPwOKbQFkm9S8woio26UA6A/p.png?size=800x600&amp;size_mode=3 @ 2019-08-26 16:27:08
+[[file:data/9D/AD7DA0-D836-4798-9535-8CB169EF721D/p_2019-08-26_16-27-08.png]]
 
 * My first review  [2019-01-05 Sat]                                    :life:
 
