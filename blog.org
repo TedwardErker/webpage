@@ -39,7 +39,21 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
-* My [[https://doi.org/10.1016/j.rse.2019.03.037][first paper]] published! :ATTACH:
+* My second paper published! [2019-07-31 Wed]
+
+I'm very pround of this one.  It's a lot of work condensed into a
+small space. The review process really helped improve the text to be
+more clear
+
+https://doi.org/10.1088/2515-7620/ab37fd
+
+write about steve carpenter's reaction. B in class.
+
+
+
+small error... annoying.
+
+* My [[https://doi.org/10.1016/j.rse.2019.03.037][first paper]] published!  [2019-05-15 Wed]
 :PROPERTIES:
 :ID:       9DAD7DA0-D836-4798-9535-8CB169EF721D
 :Attachments: p_2019-08-26_16-27-08.png
