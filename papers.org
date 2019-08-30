@@ -1,0 +1,6 @@
+* Papers
+cite:erker_townsend_2019 
+cite:erker_e_2019
+bibliography:~/git/notes/references.bib
+bibliographystyle:apa
+

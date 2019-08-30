@@ -29,12 +29,19 @@
 #+HTML:  ga('send', 'pageview');
 #+HTML:</script>
 
-* consider changing to hugo:
+* COMMENT consider changing to hugo:
 https://ox-hugo.scripter.co/
 maybe a little noisy?  I think changing the theme would help with that.
 
 knitr rmd exports are pretty clean.  I like to floting toc on the side
 that highlights what section of the text the reader is in.
+
+
+*But* look at these websites made in pure org mode...  Maybe I should
+just tweak my existing approach rather than throw it all the way out.
+http://members.wolfram.com/billw/pages/projects/
+http://members.wolfram.com/billw/blog/
+https://loomcom.com/
 
 
 
@@ -123,6 +130,8 @@ It's truly satisfying to help students grow and build confidence in their
 skills.  I am excited to be pursuing a career where I can teach about
 topics that inspire me, and that I hope will inspire my students.
 
+* Publications
+#+INCLUDE: papers.org :minlevel 1
 * COMMENT Presentations
 #+INCLUDE: presentations.org :minlevel 1
 * COMMENT Posters
