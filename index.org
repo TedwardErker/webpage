@@ -31,10 +31,13 @@
 
 * consider changing to hugo:
 https://ox-hugo.scripter.co/
-maybe a little noisy?
+maybe a little noisy?  I think changing the theme would help with that.
 
 knitr rmd exports are pretty clean.  I like to floting toc on the side
 that highlights what section of the text the reader is in.
+
+
+
 
 * COMMENT Navigating "included" files: C-' visits file at point
 
