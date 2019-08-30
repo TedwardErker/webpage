@@ -44,6 +44,7 @@ http://members.wolfram.com/billw/blog/
 https://loomcom.com/
 
 
+I dunno, hugo might be nice.  think hard.
 
 
 * COMMENT Navigating "included" files: C-' visits file at point
@@ -130,7 +131,7 @@ It's truly satisfying to help students grow and build confidence in their
 skills.  I am excited to be pursuing a career where I can teach about
 topics that inspire me, and that I hope will inspire my students.
 
-* Publications
+* COMMENT Publications
 #+INCLUDE: papers.org :minlevel 1
 * COMMENT Presentations
 #+INCLUDE: presentations.org :minlevel 1
