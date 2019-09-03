@@ -41,12 +41,21 @@
 
 * Stan on CHTC.
 
+The final assignment for the open science grid user school was to
+write about how we could take what we learned at the school and apply
+it to our work.  I decided to figure out how to get Stan, "a
+state-of-the-art platform for statistical modeling and high-performance statistical computation", running on a high
+through-put system.
+
+
+https://github.com/TedwardErker/chtc_stan
+
 
 ** COMMENT make it citable?
 
 https://research-it.berkeley.edu/blog/18/07/23/guides-making-research-software-reproducible-citable-and-well-documented
 
-* My second paper published! [2019-07-31 Wed] :ATTACH:
+* My second paper published! [2019-07-31 Wed] 
 :PROPERTIES:
 :ID:       C99D60DC-A5DC-4E04-B2A9-6C84F6E6B95D
 :Attachments: Screenshot%202019-08-26%2017.12.15_2019-09-03_12-40-11.png
@@ -55,17 +64,26 @@ https://research-it.berkeley.edu/blog/18/07/23/guides-making-research-software-r
 #+DOWNLOADED: /Users/erker/Dropbox/Screenshots/Screenshot 2019-08-26 17.12.15.png @ 2019-09-03 12:40:11
 [[file:data/C9/9D60DC-A5DC-4E04-B2A9-6C84F6E6B95D/Screenshot 2019-08-26 17.12.15_2019-09-03_12-40-11.png]]
 
-I'm very pround of this one.  It's years of work cut out and the rest
-condensed into a small space. The review process really helped improve
-the text to be more clear
+I'm very proud of this [[https://doi.org/10.1088/2515-7620/ab37fd][one]].  It's years of work cut out and the rest
+condensed into a small space. I'm particulary grateful to Chris
+Kucharik for his guidance.
 
-https://doi.org/10.1088/2515-7620/ab37fd
+The review process really helped improve the text to be more clear.  I
+submitted a version of this paper for Steve Carpenter's Ecosystem
+Concepts class.  He didn't think very much of the paper and said that
+it would be unlikely to be published because the statistical
+significance was so low.  At first I was bothered by this comment
+because actually the results were very clear statistically - it was
+the effect size that was small.  I thought Steve was missing the
+point.  But, rereading the paper I realized the burden was mine to
+guide the reader to understand the nature of the study, the data, and
+the relevance to science and society.  The final product is not
+perfect, but it's a big improvement due in part to Steve's frank
+criticism.
 
-write about steve carpenter's reaction. B in class.
+p.s. there is a small typo in the text introduced by the editor that I
+didn't catch during the final proofs.  So it goes.
 
-Chris Kucharik
-
-small error... annoying.
 
 * Open Science Grid User School [2019-07-15 Mon]
 :PROPERTIES:
