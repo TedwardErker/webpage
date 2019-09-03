@@ -51,6 +51,7 @@ for my research and others trying to run Stan on a cluster.
 
 https://github.com/TedwardErker/chtc_stan
 
+-----------------------------
 
 ** COMMENT make it citable?
 
@@ -85,7 +86,7 @@ criticism.
 p.s. there is a small typo in the text introduced by the editor that I
 didn't catch during the final proofs.  So it goes.
 
-
+-----------------------------
 * Open Science Grid User School [2019-07-15 Mon]
 :PROPERTIES:
 :ID:       8CF2418D-8CEC-497F-8CDD-9FF8AFD24FE7
@@ -103,7 +104,7 @@ my previous work, but this solidified things and allowed me to move to
 next level of implementation.  It was a great group of learners and
 teachers. 
 
-
+-----------------------------
 * My [[https://doi.org/10.1016/j.rse.2019.03.037][first paper]] published!  [2019-05-15 Wed]
 :PROPERTIES:
 :ID:       9DAD7DA0-D836-4798-9535-8CB169EF721D
@@ -114,7 +115,7 @@ Finally.  This took too long, but here you go world.
 
 #+DOWNLOADED: https://uc34069af34b053b44ed530b33ad.previews.dropboxusercontent.com/p/thumb/AAipmUb9ewn47R5Y6s1INgElefOLJ3wsGUstF0mvifWE6Tep-WrkoEJcPC2Ay3kaEhzHsPFfpGV8sAapX1FIY2zvEimaNyiSRIPKw9LKbp3G-Y0b5gWvGfyhLoQdXDo9LjOCAU1tKu1PV8xifEh63kO-SCdu5hae2_xJ1XEJiBKAcs8OYXNCZzgTgXWRWqHZD3_j6bRd8PpMNXxhZBXtM9LluIbsOqiKsH2BrMTFoNjpWtt8RkQ4JULHwycVo3jratZRqMLEEhENPFtfj6-taXK7nCLh8c1pGodApoITLCkrSJLHs1f8mYkFWnIUMSwAYsQpsv6VRoukzMzq2lcNuszJTyA3LqUTa2S7Ctrcx8By9MKGFJWx82QKldnqR8D6w2BNZzIXlIRNbypSxE14d2VK4_lRDnjODG-2pVDFPILcTYcARyTW4H-5cSlHnx3P_VXeRM5f_MBFgZMn0uoI8KqTPwOKbQFkm9S8woio26UA6A/p.png?size=800x600&amp;size_mode=3 @ 2019-08-26 16:27:08
 [[file:data/9D/AD7DA0-D836-4798-9535-8CB169EF721D/p_2019-08-26_16-27-08.png]]
-
+-----------------------------
 * My first review  [2019-01-05 Sat]                                    :life:
 
 I got this sweet email:
@@ -131,12 +132,13 @@ help is appreciated.
 
 Plus this corny certificate:
 [[file:blog/blog_imgs/My_first_review/elsevier_rse_reviewer_certificate.png]]
+-----------------------------
 
 * Stat Consultant Job                                                  :life:
 I'm excited to say that in March I will start part time as a
 statistical consultant in the [[https://www.stat.wisc.edu/consulting-lab][CALS stat consulting lab]]. Find the form
 to sign up for a consultation [[https://www.stat.wisc.edu/consulting-policies][here]] :) . 
-
+-----------------------------
 * AGU Fall meeting 2018 Poster                                   :UrbanTrees:
 
 #+name: agu_2018_poster
