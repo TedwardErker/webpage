@@ -44,9 +44,10 @@
 The final assignment for the open science grid user school was to
 write about how we could take what we learned at the school and apply
 it to our work.  I decided to figure out how to get Stan, "a
-state-of-the-art platform for statistical modeling and high-performance statistical computation", running on a high
-through-put system.
-
+state-of-the-art platform for statistical modeling and
+high-performance statistical computation", running on a high
+through-put system.  I hope the [[https://github.com/TedwardErker/chtc_stan][github repo]] I created will be helpful
+for my research and others trying to run Stan on a cluster.
 
 https://github.com/TedwardErker/chtc_stan
 
@@ -65,8 +66,8 @@ https://research-it.berkeley.edu/blog/18/07/23/guides-making-research-software-r
 [[file:data/C9/9D60DC-A5DC-4E04-B2A9-6C84F6E6B95D/Screenshot 2019-08-26 17.12.15_2019-09-03_12-40-11.png]]
 
 I'm very proud of this [[https://doi.org/10.1088/2515-7620/ab37fd][one]].  It's years of work cut out and the rest
-condensed into a small space. I'm particulary grateful to Chris
-Kucharik for his guidance.
+condensed into a small space. In addition to my advisor, Phil
+Townsend, I'm grateful to Chris Kucharik for his guidance.
 
 The review process really helped improve the text to be more clear.  I
 submitted a version of this paper for Steve Carpenter's Ecosystem
