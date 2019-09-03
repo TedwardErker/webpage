@@ -177,32 +177,15 @@ Maybe just use C-c C-e?
 (org-publish-all)
 #+end_src
 
+I have a new password!!! ) added.
 http://www.stat.wisc.edu/services/how-log-thin-client
-#+begin_src sh :session a :results verbatim :eval yes
+#+begin_src sh :session *a* :results verbatim :eval yes
   #rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/
-  rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/ --delete
-best-statdesk
+  rsync -avz ~/projects/webpage_out/ erker@stat-remote.stat.wisc.edu:~/public/html/ --delete 
+#best-statdesk
 # the --delete flag removes destination files that aren't at the source
 
 #+end_src
-
-#+RESULTS:
-#+begin_example
-You have new mail in /var/mail/erker
-erker@stat-remote.stat.wisc.edu's password: 
-building file list ... done
-./
-blog.html
-blog.org
-index.html
-index.org
-blog/blog_imgs/
-blog/blog_imgs/My_first_review/
-blog/blog_imgs/My_first_review/elsevier_rse_reviewer_certificate.png
-
-sent 3207671 bytes  received 2092 bytes  493809.69 bytes/sec
-total size is 688935129  speedup is 214.64
-#+end_example
 
 * COMMENT Analytics
 
