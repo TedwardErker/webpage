@@ -46,7 +46,7 @@ write about how we could take what we learned at the school and apply
 it to our work.  I decided to figure out how to get Stan, "a
 state-of-the-art platform for statistical modeling and
 high-performance statistical computation", running on a high
-through-put system.  I hope the [[https://github.com/TedwardErker/chtc_stan][github repo]] I created will be helpful
+throughput system.  I hope the [[https://github.com/TedwardErker/chtc_stan][github repo]] I created will be helpful
 for my research and others trying to run Stan on a cluster.
 
 https://github.com/TedwardErker/chtc_stan
