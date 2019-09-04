@@ -152,7 +152,7 @@ don't think any story will come of it.  Still, it was very neat to
 share my work with a large audience.  Find a larger image here: [[http://pages.stat.wisc.edu/~erker/Posters/erker_energy_agu_2018.jpg][*Urban
 shade trees may be an atmospheric carbon source for much of the US*]].
 This work is now in review at Environmental Research Letters.
-
+-----------------------------
 * Tree shadows on a house                                     :visualization:
 
 #+name:winter_solstice
@@ -165,14 +165,14 @@ This work is now in review at Environmental Research Letters.
 
 I made these to illustrate the patterns of shade that trees provide to
 houses throughout the year at the latitude of Madison, WI.
-
+-----------------------------
 * I am a master of science now. [2018-12-03 Mon]    :life:statistics:
 
 Today I defended my biometry MS project ([[http://pages.stat.wisc.edu/~erker/Presentations/Biometry_Defense_20181203/allo_presentation.html][presentation here]]).  It felt
 good to be recognized for all the learning I've done in the past
 many years.  I am now officially a master of science.  Now back to
 work on my PhD.
-
+-----------------------------
 * SESYNC Workshop in Annapolis [2018-11-15 Thu]                           :travel:UrbanTrees:
 
 #+name:sesync_logo
@@ -196,6 +196,8 @@ follow-up workshops in 2019.
 #+name:crepe_myrtle
 #+caption: A pruned crepe myrtle.  These heavily pruned trees have been causing some interesting problems in my work to develop growth equations for urban trees.  We don't have them in cold Wisconsin, so I was super excited to see one with my own eyes.
 [[file:blog/blog_imgs/sesync_20181115/crepe_myrtle.jpg]]
+
+-----------------------------
 
 * A 2-dimensional color palette                               :visualization:
 
@@ -266,6 +268,9 @@ space.  Color then connects the two.  This shows that the purple
 colored weather stations can have very high precipitation
 levels.  It also shows how weather spaces are distributed in both
 climate and geographic space.
+
+-----------------------------
+
 * Google Scholar Results In a Nice Table                          :computing:
 [2018-06-01 Fri]
 #+caption: Example Google Scholar results
@@ -354,6 +359,8 @@ Error in open.connection(x, "rb") : HTTP error 503.
 Google prevents massive automatic downloads for good reason.  This
 code is meant to prevent the manual typing of page results into a
 table, not meant to scrape hundreds of results.
+
+-----------------------------
 * The U.S. Population in Heating and Cooling Degree Day Space
 [2018-05-25 Fri]
 
@@ -434,6 +441,7 @@ degree space?
 
 [[file:blog/populations_in_cdd_hdd_space.html][Check out the interactive version of the above chart here]]
 
+-----------------------------
 * COMMENT sigmoid growth functions
 sliders: https://plot.ly/r/sliders/
 https://plot.ly/r/sliders/#mulitple-slider-controls
@@ -484,7 +492,7 @@ wikipedia.
 [2018-05-18 Fri]
 #+caption: A maple on monroe
 [[file:blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg]]
-
+-----------------------------
 * Early monocultures and early polycultures.                     :UrbanTrees:
 [2018-05-16 Wed]
 
@@ -547,10 +555,11 @@ work by David Hockney which is based on the "Avenue at Middelharnis".
 #+caption:See, people still like trees of the same type all in a row.
 [[file:blog/blog_imgs/Early monocultures and early polycultures./hockney-750x1024_newyorkerApril2018_2018-05-30_15-38-04.jpg]]
 
-
+-----------------------------
 ** COMMENT other paintings
 https://commons.wikimedia.org/wiki/File:Van_gogh_lallee_des_alyscamps.jpg 1888
 https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Pappelallee_im_Herbst.jpeg 1884
+
 * COMMENT How much municipalities spend on their trees, then and now
 * COMMENT The trees haven't changed, but our preferences have
 1) It shouldn't be a shock, but it kind of is, that the drawings of
@@ -658,6 +667,8 @@ ginkgos:
 [[file:blog/blog_imgs/Street Tree History Time Warp/Picture4_2018-06-05_15-25-58.jpg]]
 
 Thanks, Rob!
+
+-----------------------------
 
 ** COMMENT archived questions
 

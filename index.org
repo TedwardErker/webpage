@@ -187,6 +187,21 @@ http://www.stat.wisc.edu/services/how-log-thin-client
 
 #+end_src
 
+#+RESULTS:
+#+begin_example
+
+erker@stat-remote.stat.wisc.edu's password: 
+building file list ... done
+./
+blog.html
+blog.org
+index.html
+index.org
+
+sent 59037 bytes  received 2148 bytes  17481.43 bytes/sec
+total size is 689710118  speedup is 11272.54
+#+end_example
+
 * COMMENT Analytics
 
 login google as erker@wisc
