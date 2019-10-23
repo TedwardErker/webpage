@@ -1692,7 +1692,7 @@ submit node
 
 #+CAPTION: MNF transformation of AVIRIS hyperspectral imagery over lakes Mendota, Monona, and Wingra
 #+ATTR_HTML: :alt none :title :align center :height 600
-[[file:blog_imgs/CoolScienceImage/beautiful_madison_lakes.png]]
+[[file:blog/blog_imgs/CoolScienceImage/beautiful_madison_lakes.png]]
 
 I created this image of Madison's lakes using hyperspectral imagery
 from NASA's [[http://aviris.jpl.nasa.gov/][AVIRIS sensor]] for the [[http://news.wisc.edu/cool-science-images-2016/][Cool Science Image Contest]].  I threw
@@ -1728,36 +1728,36 @@ the joy of being in the north woods.
 
 #+CAPTION: Trout Lake Research Station, our lodging
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg]]
 
 #+CAPTION: Jablonski grilling Aditya's Famous Chicken
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg]]
 
 #+CAPTION: Always excited for field work
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg]]
 
 #+CAPTION: Always excited for field work
 #+ATTR_HTML: :alt none :title :align center :height 600
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg]]
 
 
 #+CAPTION: Aditya fake shooting leaves (for retrieval)
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg]]
 
 #+CAPTION: John fake writing
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg]]
 
 #+CAPTION: Larch Stand
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg]]
 
 #+CAPTION: NEON's Flux Tower.  Measuring the exhange of carbon between atmosphere and biosphere.  Sweet.
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg]]
+[[file:blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg]]
 
 #+CAPTION: Flux tower of Ankur Desai's research group.  Maples creating lovely dappled light.
 #+ATTR_HTML: :alt none :title :align center :height 300
@@ -1765,7 +1765,7 @@ the joy of being in the north woods.
 
 #+ATTR_HTML: :width 600 :align center :controls controls
 #+BEGIN_video
-#+HTML:   <source src="blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov">
+#+HTML:   <source src="blog/blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov">
 #+END_video
 Flux tower of Ankur Desai's research group, much smaller than NEON's.  Maples creating lovely dappled light.
 
@@ -1806,7 +1806,7 @@ familiar way and export it to the internet with one command.  Amazing.
 
 #+CAPTION: Albert Einstein Memorial
 #+ATTR_HTML: :alt none :title :align center :height 300
-[[file:blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
+[[file:blog/blog_imgs/DC_NASA_meeting/with_einstein.jpg]]
 
 * Removing Stuck Aluminum Seatpost from a Steel Frame             :bike:life:
 [2016-08-01 Mon]
@@ -1834,7 +1834,7 @@ that you don't have to go through the same thing.
    6-1 mechanical advantage system.
 #+CAPTION: We pulled hard, but failed
 #+ATTR_HTML: :alt none :title trying to pull seatpost out :align center :height 300
-[[file:blog_imgs/free_seatpost/pull_apart.jpg]]
+[[file:blog/blog_imgs/free_seatpost/pull_apart.jpg]]
 **** What did work:
 1) Remove everything from the frame except the seatpost
 2) Use a hacksaw to remove seat and create hole to pour solution
@@ -1846,7 +1846,7 @@ that you don't have to go through the same thing.
    stoppers.  I got many of different sizes for less than a dollar at
    the hardware store.
 4) Place frame in well ventilated area on something to catch any
-   spills (I used a plastic sled in my driveway). [[file:blog_imgs/free_seatpost/setup.jpg][setup]]
+   spills (I used a plastic sled in my driveway). [[file:blog/blog_imgs/free_seatpost/setup.jpg][setup]]
 5) Add sodium hydroxide salt to water (not water to salt).  I did this
    in an old milk jug.  Sodium hydroxide is sold at your local
    hardware store as lye or drain cleaner.  Check chemical composition
@@ -1862,7 +1862,7 @@ that you don't have to go through the same thing.
    splashing, then fill up to top of _tube_ (not post).  If you didn't saw off too
    much of the post, this length of post sticking out of tube will
    help give you a splash buffer.
-   [[file:blog_imgs/free_seatpost/bubbling.jpg][I cut mine too short and the paint was destroyed]]
+   [[file:blog/blog_imgs/free_seatpost/bubbling.jpg][I cut mine too short and the paint was destroyed]]
 7) Be patient.  My seat post wall was quite thick, at least 2 mm.
    This will take a long time to dissolve.  Wait until the solution is
    finished reacting with aluminum (you can hear the production of
@@ -1875,7 +1875,7 @@ that you don't have to go through the same thing.
 
 #+CAPTION: This is all that was left
 #+ATTR_HTML: :alt none :title :align center :height 300
-[[file:blog_imgs/free_seatpost/remains.jpg]]
+[[file:blog/blog_imgs/free_seatpost/remains.jpg]]
 **** I had apex custom coating in Monona, WI repaint my frame.
 They did a great job and the price was lower than everywhere else I
 looked, but it still wasn't cheap.  Don't let the NaOH stay on your
