@@ -190,16 +190,959 @@ http://www.stat.wisc.edu/services/how-log-thin-client
 #+RESULTS:
 #+begin_example
 
-erker@stat-remote.stat.wisc.edu's password: 
-building file list ... done
+Password: 
+sending incremental file list
+deleting blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02_thumb.png
+deleting blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png
+deleting blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51_thumb.png
+deleting blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png
+deleting blog_imgs/uhi_flyer/
+deleting blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884_thumb.png
+deleting blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg
+deleting blog_imgs/uhi_download_2017-04-25/
+deleting blog_imgs/stancon2018/stancon_hall_thumb.png
+deleting blog_imgs/stancon2018/stancon_hall.jpg
+deleting blog_imgs/stancon2018/pacificocean_asilomar_thumb.png
+deleting blog_imgs/stancon2018/pacificocean_asilomar.jpg
+deleting blog_imgs/stancon2018/frozenmad_picnicpoint_thumb.png
+deleting blog_imgs/stancon2018/frozenmad_picnicpoint.jpg
+deleting blog_imgs/stancon2018/frozenmad_isthmus_thumb.png
+deleting blog_imgs/stancon2018/frozenmad_isthmus.jpg
+deleting blog_imgs/stancon2018/Utah_mtns_thumb.png
+deleting blog_imgs/stancon2018/Utah_mtns.jpg
+deleting blog_imgs/stancon2018/
+deleting blog_imgs/free_seatpost/side_post_in_frame.jpg
+deleting blog_imgs/free_seatpost/setup.jpg
+deleting blog_imgs/free_seatpost/remains_thumb.png
+deleting blog_imgs/free_seatpost/remains.jpg
+deleting blog_imgs/free_seatpost/pull_apart_thumb.png
+deleting blog_imgs/free_seatpost/pull_apart.jpg
+deleting blog_imgs/free_seatpost/post_in_frame.jpg
+deleting blog_imgs/free_seatpost/bubbling.jpg
+deleting blog_imgs/free_seatpost/
+deleting blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png
+deleting blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash_thumb.png
+deleting blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png
+deleting blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.pdf
+deleting blog_imgs/constrainedRegression/
+deleting blog_imgs/commute/snowsun_thumb.png
+deleting blog_imgs/commute/snowsun.jpg
+deleting blog_imgs/commute/ice_thumb.png
+deleting blog_imgs/commute/ice.jpg
+deleting blog_imgs/commute/frozenmad_isthmus_commute.jpg_thumb.png
+deleting blog_imgs/commute/frozenmad_isthmus_commute.jpg.png
+deleting blog_imgs/commute/frozenmad_isthmus_commute.jpg.pdf
+deleting blog_imgs/commute/frozenmad_isthmus.jpg
+deleting blog_imgs/commute/ben_ski_thumb.png
+deleting blog_imgs/commute/ben_ski.jpg
+deleting blog_imgs/commute/
+deleting blog_imgs/ap_es_east_fieldtrip/File_008.jpeg
+deleting blog_imgs/ap_es_east_fieldtrip/File_004_thumb.png
+deleting blog_imgs/ap_es_east_fieldtrip/File_004.jpeg
+deleting blog_imgs/ap_es_east_fieldtrip/File_003.jpeg
+deleting blog_imgs/ap_es_east_fieldtrip/File_002.jpeg
+deleting blog_imgs/ap_es_east_fieldtrip/File_001.jpeg
+deleting blog_imgs/ap_es_east_fieldtrip/
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143233224_thumb.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143231350_thumb.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-4.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-3.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-2.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-1.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-0.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif
+deleting blog_imgs/ShotgunTraining/IMG_20170516_140129558_thumb.png
+deleting blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg
+deleting blog_imgs/ShotgunTraining/
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01904.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01902.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01863.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01857.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01838.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827_thumb.png
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01818.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01817.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01816.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01815.jpg
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov
+deleting blog_imgs/FieldWorkUpNorth_Sep8-10/
+deleting blog_imgs/DC_NASA_meeting/with_einstein_thumb.png
+deleting blog_imgs/DC_NASA_meeting/with_einstein.jpg
+deleting blog_imgs/DC_NASA_meeting/
+deleting blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie_thumb.png
+deleting blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg
+deleting blog_imgs/DC_NASA_2017/
+deleting blog_imgs/CoolScienceImage/beautiful_madison_lakes_thumb.png
+deleting blog_imgs/CoolScienceImage/beautiful_madison_lakes.png
+deleting blog_imgs/CoolScienceImage/
+deleting blog_imgs/.DS_Store
+deleting blog_imgs/
+deleting .DS_Store
+deleting Posters/.DS_Store
+deleting Presentations/Biometry_Defense_20181203/figs/yoshinocherry.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_scaled_intercept_obs.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_scaled_intercept_normal_obs.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_scaled_intercept.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_scaled.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_one_wGammaY.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_one.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_cdf3.png
+deleting Presentations/Biometry_Defense_20181203/figs/weibull_cdf2.png
+deleting Presentations/Biometry_Defense_20181203/figs/stan_logo.png
+deleting Presentations/Biometry_Defense_20181203/figs/salman_monkeypod.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/prye_multistem.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/predictions_cities_notB1_dbh_bySpeciesCity_wData_wUTDpredictions_focus_acpl_FullData.png
+deleting Presentations/Biometry_Defense_20181203/figs/predictions_cities_notB1_dbh_bySpeciesCity_wData_no_UTDpredictions_focus_acpl_FullData.png
+deleting Presentations/Biometry_Defense_20181203/figs/predicting_cities_notB1_unobserved_groups_FullData.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_shape.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_sd_beta3.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_sd_beta2.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_sd_beta1.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_sd_beta0.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_mainparameters.png
+deleting Presentations/Biometry_Defense_20181203/figs/posterior_distributions_model_FullData_climate_effects.png
+deleting Presentations/Biometry_Defense_20181203/figs/open_oak.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/monroe_tree.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/monkeypod.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_se.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_mean_directlabel.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_surface_precipCDD_genus_many_species_many_cities_notB1_many_climate_b3linint_hetero_no_family_Gamma_FullData_wCities_directlabel.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_genus_none_species_single_cities_single_climate_none_hetero_no_family_Gamma_points.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_GenusEffects_lines.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_ribbons.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_points.png
+deleting Presentations/Biometry_Defense_20181203/figs/marginal_effects_BySpecies_Genus_many_species_many_cities_many_notB1_climate_b3linint_hetero_no_family_Gamma_FullData_full_singlepane_CityEffects_lines.png
+deleting Presentations/Biometry_Defense_20181203/figs/large_yoshino_washington.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/japanese_lilac.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/ftcollins_cheyenne_ash.png
+deleting Presentations/Biometry_Defense_20181203/figs/elmer.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/eg_urban.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/eg_forest1.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/climate_space_wMap_labels.png
+deleting Presentations/Biometry_Defense_20181203/figs/brms.png
+deleting Presentations/Biometry_Defense_20181203/figs/annapolis_oak.jpg
+deleting Presentations/Biometry_Defense_20181203/figs/UTD_cover.png
+deleting Presentations/Biometry_Defense_20181203/figs/RMH.gif
+deleting Presentations/Biometry_Defense_20181203/figs/NUTS.gif
+deleting Presentations/Biometry_Defense_20181203/figs/MN.png
+deleting Presentations/Biometry_Defense_20181203/figs/ClimateRegions_UTD.png
+deleting Presentations/Biometry_Defense_20181203/figs/CityScientificNameData_CityCentric_n_splits.png
+deleting Presentations/Biometry_Defense_20181203/figs/CityScientificNameData_CityCentric_n_commonSpecies.png
+deleting Presentations/Biometry_Defense_20181203/figs/
+deleting Presentations/Biometry_Defense_20181203/css/reveal.css
+deleting Presentations/Biometry_Defense_20181203/css/black.css
+deleting Presentations/Biometry_Defense_20181203/css/
 ./
+CV_Erker_Tedward.pdf
+awards_fellowships.html
+awards_fellowships.org
+awards_fellowships.pdf
 blog.html
 blog.org
+bookblog.html
+bookblog.org
+graduate_coursework.html
+graduate_coursework.org
 index.html
 index.org
+index.pdf
+mentoring.html
+mentoring.org
+moderncv.pdf
+papers.html
+papers.org
+posters.html
+posters.org
+presentations.html
+presentations.org
+publications.html
+publications.org
+research_experience.html
+research_experience.org
+teaching_experience.html
+teaching_experience.org
+tedward_erker_cv.html
+tedward_erker_cv.org
+tedward_erker_cv.pdf
+tedward_erker_resume.html
+tedward_erker_resume.org
+tedward_erker_resume.pdf
+tedward_erker_resume_2019.html
+tedward_erker_resume_2019.org
+tedward_erker_resume_2019.pdf
+test.pdf
+test_blog.html
+test_blog.org
+work_experience.html
+work_experience.org
+Posters/
+Posters/NASA_poster_2016.jp2
+Posters/NASA_poster_2018.jpg
+Posters/erker_energy_agu_2018.jpg
+Presentations/
+Presentations/Biometry_Defense_20181203/
+Presentations/Biometry_Defense_20181203/allo_presentation.html
+Presentations/SAF_20161105/
+deleting blog/.DS_Store
+Presentations/SAF_20161105/saf_presentation.html
+blog/
+blog/populations_in_cdd_hdd_space.html
+blog/blog_imgs/
+blog/blog_imgs/2dcolpal/
+blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey.png
+blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey_complex.png
+blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey_complex_thumb.png
+blog/blog_imgs/2dcolpal/Precip_GDD_map_wPalKey_thumb.png
+blog/blog_imgs/2dcolpal/climate_space_wMap.png
+blog/blog_imgs/2dcolpal/climate_space_wMap_thumb.png
+blog/blog_imgs/2dcolpal/gdd_cont.png
+blog/blog_imgs/2dcolpal/gdd_cont_thumb.png
+blog/blog_imgs/2dcolpal/gdd_precip_cont_complex.png
+blog/blog_imgs/2dcolpal/gdd_precip_cont_simple.png
+blog/blog_imgs/2dcolpal/gdd_precip_points_colored.png
+blog/blog_imgs/2dcolpal/hue_pal_complex.png
+blog/blog_imgs/2dcolpal/hue_pal_complex_thumb.png
+blog/blog_imgs/2dcolpal/hue_pal_simplest.png
+blog/blog_imgs/2dcolpal/hue_pal_simplest_thumb.png
+blog/blog_imgs/2dcolpal/precip_cont.png
+blog/blog_imgs/2dcolpal/precip_cont_thumb.png
+blog/blog_imgs/COMMENT Monocultures/
+blog/blog_imgs/COMMENT Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-36-52.jpg
+blog/blog_imgs/COMMENT Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-36-52_thumb.png
+blog/blog_imgs/COMMENT Monocultures/Meindert_Hobbema_001_2018-05-30_11-02-35.jpg
+blog/blog_imgs/COMMENT Monocultures/Meindert_Hobbema_001_2018-05-30_11-02-35_thumb.png
+blog/blog_imgs/CoolScienceImage/
+blog/blog_imgs/CoolScienceImage/beautiful_madison_lakes.png
+blog/blog_imgs/CoolScienceImage/beautiful_madison_lakes_thumb.png
+blog/blog_imgs/DC_NASA_2017/
+blog/blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg
+blog/blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie_thumb.png
+blog/blog_imgs/DC_NASA_2018/
+blog/blog_imgs/DC_NASA_2018/IMG_20180423_103611657.jpg
+blog/blog_imgs/DC_NASA_2018/IMG_20180423_113155899.jpg
+blog/blog_imgs/DC_NASA_2018/IMG_20180423_175147052.jpg
+blog/blog_imgs/DC_NASA_2018/IMG_20180426_152035480.jpg
+blog/blog_imgs/DC_NASA_meeting/
+blog/blog_imgs/DC_NASA_meeting/with_einstein.jpg
+blog/blog_imgs/DC_NASA_meeting/with_einstein_thumb.png
+blog/blog_imgs/Early monocultures and early polycultures./
+blog/blog_imgs/Early monocultures and early polycultures./hockney-750x1024_newyorkerApril2018_2018-05-30_15-38-04.jpg
+blog/blog_imgs/Early monocultures and early polycultures./hockney-750x1024_newyorkerApril2018_2018-05-30_15-38-04_thumb.png
+blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-10-54.png
+blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-10-54_thumb.png
+blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-28-04.png
+blog/blog_imgs/Early monocultures and early polycultures./sciam_vol8_2018-05-30_12-28-04_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/Ankur_FluxTower.mov
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01815.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01816.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01817.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01818.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01827_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01830_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01835_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01838.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01839_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01842_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01857.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01863.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01875_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01881_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01898_thumb.png
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01902.jpg
+blog/blog_imgs/FieldWorkUpNorth_Sep8-10/DSC01904.jpg
+blog/blog_imgs/Google Scholar Results In a Nice Table/
+blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24.png
+blog/blog_imgs/Google Scholar Results In a Nice Table/Screenshot from 2018-05-31 15-09-39_2018-05-31_15-10-24_thumb.png
+blog/blog_imgs/It's hard to be a street tree/
+blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00.jpg
+blog/blog_imgs/It's hard to be a street tree/IMG_20180511_175712349_HDR_smaller_2018-05-22_11-12-00_thumb.png
+blog/blog_imgs/Monocultures/
+blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27.jpg
+blog/blog_imgs/Monocultures/Aelbert_Cuyp_Avenue_at_Meerdervoort_2018-05-30_11-37-27_thumb.png
+blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07.jpg
+blog/blog_imgs/Monocultures/Meindert_Hobbema_001_2018-05-30_11-38-07_thumb.png
+blog/blog_imgs/My_first_review/
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143233224_thumb.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143231350_thumb.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-4.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-3.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-2.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-1.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION_thumb-0.png
+deleting blog/blog_imgs/ShotgunTraining/IMG_20170516_140129558_thumb.png
+blog/blog_imgs/My_first_review/elsevier_rse_reviewer_certificate.png
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/dc_oaks_2018-05-22_11-27-21.jpg
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/dc_oaks_2018-05-22_11-27-21_thumb.png
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/me_einstein_2018_2018-05-22_11-23-15.jpg
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/me_einstein_2018_2018-05-22_11-23-15_thumb.png
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27.jpg
+blog/blog_imgs/NASA Biodiversity and Ecological Forecasting 2018/national_mall_2018_2018-05-22_11-25-27_thumb.png
+blog/blog_imgs/ShotgunTraining/
+blog/blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg
+blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif
+blog/blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg
+blog/blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg
+blog/blog_imgs/Street Tree History Time Warp/
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-05-39.jpg
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-05-39_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-08-08.jpg
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1901_-_Washington_DC_2018-05-30_11-08-08_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1908_-_Washington_DC_2018-05-30_11-05-52.jpg
+blog/blog_imgs/Street Tree History Time Warp/National_Mall_circa_1908_-_Washington_DC_2018-05-30_11-05-52_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/Picture1_2018-06-05_14-58-05.jpg
+blog/blog_imgs/Street Tree History Time Warp/Picture1_2018-06-05_14-58-05_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/Picture2_2018-06-05_15-25-38.jpg
+blog/blog_imgs/Street Tree History Time Warp/Picture2_2018-06-05_15-25-38_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/Picture4_2018-06-05_15-25-58.jpg
+blog/blog_imgs/Street Tree History Time Warp/Picture4_2018-06-05_15-25-58_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34.jpg
+blog/blog_imgs/Street Tree History Time Warp/gingko_1870_2018-05-22_12-31-34_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-43-01.jpg
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-43-01_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-43-42.jpg
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-43-42_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-49-25.jpg
+blog/blog_imgs/Street Tree History Time Warp/gingko_30yrs_2018-05-30_09-49-25_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29.jpg
+blog/blog_imgs/Street Tree History Time Warp/ginkgo_later_2018-05-22_12-30-29_thumb.png
+blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21.jpg
+blog/blog_imgs/Street Tree History Time Warp/red_oak_street_DC_2018-05-30_09-29-21_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/CDD_atStations_albers_thumb_2018-05-30_15-57-50.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/CDD_atStations_albers_thumb_2018-05-30_15-57-50_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/HDD_atStations_albers_thumb_2018-05-30_15-57-59.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/HDD_atStations_albers_thumb_2018-05-30_15-57-59_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-30_15-58-13.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-30_15-58-13_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-31_07-47-25.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_TF_thumb_2018-05-31_07-47-25_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_thumb_2018-05-30_15-58-52.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/geo_hdd_cdd_thumb_2018-05-30_15-58-52_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_2018-05-31_08-08-54.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_2018-05-31_08-08-54_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-29_11-42-55_thumb_thumb.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-31_08-10-16.png
+blog/blog_imgs/The U.S. Population in Heating and Cooling Degree Day Space/hdd_cdd_tracts_cities_2018-05-31_08-10-16_thumb.png
+blog/blog_imgs/ap_es_east_fieldtrip/
+blog/blog_imgs/ap_es_east_fieldtrip/File_001.jpeg
+blog/blog_imgs/ap_es_east_fieldtrip/File_002.jpeg
+blog/blog_imgs/ap_es_east_fieldtrip/File_003.jpeg
+blog/blog_imgs/ap_es_east_fieldtrip/File_004.jpeg
+blog/blog_imgs/ap_es_east_fieldtrip/File_004_thumb.png
+blog/blog_imgs/ap_es_east_fieldtrip/File_008.jpeg
+blog/blog_imgs/commute/
+blog/blog_imgs/commute/ben_ski.jpg
+blog/blog_imgs/commute/ben_ski_thumb.png
+blog/blog_imgs/commute/frozenmad_isthmus.jpg
+blog/blog_imgs/commute/frozenmad_isthmus_commute.jpg.pdf
+blog/blog_imgs/commute/frozenmad_isthmus_commute.jpg.png
+blog/blog_imgs/commute/frozenmad_isthmus_commute.jpg_thumb.png
+blog/blog_imgs/commute/ice.jpg
+blog/blog_imgs/commute/ice_thumb.png
+blog/blog_imgs/commute/snowsun.jpg
+blog/blog_imgs/commute/snowsun_thumb.png
+blog/blog_imgs/constrainedRegression/
+blog/blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.pdf
+blog/blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png
+blog/blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash_thumb.png
+blog/blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png
+blog/blog_imgs/finding_trees/
+blog/blog_imgs/finding_trees/marquette_small.gif
+blog/blog_imgs/free_seatpost/
+blog/blog_imgs/free_seatpost/bubbling.jpg
+blog/blog_imgs/free_seatpost/post_in_frame.jpg
+blog/blog_imgs/free_seatpost/pull_apart.jpg
+blog/blog_imgs/free_seatpost/pull_apart_thumb.png
+blog/blog_imgs/free_seatpost/remains.jpg
+blog/blog_imgs/free_seatpost/remains_thumb.png
+blog/blog_imgs/free_seatpost/setup.jpg
+blog/blog_imgs/free_seatpost/side_post_in_frame.jpg
+blog/blog_imgs/house_shadow_animations/
+deleting blog/blog_imgs/stancon2018/stancon_hall_thumb.png
+deleting blog/blog_imgs/stancon2018/pacificocean_asilomar_thumb.png
+deleting blog/blog_imgs/stancon2018/frozenmad_picnicpoint_thumb.png
+deleting blog/blog_imgs/stancon2018/frozenmad_isthmus_thumb.png
+deleting blog/blog_imgs/stancon2018/Utah_mtns_thumb.png
+deleting blog/blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884_thumb.png
+deleting blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02_thumb.png
+deleting blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51_thumb.png
+blog/blog_imgs/house_shadow_animations/longer_summer_solstice_gray.gif
+blog/blog_imgs/house_shadow_animations/longer_winter_solstice_gray.gif
+blog/blog_imgs/sesync_20181115/
+blog/blog_imgs/sesync_20181115/alex_haley_memorial.jpg
+blog/blog_imgs/sesync_20181115/crepe_myrtle.jpg
+blog/blog_imgs/sesync_20181115/sesync_logo01.jpg
+blog/blog_imgs/stancon2018/
+blog/blog_imgs/stancon2018/Utah_mtns.jpg
+blog/blog_imgs/stancon2018/frozenmad_isthmus.jpg
+blog/blog_imgs/stancon2018/frozenmad_picnicpoint.jpg
+blog/blog_imgs/stancon2018/pacificocean_asilomar.jpg
+blog/blog_imgs/stancon2018/stancon_hall.jpg
+blog/blog_imgs/uhi_download_2017-04-25/
+blog/blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg
+blog/blog_imgs/uhi_flyer/
+blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png
+blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png
+blog/populations_in_cdd_hdd_space_files/
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/css/
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/css/crosstalk.css
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/js/
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/js/crosstalk.js
+blog/populations_in_cdd_hdd_space_files/crosstalk-1.0.0/js/crosstalk.min.js
+blog/populations_in_cdd_hdd_space_files/htmlwidgets-0.9/
+blog/populations_in_cdd_hdd_space_files/htmlwidgets-0.9/htmlwidgets.js
+blog/populations_in_cdd_hdd_space_files/jquery-1.11.3/
+blog/populations_in_cdd_hdd_space_files/jquery-1.11.3/jquery.js
+blog/populations_in_cdd_hdd_space_files/jquery-1.11.3/jquery.min.js
+blog/populations_in_cdd_hdd_space_files/plotly-binding-4.7.1/
+blog/populations_in_cdd_hdd_space_files/plotly-binding-4.7.1/plotly.js
+blog/populations_in_cdd_hdd_space_files/plotlyjs-1.29.2/
+blog/populations_in_cdd_hdd_space_files/plotlyjs-1.29.2/plotly-htmlwidgets.css
+deleting data/.DS_Store
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/util (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/typeahead.bundle.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/stats (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/star-rating.min (1).css
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/sd14.min (1).css
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/script (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource(2) (1).html
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource(1) (1).html
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource (1).html
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/runtime.2.6.3 (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/responsive.bootstrap.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/responsive.bootstrap.min (1).css
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/quant (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/prebid6 (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/nr-974.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/no-data-to-display (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/jquery.dataTables.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/jquery.appear.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/highcharts (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/gpt (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/exporting (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dropdowns-enhancement.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dataTables.responsive.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dataTables.bootstrap.min (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/common (1).js
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap.min (1).css
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap-switch.min (1).css
+deleting data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/analytics (1).js
+deleting data/Cool Science Images 2016_files/remote (2).js
+deleting data/Cool Science Images 2016_files/print (1).css
+deleting data/Cool Science Images 2016_files/jquery.min (1).js
+deleting data/Cool Science Images 2016_files/fonts.0.0.1 (1).css
+deleting data/Cool Science Images 2016_files/buttons (1).js
+deleting data/Cool Science Images 2016_files/async-buttons (1).js
+blog/populations_in_cdd_hdd_space_files/plotlyjs-1.29.2/plotly-latest.min.js
+blog/populations_in_cdd_hdd_space_files/typedarray-0.1/
+blog/populations_in_cdd_hdd_space_files/typedarray-0.1/typedarray.min.js
+data/
+data/Brave New Crops _ Glenn Davis Stone.html
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com.html
+data/Cool Science Images 2016.html
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award.html
+data/ForestryPhDHandbook1162.pdf
+data/Masters Degree in Biometry _ Department of Statistics.html
+data/NESSF15_selections.pdf
+data/Student Awards & Recognition _ Environmental Studies.html
+data/TURF Tyson Research Center at Washington University in St. Louis.html
+data/Ted Erker, Class of 2010 _ Environmental Studies.html
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis.html
+data/Tyson Research Center at Washington University in St. Louis.html
+data/WU Greenhouse.html
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project.html
+data/all.css
+data/berger.css
+data/bristlecone.ico
+data/eric.css
+data/org-info.js
+data/stylesheet.css
+data/video.css
+data/8C/
+data/8C/F2418D-8CEC-497F-8CDD-9FF8AFD24FE7/
+data/8C/F2418D-8CEC-497F-8CDD-9FF8AFD24FE7/p_2019-09-03_12-31-35.png
+data/9D/
+data/9D/AD7DA0-D836-4798-9535-8CB169EF721D/
+data/9D/AD7DA0-D836-4798-9535-8CB169EF721D/p_2019-08-26_16-27-08.png
+data/Brave New Crops _ Glenn Davis Stone_files/
+data/Brave New Crops _ Glenn Davis Stone_files/analytics.js
+data/Brave New Crops _ Glenn Davis Stone_files/capture11.jpg
+data/Brave New Crops _ Glenn Davis Stone_files/capture82.jpg
+data/Brave New Crops _ Glenn Davis Stone_files/css_DWPYTaZP2gGao6omeTINDslfzQowIJrrp1ASKETTOGk.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_OF-ro9xGfLiKzLxUFuAhYPuYCadII2_jbt22RGCQ6WY.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_P71y2zT4ekxKFxKmh-xsip-txVkRBWNYaX-4elB1r5c.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_Tuq8NnQU2u2oOjPX8LEIDKpgjiCBdsR-COOYw_xpfMY.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_UvUJ0GA8U6GFYLKWKoFxAnP06fEwumPTXWF6fGmmwyY.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_XnqRtbDuQixRC7yJY2yaXJkW97qkmuJh_JcJiXppnCA.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_ahUaPXgor1souSdi6yLViW_WFu5UQQ1KYEoyAVGsHyo.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_cU3O9S3UD39xxUVyOke0zJumT8AEietWhfxgm5ocEmE.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_eldjbgj0q42dWtv2HiTgnPqsSHWrzZPQWl3Z0WGCEwM.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_it6ssIK5cjEoeB73AoviUZbH11xNtH3gqVQO49EGMoI.css
+data/Brave New Crops _ Glenn Davis Stone_files/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+data/Brave New Crops _ Glenn Davis Stone_files/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js
+data/Brave New Crops _ Glenn Davis Stone_files/js_WdgkSSE6ZWi5tkq_hs1FAXQjojTU3hF5LNne5a_dhZM.js
+data/Brave New Crops _ Glenn Davis Stone_files/js_nFxAQFTFfgeDAg2tCyNUEIHCvGubPdwCBvYg28ryN6g.js
+data/C9/
+data/C9/9D60DC-A5DC-4E04-B2A9-6C84F6E6B95D/
+data/C9/9D60DC-A5DC-4E04-B2A9-6C84F6E6B95D/Screenshot 2019-08-26 17.12.15_2019-09-03_12-40-11.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/0stars.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/1stars.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/analytics.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap-switch.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap-switch.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/bootstrap.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/chartbeat.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/common.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dataTables.bootstrap.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dataTables.bootstrap.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dataTables.responsive.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dropdowns-enhancement.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/dropdowns-enhancement.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/exporting.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/gpt.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/grchk.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/help.jpg
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/highcharts.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/home.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/jquery-1.12.4.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/jquery.appear.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/jquery.dataTables.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/js17.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/no-data-to-display.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/nr-974.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/prebid6.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/quant.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/responsive.bootstrap.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/responsive.bootstrap.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/runtime.2.6.3.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource(1).html
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource(2).html
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/saved_resource.html
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/script.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/sd14.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/sd2_logo_XS.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/sd2_logo_mono.png
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/star-rating.min.css
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/star-rating.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/stats.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/typeahead.bundle.min.js
+data/Confluence Preparatory Academy School in Saint Louis MO - SchoolDigger.com_files/util.js
+data/Cool Science Images 2016_files/
+data/Cool Science Images 2016_files/398646(1).gif
+data/Cool Science Images 2016_files/398646.gif
+data/Cool Science Images 2016_files/EHPHsvzuXsI.html
+data/Cool Science Images 2016_files/HbYTyieFicI.html
+data/Cool Science Images 2016_files/Heart-Cells-75x75-c-default.jpg
+data/Cool Science Images 2016_files/HiSeqX-Ten-Single-Instrument-Image-75x75-c-default.jpg
+data/Cool Science Images 2016_files/a.gif
+data/Cool Science Images 2016_files/analytics.js
+data/Cool Science Images 2016_files/async-buttons.js
+data/Cool Science Images 2016_files/base.js
+data/Cool Science Images 2016_files/blood_moon-320x320.jpg
+data/Cool Science Images 2016_files/breast_cancer_cells-1024x736.jpg
+data/Cool Science Images 2016_files/breast_cancer_cells-320x320.jpg
+data/Cool Science Images 2016_files/buttons.e80452d5e7cc382dad89d10f50bde247.css
+data/Cool Science Images 2016_files/buttons.js
+data/Cool Science Images 2016_files/calcium_signalling-320x320.jpg
+data/Cool Science Images 2016_files/default-skin.css
+data/Cool Science Images 2016_files/figure_oncohistone2--75x75-c-default.jpg
+data/Cool Science Images 2016_files/fonts.0.0.1.css
+data/Cool Science Images 2016_files/galleries.js
+data/Cool Science Images 2016_files/immunostaining-320x320.jpg
+data/Cool Science Images 2016_files/index.5ce994dfd943a0cbb890329fbc6ae1de.html
+data/Cool Science Images 2016_files/jquery.min.js
+data/Cool Science Images 2016_files/lactose_crystals-320x320.jpg
+data/Cool Science Images 2016_files/madison_lakes-1024x1024.jpg
+data/Cool Science Images 2016_files/madison_lakes-320x320.jpg
+data/Cool Science Images 2016_files/photoswipe.css
+data/Cool Science Images 2016_files/pinhole_camera1200-320x320.jpg
+data/Cool Science Images 2016_files/print.css
+data/Cool Science Images 2016_files/rM9Rbp3SgdfFqE-QyF_-xahHOZt_Fcr2mO27xI6YnHU.js
+data/Cool Science Images 2016_files/remote (1).js
+data/Cool Science Images 2016_files/remote.js
+data/Cool Science Images 2016_files/saved_resource.html
+data/Cool Science Images 2016_files/site.e6c081689df20b78a594d2fbf355e121.min.js
+data/Cool Science Images 2016_files/st.eb86ded37d3ddd5adf94f4c2b64fa60f.js
+data/Cool Science Images 2016_files/stcommon.abaae5e95825c1fb680e1c6259855261.js
+data/Cool Science Images 2016_files/stink_bug_eggs-320x320.jpg
+data/Cool Science Images 2016_files/storm_system_still-1024x736.jpg
+data/Cool Science Images 2016_files/storm_system_still-320x320.jpg
+data/Cool Science Images 2016_files/style.a49b2d5490b442d0201b5871cba7ce02.min.css
+data/Cool Science Images 2016_files/t.html
+data/Cool Science Images 2016_files/tick-320x320.jpg
+data/Cool Science Images 2016_files/wp-embed.js
+data/Cool Science Images 2016_files/www-embed-player-webp-vflpgpH0T.css
+data/Cool Science Images 2016_files/www-embed-player.js
+data/Cool Science Images 2016_files/xylem-320x320.jpg
+data/Cool Science Images 2016_files/zebrafish_larva_brain_vessels-320x320.jpg
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/chevron.js
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/common.js
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/default_layout1.css
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/jquery-1.11.1.min.js
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/print.css
+data/Forest and Wildlife Ecology - Graduate Student Awards - George Kress Award_files/uw_kb_logo_Russell_Labs_Hub.png
+data/Masters Degree in Biometry _ Department of Statistics_files/
+data/Masters Degree in Biometry _ Department of Statistics_files/FEppCFCt76d.png
+data/Masters Degree in Biometry _ Department of Statistics_files/application-pdf.png
+data/Masters Degree in Biometry _ Department of Statistics_files/brandbar.js
+data/Masters Degree in Biometry _ Department of Statistics_files/drupal.js
+data/Masters Degree in Biometry _ Department of Statistics_files/jquery.formalize.js
+deleting data/WU Greenhouse_files/indexlayout.css
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/vendor--c80e0e61a4e7457519f71f884002c9f64b4cc577--.js
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/print-bundle--48fcb4a12753fb3a0566a19c30ba664e0ab44c79--.css
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/mmcore.js
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/app--8aa41b14b76cdf32fc3a6316cabe796cad7e986a--.js
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/20171209_woc999.png
+deleting data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/
+deleting figs/.DS_Store
+data/Masters Degree in Biometry _ Department of Statistics_files/jquery.js
+data/Masters Degree in Biometry _ Department of Statistics_files/jquery.once.js
+data/Masters Degree in Biometry _ Department of Statistics_files/like.html
+data/Masters Degree in Biometry _ Department of Statistics_files/logo.png
+data/Masters Degree in Biometry _ Department of Statistics_files/omega-mediaqueries.js
+data/Masters Degree in Biometry _ Department of Statistics_files/print_icon.png
+data/Masters Degree in Biometry _ Department of Statistics_files/sfsmallscreen.js
+data/Masters Degree in Biometry _ Department of Statistics_files/superfish(1).js
+data/Masters Degree in Biometry _ Department of Statistics_files/superfish.js
+data/Masters Degree in Biometry _ Department of Statistics_files/supersubs.js
+data/Masters Degree in Biometry _ Department of Statistics_files/supposition.js
+data/Masters Degree in Biometry _ Department of Statistics_files/tableheader.js
+data/Masters Degree in Biometry _ Department of Statistics_files/wordmark.gif
+data/Student Awards & Recognition _ Environmental Studies_files/
+data/Student Awards & Recognition _ Environmental Studies_files/analytics.js
+data/Student Awards & Recognition _ Environmental Studies_files/artsci-sprites-print.png
+data/Student Awards & Recognition _ Environmental Studies_files/css_6Kx_VXAW_2-1v8PWjnG2T0hLc3YHUrJslHC0sTNmTzw.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_DWPYTaZP2gGao6omeTINDslfzQowIJrrp1ASKETTOGk.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_NbnqFpRdg8MhD-MbJZmXr3i7Cl2-RxRSbC4Im43WfDY.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_OF-ro9xGfLiKzLxUFuAhYPuYCadII2_jbt22RGCQ6WY.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_OOi-hABmd-SMR1h8-obE-0sOAEBXpoLcCXmeWHEFYrA.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_Tuq8NnQU2u2oOjPX8LEIDKpgjiCBdsR-COOYw_xpfMY.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_UvUJ0GA8U6GFYLKWKoFxAnP06fEwumPTXWF6fGmmwyY.css
+data/Student Awards & Recognition _ Environmental Studies_files/css__OAaTCSbhUuU8GVBlD1vHzQHt_tgz3N-F0_QgXjxjw4.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_eldjbgj0q42dWtv2HiTgnPqsSHWrzZPQWl3Z0WGCEwM.css
+data/Student Awards & Recognition _ Environmental Studies_files/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+data/Student Awards & Recognition _ Environmental Studies_files/js_BSYisNkS5u_yFX26OINJDZQ_KVpmtq7VCut0eEo3-Mk.js
+data/Student Awards & Recognition _ Environmental Studies_files/js_CNOViPthDzLHWX5EnX2hB1pzoaB-du1yNl8kiM6ihFw.js
+data/Student Awards & Recognition _ Environmental Studies_files/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js
+data/Student Awards & Recognition _ Environmental Studies_files/js_YpatQeQa37CiKB6hGpj8-knB5wNzCYXISTEUqcJRqTA.js
+data/Student Awards & Recognition _ Environmental Studies_files/js_qQmEEjiPCfQZaQ-pjGKDoTUzuU_-ZwbIY3eguew54jU.js
+data/TURF Tyson Research Center at Washington University in St. Louis_files/
+data/TURF Tyson Research Center at Washington University in St. Louis_files/sampletitle-sub.jpg
+data/TURF Tyson Research Center at Washington University in St. Louis_files/tanks3.jpg
+data/TURF Tyson Research Center at Washington University in St. Louis_files/tyslogo3.jpg
+data/TURF Tyson Research Center at Washington University in St. Louis_files/tysonstyle1.css
+data/TURF Tyson Research Center at Washington University in St. Louis_files/weblogo-1linerev-greenbg.gif
+data/TURF Tyson Research Center at Washington University in St. Louis_files/wu2.gif
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/155x204-enst-alum-ted-erker-crop.jpg
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/analytics.js
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/artsci-sprites-print.png
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_6Kx_VXAW_2-1v8PWjnG2T0hLc3YHUrJslHC0sTNmTzw.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_DWPYTaZP2gGao6omeTINDslfzQowIJrrp1ASKETTOGk.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_NbnqFpRdg8MhD-MbJZmXr3i7Cl2-RxRSbC4Im43WfDY.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_OF-ro9xGfLiKzLxUFuAhYPuYCadII2_jbt22RGCQ6WY.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_OOi-hABmd-SMR1h8-obE-0sOAEBXpoLcCXmeWHEFYrA.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_Tuq8NnQU2u2oOjPX8LEIDKpgjiCBdsR-COOYw_xpfMY.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_UvUJ0GA8U6GFYLKWKoFxAnP06fEwumPTXWF6fGmmwyY.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css__OAaTCSbhUuU8GVBlD1vHzQHt_tgz3N-F0_QgXjxjw4.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_eldjbgj0q42dWtv2HiTgnPqsSHWrzZPQWl3Z0WGCEwM.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/js_BSYisNkS5u_yFX26OINJDZQ_KVpmtq7VCut0eEo3-Mk.js
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/js_CNOViPthDzLHWX5EnX2hB1pzoaB-du1yNl8kiM6ihFw.js
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/js_YpatQeQa37CiKB6hGpj8-knB5wNzCYXISTEUqcJRqTA.js
+data/Ted Erker, Class of 2010 _ Environmental Studies_files/js_qQmEEjiPCfQZaQ-pjGKDoTUzuU_-ZwbIY3eguew54jU.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/14680797_1191152554257347_8754499969536961563_o-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/Earth-week-2016-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/Instagram_App_Large_May2016_200.png
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/Skillshare-sunday-2016-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/Twitter_logo_blue_48.png
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/big-meeting-9.22.16-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/cnss.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/cnss.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/core.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/default-calendar-grid.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/default-calendar-list.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/default-calendar.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/facebook-icon.png
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/font-awesome.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/food-preservation-flyer-520x245.png
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/front.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/hoedown-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/hoedown2016-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/imagesloaded.pkgd.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery-migrate.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery.form.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery.qtip.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery.qtip.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/jquery.swipebox.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/main.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/moment-timezone-with-data.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/moment.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/mouse.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/netflix-and-chili-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/pesto-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/scripts.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/scripts.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/seed-bomb-520x245.jpg
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/sortable.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/style.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/styles.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/swipebox.min.css
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/tumblr-icon2.png
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/underscore.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/widget.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/wp-embed.min.js
+data/The Burning Kumquat – Student-run organic garden on the campus of Washington University in St. Louis_files/wp-slimstat.min.js
+data/Tyson Research Center at Washington University in St. Louis_files/
+data/Tyson Research Center at Washington University in St. Louis_files/sampletitle-sub.jpg
+data/Tyson Research Center at Washington University in St. Louis_files/tyslogo3.jpg
+data/Tyson Research Center at Washington University in St. Louis_files/tysonstyle1.css
+data/Tyson Research Center at Washington University in St. Louis_files/weblogo-1linerev-greenbg.gif
+data/Tyson Research Center at Washington University in St. Louis_files/wu2.gif
+data/WU Greenhouse_files/
+data/WU Greenhouse_files/SpryMenuBar.js
+data/WU Greenhouse_files/SpryMenuBarHorizontal.css
+data/WU Greenhouse_files/homeimg.jpg
+data/WU Greenhouse_files/mike.jpg
+data/WU Greenhouse_files/practice-logo2.jpg
+data/WU Greenhouse_files/rows.jpg
+data/WU Greenhouse_files/staff.jpg
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/analytics.js
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/biggroupstatue.jpg
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/bootstrap.min.css
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/bootstrap.min.js
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/humanknot.jpg
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/jquery-1.10.2.min.js
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/navbar.css
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/philosophy.css
+data/Wilderness Project - About Us and Who We Are - Presented by The Wilderness Project_files/steering-dynamic.jpg
+data/election_statistics/
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/20171209_woc999.png
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/app--8aa41b14b76cdf32fc3a6316cabe796cad7e986a--.js
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/mmcore.js
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/print-bundle--48fcb4a12753fb3a0566a19c30ba664e0ab44c79--.css
+data/election_statistics/Analysing Juan Orlando Hernández’s disputed election victory in Honduras - The saga continues_files/vendor--c80e0e61a4e7457519f71f884002c9f64b4cc577--.js
+figs/
+figs/constrained_quad.png
+figs/constrained_quad_thumb.png
+figs/cor1.png
+figs/cor1_thumb.png
+figs/pca.png
+figs/pca_12.png
+figs/pca_123.png
+figs/pca_123_thumb.png
+figs/pca_12_thumb.png
+figs/pca_13.png
+figs/pca_13_thumb.png
+figs/pca_4_nocor.png
+figs/pca_4_nocor_thumb.png
+figs/pca_nocor.png
+figs/pca_nocor_thumb.png
+figs/pca_thumb.png
+figs/SAF/
+figs/SAF/Appleton_neighborhood.png
+figs/SAF/Appleton_singleTree.png
+figs/SAF/ChicagoLIDAR.jpg
+figs/SAF/ChicagoLIDAR_cropped.jpg
+figs/SAF/ChicagoNAIP.jpg
+figs/SAF/ChicagoNAIP_cropped.jpg
+figs/SAF/ChicagoTreeCanopy.jpg
+figs/SAF/ChicagoTreeCanopy_cropped.jpg
+figs/SAF/Classified_Madison_WaterWetland.png
+figs/SAF/Classified_madison_capital.png
+figs/SAF/Classified_madison_large.png
+figs/SAF/Classified_madison_medium.png
+figs/SAF/Classified_madison_verylarge.png
+figs/SAF/Dodgeville_neighborhood.png
+figs/SAF/Dodgeville_singleTree.png
+figs/SAF/EarthDefineDataCoverage.png
+figs/SAF/EarthDefineLogo.png
+figs/SAF/EarthDefine_BostonExample_GoogleEarth.png
+figs/SAF/EarthDefine_BostonExample_UTC.png
+figs/SAF/EarthDefine_UTC_IL.png
+figs/SAF/EarthDefine_UTC_MN.png
+figs/SAF/Github_UTC.png
+figs/SAF/GovernorsHouse_NAIP.png
+figs/SAF/GrassTree_7x7.png
+figs/SAF/GrassTree_Big.png
+figs/SAF/GrassTree_Medium.png
+figs/SAF/GrassTree_Small.png
+figs/SAF/Illusory_contours_Kanizsa.png
+figs/SAF/LeaningBristleCone.jpg
+figs/SAF/MLR_tutorial.png
+figs/SAF/MN_UrbanTreeCover.png
+figs/SAF/MadisonTrainingRegions.png
+figs/SAF/MadisonTrainingRegionsDetail.png
+figs/SAF/Madison_neighborhood.png
+figs/SAF/Marshfield_neighborhood.png
+figs/SAF/Marshfield_singleTree.png
+figs/SAF/NAIP_Heterogeneous.png
+figs/SAF/NAIP_Madison_WaterWetland.png
+figs/SAF/NAIP_at_Seam.png
+figs/SAF/NAIP_at_Seam_wSeamShowing.png
+figs/SAF/NAIP_madison_capital.png
+figs/SAF/NAIP_madison_large.png
+figs/SAF/NAIP_madison_medium.png
+figs/SAF/NAIP_wMyHouse.png
+figs/SAF/TechSpecEarthDefineUTCProduct.png
+figs/SAF/WarnerPark_LeaningTree_GoogleEarth.png
+figs/SAF/WarnerPark_LearningTree_NAIP.png
+figs/SAF/WiBA_FM_Madison_Tower_GoogleEarth.png
+figs/SAF/WiBA_FM_Madison_Tower_NAIP.png
+figs/SAF/iTree_Canopy.png
+figs/SAF/iTree_Canopy_GreenBayEstimates.png
+figs/SAF/mlrLogo.png
+deleting imgs/Tedward_Headshot (3).JPG
+deleting imgs/Tedward_Headshot (2).jpg
+deleting imgs/Tedward_Headshot (1).jpg
+figs/SAF/seg.gif
+figs/SAF/t294.png
+figs/SAF/t294_contrast_win5_ang-45.png
+figs/SAF/t294_contrast_win5_ang0.png
+figs/SAF/t294_contrast_win5_ang45.png
+figs/SAF/t294_contrast_win5_ang90.png
+figs/SAF/t294_entropy_win5_ang45.png
+figs/SAF/t294_pca.png
+figs/SAF/t294_ratiored.png
+figs/SAF/t294_red.png
+figs/SAF/t294_seg_15_4.png
+figs/SAF/t294_seg_15_8.png
+figs/SAF/t294_seg_15_9.png
+figs/SAF/t294_seg_20_10.png
+figs/SAF/t294_seg_20_12.png
+figs/SAF/t294_seg_20_6.png
+figs/SAF/t294_seg_30_15.png
+figs/SAF/t294_seg_30_18.png
+figs/SAF/t294_seg_30_9.png
+figs/SAF/t294_seg_45_14.png
+figs/SAF/t294_seg_45_22.png
+figs/SAF/t294_seg_45_27.png
+figs/SAF/t294_seg_60_27.png
+figs/SAF/t294_seg_60_30.png
+figs/SAF/t294_seg_60_36.png
+figs/SAF/t294_wPolygon.png
+figs/sigmoidgrowthfunctions/
+figs/sigmoidgrowthfunctions/a0bneq0.png
+figs/sigmoidgrowthfunctions/a0bneq0_thumb.png
+figs/sigmoidgrowthfunctions/abneq0.png
+figs/sigmoidgrowthfunctions/abneq0_thumb.png
+figs/sigmoidgrowthfunctions/f.png
+figs/sigmoidgrowthfunctions/f_thumb.png
+figs/sigmoidgrowthfunctions/weibull.png
+figs/sigmoidgrowthfunctions/weibull_thumb.png
+imgs/
+imgs/Tedward_Headshot 2.jpg
+imgs/Tedward_Headshot.jpg
+imgs/Tedward_Headshot_2017.jpg
+imgs/Tedward_Headshot_lessColor.jpg
+imgs/bristlecone_finger.JPG
+imgs/bristlecone_finger_small.JPG
+imgs/fisk06_C2.jpg
+leaflet/
+leaflet/NAIP_seams.html
+leaflet/accuracy_points.html
+leaflet/seamlines_by_urbanArea.html
+leaflet/seamlines_hourAquired.html
+leaflet/seamlines_hourAquired_withUrbanAreas.html
+leaflet/seamlines_monthAquired.html
+leaflet/selected_seamlines_by_urbanArea.html
+leaflet/trainingAreas.html
+leaflet/wi.html
+leaflet/wi_urbanAreas.html
+leaflet/lib/
+leaflet/lib/htmlwidgets-0.7/
+leaflet/lib/htmlwidgets-0.7/htmlwidgets.js
+leaflet/lib/jquery-1.11.1/
+leaflet/lib/jquery-1.11.1/jquery.min.js
+leaflet/lib/leaflet-0.7.3/
+leaflet/lib/leaflet-0.7.3/leaflet-src.js
+leaflet/lib/leaflet-0.7.3/leaflet.css
+leaflet/lib/leaflet-0.7.3/leaflet.js
+leaflet/lib/leaflet-0.7.3/images/
+leaflet/lib/leaflet-0.7.3/images/layers-2x.png
+leaflet/lib/leaflet-0.7.3/images/layers.png
+leaflet/lib/leaflet-0.7.3/images/marker-icon-2x.png
+leaflet/lib/leaflet-0.7.3/images/marker-icon.png
+leaflet/lib/leaflet-0.7.3/images/marker-shadow.png
+leaflet/lib/leaflet-binding-1.0.1/
+leaflet/lib/leaflet-binding-1.0.1/leaflet.js
+leaflet/lib/leaflet-providers-1.0.27/
+leaflet/lib/leaflet-providers-1.0.27/leaflet-providers.js
+leaflet/lib/leaflet-providers-1.0.27/css/
+leaflet/lib/leaflet-providers-1.0.27/css/gh-fork-ribbon.css
+leaflet/lib/leaflet-providers-1.0.27/css/gh-fork-ribbon.ie.css
+leaflet/lib/leaflet-providers-plugin-1.0.1/
+leaflet/lib/leaflet-providers-plugin-1.0.1/leaflet-providers-plugin.js
+leaflet/lib/leafletfix-1.0.0/
+leaflet/lib/leafletfix-1.0.0/leafletfix.css
+leaflet/libs/
+leaflet/libs/htmlwidgets-0.7/
+leaflet/libs/htmlwidgets-0.7/htmlwidgets.js
+leaflet/libs/jquery-1.11.1/
+leaflet/libs/jquery-1.11.1/jquery.min.js
+leaflet/libs/leaflet-0.7.3/
+leaflet/libs/leaflet-0.7.3/leaflet-src.js
+leaflet/libs/leaflet-0.7.3/leaflet.css
+leaflet/libs/leaflet-0.7.3/leaflet.js
+leaflet/libs/leaflet-0.7.3/images/
+leaflet/libs/leaflet-0.7.3/images/layers-2x.png
+leaflet/libs/leaflet-0.7.3/images/layers.png
+leaflet/libs/leaflet-0.7.3/images/marker-icon-2x.png
+leaflet/libs/leaflet-0.7.3/images/marker-icon.png
+leaflet/libs/leaflet-0.7.3/images/marker-shadow.png
+leaflet/libs/leaflet-binding-1.0.1/
+leaflet/libs/leaflet-binding-1.0.1/leaflet.js
+leaflet/libs/leafletfix-1.0.0/
+leaflet/libs/leafletfix-1.0.0/leafletfix.css
+ltximg/
+ltximg/org-ltximg_1bfc1a23295871d77ececed9126465f180838b3f.png
+ltximg/org-ltximg_2f27521ab9d0185368e684fadd8026fd3b4a324b.png
+ltximg/org-ltximg_35140158b54515fc4ffd11dd581a339a68293ef9.png
+ltximg/org-ltximg_48bc99cd2d84faa634c2a9096163537a647bff6d.png
+ltximg/org-ltximg_4d4c8e9466e2af4ef9dca891c2a0d2b057fcb4e8.png
+ltximg/org-ltximg_4ec3c7059c2b4071d137394c5ffa1388b8bebb38.png
+ltximg/org-ltximg_e7d1ace94c496d4555c81875a24fc8a80fc283c7.png
 
-sent 59037 bytes  received 2148 bytes  17481.43 bytes/sec
-total size is 689710118  speedup is 11272.54
+sent 1,591,132 bytes  received 1,443,231 bytes  66,689.30 bytes/sec
+total size is 507,120,943  speedup is 167.13
+/bin/sh: 12: C-c: not found
 #+end_example
 
 * COMMENT Analytics
