@@ -39,6 +39,15 @@
 - [ ] fix header id's
   - https://writequit.org/articles/emacs-org-mode-generate-ids.html
 
+* Finding the trees for the urban forest
+
+I recently found the [[https://github.com/Jean-Romain/lidR/][=lidR= package]], an incredible tool for working
+with lidar data in R.  I used it to separate trees from buildings.
+See [[https://github.com/TedwardErker/lidR_urban_trees][my github repository]] for the code and explanation.  Below is an
+example of the results.
+
+[[file:blog/blog_imgs/finding_trees/marquette_small.gif]]
+
 * Stan on CHTC.
 
 The final assignment for the open science grid user school was to
