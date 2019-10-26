@@ -4,7 +4,7 @@ cite:erker_townsend_2019
 
 cite:erker_e_2019
 
-bibliography:publications.bib
+bibliography:../notes/references.bib
 bibliographystyle:apa
 
 
