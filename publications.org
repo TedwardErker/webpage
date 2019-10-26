@@ -1,1 +1,12 @@
-I have none at present
+#+LATEX_HEADER: \usepackage{natbib}
+
+cite:erker_townsend_2019
+
+cite:erker_e_2019
+
+bibliography:publications.bib
+bibliographystyle:apa
+
+
+
+

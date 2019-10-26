@@ -739,7 +739,7 @@ describing how dbh changes with age (better than any other form they
 tested).
 #+CAPTION: Data and best fitting curve for Tilia americana, the linden, in the temperate interior west region (Boise, ID) from  [[https://www.fs.usda.gov/treesearch/pubs/52933][urban tree database and allometric equations]]
 #+ATTR_HTML: :alt none :title :align center :height 200
-file:blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png
+file:blog/blog_imgs/constrainedRegression/predictions_dbh_bySpecies_wData_TIAM_thumb.png
 
 
 They found the quadratic curve gave the best fit, but
@@ -800,7 +800,7 @@ ggtitle("unconstrained fit")
 #+end_src
 
 #+RESULTS:
-[[file:blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png]]
+[[file:blog/blog_imgs/constrainedRegression/acpl_tpintw_quadfit_nodash.png]]
 
 
 
@@ -870,16 +870,16 @@ linear algebra and that it's used to connect splines.  Neat.
 * Commuting Across Mendota                                             :life:
 [2018-02-02 Fri]
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/commute/frozenmad_isthmus_commute.jpg.png]]
+[[file:blog/blog_imgs/commute/frozenmad_isthmus_commute.jpg.png]]
 
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/commute/ben_ski.jpg]]
+[[file:blog/blog_imgs/commute/ben_ski.jpg]]
 
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/commute/ice.jpg]]
+[[file:blog/blog_imgs/commute/ice.jpg]]
 
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/commute/snowsun.jpg]]
+[[file:blog/blog_imgs/commute/snowsun.jpg]]
 
 The best way to get to work is by ice.
 
@@ -894,11 +894,11 @@ The view from an airplane is always amazing:
 
 #+CAPTION:Flying out of Madison, the isthmus and frozen lakes
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/stancon2018/frozenmad_isthmus.jpg]]
+[[file:blog/blog_imgs/stancon2018/frozenmad_isthmus.jpg]]
 
 #+CAPTION:Flying out of Madison, picnic point and frozen lake Mendota
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/stancon2018/frozenmad_picnicpoint.jpg]]
+[[file:blog/blog_imgs/stancon2018/frozenmad_picnicpoint.jpg]]
 
 
 My personal highlight of the conference was meeting and chatting with
@@ -909,7 +909,7 @@ enlightening conversations.
 
 #+CAPTION: The main hall
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/stancon2018/stancon_hall.jpg]]
+[[file:blog/blog_imgs/stancon2018/stancon_hall.jpg]]
 
  Here are few more quick take-aways:
 
@@ -945,12 +945,12 @@ enlightening conversations.
 It was also very beautiful there:
 #+CAPTION: Asilomar State Beach
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/stancon2018/pacificocean_asilomar.jpg]]
+[[file:blog/blog_imgs/stancon2018/pacificocean_asilomar.jpg]]
 
 
 #+CAPTION: Flying home: Mountains in Utah.  Incredible.  We flew over the most incredible canyon too.  I wish I knew where it was so I could visit on foot.
 #+ATTR_HTML: :alt none :title :align center
-[[file:blog_imgs/stancon2018/Utah_mtns.jpg]]
+[[file:blog/blog_imgs/stancon2018/Utah_mtns.jpg]]
 
 * COMMENT saying bad things about trees
 It's hard for me to do. Socialized that trees are good.  Important to
@@ -1091,7 +1091,7 @@ or 2016.  imagery from fall 2015 confirm this.
 * Flyer to get citizen help with urban forest research.     :UrbanHeatIsland:
 [2017-10-18 Wed]
 
-|[[file:blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png]]  | [[file:blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png]] |
+|[[file:blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.18.51.png]]  | [[file:blog/blog_imgs/uhi_flyer/Screenshot 2017-12-05 19.19.02.png]] |
 
 This is a beautiful flyer created by Cheyenne to leave on the doors of
 houses who don't answer when we knock to find out when a nearby tree
@@ -1128,7 +1128,7 @@ salient to me:
 
 #+CAPTION: Being outside is a great part of doing a forestry lab.  Photo: Angie Wilcox-Hull
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/ap_es_east_fieldtrip/File_004.jpeg]]
+[[file:blog/blog_imgs/ap_es_east_fieldtrip/File_004.jpeg]]
 
 * COMMENT [2018-10-10 Wed] Stat consulting class 699. Only if MGE things go through.
 
@@ -1143,23 +1143,23 @@ photo of cheyenne at sensor
 
 #+CAPTION: National Museum of African American History and Culture
 #+ATTR_HTML: :alt none :title :align center :height 600
-[[file:blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg]]
+[[file:blog/blog_imgs/DC_NASA_2017/NationalMuseumofAfricanAmericanHistoryandCulture_selfie.jpg]]
 
 * Shotgun Training
 [2017-05-16 Tue]
 
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg]]
+[[file:blog/blog_imgs/ShotgunTraining/IMG_20170516_143233224.jpg]]
 
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg]]
+[[file:blog/blog_imgs/ShotgunTraining/IMG_20170516_143231350.jpg]]
 
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg]]
+[[file:blog/blog_imgs/ShotgunTraining/IMG_20170516_140129558.jpg]]
 
 #+CAPTION: Zhihui
 #+ATTR_HTML: :alt none :title :align center :height 600
-[[file:blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif]]
+[[file:blog/blog_imgs/ShotgunTraining/IMG_20170516_143207293-ANIMATION.gif]]
 
 * COMMENT [2017-05-01 Mon] The greatest assignment I've ever had
 Zoo 725.
@@ -1180,7 +1180,7 @@ true model?
 [2017-04-25 Tue]
 
 #+ATTR_HTML: :alt none :title :align center :height 400
-[[file:blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
+[[file:blog/blog_imgs/uhi_download_2017-04-25/IMG_20170425_135905884.jpg]]
 
 * Using OpenBLAS to speed up matrix operations in R (linux)       :computing:
 [2017-04-24 Mon]
